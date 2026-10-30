@@ -1,0 +1,30 @@
+# Annexe C.8
+node_modules/
+app/build/
+app/.svelte-kit/
+app/static/voix/
+app/static/corpus/
+android/app/build/
+android/voix_c*/
+voix/masters/
+voix/encodes/
+secrets/
+*.jks
+*.pem
+.venv/
+# Compléments (journal des décisions, D-020)
+__pycache__/
+.pytest_cache/
+app/coverage/
+app/test-results/
+app/playwright-report/
+android/.gradle/
+android/build/
+android/local.properties
+android/capacitor-cordova-android-plugins/build/
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+android/app/src/main/res/xml/config.xml
+.idea/
+*.keystore

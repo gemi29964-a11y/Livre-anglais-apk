@@ -1,0 +1,138 @@
+# Bible des personnages (Plan, 5.4). Chaque personnage existe en version britannique
+# (Londres, Manchester) et américaine (Chicago, Atlanta, New York), chacune portée par une voix
+# de l'accent concerné. Les clés `voix` désignent les fiches vocales voix/fiches/{voix}.yaml (7.4).
+# Règle : aucun personnage ne porte plus de 30 % des répliques d'un chapitre, sauf Sarah et Kofi
+# au Chapitre 1 ; un rôle de passage reçoit un prénom dès qu'il a plus de deux répliques.
+personnages:
+  sarah:
+    nom: Sarah
+    age: 34
+    metier: Cheffe de produit
+    temperament: Directe, drôle, pressée le matin, tendre avec Mia, franche au travail.
+    tics:
+      uk: [ "<en>Right, then.</en>", "<en>Honestly…</en>", "<en>Brilliant.</en>" ]
+      us: [ "<en>Okay, so…</en>", "<en>Honestly…</en>", "<en>Awesome.</en>" ]
+    versions:
+      uk: { origine: Londonienne, ville: Londres }
+      us: { origine: Originaire de Chicago, ville: Chicago }
+    voix: { uk: sarah_uk, us: sarah_us }
+    relations: { kofi: compagne, mia: mère, tom: sœur aînée, priya: collègue, daniel: subordonnée, grace: belle-fille }
+    chapitres_phares: tous
+  kofi:
+    nom: Kofi
+    age: 36
+    metier: Designer
+    temperament: Conciliant, calme, d’origine ghanéenne, cuisinier de la maison, adore les jeux de mots.
+    tics:
+      uk: [ "<en>No worries.</en>", "<en>Fair enough.</en>" ]
+      us: [ "<en>No worries.</en>", "<en>Sounds good.</en>" ]
+    versions:
+      uk: { origine: Londonien, ville: Londres }
+      us: { origine: Vit à Chicago, ville: Chicago }
+    voix: { uk: kofi_uk, us: kofi_us }
+    relations: { sarah: compagnon, mia: père, grace: fils, tom: beau-frère }
+    chapitres_phares: tous
+  mia:
+    nom: Mia
+    age: 9
+    metier: Écolière
+    temperament: Curieuse, pose mille questions, négocie chaque coucher.
+    tics:
+      uk: [ "<en>Mum, why…?</en>", "<en>Five more minutes.</en>" ]
+      us: [ "<en>Mom, why…?</en>", "<en>Five more minutes.</en>" ]
+    versions:
+      uk: { origine: Petite Londonienne, ville: Londres }
+      us: { origine: Petite Chicagoane, ville: Chicago }
+    voix: { uk: mia_uk, us: mia_us }
+    relations: { sarah: fille, kofi: fille, grace: petite-fille, tom: nièce }
+    chapitres_phares: [1, 8, 19]
+  grace:
+    nom: Grace
+    age: 66
+    metier: Institutrice à la retraite
+    temperament: Mère de Kofi, chaleureuse, formelle, attachée aux usages et aux salutations complètes.
+    tics:
+      uk: [ "<en>My dear.</en>", "<en>You are most welcome.</en>" ]
+      us: [ "<en>My dear.</en>", "<en>You are most welcome.</en>" ]
+    versions:
+      uk: { origine: Accent ghanéen, ville: Londres }
+      us: { origine: Accent ghanéen, ville: Chicago }
+    voix: { uk: grace_gh, us: grace_gh }
+    relations: { kofi: mère, mia: grand-mère, sarah: belle-mère }
+    chapitres_phares: [8, 22]
+  tom:
+    nom: Tom
+    age: 21
+    metier: Étudiant
+    temperament: Frère de Sarah, décontracté, parle l’argot de sa génération.
+    tics:
+      uk: [ "<en>literally</en>", "<en>mate</en>", "<en>proper</en>" ]
+      us: [ "<en>literally</en>", "<en>dude</en>", "<en>for real</en>" ]
+    versions:
+      uk: { origine: Mancunien modéré, ville: Manchester }
+      us: { origine: Atlanta, ville: Atlanta }
+    voix: { uk: tom_uk, us: tom_us }
+    relations: { sarah: frère cadet, mia: oncle, kofi: beau-frère }
+    chapitres_phares: [9, 22]
+  priya:
+    nom: Priya
+    age: 31
+    metier: Collègue de Sarah, responsable des partenariats
+    temperament: Ambitieuse, rapide, redoutable en négociation, loyale.
+    tics:
+      uk: [ "<en>Let’s circle back.</en>", "<en>Bottom line…</en>" ]
+      us: [ "<en>Let’s circle back.</en>", "<en>Bottom line…</en>" ]
+    versions:
+      uk: { origine: Londonienne, ville: Londres }
+      us: { origine: New-yorkaise, ville: Chicago }
+    voix: { uk: priya_uk, us: priya_us }
+    relations: { sarah: collègue, daniel: collaboratrice }
+    chapitres_phares: [13, 14]
+  voisin:
+    nom: { uk: Mr Hughes, us: Mr Miller }
+    age: 78
+    metier: Ancien professeur d’histoire
+    temperament: Voisin âgé, soutenu, ironique, maître de l’euphémisme.
+    tics:
+      uk: [ "<en>Not ideal.</en>", "<en>I dare say.</en>" ]
+      us: [ "<en>Not ideal.</en>", "<en>I’d say so.</en>" ]
+    versions:
+      uk: { origine: Britannique traditionnel, ville: Londres }
+      us: { origine: Américain du Midwest, ville: Chicago }
+    voix: { uk: voisin_uk, us: voisin_us }
+    relations: { sarah: voisin, kofi: voisin, mia: voisin bienveillant }
+    chapitres_phares: [7, 21]
+  daniel:
+    nom: Daniel
+    age: 48
+    metier: Patron de Sarah, directeur du produit
+    temperament: Exigeant, courtois, avare de compliments.
+    tics:
+      uk: [ "<en>Quick one.</en>", "<en>Going forward…</en>" ]
+      us: [ "<en>Quick question.</en>", "<en>Moving forward…</en>" ]
+    versions:
+      uk: { origine: Britannique, ville: Londres }
+      us: { origine: Américain, ville: Chicago }
+    voix: { uk: daniel_uk, us: daniel_us }
+    relations: { sarah: supérieur, priya: supérieur }
+    chapitres_phares: [13]
+  passage_f:
+    nom: Rôle de passage (voix féminine)
+    age: 40
+    metier: Serveuse, médecin, agente, conductrice… selon la scène
+    temperament: Professionnelle, naturelle ; reçoit un prénom au-delà de deux répliques.
+    versions:
+      uk: { origine: Voix secondaire britannique, ville: Londres }
+      us: { origine: Voix secondaire américaine, ville: Chicago }
+    voix: { uk: passage_f_uk, us: passage_f_us }
+    chapitres_phares: selon la scène
+  passage_h:
+    nom: Rôle de passage (voix masculine)
+    age: 40
+    metier: Serveur, médecin, chauffeur, agent… selon la scène
+    temperament: Professionnel, naturel ; reçoit un prénom au-delà de deux répliques.
+    versions:
+      uk: { origine: Voix secondaire britannique, ville: Londres }
+      us: { origine: Voix secondaire américaine, ville: Chicago }
+    voix: { uk: passage_h_uk, us: passage_h_us }
+    chapitres_phares: selon la scène

@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vivrelanglais.com/schema/scene.schema.json",
+  "title": "Scène de Vivre l'Anglais",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "titre", "intention", "moments", "essentiel", "sceneVivante", "rituel", "version"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^c\\d{2}\\.s\\d{2}$" },
+    "titre": { "type": "string", "minLength": 3, "maxLength": 60 },
+    "intention": { "type": "string", "minLength": 40, "maxLength": 400 },
+    "version": { "type": "integer", "minimum": 1 },
+    "moments": {
+      "type": "array", "minItems": 3, "maxItems": 12,
+      "items": { "$ref": "#/$defs/moment" }
+    },
+    "essentiel": {
+      "type": "object", "additionalProperties": false,
+      "required": ["incontournables", "fauxPas"],
+      "properties": {
+        "incontournables": {
+          "type": "array", "minItems": 5, "maxItems": 15, "uniqueItems": true,
+          "items": { "$ref": "#/$defs/idExpression" }
+        },
+        "fauxPas": {
+          "type": "array", "minItems": 3, "maxItems": 12,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["fautif", "naturel", "pourquoi"],
+            "properties": {
+              "fautif": { "type": "string", "minLength": 2 },
+              "naturel": { "type": "string", "minLength": 2 },
+              "pourquoi": { "type": "string", "minLength": 10, "maxLength": 300 }
+            }
+          }
+        }
+      }
+    },
+    "sceneVivante": {
+      "type": "object", "additionalProperties": false,
+      "required": ["titre", "repliques"],
+      "properties": {
+        "titre": { "type": "string", "minLength": 3 },
+        "repliques": {
+          "type": "array", "minItems": 8, "maxItems": 24,
+          "items": { "$ref": "#/$defs/replique" }
+        }
+      }
+    },
+    "rituel": {
+      "type": "array", "minItems": 1, "maxItems": 3,
+      "items": { "type": "string", "minLength": 10, "maxLength": 240 }
+    }
+  },
+  "$defs": {
+    "idExpression": { "type": "string", "pattern": "^c\\d{2}\\.s\\d{2}\\.[A-Z]\\d{1,2}$" },
+    "texteAccents": {
+      "type": "object", "additionalProperties": false,
+      "required": ["uk", "us"],
+      "properties": {
+        "uk": { "type": "string", "minLength": 1, "maxLength": 140 },
+        "us": { "type": "string", "minLength": 1, "maxLength": 140 }
+      }
+    },
+    "phrase": {
+      "type": "object", "additionalProperties": false,
+      "required": ["phrase", "expert"],
+      "properties": {
+        "phrase": { "type": "string", "minLength": 1 },
+        "expert": { "type": "string", "pattern": "^/.+/$" },
+        "entendu": { "type": "string" }
+      }
+    },
+    "rythmes": {
+      "type": "object", "additionalProperties": false,
+      "required": ["pose", "spontane"],
+      "properties": {
+        "pose": { "$ref": "#/$defs/phrase" },
+        "spontane": { "$ref": "#/$defs/phrase" }
+      }
+    },
+    "phrases": {
+      "type": "object", "additionalProperties": false,
+      "required": ["uk", "us"],
+      "properties": {
+        "uk": { "$ref": "#/$defs/rythmes" },
+        "us": { "$ref": "#/$defs/rythmes" }
+      }
+    },
+    "enonce": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "region", "texte", "phrases", "jeu"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^c\\d{2}\\.s\\d{2}\\.[A-Z]\\d{1,2}\\.e\\d{1,2}$" },
+        "region": { "enum": ["commun", "us", "uk", "au", "ie", "ng", "gh", "za"] },
+        "texte": { "$ref": "#/$defs/texteAccents" },
+        "phrases": { "$ref": "#/$defs/phrases" },
+        "jeu": {
+          "type": "object", "additionalProperties": false,
+          "required": ["contexte", "emotion"],
+          "properties": {
+            "contexte": { "type": "string", "minLength": 10 },
+            "emotion": { "type": "string", "minLength": 3 }
+          }
+        }
+      }
+    },
+    "declinaison": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "texte", "sens", "phrases"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^c\\d{2}\\.s\\d{2}\\.[A-Z]\\d{1,2}\\.d\\d{1,2}$" },
+        "texte": { "$ref": "#/$defs/texteAccents" },
+        "sens": { "type": "string", "minLength": 2, "maxLength": 200 },
+        "phrases": { "$ref": "#/$defs/phrases" },
+        "renvoi": { "$ref": "#/$defs/idExpression" }
+      }
+    },
+    "expression": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "enonces", "sens", "usage", "declinaisons", "ton", "niveau", "frequence", "situations", "fonctions", "renvois"],
+      "properties": {
+        "id": { "$ref": "#/$defs/idExpression" },
+        "enonces": { "type": "array", "minItems": 1, "maxItems": 3, "items": { "$ref": "#/$defs/enonce" } },
+        "sens": { "type": "string", "minLength": 2, "maxLength": 200 },
+        "motAMot": { "type": "string", "maxLength": 200 },
+        "usage": { "type": "string", "minLength": 20, "maxLength": 600 },
+        "coulisses": { "type": "string", "maxLength": 450 },
+        "gabarit": { "type": "string", "pattern": "\\[.+\\]" },
+        "declinaisons": { "type": "array", "minItems": 3, "maxItems": 6, "items": { "$ref": "#/$defs/declinaison" } },
+        "ton": { "enum": ["courant", "complice", "cru", "soutenu"] },
+        "niveau": { "enum": ["fondations", "aisance", "maitrise"] },
+        "frequence": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "situations": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^[a-z-]+$" } },
+        "fonctions": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^[a-z-]+$" } },
+        "renvois": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/idExpression" } }
+      }
+    },
+    "moment": {
+      "type": "object", "additionalProperties": false,
+      "required": ["lettre", "titre", "expressions"],
+      "properties": {
+        "lettre": { "type": "string", "pattern": "^[A-Z]$" },
+        "titre": { "type": "string", "minLength": 3, "maxLength": 60 },
+        "expressions": { "type": "array", "minItems": 3, "maxItems": 12, "items": { "$ref": "#/$defs/expression" } }
+      }
+    },
+    "replique": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "personnage", "texte", "sens", "emotion"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^c\\d{2}\\.s\\d{2}\\.sv\\.l\\d{2}$" },
+        "personnage": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+        "texte": { "$ref": "#/$defs/texteAccents" },
+        "sens": { "type": "string", "minLength": 1, "maxLength": 300 },
+        "emotion": { "type": "string", "minLength": 3 }
+      }
+    }
+  }
+}

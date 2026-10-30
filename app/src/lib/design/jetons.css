@@ -1,0 +1,51 @@
+/* Jetons non colorés « Encre & Voix » : grille (9.4), mouvement (9.7), zones sûres (9.4, 10.8). */
+:root {
+  /* Grille de 4 px : 4, 8, 12, 16, 24, 32, 48, 64 */
+  --e1: 4px;
+  --e2: 8px;
+  --e3: 12px;
+  --e4: 16px;
+  --e6: 24px;
+  --e8: 32px;
+  --e12: 48px;
+  --e16: 64px;
+
+  --cible: 48px;          /* cible tactile minimale */
+  --ecart-cibles: 8px;    /* espacement minimal entre cibles */
+  --rond: 12px;
+  --rond-pilule: 999px;
+  --ecoute: 40px;         /* bouton ◉ (9.5) */
+
+  /* Mouvement (9.7) */
+  --duree-micro: 120ms;
+  --duree-ecran: 220ms;
+  --duree-volet: 320ms;
+  --courbe-entree: cubic-bezier(0.2, 0, 0, 1);
+  --courbe-sortie: cubic-bezier(0.3, 0, 1, 1);
+  --glissement: 24px;
+
+  /* Zones sûres (Capacitor 8 SystemBars, 10.8) */
+  --zone-haut: var(--safe-area-inset-top, env(safe-area-inset-top, 0px));
+  --zone-bas: var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px));
+  --zone-gauche: var(--safe-area-inset-left, env(safe-area-inset-left, 0px));
+  --zone-droite: var(--safe-area-inset-right, env(safe-area-inset-right, 0px));
+
+  --marge: 20px;          /* téléphone */
+  --colonne: 68ch;        /* 60 à 70 caractères */
+  --hauteur-barre: 64px;
+}
+
+@media (min-width: 600px) {
+  :root { --marge: 48px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duree-ecran: 120ms;
+    --duree-volet: 120ms;
+    --glissement: 0px;
+  }
+}
+
+.entete-fixe { padding-top: calc(var(--zone-haut) + 8px); }
+.navigation-basse { padding-bottom: calc(var(--zone-bas) + 4px); }

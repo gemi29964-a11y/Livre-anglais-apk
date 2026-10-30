@@ -1,0 +1,74 @@
+# .github/workflows/android.yml
+name: android
+on:
+  push: { branches: [main] }
+  workflow_dispatch: {}
+jobs:
+  compiler:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: app/package-lock.json }
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: 21 }
+      - uses: android-actions/setup-android@v3
+      - run: sdkmanager "platforms;android-36" "build-tools;36.0.0"
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg && pip install -r tools/requirements.txt
+      - name: Voix
+        env:
+          VOIX_S3_URL: ${{ secrets.VOIX_S3_URL }}
+          VOIX_S3_CLE: ${{ secrets.VOIX_S3_CLE }}
+          VOIX_S3_SECRET: ${{ secrets.VOIX_S3_SECRET }}
+        run: python3 tools/voix_recuperer.py --tout
+      - run: python3 tools/construire.py --strict
+      - run: python3 tools/voix_recuperer.py --socle && python3 tools/generer_paquets.py
+      - name: Application web
+        working-directory: app
+        run: |
+          npm ci
+          npm run check
+          npm run test
+          npm run build
+          npx playwright install --with-deps chromium
+          npm run e2e
+          npx cap sync android
+      - name: Numéro de version
+        run: echo "VA_VERSION_CODE=$((1000 + GITHUB_RUN_NUMBER))" >> "$GITHUB_ENV"
+      - name: Clés
+        run: |
+          echo "${{ secrets.VA_ENVOI_JKS_B64 }}" | base64 -d > "$RUNNER_TEMP/envoi.jks"
+          echo "${{ secrets.VA_DIRECT_JKS_B64 }}" | base64 -d > "$RUNNER_TEMP/direct.jks"
+      - name: Bundle Play
+        working-directory: android
+        env:
+          VA_KEYSTORE: ${{ runner.temp }}/envoi.jks
+          VA_KEYSTORE_MDP: ${{ secrets.VA_ENVOI_MDP }}
+          VA_CLE_ALIAS: envoi
+          VA_CLE_MDP: ${{ secrets.VA_ENVOI_MDP }}
+          VA_VERSION_NAME: 1.0.${{ github.run_number }}
+        run: ./gradlew --no-daemon bundlePlayRelease
+      - name: APK direct
+        working-directory: android
+        env:
+          VA_KEYSTORE: ${{ runner.temp }}/direct.jks
+          VA_KEYSTORE_MDP: ${{ secrets.VA_DIRECT_MDP }}
+          VA_CLE_ALIAS: direct
+          VA_CLE_MDP: ${{ secrets.VA_DIRECT_MDP }}
+          VA_VERSION_NAME: 1.0.${{ github.run_number }}
+        run: ./gradlew --no-daemon assembleDirectRelease
+      - name: Vérifier
+        run: |
+          apksigner verify --print-certs android/app/build/outputs/apk/direct/release/app-direct-release.apk
+          sha256sum android/app/build/outputs/apk/direct/release/app-direct-release.apk > apk.sha256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vivre-anglais-${{ env.VA_VERSION_CODE }}
+          path: |
+            android/app/build/outputs/apk/direct/release/app-direct-release.apk
+            android/app/build/outputs/bundle/playRelease/app-play-release.aab
+            apk.sha256
+            rapport-couverture.md

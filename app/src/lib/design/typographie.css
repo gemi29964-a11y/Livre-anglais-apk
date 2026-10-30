@@ -1,0 +1,142 @@
+/* Typographie « Encre & Voix » (Plan, 9.3). Polices embarquées, réduites (tools/polices.py), WOFF2. */
+@font-face {
+  font-family: 'Literata';
+  src: url('/polices/literata.woff2') format('woff2');
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/polices/inter.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Charis SIL';
+  src: url('/polices/charis-sil.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Charis SIL';
+  src: url('/polices/charis-sil-gras.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  src: url('/polices/atkinson.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  src: url('/polices/atkinson-gras.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  --base: 18px;                 /* réglable en 7 crans de 16 à 26 px (8.10) */
+  --interligne: 1.6;            /* 3 crans : 1,45 ; 1,6 ; 1,75 */
+  --police-texte: 'Literata', 'Charis SIL', Georgia, serif;
+  --police-ui: 'Inter', 'Charis SIL', system-ui, sans-serif;
+  --police-phrase: 'Inter', 'Charis SIL', sans-serif;
+  --police-expert: 'Charis SIL', 'Inter', serif;
+  --taille-ui: 15px;
+  --taille-enonce: calc(var(--base) * 1.22);
+  --taille-phrase: calc(var(--base) * 0.94);
+}
+
+/* Aide à la lecture : Atkinson Hyperlegible remplace Literata et Inter (9.3). */
+[data-aide-lecture='oui'] {
+  --police-texte: 'Atkinson Hyperlegible', 'Charis SIL', sans-serif;
+  --police-ui: 'Atkinson Hyperlegible', 'Charis SIL', sans-serif;
+  --police-phrase: 'Atkinson Hyperlegible', 'Charis SIL', sans-serif;
+}
+
+html {
+  font-family: var(--police-texte);
+  font-size: var(--base);
+  line-height: var(--interligne);
+  color: var(--encre);
+  background: var(--fond);
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+[lang='en'] {
+  hyphens: manual;
+  -webkit-hyphens: manual;
+}
+
+.texte {
+  max-width: var(--colonne);
+  font-family: var(--police-texte);
+}
+
+.enonce {
+  font-family: var(--police-texte);
+  font-size: var(--taille-enonce);
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.phrase {
+  font-family: var(--police-phrase);
+  font-size: var(--taille-phrase);
+  font-weight: 400;
+  hyphens: none;
+  -webkit-hyphens: none;
+}
+.phrase .forte {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.expert {
+  font-family: var(--police-expert);
+  font-size: var(--taille-phrase);
+  hyphens: none;
+}
+
+.ui {
+  font-family: var(--police-ui);
+  font-size: var(--taille-ui);
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.grand-titre {
+  font-family: 'Literata', serif;
+  font-variation-settings: 'opsz' 72;
+  font-weight: 500;
+  font-size: clamp(32px, 7vw, 40px);
+  line-height: 1.15;
+  margin: 0;
+}
+
+.intertitre {
+  font-weight: 600;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}

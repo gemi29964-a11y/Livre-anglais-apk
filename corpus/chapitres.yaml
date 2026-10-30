@@ -1,0 +1,618 @@
+# Table des chapitres et des scènes (Plan, 4.3 et 4.4) — source unique des titres.
+# Le Prélude porte l’identifiant c00. Les fragments anglais sont balisés <en>…</en> (décision D-012).
+chapitres:
+- numero: 0
+  id: c00
+  titre: Le Prélude — L’oreille et la voix
+  scenes:
+  - id: c00.s01
+    numero: 1
+    titre: Le souffle et la langue
+  - id: c00.s02
+    numero: 2
+    titre: Voyelles longues, voyelles brèves
+  - id: c00.s03
+    numero: 3
+    titre: Le battement de la phrase
+  - id: c00.s04
+    numero: 4
+    titre: Les petits mots qui s’écrasent
+  - id: c00.s05
+    numero: 5
+    titre: Quand les mots se collent
+  - id: c00.s06
+    numero: 6
+    titre: Deux Anglais, une langue
+- numero: 1
+  id: c01
+  titre: Une journée, du réveil au coucher
+  scenes:
+  - id: c01.s01
+    numero: 1
+    titre: Le réveil
+  - id: c01.s02
+    numero: 2
+    titre: La salle de bain
+  - id: c01.s03
+    numero: 3
+    titre: S’habiller
+  - id: c01.s04
+    numero: 4
+    titre: Le petit-déjeuner
+  - id: c01.s05
+    numero: 5
+    titre: Partir de la maison
+  - id: c01.s06
+    numero: 6
+    titre: Le trajet
+  - id: c01.s07
+    numero: 7
+    titre: Le retour
+  - id: c01.s08
+    numero: 8
+    titre: Le dîner en famille
+  - id: c01.s09
+    numero: 9
+    titre: La soirée
+  - id: c01.s10
+    numero: 10
+    titre: Le coucher
+- numero: 2
+  id: c02
+  titre: Les gestes de la conversation
+  scenes:
+  - id: c02.s01
+    numero: 1
+    titre: Saluer
+  - id: c02.s02
+    numero: 2
+    titre: Prendre des nouvelles
+  - id: c02.s03
+    numero: 3
+    titre: Se présenter
+  - id: c02.s04
+    numero: 4
+    titre: Parler de tout et de rien
+  - id: c02.s05
+    numero: 5
+    titre: Prendre congé
+  - id: c02.s06
+    numero: 6
+    titre: Remercier
+  - id: c02.s07
+    numero: 7
+    titre: S’excuser
+  - id: c02.s08
+    numero: 8
+    titre: Faire répéter
+  - id: c02.s09
+    numero: 9
+    titre: Interrompre et gagner du temps
+  - id: c02.s10
+    numero: 10
+    titre: Féliciter, souhaiter, consoler
+- numero: 3
+  id: c03
+  titre: Le cœur et les humeurs
+  scenes:
+  - id: c03.s01
+    numero: 1
+    titre: Joie
+  - id: c03.s02
+    numero: 2
+    titre: Tristesse
+  - id: c03.s03
+    numero: 3
+    titre: Colère
+  - id: c03.s04
+    numero: 4
+    titre: Peur et stress
+  - id: c03.s05
+    numero: 5
+    titre: Surprise
+  - id: c03.s06
+    numero: 6
+    titre: Ennui
+  - id: c03.s07
+    numero: 7
+    titre: Gêne
+  - id: c03.s08
+    numero: 8
+    titre: Jalousie et fierté
+  - id: c03.s09
+    numero: 9
+    titre: Soulagement et gratitude
+  - id: c03.s10
+    numero: 10
+    titre: Doute et hésitation
+- numero: 4
+  id: c04
+  titre: Penser à voix haute
+  scenes:
+  - id: c04.s01
+    numero: 1
+    titre: Donner son avis
+  - id: c04.s02
+    numero: 2
+    titre: Être d’accord
+  - id: c04.s03
+    numero: 3
+    titre: Être en désaccord
+  - id: c04.s04
+    numero: 4
+    titre: Argumenter et nuancer
+  - id: c04.s05
+    numero: 5
+    titre: Changer d’avis
+  - id: c04.s06
+    numero: 6
+    titre: Esquiver, rester neutre
+- numero: 5
+  id: c05
+  titre: Le fil du discours
+  scenes:
+  - id: c05.s01
+    numero: 1
+    titre: Ajouter
+  - id: c05.s02
+    numero: 2
+    titre: Opposer
+  - id: c05.s03
+    numero: 3
+    titre: Cause et conséquence
+  - id: c05.s04
+    numero: 4
+    titre: Temps et enchaînement
+  - id: c05.s05
+    numero: 5
+    titre: Illustrer et reformuler
+  - id: c05.s06
+    numero: 6
+    titre: Conclure et revenir au sujet
+- numero: 6
+  id: c06
+  titre: Demander, proposer, refuser
+  scenes:
+  - id: c06.s01
+    numero: 1
+    titre: Demander un service
+  - id: c06.s02
+    numero: 2
+    titre: Proposer son aide
+  - id: c06.s03
+    numero: 3
+    titre: Inviter
+  - id: c06.s04
+    numero: 4
+    titre: Suggérer
+  - id: c06.s05
+    numero: 5
+    titre: Accepter avec enthousiasme
+  - id: c06.s06
+    numero: 6
+    titre: Refuser sans vexer
+  - id: c06.s07
+    numero: 7
+    titre: Permettre et interdire
+- numero: 7
+  id: c07
+  titre: Chez soi
+  scenes:
+  - id: c07.s01
+    numero: 1
+    titre: Les tâches ménagères
+  - id: c07.s02
+    numero: 2
+    titre: Cuisiner
+  - id: c07.s03
+    numero: 3
+    titre: Pannes et bricolage
+  - id: c07.s04
+    numero: 4
+    titre: Colocation et voisins
+  - id: c07.s05
+    numero: 5
+    titre: Factures et loyer
+  - id: c07.s06
+    numero: 6
+    titre: Déménager
+- numero: 8
+  id: c08
+  titre: Les liens intimes
+  scenes:
+  - id: c08.s01
+    numero: 1
+    titre: Parents et enfants
+  - id: c08.s02
+    numero: 2
+    titre: Frères, sœurs et famille
+  - id: c08.s03
+    numero: 3
+    titre: Séduire
+  - id: c08.s04
+    numero: 4
+    titre: La vie à deux
+  - id: c08.s05
+    numero: 5
+    titre: Se disputer, se réconcilier
+  - id: c08.s06
+    numero: 6
+    titre: Se quitter
+  - id: c08.s07
+    numero: 7
+    titre: Les grands événements
+- numero: 9
+  id: c09
+  titre: Les amis et la vie sociale
+  scenes:
+  - id: c09.s01
+    numero: 1
+    titre: Organiser une sortie
+  - id: c09.s02
+    numero: 2
+    titre: Les fêtes
+  - id: c09.s03
+    numero: 3
+    titre: Taquiner
+  - id: c09.s04
+    numero: 4
+    titre: Soutenir un ami
+  - id: c09.s05
+    numero: 5
+    titre: Confidences et potins
+  - id: c09.s06
+    numero: 6
+    titre: Garder le lien
+- numero: 10
+  id: c10
+  titre: À table
+  scenes:
+  - id: c10.s01
+    numero: 1
+    titre: Réserver et arriver
+  - id: c10.s02
+    numero: 2
+    titre: Commander
+  - id: c10.s03
+    numero: 3
+    titre: Pendant le repas
+  - id: c10.s04
+    numero: 4
+    titre: L’addition
+  - id: c10.s05
+    numero: 5
+    titre: Sur le pouce et à emporter
+  - id: c10.s06
+    numero: 6
+    titre: Au bar
+- numero: 11
+  id: c11
+  titre: Acheter, payer, compter
+  scenes:
+  - id: c11.s01
+    numero: 1
+    titre: En boutique
+  - id: c11.s02
+    numero: 2
+    titre: Payer
+  - id: c11.s03
+    numero: 3
+    titre: Retours et réclamations
+  - id: c11.s04
+    numero: 4
+    titre: Marchander
+  - id: c11.s05
+    numero: 5
+    titre: La banque
+  - id: c11.s06
+    numero: 6
+    titre: L’argent entre proches
+- numero: 12
+  id: c12
+  titre: Le corps et la santé
+  scenes:
+  - id: c12.s01
+    numero: 1
+    titre: Dire où l’on a mal
+  - id: c12.s02
+    numero: 2
+    titre: Chez le médecin
+  - id: c12.s03
+    numero: 3
+    titre: À la pharmacie
+  - id: c12.s04
+    numero: 4
+    titre: Les urgences
+  - id: c12.s05
+    numero: 5
+    titre: Dentiste et spécialistes
+  - id: c12.s06
+    numero: 6
+    titre: Le moral et le bien-être
+  - id: c12.s07
+    numero: 7
+    titre: Le sport
+- numero: 13
+  id: c13
+  titre: La vie professionnelle
+  scenes:
+  - id: c13.s01
+    numero: 1
+    titre: Arriver au bureau
+  - id: c13.s02
+    numero: 2
+    titre: Les réunions
+  - id: c13.s03
+    numero: 3
+    titre: Écrire des courriels
+  - id: c13.s04
+    numero: 4
+    titre: Appels et visioconférences
+  - id: c13.s05
+    numero: 5
+    titre: Délais et priorités
+  - id: c13.s06
+    numero: 6
+    titre: Donner et recevoir un retour
+  - id: c13.s07
+    numero: 7
+    titre: Assumer ses torts
+  - id: c13.s08
+    numero: 8
+    titre: La hiérarchie
+  - id: c13.s09
+    numero: 9
+    titre: L’entretien d’embauche
+  - id: c13.s10
+    numero: 10
+    titre: Partir, changer de voie
+- numero: 14
+  id: c14
+  titre: L’art de convaincre
+  scenes:
+  - id: c14.s01
+    numero: 1
+    titre: Ouvrir une négociation
+  - id: c14.s02
+    numero: 2
+    titre: Proposer, contre-proposer
+  - id: c14.s03
+    numero: 3
+    titre: Tenir ses limites
+  - id: c14.s04
+    numero: 4
+    titre: Conclure un accord
+  - id: c14.s05
+    numero: 5
+    titre: Persuader au quotidien
+- numero: 15
+  id: c15
+  titre: La vie connectée
+  scenes:
+  - id: c15.s01
+    numero: 1
+    titre: Téléphone et messages
+  - id: c15.s02
+    numero: 2
+    titre: Quand l’ordinateur résiste
+  - id: c15.s03
+    numero: 3
+    titre: Les réseaux sociaux
+  - id: c15.s04
+    numero: 4
+    titre: Le langage des startups et du logiciel
+  - id: c15.s05
+    numero: 5
+    titre: Commandes en ligne
+- numero: 16
+  id: c16
+  titre: En voyage
+  scenes:
+  - id: c16.s01
+    numero: 1
+    titre: Demander son chemin
+  - id: c16.s02
+    numero: 2
+    titre: À l’aéroport
+  - id: c16.s03
+    numero: 3
+    titre: À l’hôtel
+  - id: c16.s04
+    numero: 4
+    titre: Taxi et location
+  - id: c16.s05
+    numero: 5
+    titre: Train et transports
+  - id: c16.s06
+    numero: 6
+    titre: Visiter
+  - id: c16.s07
+    numero: 7
+    titre: Les imprévus du voyage
+- numero: 17
+  id: c17
+  titre: Démarches et services
+  scenes:
+  - id: c17.s01
+    numero: 1
+    titre: La poste
+  - id: c17.s02
+    numero: 2
+    titre: L’administration
+  - id: c17.s03
+    numero: 3
+    titre: Le service client
+  - id: c17.s04
+    numero: 4
+    titre: La police
+  - id: c17.s05
+    numero: 5
+    titre: Artisans et réparateurs
+- numero: 18
+  id: c18
+  titre: Loisirs et culture
+  scenes:
+  - id: c18.s01
+    numero: 1
+    titre: Films et séries
+  - id: c18.s02
+    numero: 2
+    titre: Musique
+  - id: c18.s03
+    numero: 3
+    titre: Lecture
+  - id: c18.s04
+    numero: 4
+    titre: Le sport en spectateur
+  - id: c18.s05
+    numero: 5
+    titre: Jeux vidéo
+  - id: c18.s06
+    numero: 6
+    titre: Passions et nature
+- numero: 19
+  id: c19
+  titre: Le temps qu’il fait, le temps qui passe
+  scenes:
+  - id: c19.s01
+    numero: 1
+    titre: L’heure, la date, les durées
+  - id: c19.s02
+    numero: 2
+    titre: La météo
+  - id: c19.s03
+    numero: 3
+    titre: Saisons et fêtes
+- numero: 20
+  id: c20
+  titre: Quand tout déraille
+  scenes:
+  - id: c20.s01
+    numero: 1
+    titre: Retards et annulations
+  - id: c20.s02
+    numero: 2
+    titre: Oublis et pertes
+  - id: c20.s03
+    numero: 3
+    titre: Petits accidents
+  - id: c20.s04
+    numero: 4
+    titre: Malentendus
+  - id: c20.s05
+    numero: 5
+    titre: Situations gênantes
+  - id: c20.s06
+    numero: 6
+    titre: Urgences graves
+- numero: 21
+  id: c21
+  titre: L’humour anglais
+  scenes:
+  - id: c21.s01
+    numero: 1
+    titre: Plaisanter
+  - id: c21.s02
+    numero: 2
+    titre: Ironie et sarcasme
+  - id: c21.s03
+    numero: 3
+    titre: Se moquer de soi
+  - id: c21.s04
+    numero: 4
+    titre: L’art de l’euphémisme
+- numero: 22
+  id: c22
+  titre: Les registres et les argots
+  scenes:
+  - id: c22.s01
+    numero: 1
+    titre: Argot américain
+  - id: c22.s02
+    numero: 2
+    titre: Argot britannique
+  - id: c22.s03
+    numero: 3
+    titre: La langue des jeunes et d’Internet
+  - id: c22.s04
+    numero: 4
+    titre: 'Jurons : comprendre, doser, éviter'
+  - id: c22.s05
+    numero: 5
+    titre: Australie, Irlande, Afrique anglophone
+- numero: 23
+  id: c23
+  titre: Les idiomes
+  scenes:
+  - id: c23.s01
+    numero: 1
+    titre: Le corps
+  - id: c23.s02
+    numero: 2
+    titre: Les animaux
+  - id: c23.s03
+    numero: 3
+    titre: L’argent et le travail
+  - id: c23.s04
+    numero: 4
+    titre: Le temps et la vitesse
+  - id: c23.s05
+    numero: 5
+    titre: Les proverbes vivants
+- numero: 24
+  id: c24
+  titre: La grammaire vivante
+  scenes:
+  - id: c24.s01
+    numero: 1
+    titre: Le présent
+  - id: c24.s02
+    numero: 2
+    titre: Raconter le passé
+  - id: c24.s03
+    numero: 3
+    titre: Le futur
+  - id: c24.s04
+    numero: 4
+    titre: Hypothèses et regrets
+  - id: c24.s05
+    numero: 5
+    titre: Les modaux en situation
+  - id: c24.s06
+    numero: 6
+    titre: Questions et <en>question tags</en>
+- numero: 25
+  id: c25
+  titre: Le savoir-vivre
+  scenes:
+  - id: c25.s01
+    numero: 1
+    titre: L’art d’adoucir
+  - id: c25.s02
+    numero: 2
+    titre: Différences culturelles
+  - id: c25.s03
+    numero: 3
+    titre: Sujets délicats
+  - id: c25.s04
+    numero: 4
+    titre: Le langage du corps
+- numero: 26
+  id: c26
+  titre: Zénith — l’anglais des natifs
+  scenes:
+  - id: c26.s01
+    numero: 1
+    titre: Raconter une histoire
+  - id: c26.s02
+    numero: 2
+    titre: Parler en public
+  - id: c26.s03
+    numero: 3
+    titre: Rhétorique
+  - id: c26.s04
+    numero: 4
+    titre: Lire entre les lignes
+  - id: c26.s05
+    numero: 5
+    titre: Penser en anglais

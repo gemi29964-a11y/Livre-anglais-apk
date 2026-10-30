@@ -1,0 +1,60 @@
+/* Feuille commune « Encre & Voix » : jetons, thèmes, typographie, et mise en page des écrans (8.1, 8.26). */
+@import './lib/design/jetons.css';
+@import './lib/design/themes.css';
+@import './lib/design/typographie.css';
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body { min-height: 100%; background: var(--fond); }
+body { -webkit-tap-highlight-color: transparent; }
+
+a { color: var(--accent); }
+
+.page {
+  padding: 0 calc(var(--zone-droite) + var(--marge)) calc(var(--hauteur-barre) + var(--zone-bas) + var(--e8)) calc(var(--zone-gauche) + var(--marge));
+  max-width: calc(var(--colonne) + 2 * var(--marge));
+  margin: 0 auto;
+  animation: apparition var(--duree-ecran) var(--courbe-entree);
+}
+@media (min-width: 600px) {
+  .page { padding-left: calc(96px + var(--marge)); padding-bottom: var(--e12); max-width: none; }
+  .page > * { max-width: var(--colonne); }
+}
+@media (min-width: 840px) {
+  .page.double { display: grid; grid-template-columns: minmax(260px, 1fr) minmax(0, 2fr); gap: var(--e12); }
+  .page.double > * { max-width: none; }
+}
+
+.carte {
+  display: block;
+  margin: 0 0 var(--e4);
+  padding: var(--e4) var(--e4);
+  background: var(--surface);
+  border: var(--epaisseur-filet) solid var(--filet);
+  border-radius: var(--rond);
+  color: var(--encre);
+  text-decoration: none;
+}
+a.carte { min-height: var(--cible); }
+.carte h2, .carte h3 { margin: 0 0 var(--e2); font-size: 1.05em; }
+.carte p { margin: 0; }
+.surtitre { font-family: var(--police-ui); font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--encre-douce); margin: 0 0 var(--e2); }
+.douce { color: var(--encre-douce); }
+.etat-vide { display: flex; flex-direction: column; align-items: center; gap: var(--e3); padding: var(--e8) var(--e4); text-align: center; color: var(--encre-douce); }
+.etat-vide :global(svg) { color: var(--encre-douce); }
+
+.action {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--e2);
+  min-height: var(--cible); padding: 0 var(--e6);
+  border: 0; border-radius: var(--rond-pilule);
+  background: var(--accent); color: var(--surface);
+  font-family: var(--police-ui); font-size: var(--taille-ui); font-weight: 600; text-decoration: none; cursor: pointer;
+}
+.action.discrete { background: transparent; color: var(--accent); border: var(--epaisseur-filet) solid var(--filet); }
+
+.filet-chemin { height: 2px; background: var(--filet); border-radius: 2px; overflow: hidden; margin-top: var(--e2); }
+.filet-chemin > span { display: block; height: 100%; background: var(--accent); transition: width var(--duree-volet) var(--courbe-entree); }
+
+.visuellement-masque { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+@keyframes apparition { from { opacity: 0; transform: translateY(var(--glissement)); } }

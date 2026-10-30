@@ -1,0 +1,111 @@
+/* Thèmes « Encre & Voix » (Plan, 9.2). Valeurs reprises à l'identique du tableau des jetons.
+   Le thème Automatique suit le mode clair ou sombre du système (Papier ou Nuit).
+   Le contrôle tools/contrastes.py lit ce fichier : toute couleur de texte doit atteindre 4,5:1
+   (7:1 dans le thème Contraste) sur --fond et --surface. */
+:root,
+[data-theme='papier'] {
+  --fond: #FBF8F3;
+  --surface: #FFFFFF;
+  --encre: #1C1B1A;
+  --encre-douce: #5E5A55;
+  --filet: #E6E0D6;
+  --accent: #1F3A5F;
+  --voix-am: #2B5C8A;
+  --voix-brit: #2E5E4E;
+  --ton-courant: #55705A;
+  --ton-complice: #8A6420;
+  --ton-cru: #8C2F39;
+  --ton-soutenu: #3F4E6B;
+  --epaisseur-filet: 1px;
+  color-scheme: light;
+}
+
+[data-theme='ambre'] {
+  --fond: #F3E9D7;
+  --surface: #FAF3E6;
+  --encre: #2A2118;
+  --encre-douce: #5A4B3A;
+  --filet: #E2D4BC;
+  --accent: #3B2F6B;
+  --voix-am: #2A5580;
+  --voix-brit: #2D5A49;
+  --ton-courant: #4C6651;
+  --ton-complice: #82601F;
+  --ton-cru: #86303A;
+  --ton-soutenu: #3F4E6B;
+  --epaisseur-filet: 1px;
+  color-scheme: light;
+}
+
+[data-theme='nuit'] {
+  --fond: #121314;
+  --surface: #1B1D1F;
+  --encre: #ECE8E1;
+  --encre-douce: #A9A49C;
+  --filet: #2C2F33;
+  --accent: #A9C1E6;
+  --voix-am: #8DB6E0;
+  --voix-brit: #8CC7AE;
+  --ton-courant: #9CC2A2;
+  --ton-complice: #E0B871;
+  --ton-cru: #E8939C;
+  --ton-soutenu: #A7B6D6;
+  --epaisseur-filet: 1px;
+  color-scheme: dark;
+}
+
+[data-theme='contraste'] {
+  --fond: #FFFFFF;
+  --surface: #FFFFFF;
+  --encre: #000000;
+  --encre-douce: #262626;
+  --filet: #000000;
+  --accent: #002A66;
+  --voix-am: #003B73;
+  --voix-brit: #004030;
+  --ton-courant: #1F4D26;
+  --ton-complice: #5C3D00;
+  --ton-cru: #6B0F1A;
+  --ton-soutenu: #22304D;
+  --epaisseur-filet: 2px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  [data-theme='automatique'] {
+    --fond: #121314;
+    --surface: #1B1D1F;
+    --encre: #ECE8E1;
+    --encre-douce: #A9A49C;
+    --filet: #2C2F33;
+    --accent: #A9C1E6;
+    --voix-am: #8DB6E0;
+    --voix-brit: #8CC7AE;
+    --ton-courant: #9CC2A2;
+    --ton-complice: #E0B871;
+    --ton-cru: #E8939C;
+    --ton-soutenu: #A7B6D6;
+    --epaisseur-filet: 1px;
+    color-scheme: dark;
+  }
+}
+
+/* Réglage système « contraste élevé » : le thème Contraste est proposé automatiquement (9.2). */
+@media (prefers-contrast: more) {
+  [data-theme='automatique'] {
+    --fond: #FFFFFF;
+    --surface: #FFFFFF;
+    --encre: #000000;
+    --encre-douce: #262626;
+    --filet: #000000;
+    --accent: #002A66;
+    --voix-am: #003B73;
+    --voix-brit: #004030;
+    --ton-courant: #1F4D26;
+    --ton-complice: #5C3D00;
+    --ton-cru: #6B0F1A;
+    --ton-soutenu: #22304D;
+    --epaisseur-filet: 2px;
+    color-scheme: light;
+  }
+}
