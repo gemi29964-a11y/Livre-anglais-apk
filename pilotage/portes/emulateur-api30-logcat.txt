@@ -1,0 +1,15 @@
+10-31 01:10:58.064   542  1851 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.vivrelanglais.livre/.MainActivity} from uid 2000
+10-31 01:10:59.084   542   610 I ActivityManager: Start proc 3349:com.vivrelanglais.livre/u0a130 for pre-top-activity {com.vivrelanglais.livre/com.vivrelanglais.livre.MainActivity}
+10-31 01:11:03.889   542   610 I ActivityManager: Start proc 3381:com.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i1 for  {com.vivrelanglais.livre/org.chromium.content.app.SandboxedProcessService0:0}
+10-31 01:11:05.548  3349  3349 D Capacitor: Starting BridgeActivity
+10-31 01:16:22.300   542   609 I ActivityManager: Force stopping com.vivrelanglais.livre appid=10130 user=-1: deletePackageX
+10-31 01:16:22.344   542   609 I ActivityManager: Killing 3349:com.vivrelanglais.livre/u0a130 (adj 0): stop com.vivrelanglais.livre due to deletePackageX
+10-31 01:16:22.526   542   609 W ActivityTaskManager: Force removing ActivityRecord{c4a3106 u0 com.vivrelanglais.livre/.MainActivity t10 f}}: app died, no saved state
+10-31 01:16:27.139   542   628 I ActivityManager: Force stopping com.vivrelanglais.livre appid=10130 user=0: pkg removed
+10-31 01:16:45.997   542   974 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.vivrelanglais.livre/.MainActivity} from uid 2000
+10-31 01:16:47.031   542   610 I ActivityManager: Start proc 4027:com.vivrelanglais.livre/u0a131 for pre-top-activity {com.vivrelanglais.livre/com.vivrelanglais.livre.MainActivity}
+10-31 01:16:59.416   542   610 I ActivityManager: Start proc 4068:com.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i2 for  {com.vivrelanglais.livre/org.chromium.content.app.SandboxedProcessService0:0}
+10-31 01:17:00.933  4027  4027 D Capacitor: Starting BridgeActivity
+10-31 01:17:01.546  4027  4027 D Capacitor: Registering plugin instance: CapacitorCookies
+10-31 01:17:01.643  4027  4027 D Capacitor: Registering plugin instance: WebView
+10-31 01:17:01.686  4027  4027 D Capacitor: Registering plugin instance: CapacitorHttp

@@ -2,30 +2,32 @@
 platform linux -- Python 3.12.15, pytest-9.2.0, pluggy-1.7.0 -- /home/user/workspace/repo/.venv/bin/python3
 cachedir: .pytest_cache
 rootdir: /home/user/workspace/repo
-collecting ... collected 22 items
+collecting ... collected 25 items
 
 tools/tests/test_contrastes.py::test_formule_wcag PASSED                 [  4%]
-tools/tests/test_contrastes.py::test_quatre_themes_definis PASSED        [  9%]
-tools/tests/test_contrastes.py::test_rapport_conforme PASSED             [ 13%]
-tools/tests/test_lexique.py::test_terme_banni_detecte PASSED             [ 18%]
-tools/tests/test_lexique.py::test_anglais_balise_ignore PASSED           [ 22%]
-tools/tests/test_lexique.py::test_locutions_permises_D021 PASSED         [ 27%]
-tools/tests/test_lexique.py::test_remplissage_et_emoji PASSED            [ 31%]
-tools/tests/test_lexique.py::test_typographie_interface PASSED           [ 36%]
-tools/tests/test_lexique.py::test_typographie_corpus PASSED              [ 40%]
-tools/tests/test_lexique.py::test_construit PASSED                       [ 45%]
-tools/tests/test_lexique.py::test_depot_conforme PASSED                  [ 50%]
-tools/tests/test_microtextes.py::test_microtextes_repris_mot_pour_mot PASSED [ 54%]
-tools/tests/test_phrase.py::test_exemple_du_plan_conforme PASSED         [ 59%]
-tools/tests/test_phrase.py::test_graphies_proscrites PASSED              [ 63%]
-tools/tests/test_phrase.py::test_sans_syllabe_forte_ou_expert_mal_forme PASSED [ 68%]
-tools/tests/test_phrase.py::test_quatre_transcriptions_recopiees PASSED  [ 72%]
-tools/tests/test_typographie.py::test_insecables PASSED                  [ 77%]
-tools/tests/test_typographie.py::test_code_et_commentaires_intacts PASSED [ 81%]
-tools/tests/test_valider_corpus.py::test_densite PASSED                  [ 86%]
-tools/tests/test_valider_corpus.py::test_quatre_phrases PASSED           [ 90%]
-tools/tests/test_valider_corpus.py::test_anglais_non_balise_et_typographie PASSED [ 95%]
+tools/tests/test_contrastes.py::test_quatre_themes_definis PASSED        [  8%]
+tools/tests/test_contrastes.py::test_rapport_conforme PASSED             [ 12%]
+tools/tests/test_generer_paquets.py::test_mention_en_commentaire_ignoree PASSED [ 16%]
+tools/tests/test_generer_paquets.py::test_idempotent_et_retour_a_vide PASSED [ 20%]
+tools/tests/test_generer_paquets.py::test_bloc_absent_refuse PASSED      [ 24%]
+tools/tests/test_lexique.py::test_terme_banni_detecte PASSED             [ 28%]
+tools/tests/test_lexique.py::test_anglais_balise_ignore PASSED           [ 32%]
+tools/tests/test_lexique.py::test_locutions_permises_D021 PASSED         [ 36%]
+tools/tests/test_lexique.py::test_remplissage_et_emoji PASSED            [ 40%]
+tools/tests/test_lexique.py::test_typographie_interface PASSED           [ 44%]
+tools/tests/test_lexique.py::test_typographie_corpus PASSED              [ 48%]
+tools/tests/test_lexique.py::test_construit PASSED                       [ 52%]
+tools/tests/test_lexique.py::test_depot_conforme PASSED                  [ 56%]
+tools/tests/test_microtextes.py::test_microtextes_repris_mot_pour_mot PASSED [ 60%]
+tools/tests/test_phrase.py::test_exemple_du_plan_conforme PASSED         [ 64%]
+tools/tests/test_phrase.py::test_graphies_proscrites PASSED              [ 68%]
+tools/tests/test_phrase.py::test_sans_syllabe_forte_ou_expert_mal_forme PASSED [ 72%]
+tools/tests/test_phrase.py::test_quatre_transcriptions_recopiees PASSED  [ 76%]
+tools/tests/test_typographie.py::test_insecables PASSED                  [ 80%]
+tools/tests/test_typographie.py::test_code_et_commentaires_intacts PASSED [ 84%]
+tools/tests/test_valider_corpus.py::test_densite PASSED                  [ 88%]
+tools/tests/test_valider_corpus.py::test_quatre_phrases PASSED           [ 92%]
+tools/tests/test_valider_corpus.py::test_anglais_non_balise_et_typographie PASSED [ 96%]
 tools/tests/test_valider_corpus.py::test_corpus_actuel_valide_en_redaction PASSED [100%]
 
-============================== 22 passed in 0.19s ==============================
-rc=0
+============================== 25 passed in 0.21s ==============================

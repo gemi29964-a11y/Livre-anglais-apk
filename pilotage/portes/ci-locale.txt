@@ -1,0 +1,337 @@
+
+=== 01:25:18 — contenu : tests des outils ===
+.........................                                                [100%]
+25 passed in 0.19s
+
+=== 01:25:18 — contenu : validations du corpus (--strict) ===
+corpus : 0 scène(s), 0 expression(s)
+corpus : conforme — 0 violation bloquante, 0 avertissement(s)
+
+=== 01:25:18 — contenu : lexique ===
+lexique : conforme — 825 textes examinés, 0 terme banni
+
+=== 01:25:18 — contenu : phrasé ===
+phrasé : conforme — 0 éléments examinés
+
+=== 01:25:18 — android : voix (récupération) ===
+voix_recuperer : registre vide, aucune voix à récupérer
+
+=== 01:25:19 — android : construire --strict ===
+— 1. validation du corpus
+corpus : 0 scène(s), 0 expression(s)
+corpus : conforme — 0 violation bloquante, 0 avertissement(s)
+— 2. lexique
+lexique : conforme — 825 textes examinés, 0 terme banni
+— 3. phrasé
+phrasé : conforme — 0 éléments examinés
+— 4. corpus JSON et sommaire
+   0 scène(s) compilée(s), sommaire de 27 chapitres
+— 5. index de recherche
+index-fr.json : 196 entrées
+index-en.json : 0 entrées
+— 6. couverture vocale
+   0 scène(s) à 100 %, 0 manque(s)
+— 8. itinéraires et moments
+— 9. expression du jour
+   0 expression(s) candidates
+construire : terminé
+
+=== 01:25:19 — android : socle des voix et paquets ===
+0 paquets de voix générés
+
+=== 01:25:19 — android : application web (ci, check, test, build, e2e, cap sync) ===
+npm warn deprecated uuid@7.0.3: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+
+added 318 packages, and audited 319 packages in 4s
+
+51 packages are looking for funding
+  run `npm fund` for details
+
+13 vulnerabilities (5 low, 8 moderate)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+> vivre-anglais@1.0.0 check
+> svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --fail-on-warnings
+
+Loading svelte-check in workspace: /home/user/workspace/repo/app
+Getting Svelte diagnostics...
+
+svelte-check found 0 errors and 0 warnings
+
+> vivre-anglais@1.0.0 test
+> vitest run --coverage
+
+
+ RUN  v5.0.5 /home/user/workspace/repo/app
+      Coverage enabled with v8
+
+ ✓ src/lib/voix/moteur.test.ts (7 tests) 52ms
+ ✓ src/lib/textes/fr.test.ts (7 tests) 10ms
+ ✓ src/lib/corpus/chargeur.test.ts (4 tests) 10ms
+ ✓ src/lib/carnet/base.test.ts (3 tests) 154ms
+ ✓ src/lib/compat/compat.test.ts (2 tests) 8ms
+ ✓ src/lib/voix/source.test.ts (4 tests) 10ms
+ ✓ src/lib/ui/phrase.test.ts (4 tests) 9ms
+ ✓ src/lib/liens/retour.test.ts (3 tests) 7ms
+ ✓ src/lib/liens/liens.test.ts (2 tests) 7ms
+ ✓ src/lib/preferences/modele.test.ts (3 tests) 8ms
+ ✓ src/lib/ui/apparence.test.ts (2 tests) 112ms
+ ✓ src/lib/preferences/magasin.test.ts (2 tests) 12ms
+ ✓ src/lib/carnet/maVoix.test.ts (2 tests) 8ms
+ ✓ src/lib/liens/liens.natif.test.ts (2 tests) 10ms
+ ✓ src/lib/liens/retour.natif.test.ts (1 test) 7ms
+
+ Test Files  15 passed (15)
+      Tests  48 passed (48)
+   Start at  01:25:31
+   Duration  15.19s (environment 63%, setup 22%, transform 7%, worker 4%, tests 3%, import 2%)
+
+Environment  jsdom was created 15 times · 8.21s total, 63% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments
+
+ % Coverage report from v8
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   98.58 |    96.79 |   97.61 |    99.2 |                   
+ carnet            |     100 |      100 |     100 |     100 |                   
+  base.ts          |     100 |      100 |     100 |     100 |                   
+  maVoix.ts        |     100 |      100 |     100 |     100 |                   
+ corpus            |     100 |      100 |     100 |     100 |                   
+  chargeur.ts      |     100 |      100 |     100 |     100 |                   
+ liens             |   97.18 |    94.33 |     100 |     100 |                   
+  liens.ts         |    97.5 |    93.93 |     100 |     100 | 48,55             
+  retour.ts        |   96.77 |       95 |     100 |     100 | 13                
+ preferences       |     100 |      100 |     100 |     100 |                   
+  ...sin.svelte.ts |     100 |      100 |     100 |     100 |                   
+  modele.ts        |     100 |      100 |     100 |     100 |                   
+ textes            |     100 |    95.12 |     100 |     100 |                   
+  en.ts            |     100 |      100 |     100 |     100 |                   
+  fr.ts            |     100 |    95.12 |     100 |     100 | 144               
+ ui                |     100 |      100 |     100 |     100 |                   
+  phrase.ts        |     100 |      100 |     100 |     100 |                   
+ voix              |   97.15 |     95.5 |   88.46 |   97.82 |                   
+  moteur.ts        |   96.77 |    94.44 |   86.36 |   97.47 | 27-29             
+  source.ts        |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+
+> vivre-anglais@1.0.0 prebuild
+> npm run lexique
+
+
+> vivre-anglais@1.0.0 lexique
+> python3 ../tools/lexique_verifier.py
+
+lexique : conforme — 825 textes examinés, 0 terme banni
+
+> vivre-anglais@1.0.0 build
+> vite build
+
+vite v8.3.5 building ssr environment for production...
+transforming...
+✓ 199 modules transformed.
+[lightningcss minify] 'global' is not recognized as a valid pseudo-class. Did you mean '::global' (pseudo-element) or is this a typo?
+342 |  .douce { color: var(--encre-douce); }
+343 |  .etat-vide { display: flex; flex-direction: column; align-items: center; gap: var(--e3); padding: var(--e8) var(--e4)...
+344 |  .etat-vide :global(svg) { color: var(--encre-douce); }
+    |                     ^
+345 |  
+346 |  .action {
+rendering chunks...
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 252 modules transformed.
+[lightningcss minify] 'global' is not recognized as a valid pseudo-class. Did you mean '::global' (pseudo-element) or is this a typo?
+342 |  .douce { color: var(--encre-douce); }
+343 |  .etat-vide { display: flex; flex-direction: column; align-items: center; gap: var(--e3); padding: var(--e8) var(--e4)...
+344 |  .etat-vide :global(svg) { color: var(--encre-douce); }
+    |                     ^
+345 |  
+346 |  .action {
+rendering chunks...
+computing gzip size...
+.svelte-kit/output/client/_app/version.json                           0.02 kB │ gzip:  0.04 kB
+.svelte-kit/output/client/.vite/manifest.json                        12.55 kB │ gzip:  1.60 kB
+.svelte-kit/output/client/_app/immutable/assets/9.D20Q6ecL.css        0.04 kB │ gzip:  0.06 kB
+.svelte-kit/output/client/_app/immutable/assets/5.D2Kx3eXp.css        0.04 kB │ gzip:  0.06 kB
+.svelte-kit/output/client/_app/immutable/assets/4.-51mf5xf.css        0.06 kB │ gzip:  0.08 kB
+.svelte-kit/output/client/_app/immutable/assets/3.BQV6Wk8U.css        0.08 kB │ gzip:  0.07 kB
+.svelte-kit/output/client/_app/immutable/assets/2.DUkeHIV7.css        0.31 kB │ gzip:  0.20 kB
+.svelte-kit/output/client/_app/immutable/assets/6.Cn_9c0yv.css        0.32 kB │ gzip:  0.19 kB
+.svelte-kit/output/client/_app/immutable/assets/7.BC40SuFH.css        0.38 kB │ gzip:  0.22 kB
+.svelte-kit/output/client/_app/immutable/assets/Entete.DPq4kFSo.css   1.07 kB │ gzip:  0.51 kB
+.svelte-kit/output/client/_app/immutable/assets/10.o_mmfoSZ.css       1.17 kB │ gzip:  0.45 kB
+.svelte-kit/output/client/_app/immutable/assets/11.CW-0SRuB.css       1.58 kB │ gzip:  0.63 kB
+.svelte-kit/output/client/_app/immutable/assets/8.BJ0U0ErU.css        2.00 kB │ gzip:  0.66 kB
+.svelte-kit/output/client/_app/immutable/assets/0.5SA_vqER.css       11.62 kB │ gzip:  3.00 kB
+.svelte-kit/output/client/_app/immutable/chunks/BQix7Blu.js           0.03 kB │ gzip:  0.05 kB
+.svelte-kit/output/client/_app/immutable/chunks/BE4MSdtw.js           0.03 kB │ gzip:  0.05 kB
+.svelte-kit/output/client/_app/immutable/entry/start.BpDqrn_Z.js      0.06 kB │ gzip:  0.07 kB
+.svelte-kit/output/client/_app/immutable/nodes/0.Dh9v37_S.js          0.06 kB │ gzip:  0.08 kB
+.svelte-kit/output/client/_app/immutable/chunks/B8UK1oE5.js           0.09 kB │ gzip:  0.10 kB
+.svelte-kit/output/client/_app/immutable/chunks/D3GCm29S.js           0.11 kB │ gzip:  0.12 kB
+.svelte-kit/output/client/_app/immutable/chunks/DMysAvGw.js           0.15 kB │ gzip:  0.13 kB
+.svelte-kit/output/client/_app/immutable/chunks/D1VHsrKQ.js           0.29 kB │ gzip:  0.16 kB
+.svelte-kit/output/client/_app/immutable/nodes/1.NmLRXl4y.js          0.35 kB │ gzip:  0.26 kB
+.svelte-kit/output/client/_app/immutable/chunks/PBMlOkOm.js           0.35 kB │ gzip:  0.25 kB
+.svelte-kit/output/client/_app/immutable/chunks/Ct0O_kwx.js           0.57 kB │ gzip:  0.35 kB
+.svelte-kit/output/client/_app/immutable/chunks/XKyaHtl9.js           0.72 kB │ gzip:  0.42 kB
+.svelte-kit/output/client/_app/immutable/chunks/Bb8dRIFl.js           0.80 kB │ gzip:  0.44 kB
+.svelte-kit/output/client/_app/immutable/chunks/CZspW6Xg.js           0.83 kB │ gzip:  0.39 kB
+.svelte-kit/output/client/_app/immutable/nodes/5.g7PuOZhN.js          0.91 kB │ gzip:  0.53 kB
+.svelte-kit/output/client/_app/immutable/chunks/CAOT2K7p.js           1.18 kB │ gzip:  0.54 kB
+.svelte-kit/output/client/_app/immutable/nodes/9.Dv2cQcJ1.js          1.33 kB │ gzip:  0.75 kB
+.svelte-kit/output/client/_app/immutable/chunks/Bjy-W4x2.js           1.36 kB │ gzip:  0.65 kB
+.svelte-kit/output/client/_app/immutable/nodes/4.VrTizYjT.js          1.39 kB │ gzip:  0.81 kB
+.svelte-kit/output/client/_app/immutable/chunks/CRzLMJPS.js           1.53 kB │ gzip:  0.80 kB
+.svelte-kit/output/client/_app/immutable/chunks/Cq8CBbTP.js           1.55 kB │ gzip:  0.81 kB
+.svelte-kit/output/client/_app/immutable/chunks/CK2mLlMS.js           1.65 kB │ gzip:  0.88 kB
+.svelte-kit/output/client/_app/immutable/nodes/7.5j-OQ0gV.js          2.35 kB │ gzip:  1.14 kB
+.svelte-kit/output/client/_app/immutable/nodes/3.DznrnSWt.js          2.57 kB │ gzip:  1.10 kB
+.svelte-kit/output/client/_app/immutable/nodes/6.BHewRo2f.js          2.70 kB │ gzip:  1.29 kB
+.svelte-kit/output/client/_app/immutable/chunks/BiU6lHeU.js           3.58 kB │ gzip:  1.57 kB
+.svelte-kit/output/client/_app/immutable/nodes/2.CKGjWIRW.js          3.80 kB │ gzip:  1.58 kB
+.svelte-kit/output/client/_app/immutable/chunks/BAo51k6z.js           4.09 kB │ gzip:  1.71 kB
+.svelte-kit/output/client/_app/immutable/chunks/DHqwjNVk.js           4.43 kB │ gzip:  1.28 kB
+.svelte-kit/output/client/_app/immutable/entry/app.COxe6TNN.js        4.87 kB │ gzip:  1.91 kB
+.svelte-kit/output/client/_app/immutable/nodes/11.CYLMbRSU.js         6.71 kB │ gzip:  2.78 kB
+.svelte-kit/output/client/_app/immutable/chunks/CmNdA1N4.js           7.85 kB │ gzip:  3.15 kB
+.svelte-kit/output/client/_app/immutable/chunks/CyBMuqV-.js           8.46 kB │ gzip:  2.81 kB
+.svelte-kit/output/client/_app/immutable/chunks/8ECaLR7f.js           9.83 kB │ gzip:  4.12 kB
+.svelte-kit/output/client/_app/immutable/nodes/8.DBLSyImt.js         13.66 kB │ gzip:  3.98 kB
+.svelte-kit/output/client/_app/immutable/chunks/DJ4T5kU_.js          19.83 kB │ gzip:  8.08 kB
+.svelte-kit/output/client/_app/immutable/nodes/10.CwVWEWhB.js        21.04 kB │ gzip:  7.30 kB
+.svelte-kit/output/client/_app/immutable/chunks/Dzg3NL6z.js          28.87 kB │ gzip: 11.13 kB
+.svelte-kit/output/client/_app/immutable/chunks/CylZUG_q.js          52.48 kB │ gzip: 19.61 kB
+.svelte-kit/output/client/_app/immutable/chunks/DweEBKYl.js          99.55 kB │ gzip: 32.00 kB
+
+[INEFFECTIVE_DYNAMIC_IMPORT] node_modules/@capacitor/app/dist/esm/index.js is dynamically imported by src/lib/liens/liens.ts but also statically imported by src/lib/liens/retour.ts, dynamic import will not move module into another chunk.
+
+✓ built in 458ms
+computing gzip size...
+.svelte-kit/output/server/.vite/manifest.json                               8.96 kB │ gzip:  1.15 kB
+.svelte-kit/output/server/_app/immutable/assets/_page.D20Q6ecL.css          0.04 kB │ gzip:  0.06 kB
+.svelte-kit/output/server/_app/immutable/assets/_page.D2Kx3eXp.css          0.04 kB │ gzip:  0.06 kB
+.svelte-kit/output/server/_app/immutable/assets/_page.-51mf5xf.css          0.06 kB │ gzip:  0.08 kB
+.svelte-kit/output/server/_app/immutable/assets/_page.BQV6Wk8U.css          0.08 kB │ gzip:  0.07 kB
+.svelte-kit/output/server/_app/immutable/assets/_page.DUkeHIV7.css          0.31 kB │ gzip:  0.20 kB
+.svelte-kit/output/server/_app/immutable/assets/_page.Cn_9c0yv.css          0.32 kB │ gzip:  0.19 kB
+.svelte-kit/output/server/_app/immutable/assets/_page.BC40SuFH.css          0.38 kB │ gzip:  0.22 kB
+.svelte-kit/output/server/_app/immutable/assets/_page.CiM0YjMI.css          0.72 kB │ gzip:  0.34 kB
+.svelte-kit/output/server/_app/immutable/assets/Entete.DPq4kFSo.css         1.07 kB │ gzip:  0.51 kB
+.svelte-kit/output/server/_app/immutable/assets/_page.o_mmfoSZ.css          1.17 kB │ gzip:  0.45 kB
+.svelte-kit/output/server/_app/immutable/assets/_page.BJ0U0ErU.css          2.00 kB │ gzip:  0.66 kB
+.svelte-kit/output/server/_app/immutable/assets/_layout.BJb_TyHT.css       11.20 kB │ gzip:  2.94 kB
+.svelte-kit/output/server/env.js                                            0.13 kB │ gzip:  0.12 kB
+.svelte-kit/output/server/entries/pages/_layout.ts.js                       0.13 kB │ gzip:  0.12 kB
+.svelte-kit/output/server/chunks/en.js                                      0.19 kB │ gzip:  0.16 kB
+.svelte-kit/output/server/entries/pages/livre/_chapitre_/_page.ts.js        0.24 kB │ gzip:  0.19 kB
+.svelte-kit/output/server/chunks/env.js                                     0.26 kB │ gzip:  0.16 kB
+.svelte-kit/output/server/entries/pages/itineraire/_id_/_page.ts.js         0.28 kB │ gzip:  0.19 kB
+.svelte-kit/output/server/entries/pages/scene/_id_/_page.ts.js              0.31 kB │ gzip:  0.24 kB
+.svelte-kit/output/server/entries/fallbacks/error.svelte.js                 0.40 kB │ gzip:  0.25 kB
+.svelte-kit/output/server/internal.js                                       0.40 kB │ gzip:  0.19 kB
+.svelte-kit/output/server/chunks/chargeur.js                                0.53 kB │ gzip:  0.30 kB
+.svelte-kit/output/server/chunks/maVoix.js                                  0.54 kB │ gzip:  0.37 kB
+.svelte-kit/output/server/entries/pages/itineraire/_id_/_page.svelte.js     0.61 kB │ gzip:  0.33 kB
+.svelte-kit/output/server/entries/pages/livre/_chapitre_/_page.svelte.js    0.64 kB │ gzip:  0.33 kB
+.svelte-kit/output/server/entries/pages/livre/_page.svelte.js               0.69 kB │ gzip:  0.33 kB
+.svelte-kit/output/server/chunks/internal.js                                0.83 kB │ gzip:  0.37 kB
+.svelte-kit/output/server/entries/pages/scene/_id_/_page.svelte.js          0.85 kB │ gzip:  0.39 kB
+.svelte-kit/output/server/entries/pages/promenade/_page.svelte.js           0.86 kB │ gzip:  0.41 kB
+.svelte-kit/output/server/entries/pages/lire-ce-livre/_page.svelte.js       0.99 kB │ gzip:  0.48 kB
+.svelte-kit/output/server/entries/pages/recherche/_page.svelte.js           1.58 kB │ gzip:  0.67 kB
+.svelte-kit/output/server/chunks/Entete.js                                  1.70 kB │ gzip:  0.60 kB
+.svelte-kit/output/server/entries/pages/carnet/_page.svelte.js              2.61 kB │ gzip:  0.74 kB
+.svelte-kit/output/server/chunks/base.js                                    2.89 kB │ gzip:  1.32 kB
+.svelte-kit/output/server/entries/pages/_page.svelte.js                     3.57 kB │ gzip:  1.12 kB
+.svelte-kit/output/server/entries/pages/_layout.svelte.js                   4.17 kB │ gzip:  1.41 kB
+.svelte-kit/output/server/chunks/magasin.svelte.js                          4.40 kB │ gzip:  1.73 kB
+.svelte-kit/output/server/chunks/index-server.js                            4.73 kB │ gzip:  1.74 kB
+.svelte-kit/output/server/chunks/state.js                                   5.45 kB │ gzip:  2.20 kB
+.svelte-kit/output/server/chunks/moteur.js                                  6.31 kB │ gzip:  2.39 kB
+.svelte-kit/output/server/chunks/shared.js                                 10.51 kB │ gzip:  3.37 kB
+.svelte-kit/output/server/entries/pages/preferences/_page.svelte.js        13.12 kB │ gzip:  2.54 kB
+.svelte-kit/output/server/chunks/exports.js                                13.43 kB │ gzip:  4.18 kB
+.svelte-kit/output/server/chunks/Icone.js                                  22.86 kB │ gzip:  8.41 kB
+.svelte-kit/output/server/chunks/utils.js                                  31.66 kB │ gzip:  9.33 kB
+.svelte-kit/output/server/chunks/internal2.js                              36.10 kB │ gzip: 10.37 kB
+.svelte-kit/output/server/remote-entry.js                                  54.35 kB │ gzip: 12.01 kB
+.svelte-kit/output/server/chunks/server.js                                120.15 kB │ gzip: 31.74 kB
+.svelte-kit/output/server/index.js                                        123.55 kB │ gzip: 31.44 kB
+
+✓ built in 2.77s
+
+Run npm run preview to preview your production build locally.
+
+> Using @sveltejs/adapter-static
+Overwriting build/index.html with fallback page. Consider using a different name for the fallback.
+  Wrote site to "build"
+  ✔ done
+
+> vivre-anglais@1.0.0 postbuild
+> python3 ../tools/lexique_verifier.py --construit build
+
+lexique : conforme — 332 textes examinés, 0 terme banni
+
+> vivre-anglais@1.0.0 e2e
+> playwright test
+
+
+Running 8 tests using 1 worker
+
+[WebServer] 
+[WebServer] [404] GET /voix/c01/s01/c01s01-A2-e1.us.pose.opus
+  ✓  1 tests/parcours/accueil.spec.ts:4:1 › premier lancement : quatre écrans, choix de l’accent et du niveau (8.11) (2.2s)
+  ✓  2 tests/parcours/accueil.spec.ts:26:1 › l’accueil se passe en un geste (674ms)
+  ✓  3 tests/parcours/navigation.spec.ts:6:1 › les quatre destinations et leurs écrans sont accessibles (8.1) (2.9s)
+  ✓  4 tests/parcours/navigation.spec.ts:20:1 › le sommaire : Prélude et vingt-six chapitres, puis une page de chapitre (8.3) (2.0s)
+  ✓  5 tests/parcours/navigation.spec.ts:31:1 › lire ce livre : six pages courtes (8.24) (903ms)
+  ✓  6 tests/parcours/preferences.spec.ts:6:1 › les Préférences s’appliquent et se conservent (8.10) (4.6s)
+  ✓  7 tests/parcours/preferences.spec.ts:24:1 › tout effacer demande une double confirmation (8.10) (1.7s)
+  ✓  8 tests/parcours/recherche.spec.ts:6:1 › « Comment dit-on… ? » trouve dès les premières lettres, sans accents ni casse (8.9) (1.5s)
+
+  8 passed (18.2s)
+✔ Copying web assets from build to ../android/app/src/main/assets/public in 26.64ms
+✔ Creating capacitor.config.json in ../android/app/src/main/assets in 460.63μs
+✔ copy android in 49.87ms
+✔ Updating Android plugins in 2.82ms
+[info] Found 9 Capacitor plugins for android:
+       @capacitor/app@8.1.2
+       @capacitor/filesystem@8.1.5
+       @capacitor/haptics@8.0.2
+       @capacitor/local-notifications@8.3.1
+       @capacitor/preferences@8.0.1
+       @capacitor/share@8.0.3
+       @capacitor/splash-screen@8.0.2
+       @capacitor/status-bar@8.0.4
+       @capgo/capacitor-audio-recorder@8.3.5
+✔ update android in 30.58ms
+[info] Sync finished in 0.103s
+
+=== 01:26:10 — android : bundle Play (versionCode 1001) ===
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /home/user/workspace/repo/app/node_modules/@capgo/capacitor-audio-recorder/android/src/main/java/app/capgo/audiorecorder/CapacitorAudioRecorderPlugin.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+=== 01:27:14 — android : APK direct ===
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+
+=== 01:27:42 — android : vérifier ===
+Signer #1 certificate DN: CN=Vivre l'Anglais Direct, O=Editeur, C=CI
+Signer #1 certificate SHA-256 digest: ebe0c7bba06bade33d8e63ac2b6ddd85868f4a9d2a755e2b7e403167f84d9d8f
+Signer #1 certificate SHA-1 digest: 07d0569bec8bbc91179e719a292c87d83594fdf5
+Signer #1 certificate MD5 digest: 97d52722a9461ff9a7c5ab6c2f59c5e3
+jar verified.
+148eb4d91be4851e04163ecba7ce8d42c9f50bda9bcb302bd032c813b0b4911c  android/app/build/outputs/apk/direct/release/app-direct-release.apk
+c6bddf1f91d0eeec932fac79af04e9da9dd0f3bb79df38dc13d4da45904820a9  android/app/build/outputs/bundle/playRelease/app-play-release.aab
+
+=== 01:27:43 — terminé : toutes les étapes ont réussi ===
+code de sortie : 0

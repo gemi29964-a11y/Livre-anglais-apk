@@ -67,3 +67,23 @@ jar verified.
 3472891 apk/direct/release/app-direct-release.apk
 5529568 bundle/playRelease/app-play-release.aab
 ```
+
+## Émulateur API 36 (Android 16, image `default` x86_64, sans accélération matérielle)
+
+- `adb install -r app-direct-release.apk` : **Success**.
+- `am start -n com.vivrelanglais.livre/.MainActivity` : le processus démarre, charge WebView 133.0.6943.137, puis s'arrête par un plantage natif dans `libwebviewchromium.so` (`am_crash … Native crash, Trap`), reproduit deux fois (23:53:36 et 00:07:21 UTC).
+- Contre-épreuve : l'application de test fournie par l'image, `org.chromium.webview_shell`, ouvrant `about:blank`, plante de la même façon (`am_crash … org.chromium.webview_shell … Native crash, Trap`, 00:09:19 UTC), y compris avec `--disable-gpu`.
+- Conclusion : défaut du WebView de cette image en émulation logicielle (pas de KVM sur la machine de compilation, 2 processeurs) ; il ne met pas en cause l'application. Extrait des événements : `pilotage/portes/emulateur-api36-evenements.txt`.
+- Conséquence : l'ouverture est contrôlée sur l'émulateur API 30 (classe « Marché africain d'entrée de gamme » / API 30 de la matrice 11.3) ; l'API 36 sera reprise en tranche 10 sur un émulateur accéléré ou un appareil réel (exigence R-11.2-007 au statut « socle en place »).
+
+## Émulateur Android 11 (API 30) — 31 octobre 2026
+
+| Contrôle | Résultat | Preuve |
+|---|---|---|
+| Démarrage de l'image (sans KVM, `-accel off`) | sys.boot_completed = 1 | journal de l'émulateur |
+| Installation de l'APK direct signé (release 1.0.0, code 1001) | Success | emulateur-api30-diagnostic.txt |
+| Ouverture | MainActivity au premier plan, processus vivant, écran de lancement « Encre & Voix » affiché | emulateur-api30.png, emulateur-api30-logcat.txt |
+| Plantage | aucun (0 FATAL EXCEPTION, 0 am_crash) | emulateur-api30-logcat.txt |
+| Rendu de l'interface dans la WebView 83 | non obtenu : défaut d'émulation du processeur (NaN\|0 = 2147483647, undefined & 1 = 1) | emulateur-api30-diagnostic.txt |
+
+Correctif apporté à l'application pendant ce contrôle : complément de compatibilité static/compat/compat.js (replaceAll, structuredClone) pour les WebView antérieures à Chrome 98 (D-033). Le défaut restant appartient à l'émulation logicielle (D-034). Vérification à reprendre sur appareil réel ou émulateur accéléré : matrice 11.3, tranche 10.

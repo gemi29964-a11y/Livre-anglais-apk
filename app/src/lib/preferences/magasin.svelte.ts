@@ -4,8 +4,11 @@ import { DEFAUT, lire, type Preferences } from './modele';
 
 const CLE = 'preferences';
 
+// Copie profonde sans structuredClone, absent des WebView antérieures à Chrome 98 (Android 7 à 10 non mis à jour).
+const copieDefaut = (): Preferences => JSON.parse(JSON.stringify(DEFAUT)) as Preferences;
+
 class Magasin {
-  valeur = $state<Preferences>(structuredClone(DEFAUT));
+  valeur = $state<Preferences>(copieDefaut());
   pret = $state(false);
 
   async ouvrir(): Promise<void> {
@@ -13,7 +16,7 @@ class Magasin {
       const { value } = await Stockage.get({ key: CLE });
       this.valeur = lire(value ? JSON.parse(value) : {});
     } catch {
-      this.valeur = structuredClone(DEFAUT);
+      this.valeur = copieDefaut();
     }
     this.pret = true;
   }

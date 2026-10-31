@@ -1,0 +1,12 @@
+# Lignes relevées par `adb -s emulator-5554 logcat -d -b events` et `-b crash` (émulateur api36), copiées telles quelles.
+10-30 23:51:52.495   676   778 I am_proc_start: [0,1818,10150,com.vivrelanglais.livre,next-top-activity,{com.vivrelanglais.livre/com.vivrelanglais.livre.MainActivity}]
+10-30 23:52:13.045  1818  1818 I WebViewFactory: Loading com.android.webview version 133.0.6943.137 (code 694313707)
+10-30 23:52:22.137  1818  1818 E MESA    : Failed to open rendernode: No such file or directory
+10-30 23:53:18.561  1818  1818 F libc    : Fatal signal 5 (SIGTRAP), code 128 (SI_KERNEL), fault addr 0x0 in tid 1818 (elanglais.livre), pid 1818 (elanglais.livre)
+10-30 23:53:34.739  2155  2155 F DEBUG   :       #00 pc 000000000249c840  /product/app/webview/webview.apk!libwebviewchromium.so (offset 0x7b3c000) (BuildId: 3fed08901ee0e6620bf486e4e9e34fba0a577d62)
+10-30 23:53:36.776   676  2203 I am_crash: [676,0,com.vivrelanglais.livre,552123972,Native crash,Trap,unknown,0,0]
+10-30 23:53:42.361   676  1416 I am_proc_died: [0,1818,com.vivrelanglais.livre,900,18]
+10-31 00:06:13.435   676   726 I am_proc_start: [0,4777,10150,com.vivrelanglais.livre,next-top-activity,{com.vivrelanglais.livre/com.vivrelanglais.livre.MainActivity}]
+10-31 00:07:21.644   676  5006 I am_crash: [676,0,com.vivrelanglais.livre,550026820,Native crash,Trap,unknown,0,0]
+10-31 00:08:59.155   676  5358 I am_crash: [676,0,com.android.bluetooth,550026821,Native crash,Aborted,unknown,0,0]
+10-31 00:09:19.601   676  5437 I am_crash: [676,0,org.chromium.webview_shell,816365125,Native crash,Trap,unknown,0,0]

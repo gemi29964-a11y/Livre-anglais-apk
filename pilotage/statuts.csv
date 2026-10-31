@@ -48,7 +48,7 @@ F145;fait (T1);"aucune dépendance de mesure (package.json) ; CSP kit.csp ; res/
 F146;socle en place (T1) — preuve finale T10;"pilotage/portes/budgets-t1.md (tailles mesurées) ; démarrage et latences sur l'appareil de référence en T10"
 F147;fait (T1);pilotage/portes/rapport-android.md
 F148;fait (T1);pilotage/portes/rapport-android.md
-F149;fait (T1);".github/workflows/android.yml et contenu.yml ; pilotage/portes/ci.md"
+F149;socle en place (T1) — preuve finale T10;".github/workflows/android.yml et contenu.yml ; équivalent exécuté : pilotage/portes/ci.md, pilotage/portes/ci-locale.txt ; exécution sur GitHub bloquée par le compte (D-031)"
 F150;reporté (T10);aucune publication (consigne) : paquet prêt à déposer et fiche rédigée en T10
 F151;socle en place (T1) — preuve finale T10;versionCode 1000 + n° d'exécution (android.yml), Dexie versionné
 F153;socle en place (T1) — preuve finale T2;"outils des portes P1 et P5 en place ; rapports par scène dès la tranche étalon"
@@ -142,7 +142,7 @@ R-10.14-002;fait (T1);pilotage/portes/rapport-android.md
 R-10.15-001;fait (T1);"pilotage/portes/rapport-android.md (apksigner verify) ; pilotage/journal_des_decisions.md"
 R-10.15-002;reporté (T10);page de téléchargement de l'éditeur rédigée à l'assemblage final
 R-10.15-003;fait (T1);"pilotage/portes/rapport-android.md (apksigner verify) ; pilotage/journal_des_decisions.md"
-R-10.16-001;fait (T1);".github/workflows/contenu.yml ; pilotage/portes/ci.md"
+R-10.16-001;socle en place (T1) — preuve finale T10;".github/workflows/contenu.yml ; équivalent exécuté : pilotage/portes/ci.md, pilotage/portes/ci-locale.txt ; exécution sur GitHub bloquée par le compte (D-031)"
 R-10.17-001;reporté (T10);aucune publication (consigne) : déclarations et fiche prêtes à déposer en T10
 R-10.17-002;fait (T1);pilotage/portes/rapport-android.md (AAB, targetSdk 36, aucune bibliothèque native propre)
 R-10.17-003;fait (T1);pilotage/portes/rapport-android.md (AAB, targetSdk 36, aucune bibliothèque native propre)
@@ -255,7 +255,7 @@ R-11.2-003;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests
 R-11.2-004;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/parcours-web.txt ; pilotage/portes/contrastes.md ; pilotage/portes/lexique.txt"
 R-11.2-005;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/parcours-web.txt ; pilotage/portes/contrastes.md ; pilotage/portes/lexique.txt"
 R-11.2-006;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/parcours-web.txt ; pilotage/portes/contrastes.md ; pilotage/portes/lexique.txt"
-R-11.2-007;socle en place (T1) — preuve finale T10;"tests/maestro/*.yaml ; pilotage/portes/rapport-android.md (émulateur API 36)"
+R-11.2-007;socle en place (T1) — preuve finale T10;"tests/maestro/*.yaml ; pilotage/portes/rapport-android.md (émulateur API 30 : installation et ouverture ; rendu bloqué par l'émulation logicielle, D-034)"
 R-11.2-008;socle en place (T1) — preuve finale T2;"tests du moteur et des composants livrés ; carte, pupitre et scène vivante avec la tranche étalon"
 R-11.2-009;reporté (T2);200 paires de L'oreille fine
 R-11.2-010;reporté (T10);Macrobenchmark et traces

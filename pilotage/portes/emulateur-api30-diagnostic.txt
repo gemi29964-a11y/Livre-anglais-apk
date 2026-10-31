@@ -1,0 +1,21 @@
+Diagnostic émulateur Android 11 (API 30) — 2026-10-31T01:22Z
+Image : system-images;android-30;default;x86_64 ; émulateur Android emulator version 37.2.13.0 (build_id 16740729) (CL:N/A)
+Lancement : -accel off (aucune KVM sur la machine de construction), -cores 2
+
+1. Installation (APK direct signé, release) :
+   Performing Streamed Install / Success
+2. Ouverture : activité au premier plan
+    mResumedActivity: ActivityRecord{bdc6237 u0 com.vivrelanglais.livre/.MainActivity t11}
+   processus vivant : pid 4027
+   journal : D Capacitor: Starting BridgeActivity ; aucun FATAL EXCEPTION ni am_crash
+
+3. WebView de l'image :   Current WebView package (name, version): (com.android.webview, 83.0.4103.120)
+4. Évaluation dans la WebView (protocole DevTools, APK de débogage) :
+   {"result":{"type":"string","value":"{\"ua\":\"Mozilla/5.0 (Linux; Android 11; Android SDK built for x86_64 Build/RSR1.210722.013.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.120 Mobile Safari/537.36\",\"NaN|0\":2147483647,\"undefined&1\":1,\"Infinity|0\":2147483647,\"(2**32+5)|0\":5,\"1.5|0\":1,\"replaceAll\":\"function\",\"structuredClone\":\"function\"}"}}
+   Valeurs attendues (ECMAScript ToInt32) : NaN|0 = 0 ; undefined&1 = 0 ; Infinity|0 = 0 ; (2**32+5)|0 = 5 ; 1.5|0 = 1
+
+Conclusion : l'émulation logicielle du processeur (QEMU TCG, sans accélération) convertit faux les flottants non finis en entiers.
+Conséquence : dans l'exécution Svelte, from_html(contenu) lit !!(undefined & 1) = true et prend le gabarit pour un fragment ;
+le parcours des nœuds échoue (TypeError: Illegal invocation, CylZUG_q.js:1:19368) et l'écran de lancement reste affiché.
+Défaut de l'environnement, indépendant de l'application ; le même défaut explique vraisemblablement le plantage natif de la WebView 133 sous API 36.
+Le rendu complet de l'application est prouvé par les parcours Playwright (parcours-web.txt, 8 réussis) ; la vérification sur appareil réel ou émulateur accéléré (KVM) reste due (matrice 11.3, tranche 10).

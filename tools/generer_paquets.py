@@ -16,11 +16,18 @@ assetPack {{
 """
 
 def remplacer_bloc(fichier, debut, fin, contenu):
+    """Remplace le contenu compris entre deux marqueurs placés chacun seul sur sa ligne.
+
+    Une simple mention du marqueur dans un commentaire n'est jamais prise pour le marqueur ;
+    deux exécutions successives donnent un fichier identique ; un marqueur absent est une erreur.
+    """
     texte = fichier.read_text(encoding="utf-8")
-    motif = re.compile(re.escape(debut) + r".*?" + re.escape(fin), re.S)
-    nouveau = f"{debut}\n{contenu}\n{fin}"
-    texte = motif.sub(lambda _: nouveau, texte) if motif.search(texte) else texte + "\n" + nouveau + "\n"
-    fichier.write_text(texte, encoding="utf-8")
+    motif = re.compile(r"^" + re.escape(debut) + r"[ \t]*\n(?:.*?\n)??" + re.escape(fin) + r"[ \t]*$", re.S | re.M)
+    trouves = motif.findall(texte)
+    if len(trouves) != 1:
+        raise SystemExit(f"{fichier.name} : {len(trouves)} bloc(s) {debut} … {fin} trouvé(s), un seul attendu")
+    nouveau = f"{debut}\n{contenu}\n{fin}" if contenu else f"{debut}\n{fin}"
+    fichier.write_text(motif.sub(lambda _: nouveau, texte), encoding="utf-8")
 
 def main():
     chapitres = sorted(p.name for p in ENCODES.glob("c[0-9][0-9]") if p.name not in SOCLE)
@@ -34,7 +41,7 @@ def main():
     remplacer_bloc(ANDROID / "settings.gradle", "// <paquets-voix>", "// </paquets-voix>",
                    "\n".join(f"include ':voix_{ch}'" for ch in chapitres))
     remplacer_bloc(ANDROID / "app/build.gradle", "// <liste-paquets>", "// </liste-paquets>",
-                   "android { assetPacks = [" + ", ".join(f'":voix_{ch}"' for ch in chapitres) + "] }")
+                   ("android { assetPacks = [" + ", ".join(f'":voix_{ch}"' for ch in chapitres) + "] }") if chapitres else "")
     print(f"{len(chapitres)} paquets de voix générés")
 
 if __name__ == "__main__":
