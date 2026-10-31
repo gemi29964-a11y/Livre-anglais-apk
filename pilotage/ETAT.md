@@ -23,7 +23,7 @@
 - 39 candidats (`voix/fiches/candidats/`), avec un script d'essai de 40 lignes (D-042). Kokoro a été mesuré et écarté comme moteur (D-043).
 - Registre `voix/registre/creations.jsonl` : 834 entrées, dont 82 prises acceptées, 385 refusées et 367 lignes omises par le moteur.
 - Corpus : huit scènes validées sans violation bloquante (`tools/valider_corpus.py --brouillon`). Il exige 7 270 fichiers de voix à ce stade.
-  - Le Prélude est complet : 164 expressions et 88 paires d'écoute réciproques. Ses ateliers (jeu des paires, oreille fine, miroir) sont décrits en D-046.
+  - Le Prélude est complet : 164 expressions et 82 paires d’écoute réciproques (16, 14, 12, 16, 12, 12). Ses ateliers (jeu des paires, oreille fine, miroir) sont décrits en D-046.
   - Scène étalon c01.s01 : 55 expressions.
   - Scène c01.s02 : 50 expressions.
 
