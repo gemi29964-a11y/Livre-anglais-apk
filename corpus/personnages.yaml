@@ -15,7 +15,7 @@ personnages:
     versions:
       uk: { origine: Londonienne, ville: Londres }
       us: { origine: Originaire de Chicago, ville: Chicago }
-    voix: { uk: sarah_uk, us: sarah_us }
+    voix: { uk: UK-F1, us: US-F1 }
     relations: { kofi: compagne, mia: mère, tom: sœur aînée, priya: collègue, daniel: subordonnée, grace: belle-fille }
     chapitres_phares: tous
   kofi:
@@ -29,7 +29,7 @@ personnages:
     versions:
       uk: { origine: Londonien, ville: Londres }
       us: { origine: Vit à Chicago, ville: Chicago }
-    voix: { uk: kofi_uk, us: kofi_us }
+    voix: { uk: UK-M1, us: US-M1 }
     relations: { sarah: compagnon, mia: père, grace: fils, tom: beau-frère }
     chapitres_phares: tous
   mia:
@@ -43,7 +43,7 @@ personnages:
     versions:
       uk: { origine: Petite Londonienne, ville: Londres }
       us: { origine: Petite Chicagoane, ville: Chicago }
-    voix: { uk: mia_uk, us: mia_us }
+    voix: { uk: UK-ENF, us: US-ENF }
     relations: { sarah: fille, kofi: fille, grace: petite-fille, tom: nièce }
     chapitres_phares: [1, 8, 19]
   grace:
@@ -57,7 +57,7 @@ personnages:
     versions:
       uk: { origine: Accent ghanéen, ville: Londres }
       us: { origine: Accent ghanéen, ville: Chicago }
-    voix: { uk: grace_gh, us: grace_gh }
+    voix: { uk: GH-F1, us: GH-F1 }
     relations: { kofi: mère, mia: grand-mère, sarah: belle-mère }
     chapitres_phares: [8, 22]
   tom:
@@ -71,7 +71,7 @@ personnages:
     versions:
       uk: { origine: Mancunien modéré, ville: Manchester }
       us: { origine: Atlanta, ville: Atlanta }
-    voix: { uk: tom_uk, us: tom_us }
+    voix: { uk: UK-JEUNE, us: US-JEUNE }
     relations: { sarah: frère cadet, mia: oncle, kofi: beau-frère }
     chapitres_phares: [9, 22]
   priya:
@@ -99,7 +99,7 @@ personnages:
     versions:
       uk: { origine: Britannique traditionnel, ville: Londres }
       us: { origine: Américain du Midwest, ville: Chicago }
-    voix: { uk: voisin_uk, us: voisin_us }
+    voix: { uk: UK-M2, us: US-M2 }
     relations: { sarah: voisin, kofi: voisin, mia: voisin bienveillant }
     chapitres_phares: [7, 21]
   daniel:
@@ -113,7 +113,7 @@ personnages:
     versions:
       uk: { origine: Britannique, ville: Londres }
       us: { origine: Américain, ville: Chicago }
-    voix: { uk: daniel_uk, us: daniel_us }
+    voix: { uk: UK-M2, us: US-M2 }
     relations: { sarah: supérieur, priya: supérieur }
     chapitres_phares: [13]
   passage_f:

@@ -1,0 +1,12 @@
+{
+  "source": "500 enregistrements réels : 220 OpenSLR 83 (anglais britannique, CC BY-SA 4.0, https://www.openslr.org/83/) + 280 LibriSpeech test-clean (anglais américain, CC BY 4.0, https://www.openslr.org/12/). Mesures : mesures_sans_asr.jsonl.",
+  "utmos_p10": 3.724,
+  "utmos_modele": "UTMOS22 strong (SaruLab, VoiceMOS 2022) — équivalent d'UTMOSv2, voir D-037",
+  "accent_echelle": 30.0,
+  "accent_note": "Échelle native de la tête AAM-softmax de CommonAccent ; sur le réel : 85,9 % des fichiers UK et 83,6 % des fichiers US au-dessus de 0,80 ; médiane 0,999. Le seuil 0,80 du Plan est appliqué tel quel.",
+  "clic_ratio_max": 289.3,
+  "clic_note": "99e centile du rapport de discontinuité sur le réel (max réel 407,8) : on prend le plus exigeant.",
+  "hf_db_max": -10.70,
+  "hf_note": "99e centile de l'énergie au-dessus de 8 kHz (dB relatifs) sur le réel échantillonné à 48 kHz.",
+  "mpm_tolerance": 0
+}

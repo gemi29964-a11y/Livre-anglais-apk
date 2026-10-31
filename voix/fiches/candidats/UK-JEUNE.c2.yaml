@@ -1,0 +1,16 @@
+id: UK-JEUNE.c2
+voix: UK-JEUNE
+accent: en-GB
+description: Perfect audio quality, close microphone, quiet room. Young man of twenty
+  from London, standard southern British accent with a relaxed youthful edge, easy-going,
+  natural conversational delivery.
+moteur:
+  nom: gemini-2.5-pro-tts
+  version: gemini-2.5-pro-preview-tts
+  voix: fenrir
+reglages:
+  graine: null
+  note: le moteur n'expose ni graine ni stabilité ; le timbre est celui de la voix
+    intégrée, guidée par la description
+personnages:
+- tom

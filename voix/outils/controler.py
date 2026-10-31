@@ -42,14 +42,15 @@ EQUIV = [
     (r"\bi'm\b", "i am"), (r"\byou're\b", "you are"), (r"\bwe're\b", "we are"), (r"\bthey're\b", "they are"),
     (r"\bi've\b", "i have"), (r"\byou've\b", "you have"), (r"\bwe've\b", "we have"), (r"\bthey've\b", "they have"),
     (r"\bi'll\b", "i will"), (r"\byou'll\b", "you will"), (r"\bwe'll\b", "we will"), (r"\bthey'll\b", "they will"),
-    (r"\bit'll\b", "it will"), (r"\bthat'll\b", "that will"), (r"\bi'd\b", "i would"), (r"\byou'd\b", "you would"),
-    (r"\bwe'd\b", "we would"), (r"\bthey'd\b", "they would"), (r"\blet's\b", "let us"),
+    (r"\bit'll\b", "it will"), (r"\bthat'll\b", "that will"), (r"\blet's\b", "let us"),
     (r"\bit's\b", "it is"), (r"\bthat's\b", "that is"), (r"\bwhat's\b", "what is"), (r"\bthere's\b", "there is"),
     (r"\bhere's\b", "here is"), (r"\bhe's\b", "he is"), (r"\bshe's\b", "she is"), (r"\bwho's\b", "who is"),
     (r"\bwhere's\b", "where is"), (r"\bhow's\b", "how is"), (r"\binnit\b", "is not it"), (r"\bain't\b", "is not"),
     (r"\bokay\b", "ok"), (r"\bo\.k\.\b", "ok"), (r"\bmum\b", "mom"), (r"\bmummy\b", "mommy"),
     (r"\b(\w+)in'(?=\s|$)", r"\1ing"), (r"\byeah\b", "yes"), (r"\byep\b", "yes"), (r"\byup\b", "yes"),
     (r"\bmr\b", "mister"), (r"\bmrs\b", "missus"), (r"\bms\b", "miz"), (r"\bdr\b", "doctor"),
+    (r"\b(\w+)'ve\b", r"\1 have"), (r"\b(\w+)'ll\b", r"\1 will"), (r"\b(\w+)'re\b", r"\1 are"),
+    (r"\b(\w+)'d\b", r"\1 _d"),
     (r"\b'em\b", "them"), (r"\bt'\b", "to"), (r"\btryna\b", "trying to"), (r"\bwhatcha\b", "what are you"),
 ]
 # Graphies britanniques et américaines ramenées à une seule forme (la différence d'orthographe n'est pas une différence de mot).
@@ -81,13 +82,19 @@ def normaliser(t: str, langue: str = "en") -> list[str]:
     # interjections d'hésitation que Whisper ajoute ou retire sans changer le texte
     return [m for m in out if m not in {"uh", "um", "erm", "er", "hmm", "mm"}]
 
+def egal(x: str, y: str) -> bool:
+    """« 'd » contracté vaut would ou had (la transcription développe l'un ou l'autre)."""
+    if x == y:
+        return True
+    return {x, y} in ({"_d", "would"}, {"_d", "had"})
+
 def ecart_mots(a: list[str], b: list[str]) -> int:
     """Distance d'édition en mots."""
     d = list(range(len(b) + 1))
     for i, x in enumerate(a, 1):
         p, d[0] = d[0], i
         for j, y in enumerate(b, 1):
-            p, d[j] = d[j], min(d[j] + 1, d[j - 1] + 1, p + (x != y))
+            p, d[j] = d[j], min(d[j] + 1, d[j - 1] + 1, p + (not egal(x, y)))
     return d[-1]
 
 # ---------------------------------------------------------------- mesures de signal
@@ -213,6 +220,13 @@ class Modeles:
 ACCENT_LABEL = {"uk": "england", "us": "us", "au": "australia", "ie": "ireland", "za": "southatlandtic", "ng": "african",
                 "gh": "african", "ca": "canada", "nz": "newzealand", "sc": "scotland", "in": "indian", "wa": "wales"}
 
+def seuil_utmos(seuils: dict, d: float):
+    """10e centile du réel pour la classe de durée du fichier (D-039) ; à défaut, 10e centile global."""
+    for b in seuils.get("utmos_p10_par_duree", []):
+        if b["min"] <= d < b["max"]:
+            return b["p10"]
+    return seuils.get("utmos_p10")
+
 def charger_seuils():
     if SEUILS.exists():
         return json.loads(SEUILS.read_text(encoding="utf-8"))
@@ -225,26 +239,30 @@ def mesurer(M: Modeles, e: dict, seuils: dict, avec_asr=True) -> dict:
     r = {"id": e.get("id"), "f": f, "voix": e.get("voix"), "rythme": e.get("rythme"), "sr": sr, "d": round(len(x) / sr, 3)}
     langue = "fr" if e.get("accent") == "fr" else "en"
     texte = e.get("texte", "")
-    nb_mots = len(normaliser(texte, langue)) if texte else 0
+    # mots écrits (une contraction ou un mot composé à trait d'union = un mot), pour le débit et les seuils « 4 mots »
+    nb_mots = len(re.findall(r"[\w’']+(?:-[\w’']+)*", texte)) if texte else 0
     r["nb_mots"] = nb_mots
     bloq, signal = [], []
     # naturel
     if "utmos" in M.avec:
         r["utmos"] = round(M.note_utmos(x16), 3)
-        s10 = seuils.get("utmos_p10")
+        s10 = seuil_utmos(seuils, r["d"])
         if s10 is not None and r["utmos"] < s10:
             bloq.append(f"naturel {r['utmos']} < p10 {s10}")
     # texte
-    if avec_asr and "whisper" in M.avec and texte:
-        hyp, mots = M.transcrire(x16, langue)
+    if texte and (e.get("asr_lot") is not None or (avec_asr and "whisper" in M.avec)):
+        if e.get("asr_lot") is not None:
+            # transcription de la génération groupée par le même modèle, mots situés dans ce segment (D-041)
+            hyp, mots = e["asr_lot"], e.get("mots_lot", [])
+            r["asr_source"] = "lot"
+        else:
+            hyp, mots = M.transcrire(x16, langue)
+            r["asr_source"] = "segment"
         r["transcription"] = hyp; r["mots_asr"] = mots
         a, b = normaliser(texte, langue), normaliser(hyp, langue)
         r["ecart_mots"] = ecart_mots(a, b)
         if r["ecart_mots"]:
             bloq.append(f"texte : attendu « {' '.join(a)} », entendu « {' '.join(b)} »")
-        if mots:
-            parole = max(1e-3, mots[-1][2] - mots[0][1])
-            r["mpm"] = round(nb_mots / parole * 60, 1)
     # accent
     if "accent" in M.avec and langue == "en" and e.get("accent"):
         cos = M.cosinus_accent(x16)
@@ -270,17 +288,22 @@ def mesurer(M: Modeles, e: dict, seuils: dict, avec_asr=True) -> dict:
     r["f0_st"] = round(st, 3) if st is not None else None
     if nb_mots >= 4 and e.get("rythme") != "sens" and (st is None or st < 1.5):
         bloq.append(f"mélodie plate {r['f0_st']} demi-ton")
+    # artefacts
+    tete, fin, interne = silences(x, sr)
+    r["tete"], r["fin"], r["silence_interne"] = (round(v, 3) if v is not None else None for v in (tete, fin, interne))
+    if interne and interne > 0.70 and not e.get("pause_prevue"):
+        bloq.append(f"silence interne {interne:.2f} s")
+    # débit : mots écrits / durée de parole (du premier au dernier son, silences de tête et de fin exclus)
+    if tete is not None and fin is not None:
+        r["parole"] = round(max(1e-3, r["d"] - tete - fin), 3)
+        if nb_mots:
+            r["mpm"] = round(nb_mots / r["parole"] * 60, 1)
     # débit
     if r.get("mpm") and nb_mots >= 4 and e.get("rythme") in ("pose", "spontane"):
         lo, hi = (120, 140) if e["rythme"] == "pose" else (170, 220)
         tol = seuils.get("mpm_tolerance", 0)
         if not (lo - tol <= r["mpm"] <= hi + tol):
             bloq.append(f"débit {r['mpm']} mots/min hors {lo}–{hi}")
-    # artefacts
-    tete, fin, interne = silences(x, sr)
-    r["tete"], r["fin"], r["silence_interne"] = (round(v, 3) if v is not None else None for v in (tete, fin, interne))
-    if interne and interne > 0.70 and not e.get("pause_prevue"):
-        bloq.append(f"silence interne {interne:.2f} s")
     r["clics"], r["clic_ratio"] = clics(x, sr)
     r["clic_ratio"] = round(r["clic_ratio"], 1)
     if seuils.get("clic_ratio_max") is not None and r["clic_ratio"] > seuils["clic_ratio_max"]:
@@ -310,8 +333,8 @@ def rapport_pairs(res: list[dict], entrees: dict) -> None:
         pid = e.get("pair")
         if r.get("rythme") == "spontane" and pid and pid in par_id and r["nb_mots"] >= 4:
             p = par_id[pid]
-            dp = (p["mots_asr"][-1][2] - p["mots_asr"][0][1]) if p.get("mots_asr") else p["d"]
-            ds = (r["mots_asr"][-1][2] - r["mots_asr"][0][1]) if r.get("mots_asr") else r["d"]
+            dp = p.get("parole") or p["d"]
+            ds = r.get("parole") or r["d"]
             r["rapport_duree"] = round(ds / max(dp, 1e-3), 3)
             if not (0.55 <= r["rapport_duree"] <= 0.90):
                 r["bloquants"].append(f"rapport spontané/posé {r['rapport_duree']}")
@@ -337,6 +360,10 @@ def main():
     a = ap.parse_args()
     avec = [m for m in ("utmos", "whisper", "accent", "timbre") if m not in a.sans.split(",")]
     entrees = [json.loads(l) for l in open(a.entree, encoding="utf-8") if l.strip()]
+    base = os.path.dirname(os.path.abspath(a.entree))
+    for e in entrees:  # chemins relatifs au fichier d'entrées
+        if not os.path.isabs(e["f"]) and not os.path.exists(e["f"]):
+            e["f"] = os.path.join(base, e["f"])
     deja = {}
     if os.path.exists(a.sortie):   # reprise sans doublon
         for l in open(a.sortie, encoding="utf-8"):
