@@ -243,6 +243,10 @@ def mesurer(M: Modeles, e: dict, seuils: dict, avec_asr=True) -> dict:
     nb_mots = len(re.findall(r"[\w’']+(?:-[\w’']+)*", texte)) if texte else 0
     r["nb_mots"] = nb_mots
     bloq, signal = [], []
+    if r["d"] < 0.25:
+        # segment vide ou quasi vide (découpe sur un énoncé absent) : rien à mesurer, refus direct
+        r["bloquants"] = ["énoncé absent ou trop court (moins de 0,25 s)"]; r["signalements"] = []; r["ok"] = False
+        return r
     # naturel
     if "utmos" in M.avec:
         r["utmos"] = round(M.note_utmos(x16), 3)
@@ -263,6 +267,13 @@ def mesurer(M: Modeles, e: dict, seuils: dict, avec_asr=True) -> dict:
         r["ecart_mots"] = ecart_mots(a, b)
         if r["ecart_mots"]:
             bloq.append(f"texte : attendu « {' '.join(a)} », entendu « {' '.join(b)} »")
+        elif r["asr_source"] == "lot" and avec_asr and "whisper" in M.avec:
+            # confirmation sur le fichier seul : un segment rogné par la découpe ne peut pas passer
+            hyp2, _ = M.transcrire(x16, langue)
+            r["transcription_fichier"] = hyp2
+            b2 = normaliser(hyp2, langue)
+            if ecart_mots(a, b2):
+                bloq.append(f"texte (fichier seul) : attendu « {' '.join(a)} », entendu « {' '.join(b2)} »")
     # accent
     if "accent" in M.avec and langue == "en" and e.get("accent"):
         cos = M.cosinus_accent(x16)

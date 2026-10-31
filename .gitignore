@@ -30,3 +30,5 @@ android/app/src/main/res/xml/config.xml
 *.keystore
 voix/travail/
 voix/prises/
+voix/sources/cache/
+voix/*.log

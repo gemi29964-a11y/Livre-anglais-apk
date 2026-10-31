@@ -6,7 +6,22 @@
   "accent_note": "Échelle native de la tête AAM-softmax de CommonAccent ; sur le réel : 85,9 % des fichiers UK et 83,6 % des fichiers US au-dessus de 0,80 ; médiane 0,999. Le seuil 0,80 du Plan est appliqué tel quel.",
   "clic_ratio_max": 289.3,
   "clic_note": "99e centile du rapport de discontinuité sur le réel (max réel 407,8) : on prend le plus exigeant.",
-  "hf_db_max": -10.70,
+  "hf_db_max": -10.7,
   "hf_note": "99e centile de l'énergie au-dessus de 8 kHz (dB relatifs) sur le réel échantillonné à 48 kHz.",
-  "mpm_tolerance": 0
+  "mpm_tolerance": 0,
+  "utmos_p10_par_duree": [
+    {
+      "min": 0,
+      "max": 1.5,
+      "p10": 1.487,
+      "n": 102
+    },
+    {
+      "min": 1.5,
+      "max": 2.5,
+      "p10": 3.503,
+      "n": 160
+    }
+  ],
+  "utmos_duree_note": "Énoncés de moins de 2,5 s : 10e centile des extraits réels de même durée (voix/calibrage/court_mesures.jsonl, D-039) ; à partir de 2,5 s : utmos_p10 global, plus exigeant que le 10e centile des extraits de 2,5–3,5 s."
 }

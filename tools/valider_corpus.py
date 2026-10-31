@@ -83,7 +83,7 @@ def quatre_phrases(p: dict | None) -> bool:
 
 def anglais_non_balise(t: str) -> list[str]:
     nu = BALISE_EN.sub(" ", t).replace("’", "'").lower()
-    return [m for m in re.findall(r"[a-z']+", nu) if m in MOTS_ANGLAIS and m not in EXCEPTIONS_FR]
+    return [m for m in re.findall(r"[a-zà-ÿœæ']+", nu) if m in MOTS_ANGLAIS and m not in EXCEPTIONS_FR]
 
 
 def typographie(t: str) -> bool:
@@ -168,6 +168,29 @@ def valider(brouillon: bool) -> Rapport:
                         intrus = anglais_non_balise(d.get(champ, ""))
                         if intrus:
                             r.bloquer(d.get("id", xid), f"anglais non balisé dans le sens : {', '.join(intrus)}")
+        if prelude:  # 4.3 : 12 à 20 paires d'écoute réciproques, ateliers présents et résolus (D-046)
+            ids = {x["id"]: x for m in moments for x in m.get("expressions", [])}
+            paires = {frozenset((a, b)) for a, x in ids.items() for b in x.get("renvois", [])
+                      if b in ids and a in ids[b].get("renvois", [])}
+            if not 12 <= len(paires) <= 20:
+                r.bloquer(rel, f"{len(paires)} paires d’écoute réciproques (12 à 20 attendues, 4.3)")
+            at = s.get("ateliers")
+            if not at:
+                r.bloquer(rel, "ateliers du Prélude absents (jeu des paires, oreille fine, miroir — 4.3)")
+            else:
+                decl = {d["id"] for x in ids.values() for d in x.get("declinaisons", [])}
+                for i in at.get("oreilleFine", []):
+                    if i not in decl and i not in ids:
+                        r.bloquer(rel, f"oreille fine : {i} introuvable")
+                for i in at.get("miroir", []):
+                    if i not in ids:
+                        r.bloquer(rel, f"miroir : {i} introuvable")
+            for a in ("intention",):  # Règle 12 étendue : l'anglais de l'intention est balisé
+                intrus = anglais_non_balise(s.get(a, ""))
+                if intrus:
+                    r.bloquer(rel, f"anglais non balisé dans {a} : {', '.join(intrus)}")
+        elif s.get("ateliers"):
+            r.bloquer(rel, "bloc ateliers réservé au Prélude")
         if not prelude:
             densite(r, rel, "expressions", total)
             ess = s.get("essentiel", {})

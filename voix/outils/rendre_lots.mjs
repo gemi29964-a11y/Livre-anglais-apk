@@ -15,7 +15,9 @@ export async function rendre(tools, filtre, concurrence = 6, journal = () => {})
       const tmp = path.join("/home/user/workspace/rendu_tmp", lot.nom + ".txt");
       fs.mkdirSync(path.dirname(tmp), { recursive: true }); fs.copyFileSync(txt, tmp);
       try {
-        const r = await tools.text_to_speech({ file_path: tmp, voice: lot.voix_moteur });
+        // un appel qui ne répond pas en 5 min est abandonné (il sera rejoué au tour suivant)
+        const r = await Promise.race([tools.text_to_speech({ file_path: tmp, voice: lot.voix_moteur }),
+          new Promise((_, ko) => setTimeout(() => ko(new Error("délai dépassé (300 s)")), 300000))]);
         const p = (r.paths || [])[0];
         if (!p || !fs.existsSync(p)) throw new Error(r.error || "aucun fichier");
         fs.renameSync(p, path.join(d, "rendu.mp3")); res.push({ lot: lot.nom, ok: true });

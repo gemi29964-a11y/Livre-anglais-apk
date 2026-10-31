@@ -1,0 +1,676 @@
+# Prélude, scène P.2 — Voyelles longues, voyelles brèves (4.3). Paires d'écoute : chaque mot est une expression à un énoncé ; son partenaire de paire est son renvoi.
+id: c00.s02
+titre: Voyelles longues, voyelles brèves
+intention: >-
+  À la fin de cette scène, vous entendez la différence entre <en>ship</en> et
+  <en>sheep</en>, <en>full</en> et <en>fool</en>, <en>cat</en> et <en>cut</en>,
+  <en>cot</en> et <en>caught</en>, et vous savez pourquoi une voyelle trop courte ou
+  trop longue change le mot.
+version: 1
+moments:
+  - lettre: A
+    titre: Le i bref et le i long
+    expressions:
+      - id: c00.s02.A1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.A1.e1
+            region: commun
+            texte: { uk: "ship", us: "ship" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: short, relaxed vowel in 'ship'.", emotion: "clear, friendly" }
+        sens: bateau ; expédier
+        usage: >-
+          Un i bref et relâché, entre le « i » et le « é » français, la bouche détendue.
+          Allongé et tendu, il devient <en>sheep</en>, « mouton ».
+        declinaisons:
+          - { id: c00.s02.A1.d1, texte: { uk: "The ship's leaving at noon.", us: "The ship's leaving at noon." }, sens: "Le bateau part à midi." }
+          - { id: c00.s02.A1.d2, texte: { uk: "We'll ship it tomorrow.", us: "We'll ship it tomorrow." }, sens: "Nous l’expédierons demain." }
+          - { id: c00.s02.A1.d3, texte: { uk: "Free shipping!", us: "Free shipping!" }, sens: "Livraison gratuite !" }
+          - { id: c00.s02.A1.d4, texte: { uk: "They came by ship.", us: "They came by ship." }, sens: "Ils sont venus en bateau." }
+          - { id: c00.s02.A1.d5, texte: { uk: "Abandon ship!", us: "Abandon ship!" }, sens: "Évacuez le navire !" }
+        renvois: [c00.s02.A2]
+      - id: c00.s02.A2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.A2.e1
+            region: commun
+            texte: { uk: "sheep", us: "sheep" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: long, tense vowel in 'sheep'.", emotion: "clear, friendly" }
+        sens: mouton
+        usage: >-
+          Un i long et tendu, les lèvres un peu étirées comme pour sourire. C’est le « i »
+          français, en plus long.
+        declinaisons:
+          - { id: c00.s02.A2.d1, texte: { uk: "Look at all the sheep!", us: "Look at all the sheep!" }, sens: "Regarde tous ces moutons !" }
+          - { id: c00.s02.A2.d2, texte: { uk: "I'm counting sheep.", us: "I'm counting sheep." }, sens: "J’essaie de m’endormir en comptant les moutons." }
+          - { id: c00.s02.A2.d3, texte: { uk: "The sheep are in the field.", us: "The sheep are in the field." }, sens: "Les moutons sont dans le pré." }
+          - { id: c00.s02.A2.d4, texte: { uk: "He's the black sheep of the family.", us: "He's the black sheep of the family." }, sens: "C’est le mouton noir de la famille." }
+          - { id: c00.s02.A2.d5, texte: { uk: "Don't follow them like sheep.", us: "Don't follow them like sheep." }, sens: "Ne les suis pas comme des moutons." }
+        renvois: [c00.s02.A1]
+      - id: c00.s02.A3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.A3.e1
+            region: commun
+            texte: { uk: "live", us: "live" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: short, relaxed vowel in 'live'.", emotion: "clear, friendly" }
+        sens: vivre ; habiter
+        usage: >-
+          Le verbe <en>live</en> porte le i bref. Avec un i long, on entend <en>leave</en>, «
+          partir » : « Je pars à Londres » au lieu de « J’habite à Londres ».
+        declinaisons:
+          - { id: c00.s02.A3.d1, texte: { uk: "Where do you live?", us: "Where do you live?" }, sens: "Où habites-tu ?" }
+          - { id: c00.s02.A3.d2, texte: { uk: "I live in London.", us: "I live in Chicago." }, sens: "J’habite à Londres." }
+          - { id: c00.s02.A3.d3, texte: { uk: "We live next door.", us: "We live next door." }, sens: "On habite à côté." }
+          - { id: c00.s02.A3.d4, texte: { uk: "You only live once.", us: "You only live once." }, sens: "On ne vit qu’une fois." }
+          - { id: c00.s02.A3.d5, texte: { uk: "I couldn't live without coffee.", us: "I couldn't live without coffee." }, sens: "Je ne pourrais pas vivre sans café." }
+        renvois: [c00.s02.A4]
+      - id: c00.s02.A4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.A4.e1
+            region: commun
+            texte: { uk: "leave", us: "leave" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: long, tense vowel in 'leave'.", emotion: "clear, friendly" }
+        sens: partir ; laisser
+        usage: >-
+          Un i long et tendu. Le contraste avec <en>live</en> est l’un des plus utiles de la
+          langue : il change tout le sens d’une phrase.
+        declinaisons:
+          - { id: c00.s02.A4.d1, texte: { uk: "I have to leave now.", us: "I have to leave now." }, sens: "Je dois partir maintenant." }
+          - { id: c00.s02.A4.d2, texte: { uk: "Leave me alone!", us: "Leave me alone!" }, sens: "Laisse-moi tranquille !" }
+          - { id: c00.s02.A4.d3, texte: { uk: "When does the train leave?", us: "When does the train leave?" }, sens: "Le train part à quelle heure ?" }
+          - { id: c00.s02.A4.d4, texte: { uk: "Don't leave your bag here.", us: "Don't leave your bag here." }, sens: "Ne laisse pas ton sac ici." }
+          - { id: c00.s02.A4.d5, texte: { uk: "She's on leave this week.", us: "She's on vacation this week." }, sens: "Elle est en congé cette semaine." }
+        renvois: [c00.s02.A3]
+      - id: c00.s02.A5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.A5.e1
+            region: commun
+            texte: { uk: "sit", us: "sit" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: short, relaxed vowel in 'sit'.", emotion: "clear, friendly" }
+        sens: s’asseoir
+        usage: >-
+          Un i bref, à peine posé. Long, il devient <en>seat</en>, « siège ».
+        declinaisons:
+          - { id: c00.s02.A5.d1, texte: { uk: "Sit down, please.", us: "Sit down, please." }, sens: "Asseyez-vous, je vous prie." }
+          - { id: c00.s02.A5.d2, texte: { uk: "Can I sit here?", us: "Can I sit here?" }, sens: "Je peux m’asseoir ici ?" }
+          - { id: c00.s02.A5.d3, texte: { uk: "Sit still!", us: "Sit still!" }, sens: "Tiens-toi tranquille !" }
+          - { id: c00.s02.A5.d4, texte: { uk: "We sat by the window.", us: "We sat by the window." }, sens: "On s’est assis près de la fenêtre." }
+          - { id: c00.s02.A5.d5, texte: { uk: "Sit next to me.", us: "Sit next to me." }, sens: "Assieds-toi à côté de moi." }
+        renvois: [c00.s02.A6]
+      - id: c00.s02.A6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.A6.e1
+            region: commun
+            texte: { uk: "seat", us: "seat" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: long, tense vowel in 'seat'.", emotion: "clear, friendly" }
+        sens: siège ; place
+        usage: >-
+          Le i long et tendu, puis un t net. <en>Take a seat</en> est la manière polie
+          d’inviter quelqu’un à s’asseoir.
+        declinaisons:
+          - { id: c00.s02.A6.d1, texte: { uk: "Take a seat.", us: "Take a seat." }, sens: "Asseyez-vous." }
+          - { id: c00.s02.A6.d2, texte: { uk: "Is this seat taken?", us: "Is this seat taken?" }, sens: "Cette place est prise ?" }
+          - { id: c00.s02.A6.d3, texte: { uk: "I've booked two seats.", us: "I booked two seats." }, sens: "J’ai réservé deux places." }
+          - { id: c00.s02.A6.d4, texte: { uk: "Put your seatbelt on.", us: "Put your seatbelt on." }, sens: "Mets ta ceinture." }
+          - { id: c00.s02.A6.d5, texte: { uk: "A window seat, please.", us: "A window seat, please." }, sens: "Une place côté hublot, s’il vous plaît." }
+        renvois: [c00.s02.A5]
+      - id: c00.s02.A7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.A7.e1
+            region: commun
+            texte: { uk: "chip", us: "chip" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: short, relaxed vowel in 'chip'.", emotion: "clear, friendly" }
+        sens: frite (UK) ; chips (US)
+        usage: >-
+          I bref. Au Royaume-Uni, <en>chips</en> sont des frites ; aux États-Unis, des chips.
+          Long, le mot devient <en>cheap</en>, « bon marché ».
+        coulisses: >-
+          Les frites se disent <en>chips</en> à Londres et <en>fries</en> à New York ; les
+          chips, <en>crisps</en> à Londres et <en>chips</en> à New York.
+        declinaisons:
+          - { id: c00.s02.A7.d1, texte: { uk: "Fish and chips, please.", us: "Fish and fries, please." }, sens: "Un poisson-frites, s’il vous plaît." }
+          - { id: c00.s02.A7.d2, texte: { uk: "Can I have a chip?", us: "Can I have a fry?" }, sens: "Je peux prendre une frite ?" }
+          - { id: c00.s02.A7.d3, texte: { uk: "It's got a chip in it.", us: "It's got a chip in it." }, sens: "Il est ébréché." }
+          - { id: c00.s02.A7.d4, texte: { uk: "Chip in a fiver each.", us: "Chip in five bucks each." }, sens: "Mettez cinq chacun." }
+          - { id: c00.s02.A7.d5, texte: { uk: "He's a chip off the old block.", us: "He's a chip off the old block." }, sens: "Tel père, tel fils." }
+        renvois: [c00.s02.A8]
+      - id: c00.s02.A8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.A8.e1
+            region: commun
+            texte: { uk: "cheap", us: "cheap" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: long, tense vowel in 'cheap'.", emotion: "clear, friendly" }
+        sens: bon marché
+        usage: >-
+          Le i long et tendu. On dit d’une chose qu’elle est <en>cheap</en> ; d’une personne,
+          que c’est un radin.
+        declinaisons:
+          - { id: c00.s02.A8.d1, texte: { uk: "That's really cheap.", us: "That's really cheap." }, sens: "C’est vraiment pas cher." }
+          - { id: c00.s02.A8.d2, texte: { uk: "It was dirt cheap.", us: "It was dirt cheap." }, sens: "C’était donné." }
+          - { id: c00.s02.A8.d3, texte: { uk: "Don't be so cheap!", us: "Don't be so cheap!" }, sens: "Ne sois pas si radin !" }
+          - { id: c00.s02.A8.d4, texte: { uk: "Cheap flights to Rome.", us: "Cheap flights to Rome." }, sens: "Vols pas chers pour Rome." }
+          - { id: c00.s02.A8.d5, texte: { uk: "It looks cheap.", us: "It looks cheap." }, sens: "Ça fait bon marché." }
+        renvois: [c00.s02.A7]
+      - id: c00.s02.A9
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.A9.e1
+            region: commun
+            texte: { uk: "fit", us: "fit" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: short, relaxed vowel in 'fit'.", emotion: "clear, friendly" }
+        sens: aller (taille) ; en forme
+        usage: >-
+          I bref. Long, il devient <en>feet</en>, « pieds ».
+        declinaisons:
+          - { id: c00.s02.A9.d1, texte: { uk: "Does it fit?", us: "Does it fit?" }, sens: "Ça te va ?" }
+          - { id: c00.s02.A9.d2, texte: { uk: "It doesn't fit in the car.", us: "It doesn't fit in the car." }, sens: "Ça ne rentre pas dans la voiture." }
+          - { id: c00.s02.A9.d3, texte: { uk: "I'm trying to keep fit.", us: "I'm trying to stay fit." }, sens: "J’essaie de rester en forme." }
+          - { id: c00.s02.A9.d4, texte: { uk: "These jeans don't fit me.", us: "These jeans don't fit me." }, sens: "Ce jean n’est pas à ma taille." }
+          - { id: c00.s02.A9.d5, texte: { uk: "It fits perfectly.", us: "It fits perfectly." }, sens: "Ça va parfaitement." }
+        renvois: [c00.s02.A10]
+      - id: c00.s02.A10
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.A10.e1
+            region: commun
+            texte: { uk: "feet", us: "feet" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: long, tense vowel in 'feet'.", emotion: "clear, friendly" }
+        sens: pieds
+        usage: >-
+          Le pluriel irrégulier de <en>foot</en>, avec un i long et tendu.
+        declinaisons:
+          - { id: c00.s02.A10.d1, texte: { uk: "My feet are killing me.", us: "My feet are killing me." }, sens: "J’ai horriblement mal aux pieds." }
+          - { id: c00.s02.A10.d2, texte: { uk: "Wipe your feet.", us: "Wipe your feet." }, sens: "Essuie tes pieds." }
+          - { id: c00.s02.A10.d3, texte: { uk: "I've been on my feet all day.", us: "I've been on my feet all day." }, sens: "Je suis debout depuis ce matin." }
+          - { id: c00.s02.A10.d4, texte: { uk: "My feet are freezing.", us: "My feet are freezing." }, sens: "J’ai les pieds gelés." }
+          - { id: c00.s02.A10.d5, texte: { uk: "Put your feet up.", us: "Put your feet up." }, sens: "Repose-toi un peu." }
+        renvois: [c00.s02.A9]
+  - lettre: B
+    titre: Le ou bref et le ou long
+    expressions:
+      - id: c00.s02.B1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.B1.e1
+            region: commun
+            texte: { uk: "full", us: "full" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: short, relaxed vowel in 'full'.", emotion: "clear, friendly" }
+        sens: plein
+        usage: >-
+          Un ou bref, à peine arrondi, puis un l sombre. Long et arrondi, il devient
+          <en>fool</en>, « idiot ».
+        declinaisons:
+          - { id: c00.s02.B1.d1, texte: { uk: "I'm full.", us: "I'm full." }, sens: "Je n’ai plus faim." }
+          - { id: c00.s02.B1.d2, texte: { uk: "The car park's full.", us: "The parking lot's full." }, sens: "Le parking est complet." }
+          - { id: c00.s02.B1.d3, texte: { uk: "It's full of people.", us: "It's full of people." }, sens: "C’est plein de monde." }
+          - { id: c00.s02.B1.d4, texte: { uk: "Fill it up, it's not full.", us: "Fill it up, it's not full." }, sens: "Remplis-le, il n’est pas plein." }
+          - { id: c00.s02.B1.d5, texte: { uk: "She's full of energy.", us: "She's full of energy." }, sens: "Elle déborde d’énergie." }
+        renvois: [c00.s02.B2]
+      - id: c00.s02.B2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.B2.e1
+            region: commun
+            texte: { uk: "fool", us: "fool" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: long, rounded vowel in 'fool'.", emotion: "clear, friendly" }
+        sens: idiot
+        usage: >-
+          Un ou long, lèvres bien arrondies. <en>Don’t be a fool</en> : ne fais pas l’idiot.
+        declinaisons:
+          - { id: c00.s02.B2.d1, texte: { uk: "Don't be a fool.", us: "Don't be a fool." }, sens: "Ne fais pas l’idiot." }
+          - { id: c00.s02.B2.d2, texte: { uk: "I felt like a fool.", us: "I felt like a fool." }, sens: "Je me suis senti idiot." }
+          - { id: c00.s02.B2.d3, texte: { uk: "You can't fool me.", us: "You can't fool me." }, sens: "Tu ne me la feras pas." }
+          - { id: c00.s02.B2.d4, texte: { uk: "Stop fooling around!", us: "Stop fooling around!" }, sens: "Arrête de faire l’imbécile !" }
+          - { id: c00.s02.B2.d5, texte: { uk: "April Fool's Day.", us: "April Fool's Day." }, sens: "Le premier avril." }
+        renvois: [c00.s02.B1]
+      - id: c00.s02.B3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.B3.e1
+            region: commun
+            texte: { uk: "pull", us: "pull" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: short, relaxed vowel in 'pull'.", emotion: "clear, friendly" }
+        sens: tirer
+        usage: >-
+          Le même ou bref que <en>full</en>. Long, il devient <en>pool</en>, « piscine ».
+        declinaisons:
+          - { id: c00.s02.B3.d1, texte: { uk: "Pull the door.", us: "Pull the door." }, sens: "Tire la porte." }
+          - { id: c00.s02.B3.d2, texte: { uk: "Pull over here.", us: "Pull over here." }, sens: "Gare-toi ici." }
+          - { id: c00.s02.B3.d3, texte: { uk: "Stop pulling my hair!", us: "Stop pulling my hair!" }, sens: "Arrête de me tirer les cheveux !" }
+          - { id: c00.s02.B3.d4, texte: { uk: "You're pulling my leg.", us: "You're pulling my leg." }, sens: "Tu te moques de moi." }
+          - { id: c00.s02.B3.d5, texte: { uk: "Pull yourself together.", us: "Pull yourself together." }, sens: "Ressaisis-toi." }
+        renvois: [c00.s02.B4]
+      - id: c00.s02.B4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.B4.e1
+            region: commun
+            texte: { uk: "pool", us: "pool" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: long, rounded vowel in 'pool'.", emotion: "clear, friendly" }
+        sens: piscine ; flaque
+        usage: >-
+          Un ou long et arrondi. On entend aussi <en>car pool</en>, le covoiturage.
+        declinaisons:
+          - { id: c00.s02.B4.d1, texte: { uk: "Let's go to the pool.", us: "Let's go to the pool." }, sens: "Allons à la piscine." }
+          - { id: c00.s02.B4.d2, texte: { uk: "Is there a pool?", us: "Is there a pool?" }, sens: "Il y a une piscine ?" }
+          - { id: c00.s02.B4.d3, texte: { uk: "He fell in the pool.", us: "He fell in the pool." }, sens: "Il est tombé dans la piscine." }
+          - { id: c00.s02.B4.d4, texte: { uk: "There's a pool of water on the floor.", us: "There's a pool of water on the floor." }, sens: "Il y a une flaque d’eau par terre." }
+          - { id: c00.s02.B4.d5, texte: { uk: "Shall we play pool?", us: "Want to play pool?" }, sens: "On fait un billard ?" }
+        renvois: [c00.s02.B3]
+      - id: c00.s02.B5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.B5.e1
+            region: commun
+            texte: { uk: "look", us: "look" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: short, relaxed vowel in 'look'.", emotion: "clear, friendly" }
+        sens: regarder
+        usage: >-
+          Malgré ses deux o, <en>look</en> porte un ou bref. Long, on entend <en>Luke</en>, le
+          prénom.
+        declinaisons:
+          - { id: c00.s02.B5.d1, texte: { uk: "Look at this.", us: "Look at this." }, sens: "Regarde ça." }
+          - { id: c00.s02.B5.d2, texte: { uk: "Look out!", us: "Look out!" }, sens: "Attention !" }
+          - { id: c00.s02.B5.d3, texte: { uk: "You look tired.", us: "You look tired." }, sens: "Tu as l’air fatigué." }
+          - { id: c00.s02.B5.d4, texte: { uk: "I'm looking for my keys.", us: "I'm looking for my keys." }, sens: "Je cherche mes clés." }
+          - { id: c00.s02.B5.d5, texte: { uk: "Can I have a look?", us: "Can I have a look?" }, sens: "Je peux jeter un œil ?" }
+        renvois: [c00.s02.B6]
+      - id: c00.s02.B6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.B6.e1
+            region: commun
+            texte: { uk: "Luke", us: "Luke" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: long, rounded vowel in the name 'Luke'.", emotion: "clear, friendly" }
+        sens: Luc (prénom)
+        usage: >-
+          Un ou long et arrondi : c’est lui qui sépare le prénom <en>Luke</en> du verbe
+          <en>look</en>.
+        declinaisons:
+          - { id: c00.s02.B6.d1, texte: { uk: "This is Luke.", us: "This is Luke." }, sens: "Je te présente Luke." }
+          - { id: c00.s02.B6.d2, texte: { uk: "Luke's running late.", us: "Luke's running late." }, sens: "Luke est en retard." }
+          - { id: c00.s02.B6.d3, texte: { uk: "Have you met Luke?", us: "Have you met Luke?" }, sens: "Tu connais Luke ?" }
+          - { id: c00.s02.B6.d4, texte: { uk: "Luke, come here!", us: "Luke, come here!" }, sens: "Luke, viens ici !" }
+          - { id: c00.s02.B6.d5, texte: { uk: "Luke says hi.", us: "Luke says hi." }, sens: "Luke te passe le bonjour." }
+        renvois: [c00.s02.B5]
+  - lettre: C
+    titre: Le a grand ouvert
+    expressions:
+      - id: c00.s02.C1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.C1.e1
+            region: commun
+            texte: { uk: "cat", us: "cat" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: wide-open vowel in 'cat'.", emotion: "clear, friendly" }
+        sens: chat
+        usage: >-
+          Le a de <en>cat</en> s’ouvre grand, entre le « a » et le « è » français, la mâchoire
+          bien basse. Plus fermé et neutre, il devient <en>cut</en>, « couper ».
+        declinaisons:
+          - { id: c00.s02.C1.d1, texte: { uk: "Where's the cat?", us: "Where's the cat?" }, sens: "Où est le chat ?" }
+          - { id: c00.s02.C1.d2, texte: { uk: "Feed the cat, please.", us: "Feed the cat, please." }, sens: "Donne à manger au chat, s’il te plaît." }
+          - { id: c00.s02.C1.d3, texte: { uk: "The cat's out of the bag.", us: "The cat's out of the bag." }, sens: "Le secret est éventé." }
+          - { id: c00.s02.C1.d4, texte: { uk: "It's raining cats and dogs.", us: "It's raining cats and dogs." }, sens: "Il pleut des cordes." }
+          - { id: c00.s02.C1.d5, texte: { uk: "We've got two cats.", us: "We have two cats." }, sens: "On a deux chats." }
+        renvois: [c00.s02.C2]
+      - id: c00.s02.C2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.C2.e1
+            region: commun
+            texte: { uk: "cut", us: "cut" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: short, neutral vowel in 'cut'.", emotion: "clear, friendly" }
+        sens: couper
+        usage: >-
+          Une voyelle brève et neutre, au milieu de la bouche, proche du « eu » de « peur » en
+          très court.
+        declinaisons:
+          - { id: c00.s02.C2.d1, texte: { uk: "I cut my finger.", us: "I cut my finger." }, sens: "Je me suis coupé le doigt." }
+          - { id: c00.s02.C2.d2, texte: { uk: "Cut it in half.", us: "Cut it in half." }, sens: "Coupe-le en deux." }
+          - { id: c00.s02.C2.d3, texte: { uk: "Cut it out!", us: "Cut it out!" }, sens: "Arrête ça !" }
+          - { id: c00.s02.C2.d4, texte: { uk: "I need a haircut.", us: "I need a haircut." }, sens: "Il me faut une coupe de cheveux." }
+          - { id: c00.s02.C2.d5, texte: { uk: "Can you cut the bread?", us: "Can you cut the bread?" }, sens: "Tu peux couper le pain ?" }
+        renvois: [c00.s02.C1]
+      - id: c00.s02.C3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.C3.e1
+            region: commun
+            texte: { uk: "bad", us: "bad" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: wide-open vowel in 'bad'.", emotion: "clear, friendly" }
+        sens: mauvais
+        usage: >-
+          Le a très ouvert de <en>cat</en>, souvent allongé devant le d. Plus fermé, il
+          devient <en>bed</en>, « lit ».
+        declinaisons:
+          - { id: c00.s02.C3.d1, texte: { uk: "Not bad!", us: "Not bad!" }, sens: "Pas mal !" }
+          - { id: c00.s02.C3.d2, texte: { uk: "I feel bad about it.", us: "I feel bad about it." }, sens: "Je m’en veux." }
+          - { id: c00.s02.C3.d3, texte: { uk: "That's too bad.", us: "That's too bad." }, sens: "C’est dommage." }
+          - { id: c00.s02.C3.d4, texte: { uk: "I've had a bad day.", us: "I had a bad day." }, sens: "J’ai passé une mauvaise journée." }
+          - { id: c00.s02.C3.d5, texte: { uk: "Is it bad news?", us: "Is it bad news?" }, sens: "C’est une mauvaise nouvelle ?" }
+        renvois: [c00.s02.C4]
+      - id: c00.s02.C4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.C4.e1
+            region: commun
+            texte: { uk: "bed", us: "bed" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: short 'e' vowel in 'bed'.", emotion: "clear, friendly" }
+        sens: lit
+        usage: >-
+          Un è bref, la mâchoire à mi-hauteur. Ouvrez davantage, vous entendrez <en>bad</en>.
+        declinaisons:
+          - { id: c00.s02.C4.d1, texte: { uk: "Time for bed.", us: "Time for bed." }, sens: "C’est l’heure d’aller au lit." }
+          - { id: c00.s02.C4.d2, texte: { uk: "I'm going to bed.", us: "I'm going to bed." }, sens: "Je vais me coucher." }
+          - { id: c00.s02.C4.d3, texte: { uk: "Make your bed.", us: "Make your bed." }, sens: "Fais ton lit." }
+          - { id: c00.s02.C4.d4, texte: { uk: "Breakfast in bed!", us: "Breakfast in bed!" }, sens: "Le petit-déjeuner au lit !" }
+          - { id: c00.s02.C4.d5, texte: { uk: "Is the bed comfortable?", us: "Is the bed comfortable?" }, sens: "Le lit est confortable ?" }
+        renvois: [c00.s02.C3]
+      - id: c00.s02.C5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.C5.e1
+            region: commun
+            texte: { uk: "man", us: "man" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: wide-open vowel in 'man'.", emotion: "clear, friendly" }
+        sens: homme
+        usage: >-
+          Le a très ouvert, nasalisé par le n qui suit. Avec un è, on entend le pluriel
+          <en>men</en>.
+        declinaisons:
+          - { id: c00.s02.C5.d1, texte: { uk: "Who's that man?", us: "Who's that man?" }, sens: "Qui est cet homme ?" }
+          - { id: c00.s02.C5.d2, texte: { uk: "Come on, man!", us: "Come on, man!" }, sens: "Allez, mec !" }
+          - { id: c00.s02.C5.d3, texte: { uk: "He's a good man.", us: "He's a good man." }, sens: "C’est quelqu’un de bien." }
+          - { id: c00.s02.C5.d4, texte: { uk: "Ask the man at the desk.", us: "Ask the man at the desk." }, sens: "Demande au monsieur de l’accueil." }
+          - { id: c00.s02.C5.d5, texte: { uk: "Oh man, I forgot!", us: "Oh man, I forgot!" }, sens: "Oh là là, j’ai oublié !" }
+        renvois: [c00.s02.C6]
+      - id: c00.s02.C6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.C6.e1
+            region: commun
+            texte: { uk: "men", us: "men" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: short 'e' vowel in 'men'.", emotion: "clear, friendly" }
+        sens: hommes
+        usage: >-
+          Au pluriel, la voyelle se referme en è bref. C’est la seule différence entendue
+          entre <en>man</en> et <en>men</en>.
+        declinaisons:
+          - { id: c00.s02.C6.d1, texte: { uk: "Two men came in.", us: "Two men came in." }, sens: "Deux hommes sont entrés." }
+          - { id: c00.s02.C6.d2, texte: { uk: "The men's toilets are upstairs.", us: "The men's room is upstairs." }, sens: "Les toilettes pour hommes sont en haut." }
+          - { id: c00.s02.C6.d3, texte: { uk: "Men's shoes are over there.", us: "Men's shoes are over there." }, sens: "Les chaussures pour hommes sont là-bas." }
+          - { id: c00.s02.C6.d4, texte: { uk: "Most men I know cook.", us: "Most men I know cook." }, sens: "La plupart des hommes que je connais cuisinent." }
+          - { id: c00.s02.C6.d5, texte: { uk: "Three men and a baby.", us: "Three men and a baby." }, sens: "Trois hommes et un bébé." }
+        renvois: [c00.s02.C5]
+  - lettre: D
+    titre: Le o bref et le o long
+    expressions:
+      - id: c00.s02.D1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.D1.e1
+            region: commun
+            texte: { uk: "cot", us: "cot" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: short, rounded 'o' in 'cot'.", emotion: "clear, friendly" }
+        sens: lit de bébé (UK) ; lit de camp (US)
+        usage: >-
+          À Londres, un o bref et arrondi ; <en>caught</en> a un o long, différent. Beaucoup
+          d’Américains prononcent les deux de la même façon : c’est la fusion
+          <en>cot–caught</en>.
+        coulisses: >-
+          Le lit de bébé se dit <en>cot</en> au Royaume-Uni et <en>crib</en> aux États-Unis,
+          où <en>cot</en> désigne un lit de camp.
+        declinaisons:
+          - { id: c00.s02.D1.d1, texte: { uk: "The baby's asleep in her cot.", us: "The baby's asleep in her crib." }, sens: "Le bébé dort dans son lit." }
+          - { id: c00.s02.D1.d2, texte: { uk: "We need a travel cot.", us: "We need a travel crib." }, sens: "Il nous faut un lit parapluie." }
+          - { id: c00.s02.D1.d3, texte: { uk: "Put him back in his cot.", us: "Put him back in his crib." }, sens: "Remets-le dans son lit." }
+          - { id: c00.s02.D1.d4, texte: { uk: "Can we get a cot in the room?", us: "Can we get a crib in the room?" }, sens: "On peut avoir un lit de bébé dans la chambre ?" }
+          - { id: c00.s02.D1.d5, texte: { uk: "The cot's next to our bed.", us: "The crib's next to our bed." }, sens: "Le lit du bébé est à côté du nôtre." }
+        renvois: [c00.s02.D2]
+      - id: c00.s02.D2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.D2.e1
+            region: commun
+            texte: { uk: "caught", us: "caught" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: long 'aw' vowel in 'caught'.", emotion: "clear, friendly" }
+        sens: attrapé
+        usage: >-
+          Passé de <en>catch</en>. À Londres, un o long et rond, proche du « o » de « port » ;
+          dans une grande partie des États-Unis, la même voyelle ouverte que <en>cot</en>.
+        declinaisons:
+          - { id: c00.s02.D2.d1, texte: { uk: "I caught the train.", us: "I caught the train." }, sens: "J’ai eu le train." }
+          - { id: c00.s02.D2.d2, texte: { uk: "I've caught a cold.", us: "I caught a cold." }, sens: "J’ai attrapé un rhume." }
+          - { id: c00.s02.D2.d3, texte: { uk: "You caught me!", us: "You caught me!" }, sens: "Tu m’as eu !" }
+          - { id: c00.s02.D2.d4, texte: { uk: "We got caught in the rain.", us: "We got caught in the rain." }, sens: "On s’est fait surprendre par la pluie." }
+          - { id: c00.s02.D2.d5, texte: { uk: "He caught the ball.", us: "He caught the ball." }, sens: "Il a attrapé la balle." }
+        renvois: [c00.s02.D1]
+      - id: c00.s02.D3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.D3.e1
+            region: commun
+            texte: { uk: "stock", us: "stock" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: short, rounded 'o' in 'stock'.", emotion: "clear, friendly" }
+        sens: stock ; bouillon
+        usage: >-
+          Un o bref. Long et rond, on entend <en>stalk</en>, « tige » ou « traquer » : le l y
+          est muet.
+        declinaisons:
+          - { id: c00.s02.D3.d1, texte: { uk: "It's out of stock.", us: "It's out of stock." }, sens: "C’est en rupture de stock." }
+          - { id: c00.s02.D3.d2, texte: { uk: "Add some chicken stock.", us: "Add some chicken stock." }, sens: "Ajoute du bouillon de poule." }
+          - { id: c00.s02.D3.d3, texte: { uk: "Do you have it in stock?", us: "Do you have it in stock?" }, sens: "Vous l’avez en stock ?" }
+          - { id: c00.s02.D3.d4, texte: { uk: "We need to stock up.", us: "We need to stock up." }, sens: "Il faut faire des réserves." }
+          - { id: c00.s02.D3.d5, texte: { uk: "Let's take stock.", us: "Let's take stock." }, sens: "Faisons le point." }
+        renvois: [c00.s02.D4]
+      - id: c00.s02.D4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.D4.e1
+            region: commun
+            texte: { uk: "stalk", us: "stalk" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: long 'aw' vowel in 'stalk'; the l is silent.", emotion: "clear, friendly" }
+        sens: tige ; traquer
+        usage: >-
+          Le l ne se prononce pas : le mot se dit comme <en>stock</en> avec un o long et rond.
+          Comme <en>talk</en> et <en>walk</en>.
+        declinaisons:
+          - { id: c00.s02.D4.d1, texte: { uk: "Cut the stalks off.", us: "Cut the stalks off." }, sens: "Coupe les tiges." }
+          - { id: c00.s02.D4.d2, texte: { uk: "A stalk of celery.", us: "A stalk of celery." }, sens: "Une branche de céleri." }
+          - { id: c00.s02.D4.d3, texte: { uk: "Stop stalking me online!", us: "Stop stalking me online!" }, sens: "Arrête de m’espionner en ligne !" }
+          - { id: c00.s02.D4.d4, texte: { uk: "He was stalking his ex.", us: "He was stalking his ex." }, sens: "Il harcelait son ex." }
+          - { id: c00.s02.D4.d5, texte: { uk: "Hold it by the stalk.", us: "Hold it by the stalk." }, sens: "Tiens-le par la queue." }
+        renvois: [c00.s02.D3]
+      - id: c00.s02.D5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.D5.e1
+            region: commun
+            texte: { uk: "shot", us: "shot" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: short, rounded 'o' in 'shot'.", emotion: "clear, friendly" }
+        sens: coup ; essai ; piqûre
+        usage: >-
+          Un o bref. Long, il devient <en>short</en>, « court » : à Londres sans r prononcé, à
+          New York avec un r recourbé.
+        declinaisons:
+          - { id: c00.s02.D5.d1, texte: { uk: "Give it a shot.", us: "Give it a shot." }, sens: "Essaie toujours." }
+          - { id: c00.s02.D5.d2, texte: { uk: "Nice shot!", us: "Nice shot!" }, sens: "Joli tir !" }
+          - { id: c00.s02.D5.d3, texte: { uk: "I had a flu shot.", us: "I had a flu shot." }, sens: "Je me suis fait vacciner contre la grippe." }
+          - { id: c00.s02.D5.d4, texte: { uk: "It's a long shot.", us: "It's a long shot." }, sens: "C’est peu probable." }
+          - { id: c00.s02.D5.d5, texte: { uk: "One more shot of coffee.", us: "One more shot of coffee." }, sens: "Un shot de café en plus." }
+        renvois: [c00.s02.D6]
+      - id: c00.s02.D6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, voyelles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s02.D6.e1
+            region: commun
+            texte: { uk: "short", us: "short" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the vowel: long 'aw' vowel in 'short'.", emotion: "clear, friendly" }
+        sens: court
+        usage: >-
+          À Londres, un o long et rond sans r ; à New York, le même o suivi d’un r recourbé.
+          Dans les deux cas, plus long que <en>shot</en>.
+        declinaisons:
+          - { id: c00.s02.D6.d1, texte: { uk: "Keep it short.", us: "Keep it short." }, sens: "Fais court." }
+          - { id: c00.s02.D6.d2, texte: { uk: "I'm a bit short today.", us: "I'm a little short today." }, sens: "Je suis un peu à court d’argent aujourd’hui." }
+          - { id: c00.s02.D6.d3, texte: { uk: "Life's too short.", us: "Life's too short." }, sens: "La vie est trop courte." }
+          - { id: c00.s02.D6.d4, texte: { uk: "In short, no.", us: "In short, no." }, sens: "Bref, non." }
+          - { id: c00.s02.D6.d5, texte: { uk: "She's got short hair.", us: "She has short hair." }, sens: "Elle a les cheveux courts." }
+        renvois: [c00.s02.D5]
+essentiel:
+  incontournables: [c00.s02.A1, c00.s02.A2, c00.s02.A3, c00.s02.A4, c00.s02.B1, c00.s02.B2, c00.s02.C1, c00.s02.C2, c00.s02.D1, c00.s02.D2]
+  fauxPas:
+    - fautif: "I leave in London."
+      naturel: "I live in London."
+      pourquoi: "Avec un i long, <en>live</en> devient <en>leave</en> : vous annoncez votre départ au lieu de votre adresse."
+    - fautif: "Can I seat here?"
+      naturel: "Can I sit here?"
+      pourquoi: "Le verbe a un i bref : <en>sit</en>. <en>Seat</en>, avec un i long, est le siège."
+    - fautif: "I'm fool."
+      naturel: "I'm full."
+      pourquoi: "Après le repas, on est <en>full</en>, avec un ou bref. Le ou long fait de vous un idiot."
+    - fautif: "It's very sheep."
+      naturel: "It's very cheap."
+      pourquoi: "Bon marché se dit <en>cheap</en>, avec ch ; <en>sheep</en>, c’est le mouton."
+    - fautif: "Two mans."
+      naturel: "Two men."
+      pourquoi: "Le pluriel de <en>man</en> est <en>men</en>, et seule la voyelle change à l’oreille."
+sceneVivante:
+  titre: Le pique-nique
+  repliques:
+    - { id: c00.s02.sv.l01, personnage: sarah, texte: { uk: "Did you bring the chips?", us: "Did you bring the fries?" }, sens: "Tu as apporté les frites ?", emotion: "relaxed, unpacking a bag" }
+    - { id: c00.s02.sv.l02, personnage: kofi, texte: { uk: "They were cheap, so I got two bags.", us: "They were cheap, so I got two bags." }, sens: "C’était pas cher, alors j’en ai pris deux sachets.", emotion: "pleased with himself" }
+    - { id: c00.s02.sv.l03, personnage: mia, texte: { uk: "Look! Sheep! Loads of sheep!", us: "Look! Sheep! Lots of sheep!" }, sens: "Regarde ! Des moutons ! Plein de moutons !", emotion: "excited, pointing" }
+    - { id: c00.s02.sv.l04, personnage: kofi, texte: { uk: "And a ship, over there, on the lake.", us: "And a ship, over there, on the lake." }, sens: "Et un bateau, là-bas, sur le lac.", emotion: "playful, pointing the other way" }
+    - { id: c00.s02.sv.l05, personnage: sarah, texte: { uk: "Sit down, Mia. Your feet are all muddy.", us: "Sit down, Mia. Your feet are all muddy." }, sens: "Assieds-toi, Mia. Tu as les pieds pleins de boue.", emotion: "patient, a little weary" }
+    - { id: c00.s02.sv.l06, personnage: mia, texte: { uk: "Can I have a chip?", us: "Can I have a fry?" }, sens: "Je peux avoir une frite ?", emotion: "sweet, wheedling" }
+    - { id: c00.s02.sv.l07, personnage: kofi, texte: { uk: "Just one. Then we'll go for a walk.", us: "Just one. Then we'll go for a walk." }, sens: "Une seule. Ensuite, on ira se promener.", emotion: "gentle, firm" }
+    - { id: c00.s02.sv.l08, personnage: mia, texte: { uk: "I'm full anyway.", us: "I'm full anyway." }, sens: "De toute façon, je n’ai plus faim.", emotion: "suddenly matter-of-fact" }
+    - { id: c00.s02.sv.l09, personnage: sarah, texte: { uk: "Full? After one chip?", us: "Full? After one fry?" }, sens: "Plus faim ? Après une frite ?", emotion: "amused, disbelieving" }
+    - { id: c00.s02.sv.l10, personnage: mia, texte: { uk: "I want to go and see the sheep!", us: "I want to go and see the sheep!" }, sens: "Je veux aller voir les moutons !", emotion: "impatient, tugging at her mother's sleeve" }
+rituel:
+  - "Aujourd’hui, dites <en>ship</en> et <en>sheep</en> trois fois chacun, en tenant le second deux fois plus longtemps."
+  - "Au prochain repas, terminez par <en>I’m full</en>, le ou bien bref."
+ateliers:
+  jeuDesPaires: renvois
+  oreilleFine: [c00.s02.A1.d4, c00.s02.B1.d5, c00.s02.C1.d5, c00.s02.D1.d5, c00.s02.A3.d5]
+  miroir: [c00.s02.A1, c00.s02.A2, c00.s02.A3, c00.s02.A4, c00.s02.B1, c00.s02.B2, c00.s02.C1, c00.s02.C2, c00.s02.D1, c00.s02.D2]

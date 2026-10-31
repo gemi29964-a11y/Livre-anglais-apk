@@ -1,0 +1,588 @@
+# Prélude, scène P.5 — Quand les mots se collent (4.3). Paires d'écoute : chaque phrase est une expression à un énoncé ; son partenaire de paire est son renvoi.
+id: c00.s05
+titre: Quand les mots se collent
+intention: >-
+  À la fin de cette scène, vous entendez les mots qui se soudent à l’oral, vous
+  reconnaissez le t battu américain et le coup de glotte britannique, et vous décodez
+  <en>didja</en>, <en>whaddya</en>, <en>gotcha</en> et <en>gonna</en>.
+version: 1
+moments:
+  - lettre: A
+    titre: La frontière qui glisse
+    expressions:
+      - id: c00.s05.A1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.A1.e1
+            region: commun
+            texte: { uk: "a name", us: "a name" }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'a name', the n clearly starts the second word.", emotion: "clear, friendly" }
+        sens: un nom
+        usage: >-
+          À l’oral, les mots se collent : la consonne finale glisse sur la voyelle suivante.
+          <en>A name</en> et <en>an aim</en> se prononcent presque pareil ; seul le contexte,
+          ou un léger appui, tranche.
+        declinaisons:
+          - { id: c00.s05.A1.d1, texte: { uk: "What's your name?", us: "What's your name?" }, sens: "Comment tu t’appelles ?" }
+          - { id: c00.s05.A1.d2, texte: { uk: "Give it a name.", us: "Give it a name." }, sens: "Donne-lui un nom." }
+          - { id: c00.s05.A1.d3, texte: { uk: "a new name", us: "a new name" }, sens: "un nouveau nom" }
+          - { id: c00.s05.A1.d4, texte: { uk: "That's a nice name.", us: "That's a nice name." }, sens: "C’est un joli prénom." }
+          - { id: c00.s05.A1.d5, texte: { uk: "I forgot her name.", us: "I forgot her name." }, sens: "J’ai oublié son prénom." }
+        renvois: [c00.s05.A2]
+      - id: c00.s05.A2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.A2.e1
+            region: commun
+            texte: { uk: "an aim", us: "an aim" }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'an aim', the n glides onto 'aim'.", emotion: "clear, friendly" }
+        sens: un objectif
+        usage: >-
+          Le n de <en>an</en> se colle à <en>aim</en> : ə-naim. C’est la liaison anglaise, qui
+          ne connaît ni exception ni orthographe.
+        declinaisons:
+          - { id: c00.s05.A2.d1, texte: { uk: "an apple", us: "an apple" }, sens: "une pomme" }
+          - { id: c00.s05.A2.d2, texte: { uk: "an hour ago", us: "an hour ago" }, sens: "il y a une heure" }
+          - { id: c00.s05.A2.d3, texte: { uk: "an old friend", us: "an old friend" }, sens: "un vieil ami" }
+          - { id: c00.s05.A2.d4, texte: { uk: "an easy one", us: "an easy one" }, sens: "un facile" }
+          - { id: c00.s05.A2.d5, texte: { uk: "an empty box", us: "an empty box" }, sens: "une boîte vide" }
+        renvois: [c00.s05.A1]
+      - id: c00.s05.A3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.A3.e1
+            region: commun
+            texte: { uk: "ice cream", us: "ice cream" }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'ice cream', stress on 'ice', a tiny pause after the s.", emotion: "clear, friendly" }
+        sens: de la glace
+        usage: >-
+          La frontière entre les mots ne s’entend presque pas. <en>Ice cream</en> garde le s
+          avec <en>ice</en> ; <en>I scream</en> le donne à <en>scream</en>. Le c de
+          <en>cream</en> est plus soufflé.
+        declinaisons:
+          - { id: c00.s05.A3.d1, texte: { uk: "Do you want some ice cream?", us: "Do you want some ice cream?" }, sens: "Tu veux de la glace ?" }
+          - { id: c00.s05.A3.d2, texte: { uk: "a chocolate ice cream", us: "a chocolate ice cream" }, sens: "une glace au chocolat" }
+          - { id: c00.s05.A3.d3, texte: { uk: "ice cubes", us: "ice cubes" }, sens: "des glaçons" }
+          - { id: c00.s05.A3.d4, texte: { uk: "iced tea", us: "iced tea" }, sens: "du thé glacé" }
+          - { id: c00.s05.A3.d5, texte: { uk: "I'd love an ice cream.", us: "I'd love an ice cream." }, sens: "Je prendrais bien une glace." }
+        renvois: [c00.s05.A4]
+      - id: c00.s05.A4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.A4.e1
+            region: commun
+            texte: { uk: "I scream", us: "I scream" }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'I scream', the s goes with 'scream', the c is not breathy.", emotion: "clear, friendly" }
+        sens: je crie
+        usage: >-
+          Après s, le c de <en>scream</en> ne souffle plus : c’est l’indice qui sépare <en>I
+          scream</en> de <en>ice cream</en>.
+        declinaisons:
+          - { id: c00.s05.A4.d1, texte: { uk: "I scream when I see a spider.", us: "I scream when I see a spider." }, sens: "Je crie quand je vois une araignée." }
+          - { id: c00.s05.A4.d2, texte: { uk: "Don't scream!", us: "Don't scream!" }, sens: "Ne crie pas !" }
+          - { id: c00.s05.A4.d3, texte: { uk: "She screamed.", us: "She screamed." }, sens: "Elle a crié." }
+          - { id: c00.s05.A4.d4, texte: { uk: "I shout sometimes.", us: "I shout sometimes." }, sens: "Je crie parfois." }
+          - { id: c00.s05.A4.d5, texte: { uk: "Stop screaming!", us: "Stop screaming!" }, sens: "Arrête de crier !" }
+        renvois: [c00.s05.A3]
+      - id: c00.s05.A5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.A5.e1
+            region: commun
+            texte: { uk: "a nice man", us: "a nice man" }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'a nice man', the n starts 'nice'.", emotion: "clear, friendly" }
+        sens: un homme gentil
+        usage: >-
+          Encore la même frontière mobile : <en>a nice man</en> et <en>an ice man</en> sonnent
+          presque pareil. Le sens de la phrase fait le reste.
+        declinaisons:
+          - { id: c00.s05.A5.d1, texte: { uk: "He's a nice man.", us: "He's a nice man." }, sens: "C’est un homme gentil." }
+          - { id: c00.s05.A5.d2, texte: { uk: "a nice day", us: "a nice day" }, sens: "une belle journée" }
+          - { id: c00.s05.A5.d3, texte: { uk: "a nice place", us: "a nice place" }, sens: "un endroit agréable" }
+          - { id: c00.s05.A5.d4, texte: { uk: "That's nice.", us: "That's nice." }, sens: "C’est gentil." }
+          - { id: c00.s05.A5.d5, texte: { uk: "Have a nice weekend.", us: "Have a nice weekend." }, sens: "Bon week-end." }
+        renvois: [c00.s05.A6]
+      - id: c00.s05.A6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.A6.e1
+            region: commun
+            texte: { uk: "an ice man", us: "an ice man" }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'an ice man', the n glides onto 'ice'.", emotion: "clear, friendly" }
+        sens: un marchand de glace
+        usage: >-
+          On dit plutôt <en>an ice-cream man</en> aujourd’hui, mais la paire entraîne
+          l’oreille à la même glissade : ə-nais.
+        declinaisons:
+          - { id: c00.s05.A6.d1, texte: { uk: "an ice-cream van", us: "an ice-cream truck" }, sens: "une camionnette de glaces" }
+          - { id: c00.s05.A6.d2, texte: { uk: "an ice cube", us: "an ice cube" }, sens: "un glaçon" }
+          - { id: c00.s05.A6.d3, texte: { uk: "an icy road", us: "an icy road" }, sens: "une route verglacée" }
+          - { id: c00.s05.A6.d4, texte: { uk: "an island", us: "an island" }, sens: "une île" }
+          - { id: c00.s05.A6.d5, texte: { uk: "an idea", us: "an idea" }, sens: "une idée" }
+        renvois: [c00.s05.A5]
+      - id: c00.s05.A7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.A7.e1
+            region: commun
+            texte: { uk: "that's tough", us: "that's tough" }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'that's tough', the s stays with 'that's', tough is breathy.", emotion: "clear, friendly" }
+        sens: c’est dur
+        usage: >-
+          Le t de <en>tough</en> souffle ; dans <en>that stuff</en>, le s s’accroche au t qui
+          ne souffle plus. Un souffle, un sens.
+        declinaisons:
+          - { id: c00.s05.A7.d1, texte: { uk: "That's tough.", us: "That's tough." }, sens: "C’est dur." }
+          - { id: c00.s05.A7.d2, texte: { uk: "It's a tough day.", us: "It's a tough day." }, sens: "C’est une journée difficile." }
+          - { id: c00.s05.A7.d3, texte: { uk: "Tough luck.", us: "Tough luck." }, sens: "Pas de chance." }
+          - { id: c00.s05.A7.d4, texte: { uk: "The meat is tough.", us: "The meat is tough." }, sens: "La viande est dure." }
+          - { id: c00.s05.A7.d5, texte: { uk: "She's tough.", us: "She's tough." }, sens: "Elle est solide." }
+        renvois: [c00.s05.A8]
+      - id: c00.s05.A8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.A8.e1
+            region: commun
+            texte: { uk: "that stuff", us: "that stuff" }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'that stuff', the s goes with 'stuff', no breath on the t.", emotion: "clear, friendly" }
+        sens: ce truc
+        usage: >-
+          <en>Stuff</en>, mot très courant : « les affaires, le truc ». Le t devant s’efface
+          souvent : tha-stuff.
+        declinaisons:
+          - { id: c00.s05.A8.d1, texte: { uk: "What's that stuff?", us: "What's that stuff?" }, sens: "C’est quoi, ce truc ?" }
+          - { id: c00.s05.A8.d2, texte: { uk: "Put your stuff away.", us: "Put your stuff away." }, sens: "Range tes affaires." }
+          - { id: c00.s05.A8.d3, texte: { uk: "I've got loads of stuff.", us: "I've got lots of stuff." }, sens: "J’ai plein d’affaires." }
+          - { id: c00.s05.A8.d4, texte: { uk: "Don't touch my stuff.", us: "Don't touch my stuff." }, sens: "Ne touche pas à mes affaires." }
+          - { id: c00.s05.A8.d5, texte: { uk: "Good stuff!", us: "Good stuff!" }, sens: "Super !" }
+        renvois: [c00.s05.A7]
+  - lettre: B
+    titre: Le t qui voyage
+    expressions:
+      - id: c00.s05.B1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.B1.e1
+            region: commun
+            texte: { uk: "Get up!", us: "Get up!" }
+            jeu: { contexte: "Calling to someone in the morning, natural pace: 'Get up!'", emotion: "clear, friendly" }
+        sens: Lève-toi !
+        usage: >-
+          Entre deux voyelles, le t américain devient un d bref et battu : ge-dup. À Londres,
+          il se coupe d’un coup de glotte : ge’up. Les deux sont corrects ; reconnaissez les
+          deux.
+        declinaisons:
+          - { id: c00.s05.B1.d1, texte: { uk: "Time to get up!", us: "Time to get up!" }, sens: "C’est l’heure de se lever !" }
+          - { id: c00.s05.B1.d2, texte: { uk: "I get up at seven.", us: "I get up at seven." }, sens: "Je me lève à sept heures." }
+          - { id: c00.s05.B1.d3, texte: { uk: "Get up slowly.", us: "Get up slowly." }, sens: "Lève-toi doucement." }
+          - { id: c00.s05.B1.d4, texte: { uk: "What time did you get up?", us: "What time did you get up?" }, sens: "Tu t’es levé à quelle heure ?" }
+          - { id: c00.s05.B1.d5, texte: { uk: "I don't want to get up.", us: "I don't want to get up." }, sens: "Je n’ai pas envie de me lever." }
+        renvois: [c00.s05.B2]
+      - id: c00.s05.B2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.B2.e1
+            region: commun
+            texte: { uk: "Get out!", us: "Get out!" }
+            jeu: { contexte: "Saying it firmly at a natural pace: 'Get out!'", emotion: "clear, friendly" }
+        sens: Sors !
+        usage: >-
+          Même t transformé : ge-dout (Amérique), ge’out (Londres). Seule la voyelle finale
+          distingue <en>up</en> de <en>out</en>.
+        declinaisons:
+          - { id: c00.s05.B2.d1, texte: { uk: "Get out of here!", us: "Get out of here!" }, sens: "Sors d’ici !" }
+          - { id: c00.s05.B2.d2, texte: { uk: "Get out of the car.", us: "Get out of the car." }, sens: "Descends de la voiture." }
+          - { id: c00.s05.B2.d3, texte: { uk: "Let's get out.", us: "Let's get out." }, sens: "Sortons." }
+          - { id: c00.s05.B2.d4, texte: { uk: "Get out of bed!", us: "Get out of bed!" }, sens: "Sors du lit !" }
+          - { id: c00.s05.B2.d5, texte: { uk: "I need to get out more.", us: "I need to get out more." }, sens: "Il faut que je sorte plus." }
+        renvois: [c00.s05.B1]
+      - id: c00.s05.B3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.B3.e1
+            region: commun
+            texte: { uk: "a writer", us: "a writer" }
+            jeu: { contexte: "Saying the phrase naturally: 'a writer'.", emotion: "clear, friendly" }
+        sens: un écrivain
+        usage: >-
+          À New York, <en>writer</en> et <en>rider</en> se ressemblent beaucoup : le t battu
+          sonne comme un d ; seule la voyelle, un peu plus courte devant t, les sépare. À
+          Londres, le t reste net.
+        declinaisons:
+          - { id: c00.s05.B3.d1, texte: { uk: "She's a writer.", us: "She's a writer." }, sens: "Elle est écrivain." }
+          - { id: c00.s05.B3.d2, texte: { uk: "I want to write.", us: "I want to write." }, sens: "Je veux écrire." }
+          - { id: c00.s05.B3.d3, texte: { uk: "Write it down.", us: "Write it down." }, sens: "Note-le." }
+          - { id: c00.s05.B3.d4, texte: { uk: "He writes every day.", us: "He writes every day." }, sens: "Il écrit tous les jours." }
+          - { id: c00.s05.B3.d5, texte: { uk: "a great writer", us: "a great writer" }, sens: "un grand écrivain" }
+        renvois: [c00.s05.B4]
+      - id: c00.s05.B4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.B4.e1
+            region: commun
+            texte: { uk: "a rider", us: "a rider" }
+            jeu: { contexte: "Saying the phrase naturally: 'a rider'.", emotion: "clear, friendly" }
+        sens: un cavalier
+        usage: >-
+          Le d est un vrai d, et la voyelle s’allonge un peu. L’oreille américaine s’appuie
+          sur cette longueur.
+        declinaisons:
+          - { id: c00.s05.B4.d1, texte: { uk: "He's a good rider.", us: "He's a good rider." }, sens: "C’est un bon cavalier." }
+          - { id: c00.s05.B4.d2, texte: { uk: "I ride a bike.", us: "I ride a bike." }, sens: "Je fais du vélo." }
+          - { id: c00.s05.B4.d3, texte: { uk: "Can I have a ride?", us: "Can I have a ride?" }, sens: "Tu me déposes ?" }
+          - { id: c00.s05.B4.d4, texte: { uk: "a long ride", us: "a long ride" }, sens: "un long trajet" }
+          - { id: c00.s05.B4.d5, texte: { uk: "She rides to school.", us: "She rides to school." }, sens: "Elle va à l’école à vélo." }
+        renvois: [c00.s05.B3]
+      - id: c00.s05.B5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.B5.e1
+            region: commun
+            texte: { uk: "metal", us: "metal" }
+            jeu: { contexte: "Saying the word naturally: 'metal'.", emotion: "clear, friendly" }
+        sens: du métal
+        usage: >-
+          Américain : me-dl, avec un t battu ; britannique : met-l, t net ou coup de glotte.
+          <en>Medal</en> garde un d franc des deux côtés.
+        declinaisons:
+          - { id: c00.s05.B5.d1, texte: { uk: "It's made of metal.", us: "It's made of metal." }, sens: "C’est en métal." }
+          - { id: c00.s05.B5.d2, texte: { uk: "a metal box", us: "a metal box" }, sens: "une boîte en métal" }
+          - { id: c00.s05.B5.d3, texte: { uk: "heavy metal", us: "heavy metal" }, sens: "le hard rock" }
+          - { id: c00.s05.B5.d4, texte: { uk: "metal chairs", us: "metal chairs" }, sens: "des chaises en métal" }
+          - { id: c00.s05.B5.d5, texte: { uk: "Is it metal or plastic?", us: "Is it metal or plastic?" }, sens: "C’est du métal ou du plastique ?" }
+        renvois: [c00.s05.B6]
+      - id: c00.s05.B6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.B6.e1
+            region: commun
+            texte: { uk: "medal", us: "medal" }
+            jeu: { contexte: "Saying the word naturally: 'medal'.", emotion: "clear, friendly" }
+        sens: une médaille
+        usage: >-
+          Le d de <en>medal</en> est le même partout. C’est le t de <en>metal</en> qui voyage.
+        declinaisons:
+          - { id: c00.s05.B6.d1, texte: { uk: "She won a medal.", us: "She won a medal." }, sens: "Elle a gagné une médaille." }
+          - { id: c00.s05.B6.d2, texte: { uk: "a gold medal", us: "a gold medal" }, sens: "une médaille d’or" }
+          - { id: c00.s05.B6.d3, texte: { uk: "He deserves a medal.", us: "He deserves a medal." }, sens: "Il mérite une médaille." }
+          - { id: c00.s05.B6.d4, texte: { uk: "Look at my medal!", us: "Look at my medal!" }, sens: "Regarde ma médaille !" }
+          - { id: c00.s05.B6.d5, texte: { uk: "two medals", us: "two medals" }, sens: "deux médailles" }
+        renvois: [c00.s05.B5]
+      - id: c00.s05.B7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.B7.e1
+            region: commun
+            texte: { uk: "the latter", us: "the latter" }
+            jeu: { contexte: "Saying the phrase naturally: 'the latter'.", emotion: "clear, friendly" }
+        sens: ce dernier
+        usage: >-
+          Même jeu que <en>metal</en> et <en>medal</en> : à Chicago, <en>latter</en> sonne la-
+          dɚ, presque <en>ladder</en> ; à Londres, la-tə, avec un t net ou coupé.
+        declinaisons:
+          - { id: c00.s05.B7.d1, texte: { uk: "I prefer the latter.", us: "I prefer the latter." }, sens: "Je préfère le second." }
+          - { id: c00.s05.B7.d2, texte: { uk: "the latter option", us: "the latter option" }, sens: "la seconde possibilité" }
+          - { id: c00.s05.B7.d3, texte: { uk: "the latter half", us: "the latter half" }, sens: "la seconde moitié" }
+          - { id: c00.s05.B7.d4, texte: { uk: "the latter part of the day", us: "the latter part of the day" }, sens: "la fin de la journée" }
+          - { id: c00.s05.B7.d5, texte: { uk: "Both are good, but the latter is cheaper.", us: "Both are good, but the latter is cheaper." }, sens: "Les deux sont bien, mais le second est moins cher." }
+        renvois: [c00.s05.B8]
+      - id: c00.s05.B8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.B8.e1
+            region: commun
+            texte: { uk: "a ladder", us: "a ladder" }
+            jeu: { contexte: "Saying the phrase naturally: 'a ladder'.", emotion: "clear, friendly" }
+        sens: une échelle
+        usage: >-
+          Le d de <en>ladder</en> ne change jamais. Devant ce d, la voyelle s’allonge un peu :
+          c’est l’indice américain.
+        declinaisons:
+          - { id: c00.s05.B8.d1, texte: { uk: "Hold the ladder.", us: "Hold the ladder." }, sens: "Tiens l’échelle." }
+          - { id: c00.s05.B8.d2, texte: { uk: "Climb the ladder.", us: "Climb the ladder." }, sens: "Monte à l’échelle." }
+          - { id: c00.s05.B8.d3, texte: { uk: "a tall ladder", us: "a tall ladder" }, sens: "une grande échelle" }
+          - { id: c00.s05.B8.d4, texte: { uk: "Where's the ladder?", us: "Where's the ladder?" }, sens: "Où est l’échelle ?" }
+          - { id: c00.s05.B8.d5, texte: { uk: "Don't walk under a ladder.", us: "Don't walk under a ladder." }, sens: "Ne passe pas sous une échelle." }
+        renvois: [c00.s05.B7]
+  - lettre: C
+    titre: Les sons qui fusionnent
+    expressions:
+      - id: c00.s05.C1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.C1.e1
+            region: commun
+            texte: { uk: "Did you eat?", us: "Did you eat?" }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'did you' melts into 'didja', quick and casual.", emotion: "clear, friendly" }
+        sens: Tu as mangé ?
+        usage: >-
+          Le d de <en>did</en> et le y de <en>you</en> fusionnent en dj : didja. C’est la
+          norme de la conversation, des deux côtés de l’Atlantique.
+        declinaisons:
+          - { id: c00.s05.C1.d1, texte: { uk: "Did you sleep well?", us: "Did you sleep well?" }, sens: "Tu as bien dormi ?" }
+          - { id: c00.s05.C1.d2, texte: { uk: "Did you see that?", us: "Did you see that?" }, sens: "Tu as vu ça ?" }
+          - { id: c00.s05.C1.d3, texte: { uk: "Did you call her?", us: "Did you call her?" }, sens: "Tu l’as appelée ?" }
+          - { id: c00.s05.C1.d4, texte: { uk: "Did you like it?", us: "Did you like it?" }, sens: "Ça t’a plu ?" }
+          - { id: c00.s05.C1.d5, texte: { uk: "Where did you go?", us: "Where did you go?" }, sens: "Tu es allé où ?" }
+        renvois: [c00.s05.C2]
+      - id: c00.s05.C2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.C2.e1
+            region: commun
+            texte: { uk: "Did he eat?", us: "Did he eat?" }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'did he' melts into 'diddy', the h dropped.", emotion: "clear, friendly" }
+        sens: Il a mangé ?
+        usage: >-
+          Ici, le h de <en>he</en> tombe : didi. Le dj de <en>didja</en> s’oppose au simple d
+          de <en>did he</en>.
+        declinaisons:
+          - { id: c00.s05.C2.d1, texte: { uk: "Did he call?", us: "Did he call?" }, sens: "Il a appelé ?" }
+          - { id: c00.s05.C2.d2, texte: { uk: "Did he say yes?", us: "Did he say yes?" }, sens: "Il a dit oui ?" }
+          - { id: c00.s05.C2.d3, texte: { uk: "Did he like it?", us: "Did he like it?" }, sens: "Ça lui a plu ?" }
+          - { id: c00.s05.C2.d4, texte: { uk: "Where did he go?", us: "Where did he go?" }, sens: "Il est allé où ?" }
+          - { id: c00.s05.C2.d5, texte: { uk: "Did he tell you?", us: "Did he tell you?" }, sens: "Il te l’a dit ?" }
+        renvois: [c00.s05.C1]
+      - id: c00.s05.C3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.C3.e1
+            region: commun
+            texte: { uk: "What do you want?", us: "What do you want?" }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'what do you' melts into 'whaddya', casual.", emotion: "clear, friendly" }
+        sens: Qu’est-ce que tu veux ?
+        usage: >-
+          <en>What do you</en> se ramasse en whaddya, ou même wha’ya. Au présent, on entend un
+          d mou et un ə.
+        declinaisons:
+          - { id: c00.s05.C3.d1, texte: { uk: "What do you think?", us: "What do you think?" }, sens: "Tu en penses quoi ?" }
+          - { id: c00.s05.C3.d2, texte: { uk: "What do you do?", us: "What do you do?" }, sens: "Tu fais quoi dans la vie ?" }
+          - { id: c00.s05.C3.d3, texte: { uk: "What do you mean?", us: "What do you mean?" }, sens: "Comment ça ?" }
+          - { id: c00.s05.C3.d4, texte: { uk: "What do you need?", us: "What do you need?" }, sens: "De quoi as-tu besoin ?" }
+          - { id: c00.s05.C3.d5, texte: { uk: "What do you like?", us: "What do you like?" }, sens: "Qu’est-ce que tu aimes ?" }
+        renvois: [c00.s05.C4]
+      - id: c00.s05.C4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.C4.e1
+            region: commun
+            texte: { uk: "What did you want?", us: "What did you want?" }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'what did you' melts into 'whadja', casual.", emotion: "clear, friendly" }
+        sens: Qu’est-ce que tu voulais ?
+        usage: >-
+          Au passé, <en>did you</en> donne whadja : le dj est le seul indice du passé.
+          Écoutez-le avant le verbe.
+        declinaisons:
+          - { id: c00.s05.C4.d1, texte: { uk: "What did you say?", us: "What did you say?" }, sens: "Tu as dit quoi ?" }
+          - { id: c00.s05.C4.d2, texte: { uk: "What did you do?", us: "What did you do?" }, sens: "Qu’est-ce que tu as fait ?" }
+          - { id: c00.s05.C4.d3, texte: { uk: "What did you buy?", us: "What did you buy?" }, sens: "Tu as acheté quoi ?" }
+          - { id: c00.s05.C4.d4, texte: { uk: "What did you think?", us: "What did you think?" }, sens: "Tu en as pensé quoi ?" }
+          - { id: c00.s05.C4.d5, texte: { uk: "What did you have for lunch?", us: "What did you have for lunch?" }, sens: "Tu as mangé quoi à midi ?" }
+        renvois: [c00.s05.C3]
+      - id: c00.s05.C5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.C5.e1
+            region: commun
+            texte: { uk: "I got you.", us: "I got you." }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'got you' melts into 'gotcha'.", emotion: "clear, friendly" }
+        sens: Je te tiens ; je comprends.
+        usage: >-
+          t + y donnent tch : <en>gotcha</en>. Même chose dans <en>don’t you</en> (dontchu) et
+          <en>meet you</en> (meechu).
+        declinaisons:
+          - { id: c00.s05.C5.d1, texte: { uk: "Gotcha!", us: "Gotcha!" }, sens: "Je t’ai eu !" }
+          - { id: c00.s05.C5.d2, texte: { uk: "Nice to meet you.", us: "Nice to meet you." }, sens: "Enchanté." }
+          - { id: c00.s05.C5.d3, texte: { uk: "Don't you like it?", us: "Don't you like it?" }, sens: "Ça ne te plaît pas ?" }
+          - { id: c00.s05.C5.d4, texte: { uk: "I'll let you know.", us: "I'll let you know." }, sens: "Je te dirai." }
+          - { id: c00.s05.C5.d5, texte: { uk: "I bet you can.", us: "I bet you can." }, sens: "Je parie que tu peux." }
+        renvois: [c00.s05.C6]
+      - id: c00.s05.C6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.C6.e1
+            region: commun
+            texte: { uk: "I got it.", us: "I got it." }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'got it' links, 'go-dit' or 'go'it'.", emotion: "clear, friendly" }
+        sens: J’ai compris ; je m’en occupe.
+        usage: >-
+          Sans y, pas de tch : le t se colle à <en>it</en> (go-dit en Amérique, go’it à
+          Londres).
+        declinaisons:
+          - { id: c00.s05.C6.d1, texte: { uk: "Got it.", us: "Got it." }, sens: "Compris." }
+          - { id: c00.s05.C6.d2, texte: { uk: "I've got it!", us: "I've got it!" }, sens: "J’ai trouvé !" }
+          - { id: c00.s05.C6.d3, texte: { uk: "Did you get it?", us: "Did you get it?" }, sens: "Tu as compris ?" }
+          - { id: c00.s05.C6.d4, texte: { uk: "Put it down.", us: "Put it down." }, sens: "Pose-le." }
+          - { id: c00.s05.C6.d5, texte: { uk: "Let it go.", us: "Let it go." }, sens: "Laisse tomber." }
+        renvois: [c00.s05.C5]
+      - id: c00.s05.C7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.C7.e1
+            region: commun
+            texte: { uk: "I'm going to eat.", us: "I'm going to eat." }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'going to' melts into 'gonna'.", emotion: "clear, friendly" }
+        sens: Je vais manger.
+        usage: >-
+          Futur proche : <en>going to</en> + verbe se fond en <en>gonna</en>. C’est la forme
+          normale de la conversation, à Londres comme à Chicago.
+        declinaisons:
+          - { id: c00.s05.C7.d1, texte: { uk: "I'm going to call him.", us: "I'm going to call him." }, sens: "Je vais l’appeler." }
+          - { id: c00.s05.C7.d2, texte: { uk: "It's going to rain.", us: "It's going to rain." }, sens: "Il va pleuvoir." }
+          - { id: c00.s05.C7.d3, texte: { uk: "We're going to be late.", us: "We're going to be late." }, sens: "On va être en retard." }
+          - { id: c00.s05.C7.d4, texte: { uk: "What are you going to do?", us: "What are you going to do?" }, sens: "Qu’est-ce que tu vas faire ?" }
+          - { id: c00.s05.C7.d5, texte: { uk: "I'm going to try.", us: "I'm going to try." }, sens: "Je vais essayer." }
+        renvois: [c00.s05.C8]
+      - id: c00.s05.C8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, enchainements]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s05.C8.e1
+            region: commun
+            texte: { uk: "I'm going to London.", us: "I'm going to London." }
+            jeu: { contexte: "Saying a short phrase at a natural conversational pace, words linked together: 'going to' a place stays full, no 'gonna'.", emotion: "clear, friendly" }
+        sens: Je vais à Londres.
+        usage: >-
+          Quand <en>going to</en> mène à un lieu, il ne se réduit jamais en <en>gonna</en> :
+          c’est un déplacement, pas un futur. L’oreille entend le g et le tə.
+        declinaisons:
+          - { id: c00.s05.C8.d1, texte: { uk: "I'm going to work.", us: "I'm going to work." }, sens: "Je vais au travail." }
+          - { id: c00.s05.C8.d2, texte: { uk: "We're going to the park.", us: "We're going to the park." }, sens: "On va au parc." }
+          - { id: c00.s05.C8.d3, texte: { uk: "She's going to school.", us: "She's going to school." }, sens: "Elle va à l’école." }
+          - { id: c00.s05.C8.d4, texte: { uk: "Are you going to the party?", us: "Are you going to the party?" }, sens: "Tu vas à la fête ?" }
+          - { id: c00.s05.C8.d5, texte: { uk: "He's going to the shop.", us: "He's going to the store." }, sens: "Il va au magasin." }
+        renvois: [c00.s05.C7]
+essentiel:
+  incontournables: [c00.s05.A1, c00.s05.A2, c00.s05.A3, c00.s05.A4, c00.s05.B1, c00.s05.B2, c00.s05.C1, c00.s05.C2, c00.s05.C5, c00.s05.C6]
+  fauxPas:
+    - fautif: "Get up. (en détachant chaque mot)"
+      naturel: "Get up!"
+      pourquoi: "Détaché, l’anglais sonne mécanique ; laissez le t glisser vers <en>up</en>, battu ou coupé."
+    - fautif: "Did. You. Eat?"
+      naturel: "Did you eat?"
+      pourquoi: "<en>Did you</en> se dit didja ; le découper ralentit tout et ressemble à un reproche."
+    - fautif: "a writer (pour un cavalier)"
+      naturel: "a rider"
+      pourquoi: "En Amérique, la seule différence est la longueur de la voyelle : plus longue devant d."
+    - fautif: "What you want?"
+      naturel: "What do you want?"
+      pourquoi: "Le <en>do</en> est réduit, pas supprimé : whaddya. Sans lui, la phrase est fautive."
+    - fautif: "I got you. (pour dire j’ai compris le message)"
+      naturel: "Got it."
+      pourquoi: "<en>Got you</en> vise la personne (je te tiens, je te comprends) ; <en>got it</en> vise la chose."
+sceneVivante:
+  titre: Le réveil
+  repliques:
+    - { id: c00.s05.sv.l01, personnage: priya, texte: { uk: "Kofi, get up! It's seven.", us: "Kofi, get up! It's seven." }, sens: "Kofi, lève-toi ! Il est sept heures.", emotion: "calling from the kitchen, cheerful" }
+    - { id: c00.s05.sv.l02, personnage: kofi, texte: { uk: "What do you want?", us: "What do you want?" }, sens: "Qu’est-ce que tu veux ?", emotion: "sleepy, grumbling" }
+    - { id: c00.s05.sv.l03, personnage: priya, texte: { uk: "I want you to get up.", us: "I want you to get up." }, sens: "Je veux que tu te lèves.", emotion: "amused" }
+    - { id: c00.s05.sv.l04, personnage: kofi, texte: { uk: "Got it, got it.", us: "Got it, got it." }, sens: "C’est bon, j’ai compris.", emotion: "yawning" }
+    - { id: c00.s05.sv.l05, personnage: priya, texte: { uk: "Did you eat last night?", us: "Did you eat last night?" }, sens: "Tu as mangé, hier soir ?", emotion: "concerned" }
+    - { id: c00.s05.sv.l06, personnage: kofi, texte: { uk: "Just some ice cream.", us: "Just some ice cream." }, sens: "Juste un peu de glace.", emotion: "sheepish" }
+    - { id: c00.s05.sv.l07, personnage: priya, texte: { uk: "That's not dinner.", us: "That's not dinner." }, sens: "Ce n’est pas un dîner.", emotion: "mock stern" }
+    - { id: c00.s05.sv.l08, personnage: kofi, texte: { uk: "What did you have, then?", us: "What did you have, then?" }, sens: "Et toi, tu as mangé quoi ?", emotion: "teasing back" }
+    - { id: c00.s05.sv.l09, personnage: priya, texte: { uk: "Soup. A nice man at the market made it.", us: "Soup. A nice man at the market made it." }, sens: "Une soupe. Un gentil monsieur au marché l’a faite.", emotion: "proud" }
+    - { id: c00.s05.sv.l10, personnage: kofi, texte: { uk: "Is there any left?", us: "Is there any left?" }, sens: "Il en reste ?", emotion: "suddenly awake, hopeful" }
+    - { id: c00.s05.sv.l11, personnage: priya, texte: { uk: "Get up and see.", us: "Get up and see." }, sens: "Lève-toi et va voir.", emotion: "laughing" }
+rituel:
+  - "Aujourd’hui, dites <en>Did you eat?</en> en un seul souffle : didja eat."
+  - "Ce soir, écoutez une chanson en anglais et repérez un t qui disparaît."
+ateliers:
+  jeuDesPaires: renvois
+  oreilleFine: [c00.s05.A1.d5, c00.s05.B1.d5, c00.s05.C1.d5, c00.s05.A3.d5, c00.s05.B3.d4]
+  miroir: [c00.s05.A1, c00.s05.A2, c00.s05.A3, c00.s05.A4, c00.s05.B1, c00.s05.B2, c00.s05.C1, c00.s05.C2, c00.s05.C5, c00.s05.C6]

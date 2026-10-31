@@ -1,0 +1,582 @@
+# Prélude, scène P.3 — Le battement de la phrase (4.3). Paires d'écoute : chaque mot est une expression à un énoncé ; son partenaire de paire est son renvoi.
+id: c00.s03
+titre: Le battement de la phrase
+intention: >-
+  À la fin de cette scène, vous entendez où tombe la syllabe forte d’un mot, vous
+  savez qu’elle change parfois le mot lui-même, et vous reconnaissez le son ə, la
+  voyelle effacée qui donne à l’anglais son rythme.
+version: 1
+moments:
+  - lettre: A
+    titre: Le nom et le verbe
+    expressions:
+      - id: c00.s03.A1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.A1.e1
+            region: commun
+            texte: { uk: "a record", us: "a record" }
+            jeu: { contexte: "Saying a short phrase clearly so a learner can hear the stress: the noun, stress on the FIRST syllable, REC-ord.", emotion: "clear, friendly" }
+        sens: un disque ; un record
+        usage: >-
+          Le nom porte la force sur la première syllabe : <en>REcord</en>. La seconde s’efface
+          en ə. Le verbe fait l’inverse.
+        declinaisons:
+          - { id: c00.s03.A1.d1, texte: { uk: "It's a world record.", us: "It's a world record." }, sens: "C’est un record du monde." }
+          - { id: c00.s03.A1.d2, texte: { uk: "I'll keep a record of it.", us: "I'll keep a record of it." }, sens: "J’en garderai une trace." }
+          - { id: c00.s03.A1.d3, texte: { uk: "Put a record on.", us: "Put a record on." }, sens: "Mets un disque." }
+          - { id: c00.s03.A1.d4, texte: { uk: "She's got a clean record.", us: "She has a clean record." }, sens: "Elle a un casier vierge." }
+          - { id: c00.s03.A1.d5, texte: { uk: "For the record, I said no.", us: "For the record, I said no." }, sens: "Pour mémoire, j’ai dit non." }
+        renvois: [c00.s03.A2]
+      - id: c00.s03.A2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.A2.e1
+            region: commun
+            texte: { uk: "to record", us: "to record" }
+            jeu: { contexte: "Saying a short phrase clearly so a learner can hear the stress: the verb, stress on the SECOND syllable, re-CORD.", emotion: "clear, friendly" }
+        sens: enregistrer
+        usage: >-
+          Le verbe porte la force sur la seconde syllabe : <en>reCORD</en>. La première se
+          réduit en ri ou rə.
+        declinaisons:
+          - { id: c00.s03.A2.d1, texte: { uk: "Can I record this?", us: "Can I record this?" }, sens: "Je peux enregistrer ça ?" }
+          - { id: c00.s03.A2.d2, texte: { uk: "We're recording now.", us: "We're recording now." }, sens: "On enregistre, là." }
+          - { id: c00.s03.A2.d3, texte: { uk: "Record it for me.", us: "Record it for me." }, sens: "Enregistre-le pour moi." }
+          - { id: c00.s03.A2.d4, texte: { uk: "The call may be recorded.", us: "The call may be recorded." }, sens: "L’appel peut être enregistré." }
+          - { id: c00.s03.A2.d5, texte: { uk: "She recorded a new song.", us: "She recorded a new song." }, sens: "Elle a enregistré une nouvelle chanson." }
+        renvois: [c00.s03.A1]
+      - id: c00.s03.A3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.A3.e1
+            region: commun
+            texte: { uk: "a present", us: "a present" }
+            jeu: { contexte: "Saying a short phrase clearly so a learner can hear the stress: the noun, stress on the FIRST syllable, PRES-ent.", emotion: "clear, friendly" }
+        sens: un cadeau
+        usage: >-
+          Le nom : <en>PREsent</en>, la force au début. Le verbe, <en>preSENT</en>, signifie «
+          présenter ».
+        declinaisons:
+          - { id: c00.s03.A3.d1, texte: { uk: "It's a present for you.", us: "It's a present for you." }, sens: "C’est un cadeau pour toi." }
+          - { id: c00.s03.A3.d2, texte: { uk: "I need to buy a present.", us: "I need to buy a present." }, sens: "Il faut que j’achète un cadeau." }
+          - { id: c00.s03.A3.d3, texte: { uk: "Thanks for the present!", us: "Thanks for the present!" }, sens: "Merci pour le cadeau !" }
+          - { id: c00.s03.A3.d4, texte: { uk: "Don't open your present yet.", us: "Don't open your present yet." }, sens: "N’ouvre pas encore ton cadeau." }
+          - { id: c00.s03.A3.d5, texte: { uk: "What a lovely present.", us: "What a nice present." }, sens: "Quel joli cadeau." }
+        renvois: [c00.s03.A4]
+      - id: c00.s03.A4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.A4.e1
+            region: commun
+            texte: { uk: "to present", us: "to present" }
+            jeu: { contexte: "Saying a short phrase clearly so a learner can hear the stress: the verb, stress on the SECOND syllable, pre-SENT.", emotion: "clear, friendly" }
+        sens: présenter
+        usage: >-
+          Le verbe : la force passe sur la seconde syllabe, la première se réduit en pri.
+        declinaisons:
+          - { id: c00.s03.A4.d1, texte: { uk: "I'll present the results.", us: "I'll present the results." }, sens: "Je présenterai les résultats." }
+          - { id: c00.s03.A4.d2, texte: { uk: "She presents the news.", us: "She anchors the news." }, sens: "Elle présente le journal." }
+          - { id: c00.s03.A4.d3, texte: { uk: "Let me present my team.", us: "Let me present my team." }, sens: "Permettez-moi de vous présenter mon équipe." }
+          - { id: c00.s03.A4.d4, texte: { uk: "He presented it well.", us: "He presented it well." }, sens: "Il l’a bien présenté." }
+          - { id: c00.s03.A4.d5, texte: { uk: "Who's presenting today?", us: "Who's presenting today?" }, sens: "Qui présente aujourd’hui ?" }
+        renvois: [c00.s03.A3]
+      - id: c00.s03.A5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.A5.e1
+            region: commun
+            texte: { uk: "an increase", us: "an increase" }
+            jeu: { contexte: "Saying a short phrase clearly so a learner can hear the stress: the noun, stress on the FIRST syllable, IN-crease.", emotion: "clear, friendly" }
+        sens: une hausse
+        usage: >-
+          Le nom : <en>INcrease</en>. On l’entend dans les nouvelles et au travail, à côté de
+          <en>a pay rise</en>, l’augmentation de salaire.
+        declinaisons:
+          - { id: c00.s03.A5.d1, texte: { uk: "There's been an increase in prices.", us: "There's been an increase in prices." }, sens: "Les prix ont augmenté." }
+          - { id: c00.s03.A5.d2, texte: { uk: "A big increase.", us: "A big increase." }, sens: "Une forte hausse." }
+          - { id: c00.s03.A5.d3, texte: { uk: "I asked for an increase.", us: "I asked for an increase." }, sens: "J’ai demandé une augmentation." }
+          - { id: c00.s03.A5.d4, texte: { uk: "Prices are on the increase.", us: "Prices are on the increase." }, sens: "Les prix sont en hausse." }
+          - { id: c00.s03.A5.d5, texte: { uk: "A ten per cent increase.", us: "A ten percent increase." }, sens: "Une hausse de dix pour cent." }
+        renvois: [c00.s03.A6]
+      - id: c00.s03.A6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.A6.e1
+            region: commun
+            texte: { uk: "to increase", us: "to increase" }
+            jeu: { contexte: "Saying a short phrase clearly so a learner can hear the stress: the verb, stress on the SECOND syllable, in-CREASE.", emotion: "clear, friendly" }
+        sens: augmenter
+        usage: >-
+          Le verbe : <en>inCREASE</en>. Les mots identiques à l’écrit changent souvent de
+          syllabe forte entre nom et verbe.
+        declinaisons:
+          - { id: c00.s03.A6.d1, texte: { uk: "Prices keep increasing.", us: "Prices keep increasing." }, sens: "Les prix n’arrêtent pas d’augmenter." }
+          - { id: c00.s03.A6.d2, texte: { uk: "We need to increase sales.", us: "We need to increase sales." }, sens: "Il faut augmenter les ventes." }
+          - { id: c00.s03.A6.d3, texte: { uk: "It increases the risk.", us: "It increases the risk." }, sens: "Ça augmente le risque." }
+          - { id: c00.s03.A6.d4, texte: { uk: "The rent's increased again.", us: "The rent's increased again." }, sens: "Le loyer a encore augmenté." }
+          - { id: c00.s03.A6.d5, texte: { uk: "Increase the heat a little.", us: "Increase the heat a little." }, sens: "Monte un peu le feu." }
+        renvois: [c00.s03.A5]
+      - id: c00.s03.A7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.A7.e1
+            region: commun
+            texte: { uk: "an insult", us: "an insult" }
+            jeu: { contexte: "Saying a short phrase clearly so a learner can hear the stress: the noun, stress on the FIRST syllable, IN-sult.", emotion: "clear, friendly" }
+        sens: une insulte
+        usage: >-
+          Le nom : <en>INsult</en>. Le verbe, <en>inSULT</en>, déplace la force.
+        declinaisons:
+          - { id: c00.s03.A7.d1, texte: { uk: "That's an insult.", us: "That's an insult." }, sens: "C’est une insulte." }
+          - { id: c00.s03.A7.d2, texte: { uk: "Is that a compliment or an insult?", us: "Is that a compliment or an insult?" }, sens: "C’est un compliment ou une insulte ?" }
+          - { id: c00.s03.A7.d3, texte: { uk: "He shouted insults.", us: "He shouted insults." }, sens: "Il criait des insultes." }
+          - { id: c00.s03.A7.d4, texte: { uk: "No insult intended.", us: "No insult intended." }, sens: "Sans vouloir te vexer." }
+          - { id: c00.s03.A7.d5, texte: { uk: "It's an insult to my cooking.", us: "It's an insult to my cooking." }, sens: "C’est une insulte à ma cuisine." }
+        renvois: [c00.s03.A8]
+      - id: c00.s03.A8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.A8.e1
+            region: commun
+            texte: { uk: "to insult", us: "to insult" }
+            jeu: { contexte: "Saying a short phrase clearly so a learner can hear the stress: the verb, stress on the SECOND syllable, in-SULT.", emotion: "clear, friendly" }
+        sens: insulter
+        usage: >-
+          Le verbe : <en>inSULT</en>. Dites les deux à la suite, en tapant sur la table à
+          chaque syllabe forte.
+        declinaisons:
+          - { id: c00.s03.A8.d1, texte: { uk: "Don't insult me.", us: "Don't insult me." }, sens: "Ne m’insulte pas." }
+          - { id: c00.s03.A8.d2, texte: { uk: "I didn't mean to insult you.", us: "I didn't mean to insult you." }, sens: "Je ne voulais pas te vexer." }
+          - { id: c00.s03.A8.d3, texte: { uk: "Are you insulting my car?", us: "Are you insulting my car?" }, sens: "Tu insultes ma voiture ?" }
+          - { id: c00.s03.A8.d4, texte: { uk: "He insulted the referee.", us: "He insulted the referee." }, sens: "Il a insulté l’arbitre." }
+          - { id: c00.s03.A8.d5, texte: { uk: "I feel insulted.", us: "I feel insulted." }, sens: "Je me sens insulté." }
+        renvois: [c00.s03.A7]
+  - lettre: B
+    titre: La syllabe forte qui se déplace
+    expressions:
+      - id: c00.s03.B1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.B1.e1
+            region: commun
+            texte: { uk: "desert", us: "desert" }
+            jeu: { contexte: "Saying a single word clearly: stress on the FIRST syllable, DEZ-ert.", emotion: "clear, friendly" }
+        sens: désert
+        usage: >-
+          Le désert : <en>DEsert</en>, force au début, la fin réduite en ə. Le dessert se dit
+          <en>deSSERT</en>, force à la fin : l’orthographe ne vous le dit pas, l’oreille si.
+        declinaisons:
+          - { id: c00.s03.B1.d1, texte: { uk: "We drove across the desert.", us: "We drove across the desert." }, sens: "On a traversé le désert en voiture." }
+          - { id: c00.s03.B1.d2, texte: { uk: "It's like a desert in here.", us: "It's like a desert in here." }, sens: "C’est un vrai désert, ici." }
+          - { id: c00.s03.B1.d3, texte: { uk: "The Sahara Desert.", us: "The Sahara Desert." }, sens: "Le désert du Sahara." }
+          - { id: c00.s03.B1.d4, texte: { uk: "It's hot as a desert.", us: "It's hot as a desert." }, sens: "Il fait une chaleur de désert." }
+          - { id: c00.s03.B1.d5, texte: { uk: "A desert island.", us: "A desert island." }, sens: "Une île déserte." }
+        renvois: [c00.s03.B2]
+      - id: c00.s03.B2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.B2.e1
+            region: commun
+            texte: { uk: "dessert", us: "dessert" }
+            jeu: { contexte: "Saying a single word clearly: stress on the SECOND syllable, di-ZURT.", emotion: "clear, friendly" }
+        sens: dessert
+        usage: >-
+          Force sur la seconde syllabe, la première réduite en di ou də. Un moyen de s’en
+          souvenir : on veut toujours deux fois plus de dessert, d’où les deux s.
+        declinaisons:
+          - { id: c00.s03.B2.d1, texte: { uk: "What's for dessert?", us: "What's for dessert?" }, sens: "Qu’est-ce qu’il y a comme dessert ?" }
+          - { id: c00.s03.B2.d2, texte: { uk: "I'll skip dessert.", us: "I'll skip dessert." }, sens: "Je vais me passer de dessert." }
+          - { id: c00.s03.B2.d3, texte: { uk: "Dessert's on me.", us: "Dessert's on me." }, sens: "Le dessert, c’est moi qui l’offre." }
+          - { id: c00.s03.B2.d4, texte: { uk: "Is there room for dessert?", us: "Is there room for dessert?" }, sens: "Il reste de la place pour le dessert ?" }
+          - { id: c00.s03.B2.d5, texte: { uk: "Can we see the dessert menu?", us: "Can we see the dessert menu?" }, sens: "On peut voir la carte des desserts ?" }
+        renvois: [c00.s03.B1]
+      - id: c00.s03.B3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.B3.e1
+            region: commun
+            texte: { uk: "photograph", us: "photograph" }
+            jeu: { contexte: "Saying a single word clearly: stress on the FIRST syllable, PHO-to-graph.", emotion: "clear, friendly" }
+        sens: photographie
+        usage: >-
+          La force sur la première syllabe : <en>PHOtograph</en>. Ajoutez -er, et elle saute
+          sur la deuxième : <en>phoTOgrapher</en>.
+        declinaisons:
+          - { id: c00.s03.B3.d1, texte: { uk: "Can I take a photograph?", us: "Can I take a photograph?" }, sens: "Je peux prendre une photo ?" }
+          - { id: c00.s03.B3.d2, texte: { uk: "It's an old photograph.", us: "It's an old photograph." }, sens: "C’est une vieille photo." }
+          - { id: c00.s03.B3.d3, texte: { uk: "No photographs, please.", us: "No photographs, please." }, sens: "Pas de photos, s’il vous plaît." }
+          - { id: c00.s03.B3.d4, texte: { uk: "She photographs weddings.", us: "She photographs weddings." }, sens: "Elle photographie des mariages." }
+          - { id: c00.s03.B3.d5, texte: { uk: "I don't photograph well.", us: "I don't photograph well." }, sens: "Je ne suis pas photogénique." }
+        renvois: [c00.s03.B4]
+      - id: c00.s03.B4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.B4.e1
+            region: commun
+            texte: { uk: "photographer", us: "photographer" }
+            jeu: { contexte: "Saying a single word clearly: stress on the SECOND syllable, pho-TOG-ra-pher.", emotion: "clear, friendly" }
+        sens: photographe
+        usage: >-
+          Le suffixe déplace la force : <en>phoTOgrapher</en>. La première syllabe s’efface en
+          fə.
+        declinaisons:
+          - { id: c00.s03.B4.d1, texte: { uk: "She's a photographer.", us: "She's a photographer." }, sens: "Elle est photographe." }
+          - { id: c00.s03.B4.d2, texte: { uk: "We hired a photographer.", us: "We hired a photographer." }, sens: "On a engagé un photographe." }
+          - { id: c00.s03.B4.d3, texte: { uk: "The photographer's here.", us: "The photographer's here." }, sens: "Le photographe est là." }
+          - { id: c00.s03.B4.d4, texte: { uk: "Ask the photographer.", us: "Ask the photographer." }, sens: "Demande au photographe." }
+          - { id: c00.s03.B4.d5, texte: { uk: "He's a wedding photographer.", us: "He's a wedding photographer." }, sens: "Il est photographe de mariage." }
+        renvois: [c00.s03.B3]
+      - id: c00.s03.B5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.B5.e1
+            region: commun
+            texte: { uk: "Japan", us: "Japan" }
+            jeu: { contexte: "Saying a single word clearly: stress on the SECOND syllable, ja-PAN.", emotion: "clear, friendly" }
+        sens: le Japon
+        usage: >-
+          <en>JaPAN</en> : force à la fin, première syllabe en ə. Pour l’adjectif
+          <en>JapaNESE</en>, la force recule encore.
+        declinaisons:
+          - { id: c00.s03.B5.d1, texte: { uk: "I've been to Japan.", us: "I've been to Japan." }, sens: "Je suis allé au Japon." }
+          - { id: c00.s03.B5.d2, texte: { uk: "She lives in Japan.", us: "She lives in Japan." }, sens: "Elle vit au Japon." }
+          - { id: c00.s03.B5.d3, texte: { uk: "We're flying to Japan.", us: "We're flying to Japan." }, sens: "On part au Japon en avion." }
+          - { id: c00.s03.B5.d4, texte: { uk: "Japan's beautiful in spring.", us: "Japan's beautiful in spring." }, sens: "Le Japon est magnifique au printemps." }
+          - { id: c00.s03.B5.d5, texte: { uk: "It's made in Japan.", us: "It's made in Japan." }, sens: "C’est fabriqué au Japon." }
+        renvois: [c00.s03.B6]
+      - id: c00.s03.B6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.B6.e1
+            region: commun
+            texte: { uk: "Japanese", us: "Japanese" }
+            jeu: { contexte: "Saying a single word clearly: stress on the LAST syllable, ja-pa-NESE.", emotion: "clear, friendly" }
+        sens: japonais
+        usage: >-
+          Les mots en -ese portent la force sur la fin : <en>JapaNESE</en>, <en>ChiNESE</en>.
+          Avant un nom, elle peut reculer : <en>a JApanese car</en>.
+        declinaisons:
+          - { id: c00.s03.B6.d1, texte: { uk: "Do you speak Japanese?", us: "Do you speak Japanese?" }, sens: "Tu parles japonais ?" }
+          - { id: c00.s03.B6.d2, texte: { uk: "I love Japanese food.", us: "I love Japanese food." }, sens: "J’adore la cuisine japonaise." }
+          - { id: c00.s03.B6.d3, texte: { uk: "She's Japanese.", us: "She's Japanese." }, sens: "Elle est japonaise." }
+          - { id: c00.s03.B6.d4, texte: { uk: "Let's get Japanese tonight.", us: "Let's get Japanese tonight." }, sens: "On mange japonais ce soir." }
+          - { id: c00.s03.B6.d5, texte: { uk: "The menu's in Japanese.", us: "The menu's in Japanese." }, sens: "La carte est en japonais." }
+        renvois: [c00.s03.B5]
+      - id: c00.s03.B7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.B7.e1
+            region: commun
+            texte: { uk: "economy", us: "economy" }
+            jeu: { contexte: "Saying a single word clearly: stress on the SECOND syllable, e-CON-o-my.", emotion: "clear, friendly" }
+        sens: économie
+        usage: >-
+          <en>eCOnomy</en> : force sur la deuxième syllabe. L’adjectif <en>ecoNOmic</en> la
+          déplace d’un cran.
+        declinaisons:
+          - { id: c00.s03.B7.d1, texte: { uk: "The economy's doing well.", us: "The economy's doing well." }, sens: "L’économie se porte bien." }
+          - { id: c00.s03.B7.d2, texte: { uk: "We flew economy.", us: "We flew economy." }, sens: "On a voyagé en classe économique." }
+          - { id: c00.s03.B7.d3, texte: { uk: "It's good for the economy.", us: "It's good for the economy." }, sens: "C’est bon pour l’économie." }
+          - { id: c00.s03.B7.d4, texte: { uk: "The local economy.", us: "The local economy." }, sens: "L’économie locale." }
+          - { id: c00.s03.B7.d5, texte: { uk: "An economy car park.", us: "An economy parking lot." }, sens: "Un parking économique." }
+        renvois: [c00.s03.B8]
+      - id: c00.s03.B8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.B8.e1
+            region: commun
+            texte: { uk: "economic", us: "economic" }
+            jeu: { contexte: "Saying a single word clearly: stress on the THIRD syllable, e-co-NOM-ic.", emotion: "clear, friendly" }
+        sens: économique
+        usage: >-
+          Les adjectifs en -ic portent la force juste avant la terminaison :
+          <en>ecoNOmic</en>, <en>fanTAStic</en>, <en>draMAtic</en>.
+        declinaisons:
+          - { id: c00.s03.B8.d1, texte: { uk: "The economic crisis.", us: "The economic crisis." }, sens: "La crise économique." }
+          - { id: c00.s03.B8.d2, texte: { uk: "For economic reasons.", us: "For economic reasons." }, sens: "Pour des raisons économiques." }
+          - { id: c00.s03.B8.d3, texte: { uk: "Economic growth.", us: "Economic growth." }, sens: "La croissance économique." }
+          - { id: c00.s03.B8.d4, texte: { uk: "It makes economic sense.", us: "It makes economic sense." }, sens: "C’est logique sur le plan économique." }
+          - { id: c00.s03.B8.d5, texte: { uk: "An economic policy.", us: "An economic policy." }, sens: "Une politique économique." }
+        renvois: [c00.s03.B7]
+  - lettre: C
+    titre: Le son ə, presque rien
+    expressions:
+      - id: c00.s03.C1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.C1.e1
+            region: commun
+            texte: { uk: "police", us: "police" }
+            jeu: { contexte: "Saying a single word clearly: a tiny schwa first syllable, then stress, pə-LEECE.", emotion: "clear, friendly" }
+        sens: police
+        usage: >-
+          La première syllabe se réduit à un ə presque muet : pə-LICE. Si on l’avale tout à
+          fait, on entend <en>please</en>. Le son ə est le plus fréquent de l’anglais.
+        declinaisons:
+          - { id: c00.s03.C1.d1, texte: { uk: "Call the police!", us: "Call the police!" }, sens: "Appelle la police !" }
+          - { id: c00.s03.C1.d2, texte: { uk: "The police are here.", us: "The police are here." }, sens: "La police est là." }
+          - { id: c00.s03.C1.d3, texte: { uk: "Is that a police car?", us: "Is that a police car?" }, sens: "C’est une voiture de police ?" }
+          - { id: c00.s03.C1.d4, texte: { uk: "I'm calling the police.", us: "I'm calling the police." }, sens: "J’appelle la police." }
+          - { id: c00.s03.C1.d5, texte: { uk: "Ask a police officer.", us: "Ask a police officer." }, sens: "Demande à un policier." }
+        renvois: [c00.s03.C2]
+      - id: c00.s03.C2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.C2.e1
+            region: commun
+            texte: { uk: "please", us: "please" }
+            jeu: { contexte: "Saying a single word clearly: one syllable, pl straight into a long ee.", emotion: "clear, friendly" }
+        sens: s’il vous plaît
+        usage: >-
+          Une seule syllabe : pl, puis le i long. Comparez avec <en>police</en>, où un petit ə
+          se glisse entre p et l.
+        declinaisons:
+          - { id: c00.s03.C2.d1, texte: { uk: "Yes, please.", us: "Yes, please." }, sens: "Oui, s’il vous plaît." }
+          - { id: c00.s03.C2.d2, texte: { uk: "Please sit down.", us: "Please sit down." }, sens: "Asseyez-vous, je vous en prie." }
+          - { id: c00.s03.C2.d3, texte: { uk: "Two teas, please.", us: "Two teas, please." }, sens: "Deux thés, s’il vous plaît." }
+          - { id: c00.s03.C2.d4, texte: { uk: "Please don't.", us: "Please don't." }, sens: "Non, je t’en prie." }
+          - { id: c00.s03.C2.d5, texte: { uk: "Oh, please!", us: "Oh, please!" }, sens: "Oh, je t’en prie !" }
+        renvois: [c00.s03.C1]
+      - id: c00.s03.C3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.C3.e1
+            region: commun
+            texte: { uk: "support", us: "support" }
+            jeu: { contexte: "Saying a single word clearly: a tiny schwa first syllable, then stress, sə-PORT.", emotion: "clear, friendly" }
+        sens: soutenir ; soutien
+        usage: >-
+          Le u de la première syllabe devient ə : sə-PORT. Sans lui, on entend <en>sport</en>.
+          La force tombe toujours sur la seconde.
+        declinaisons:
+          - { id: c00.s03.C3.d1, texte: { uk: "Thanks for your support.", us: "Thanks for your support." }, sens: "Merci pour ton soutien." }
+          - { id: c00.s03.C3.d2, texte: { uk: "Which team do you support?", us: "Which team do you root for?" }, sens: "Tu es pour quelle équipe ?" }
+          - { id: c00.s03.C3.d3, texte: { uk: "Can you support me on this?", us: "Can you support me on this?" }, sens: "Tu peux me soutenir là-dessus ?" }
+          - { id: c00.s03.C3.d4, texte: { uk: "Call customer support.", us: "Call customer support." }, sens: "Appelle le service client." }
+          - { id: c00.s03.C3.d5, texte: { uk: "We'll support you.", us: "We'll support you." }, sens: "On te soutiendra." }
+        renvois: [c00.s03.C4]
+      - id: c00.s03.C4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.C4.e1
+            region: commun
+            texte: { uk: "sport", us: "sport" }
+            jeu: { contexte: "Saying a single word clearly: one syllable, sp straight into the vowel.", emotion: "clear, friendly" }
+        sens: sport
+        usage: >-
+          Une seule syllabe, s et p collés. À New York, le r final se prononce ; à Londres, il
+          allonge seulement la voyelle.
+        declinaisons:
+          - { id: c00.s03.C4.d1, texte: { uk: "Do you like sport?", us: "Do you like sports?" }, sens: "Tu aimes le sport ?" }
+          - { id: c00.s03.C4.d2, texte: { uk: "What's your favourite sport?", us: "What's your favorite sport?" }, sens: "Quel est ton sport préféré ?" }
+          - { id: c00.s03.C4.d3, texte: { uk: "Be a good sport.", us: "Be a good sport." }, sens: "Sois beau joueur." }
+          - { id: c00.s03.C4.d4, texte: { uk: "I watch sport on TV.", us: "I watch sports on TV." }, sens: "Je regarde le sport à la télé." }
+          - { id: c00.s03.C4.d5, texte: { uk: "She's very sporty.", us: "She's very sporty." }, sens: "Elle est très sportive." }
+        renvois: [c00.s03.C3]
+      - id: c00.s03.C5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.C5.e1
+            region: commun
+            texte: { uk: "parade", us: "parade" }
+            jeu: { contexte: "Saying a single word clearly: a tiny schwa first syllable, then stress, pə-RADE.", emotion: "clear, friendly" }
+        sens: défilé
+        usage: >-
+          pə-RADE : la première voyelle n’est qu’un souffle. Sans elle, on entend
+          <en>prayed</en>, « a prié ».
+        declinaisons:
+          - { id: c00.s03.C5.d1, texte: { uk: "Let's watch the parade.", us: "Let's watch the parade." }, sens: "Allons voir le défilé." }
+          - { id: c00.s03.C5.d2, texte: { uk: "The parade starts at noon.", us: "The parade starts at noon." }, sens: "Le défilé commence à midi." }
+          - { id: c00.s03.C5.d3, texte: { uk: "It rained on our parade.", us: "It rained on our parade." }, sens: "Ça nous a gâché la fête." }
+          - { id: c00.s03.C5.d4, texte: { uk: "A victory parade.", us: "A victory parade." }, sens: "Un défilé de la victoire." }
+          - { id: c00.s03.C5.d5, texte: { uk: "They paraded through town.", us: "They paraded through town." }, sens: "Ils ont défilé dans la ville." }
+        renvois: [c00.s03.C6]
+      - id: c00.s03.C6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.C6.e1
+            region: commun
+            texte: { uk: "prayed", us: "prayed" }
+            jeu: { contexte: "Saying a single word clearly: one syllable, pr straight into the vowel.", emotion: "clear, friendly" }
+        sens: a prié
+        usage: >-
+          Une seule syllabe : p et r collés, puis la diphtongue. Le -ed final ne s’entend que
+          comme un d léger.
+        declinaisons:
+          - { id: c00.s03.C6.d1, texte: { uk: "We prayed for rain.", us: "We prayed for rain." }, sens: "On a prié pour qu’il pleuve." }
+          - { id: c00.s03.C6.d2, texte: { uk: "She prayed every night.", us: "She prayed every night." }, sens: "Elle priait tous les soirs." }
+          - { id: c00.s03.C6.d3, texte: { uk: "I prayed you'd call.", us: "I prayed you'd call." }, sens: "Je priais pour que tu appelles." }
+          - { id: c00.s03.C6.d4, texte: { uk: "They prayed together.", us: "They prayed together." }, sens: "Ils ont prié ensemble." }
+          - { id: c00.s03.C6.d5, texte: { uk: "I just prayed it'd work.", us: "I just prayed it'd work." }, sens: "Je priais juste pour que ça marche." }
+        renvois: [c00.s03.C5]
+      - id: c00.s03.C7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.C7.e1
+            region: commun
+            texte: { uk: "below", us: "below" }
+            jeu: { contexte: "Saying a single word clearly: a short weak first syllable, then stress, bi-LOW.", emotion: "clear, friendly" }
+        sens: en dessous
+        usage: >-
+          bi-LOW : la première syllabe est faible, la force sur la seconde. Sans elle, on dit
+          <en>blow</en>, « souffler ».
+        declinaisons:
+          - { id: c00.s03.C7.d1, texte: { uk: "See the notes below.", us: "See the notes below." }, sens: "Voir les notes ci-dessous." }
+          - { id: c00.s03.C7.d2, texte: { uk: "It's below zero.", us: "It's below zero." }, sens: "Il fait moins de zéro." }
+          - { id: c00.s03.C7.d3, texte: { uk: "The flat below is empty.", us: "The apartment below is empty." }, sens: "L’appartement du dessous est vide." }
+          - { id: c00.s03.C7.d4, texte: { uk: "Sign below, please.", us: "Sign below, please." }, sens: "Signez en dessous, s’il vous plaît." }
+          - { id: c00.s03.C7.d5, texte: { uk: "That's below the belt.", us: "That's below the belt." }, sens: "C’est un coup bas." }
+        renvois: [c00.s03.C8]
+      - id: c00.s03.C8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, rythme]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s03.C8.e1
+            region: commun
+            texte: { uk: "blow", us: "blow" }
+            jeu: { contexte: "Saying a single word clearly: one syllable, bl straight into the vowel.", emotion: "clear, friendly" }
+        sens: souffler
+        usage: >-
+          Une seule syllabe, b et l collés. On souffle des bougies, on se mouche (<en>blow
+          your nose</en>).
+        declinaisons:
+          - { id: c00.s03.C8.d1, texte: { uk: "Blow out the candles!", us: "Blow out the candles!" }, sens: "Souffle les bougies !" }
+          - { id: c00.s03.C8.d2, texte: { uk: "Blow your nose.", us: "Blow your nose." }, sens: "Mouche-toi." }
+          - { id: c00.s03.C8.d3, texte: { uk: "The wind's blowing hard.", us: "The wind's blowing hard." }, sens: "Le vent souffle fort." }
+          - { id: c00.s03.C8.d4, texte: { uk: "Don't blow it!", us: "Don't blow it!" }, sens: "Ne gâche pas tout !" }
+          - { id: c00.s03.C8.d5, texte: { uk: "It blew my mind.", us: "It blew my mind." }, sens: "Ça m’a époustouflé." }
+        renvois: [c00.s03.C7]
+essentiel:
+  incontournables: [c00.s03.A1, c00.s03.A2, c00.s03.A3, c00.s03.A4, c00.s03.B1, c00.s03.B2, c00.s03.C1, c00.s03.C2, c00.s03.C3, c00.s03.C4]
+  fauxPas:
+    - fautif: "What's for desert?"
+      naturel: "What's for dessert?"
+      pourquoi: "À table, on attend le <en>deSSERT</en>, force à la fin. Le <en>DEsert</en>, force au début, c’est le Sahara."
+    - fautif: "Pho-to-GRAPH."
+      naturel: "PHOtograph."
+      pourquoi: "L’anglais ne frappe pas la dernière syllabe comme le français : <en>PHOtograph</en>, <en>phoTOgrapher</en>."
+    - fautif: "I want to re-cord a re-cord."
+      naturel: "I want to reCORD a REcord."
+      pourquoi: "Le verbe et le nom ne se disent pas de la même façon : la force change de place."
+    - fautif: "Call the plice!"
+      naturel: "Call the police!"
+      pourquoi: "Le ə de <en>police</en> est léger, mais il est là : sans lui, le mot se rapproche de <en>please</en>."
+    - fautif: "ECO-NO-MIC."
+      naturel: "ecoNOmic."
+      pourquoi: "Une seule syllabe forte par mot, les autres s’effacent : c’est le battement de l’anglais."
+sceneVivante:
+  titre: Le cadeau
+  repliques:
+    - { id: c00.s03.sv.l01, personnage: mia, texte: { uk: "Daddy, is that a present for me?", us: "Daddy, is that a present for me?" }, sens: "Papa, c’est un cadeau pour moi ?", emotion: "excited, spotting a box" }
+    - { id: c00.s03.sv.l02, personnage: kofi, texte: { uk: "It might be. After dessert.", us: "It might be. After dessert." }, sens: "Peut-être. Après le dessert.", emotion: "teasing, mysterious" }
+    - { id: c00.s03.sv.l03, personnage: mia, texte: { uk: "What's for dessert?", us: "What's for dessert?" }, sens: "Qu’est-ce qu’il y a comme dessert ?", emotion: "eager" }
+    - { id: c00.s03.sv.l04, personnage: sarah, texte: { uk: "Chocolate cake. And then you can open your present.", us: "Chocolate cake. And then you can open your present." }, sens: "Un gâteau au chocolat. Ensuite, tu pourras ouvrir ton cadeau.", emotion: "warm, smiling" }
+    - { id: c00.s03.sv.l05, personnage: mia, texte: { uk: "Can I record it on your phone?", us: "Can I record it on your phone?" }, sens: "Je peux l’enregistrer sur ton téléphone ?", emotion: "pleading" }
+    - { id: c00.s03.sv.l06, personnage: kofi, texte: { uk: "Record what? You eating cake?", us: "Record what? You eating cake?" }, sens: "Enregistrer quoi ? Toi en train de manger du gâteau ?", emotion: "amused" }
+    - { id: c00.s03.sv.l07, personnage: mia, texte: { uk: "No! Me opening the present!", us: "No! Me opening the present!" }, sens: "Mais non ! Moi en train d’ouvrir le cadeau !", emotion: "indignant, giggling" }
+    - { id: c00.s03.sv.l08, personnage: sarah, texte: { uk: "Fine. I'll be the photographer.", us: "Fine. I'll be the photographer." }, sens: "D’accord. Je serai la photographe.", emotion: "playful" }
+    - { id: c00.s03.sv.l09, personnage: mia, texte: { uk: "It's a camera! A real one!", us: "It's a camera! A real one!" }, sens: "C’est un appareil photo ! Un vrai !", emotion: "thrilled, tearing the paper" }
+    - { id: c00.s03.sv.l10, personnage: kofi, texte: { uk: "Now you're the photographer.", us: "Now you're the photographer." }, sens: "Maintenant, c’est toi la photographe.", emotion: "proud, gentle" }
+rituel:
+  - "Aujourd’hui, dites trois fois <en>a REcord, to reCORD</en> en tapant du doigt sur la syllabe forte."
+  - "Au dessert, annoncez-le en anglais : <en>What’s for deSSERT?</en>"
+ateliers:
+  jeuDesPaires: renvois
+  oreilleFine: [c00.s03.A1.d5, c00.s03.B1.d4, c00.s03.C1.d5, c00.s03.A3.d5, c00.s03.B3.d5]
+  miroir: [c00.s03.A1, c00.s03.A2, c00.s03.A3, c00.s03.A4, c00.s03.B1, c00.s03.B2, c00.s03.C1, c00.s03.C2, c00.s03.C3, c00.s03.C4]

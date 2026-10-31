@@ -1,0 +1,759 @@
+# Prélude, scène P.4 — Les petits mots qui s’écrasent (4.3). Paires d'écoute : chaque phrase est une expression à un énoncé ; son partenaire de paire est son renvoi.
+id: c00.s04
+titre: Les petits mots qui s’écrasent
+intention: >-
+  À la fin de cette scène, vous distinguez <en>I can</en> de <en>I can’t</en> sans
+  attendre le t, vous entendez les contractions qui disparaissent presque, et vous
+  reconnaissez les petits mots faibles (<en>and</en>, <en>or</en>, <en>for</en>,
+  <en>from</en>, <en>him</en>, <en>her</en>, <en>them</en>, <en>to</en>, <en>of</en>,
+  <en>you</en>) et leur forme pleine en fin de phrase.
+version: 1
+moments:
+  - lettre: A
+    titre: Can et can’t
+    expressions:
+      - id: c00.s04.A1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.A1.e1
+            region: commun
+            texte: { uk: "I can come.", us: "I can come." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'can' is weak and quick, kn, the stress falls on 'come'.", emotion: "clear, friendly" }
+        sens: Je peux venir.
+        usage: >-
+          Dans une phrase affirmative, <en>can</en> s’écrase en kən, presque kn, et la force
+          tombe sur le verbe. C’est le premier indice pour l’opposer à <en>can’t</en>.
+        declinaisons:
+          - { id: c00.s04.A1.d1, texte: { uk: "I can do it.", us: "I can do it." }, sens: "Je peux le faire." }
+          - { id: c00.s04.A1.d2, texte: { uk: "You can sit here.", us: "You can sit here." }, sens: "Tu peux t’asseoir ici." }
+          - { id: c00.s04.A1.d3, texte: { uk: "We can talk later.", us: "We can talk later." }, sens: "On peut en parler plus tard." }
+          - { id: c00.s04.A1.d4, texte: { uk: "I can see it.", us: "I can see it." }, sens: "Je le vois." }
+          - { id: c00.s04.A1.d5, texte: { uk: "She can help you.", us: "She can help you." }, sens: "Elle peut t’aider." }
+        renvois: [c00.s04.A2]
+      - id: c00.s04.A2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.A2.e1
+            region: commun
+            texte: { uk: "I can't come.", us: "I can't come." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'can't' is strong and stressed, a full vowel.", emotion: "clear, friendly" }
+        sens: Je ne peux pas venir.
+        usage: >-
+          <en>Can’t</en> garde sa voyelle pleine (kɑːnt à Londres, kænt à New York) et reçoit
+          la force. Le t final disparaît souvent : fiez-vous à la voyelle et au rythme.
+        declinaisons:
+          - { id: c00.s04.A2.d1, texte: { uk: "I can't do it.", us: "I can't do it." }, sens: "Je n’y arrive pas." }
+          - { id: c00.s04.A2.d2, texte: { uk: "You can't sit here.", us: "You can't sit here." }, sens: "Tu ne peux pas t’asseoir ici." }
+          - { id: c00.s04.A2.d3, texte: { uk: "I can't hear you.", us: "I can't hear you." }, sens: "Je ne t’entends pas." }
+          - { id: c00.s04.A2.d4, texte: { uk: "We can't talk now.", us: "We can't talk now." }, sens: "On ne peut pas parler maintenant." }
+          - { id: c00.s04.A2.d5, texte: { uk: "She can't help it.", us: "She can't help it." }, sens: "Elle n’y peut rien." }
+        renvois: [c00.s04.A1]
+      - id: c00.s04.A3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.A3.e1
+            region: commun
+            texte: { uk: "You can park here.", us: "You can park here." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'can' is weak, kn, the stress falls on 'park'.", emotion: "clear, friendly" }
+        sens: Vous pouvez vous garer ici.
+        usage: >-
+          Même règle : <en>can</en> faible, verbe fort. Un contresens ici coûte une amende.
+        declinaisons:
+          - { id: c00.s04.A3.d1, texte: { uk: "You can stay.", us: "You can stay." }, sens: "Tu peux rester." }
+          - { id: c00.s04.A3.d2, texte: { uk: "You can go in.", us: "You can go in." }, sens: "Vous pouvez entrer." }
+          - { id: c00.s04.A3.d3, texte: { uk: "You can pay by card.", us: "You can pay by card." }, sens: "Vous pouvez payer par carte." }
+          - { id: c00.s04.A3.d4, texte: { uk: "You can leave it there.", us: "You can leave it there." }, sens: "Tu peux le laisser là." }
+          - { id: c00.s04.A3.d5, texte: { uk: "You can call me anytime.", us: "You can call me anytime." }, sens: "Tu peux m’appeler quand tu veux." }
+        renvois: [c00.s04.A4]
+      - id: c00.s04.A4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.A4.e1
+            region: commun
+            texte: { uk: "You can't park here.", us: "You can't park here." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'can't' is strong and stressed, a full vowel, a firm tone.", emotion: "clear, friendly" }
+        sens: Vous ne pouvez pas vous garer ici.
+        usage: >-
+          <en>Can’t</en> fort, voyelle pleine, ton plus appuyé. C’est le rythme de la phrase
+          qui vous renseigne avant le t.
+        declinaisons:
+          - { id: c00.s04.A4.d1, texte: { uk: "You can't stay.", us: "You can't stay." }, sens: "Tu ne peux pas rester." }
+          - { id: c00.s04.A4.d2, texte: { uk: "You can't go in there.", us: "You can't go in there." }, sens: "Vous ne pouvez pas entrer là." }
+          - { id: c00.s04.A4.d3, texte: { uk: "You can't be serious.", us: "You can't be serious." }, sens: "Tu plaisantes." }
+          - { id: c00.s04.A4.d4, texte: { uk: "You can't smoke here.", us: "You can't smoke here." }, sens: "On ne fume pas ici." }
+          - { id: c00.s04.A4.d5, texte: { uk: "You can't miss it.", us: "You can't miss it." }, sens: "Tu ne peux pas le rater." }
+        renvois: [c00.s04.A3]
+      - id: c00.s04.A5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.A5.e1
+            region: commun
+            texte: { uk: "She can swim.", us: "She can swim." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'can' is weak, kn, the stress falls on 'swim'.", emotion: "clear, friendly" }
+        sens: Elle sait nager.
+        usage: >-
+          <en>Can</en> faible encore : ʃi kən SWIM. La syllabe forte est <en>swim</en>.
+        declinaisons:
+          - { id: c00.s04.A5.d1, texte: { uk: "She can drive.", us: "She can drive." }, sens: "Elle sait conduire." }
+          - { id: c00.s04.A5.d2, texte: { uk: "He can cook.", us: "He can cook." }, sens: "Il sait cuisiner." }
+          - { id: c00.s04.A5.d3, texte: { uk: "They can speak French.", us: "They can speak French." }, sens: "Ils parlent français." }
+          - { id: c00.s04.A5.d4, texte: { uk: "Mia can read now.", us: "Mia can read now." }, sens: "Mia sait lire, maintenant." }
+          - { id: c00.s04.A5.d5, texte: { uk: "I can play the guitar.", us: "I can play the guitar." }, sens: "Je joue de la guitare." }
+        renvois: [c00.s04.A6]
+      - id: c00.s04.A6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.A6.e1
+            region: commun
+            texte: { uk: "She can't swim.", us: "She can't swim." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'can't' is strong and stressed, a full vowel.", emotion: "clear, friendly" }
+        sens: Elle ne sait pas nager.
+        usage: >-
+          Ici, deux syllabes fortes : <en>CAN’T SWIM</en>. Le battement double est le signal
+          du négatif.
+        declinaisons:
+          - { id: c00.s04.A6.d1, texte: { uk: "She can't drive.", us: "She can't drive." }, sens: "Elle ne sait pas conduire." }
+          - { id: c00.s04.A6.d2, texte: { uk: "He can't cook.", us: "He can't cook." }, sens: "Il ne sait pas cuisiner." }
+          - { id: c00.s04.A6.d3, texte: { uk: "I can't sing.", us: "I can't sing." }, sens: "Je chante faux." }
+          - { id: c00.s04.A6.d4, texte: { uk: "They can't swim yet.", us: "They can't swim yet." }, sens: "Ils ne savent pas encore nager." }
+          - { id: c00.s04.A6.d5, texte: { uk: "I can't dance at all.", us: "I can't dance at all." }, sens: "Je ne sais pas du tout danser." }
+        renvois: [c00.s04.A5]
+      - id: c00.s04.A7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.A7.e1
+            region: commun
+            texte: { uk: "We can wait.", us: "We can wait." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'can' is weak, kn, calm, the stress falls on 'wait'.", emotion: "clear, friendly" }
+        sens: On peut attendre.
+        usage: >-
+          Le ton est calme, <en>can</en> se réduit à kn, <en>wait</en> porte la force.
+        declinaisons:
+          - { id: c00.s04.A7.d1, texte: { uk: "We can wait outside.", us: "We can wait outside." }, sens: "On peut attendre dehors." }
+          - { id: c00.s04.A7.d2, texte: { uk: "I can wait.", us: "I can wait." }, sens: "Je peux attendre." }
+          - { id: c00.s04.A7.d3, texte: { uk: "It can wait.", us: "It can wait." }, sens: "Ça peut attendre." }
+          - { id: c00.s04.A7.d4, texte: { uk: "We can wait a bit longer.", us: "We can wait a little longer." }, sens: "On peut attendre encore un peu." }
+          - { id: c00.s04.A7.d5, texte: { uk: "They can wait in the car.", us: "They can wait in the car." }, sens: "Ils peuvent attendre dans la voiture." }
+        renvois: [c00.s04.A8]
+      - id: c00.s04.A8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.A8.e1
+            region: commun
+            texte: { uk: "We can't wait.", us: "We can't wait." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'can't' is strong and stressed, full of excitement.", emotion: "clear, friendly" }
+        sens: On a hâte ; on ne peut pas attendre.
+        usage: >-
+          Deux sens : « on ne peut pas attendre » et, très souvent, « on a hâte ». <en>We
+          can’t wait to see you!</en>
+        declinaisons:
+          - { id: c00.s04.A8.d1, texte: { uk: "We can't wait to see you!", us: "We can't wait to see you!" }, sens: "On a hâte de te voir !" }
+          - { id: c00.s04.A8.d2, texte: { uk: "I can't wait!", us: "I can't wait!" }, sens: "J’ai trop hâte !" }
+          - { id: c00.s04.A8.d3, texte: { uk: "It can't wait.", us: "It can't wait." }, sens: "Ça ne peut pas attendre." }
+          - { id: c00.s04.A8.d4, texte: { uk: "I can't wait for the weekend.", us: "I can't wait for the weekend." }, sens: "Vivement le week-end." }
+          - { id: c00.s04.A8.d5, texte: { uk: "The kids can't wait.", us: "The kids can't wait." }, sens: "Les enfants sont impatients." }
+        renvois: [c00.s04.A7]
+  - lettre: B
+    titre: Les contractions qui s’effacent
+    expressions:
+      - id: c00.s04.B1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.B1.e1
+            region: commun
+            texte: { uk: "I'll call you.", us: "I'll call you." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: the contraction 'I'll' is quick and soft, almost 'all'.", emotion: "clear, friendly" }
+        sens: Je t’appellerai.
+        usage: >-
+          <en>I’ll</en> se fond en un seul son, proche de <en>all</en> : seul un l sombre
+          trahit le futur.
+        declinaisons:
+          - { id: c00.s04.B1.d1, texte: { uk: "I'll see you later.", us: "I'll see you later." }, sens: "À plus tard." }
+          - { id: c00.s04.B1.d2, texte: { uk: "I'll be there.", us: "I'll be there." }, sens: "J’y serai." }
+          - { id: c00.s04.B1.d3, texte: { uk: "I'll do it tomorrow.", us: "I'll do it tomorrow." }, sens: "Je le ferai demain." }
+          - { id: c00.s04.B1.d4, texte: { uk: "I'll get it!", us: "I'll get it!" }, sens: "J’y vais !" }
+          - { id: c00.s04.B1.d5, texte: { uk: "I'll think about it.", us: "I'll think about it." }, sens: "Je vais y réfléchir." }
+        renvois: [c00.s04.B2]
+      - id: c00.s04.B2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.B2.e1
+            region: commun
+            texte: { uk: "I call you.", us: "I call you." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: plain present tense, no contraction.", emotion: "clear, friendly" }
+        sens: Je t’appelle (d’habitude).
+        usage: >-
+          Sans le l, c’est une habitude : « je t’appelle tous les jours ». À l’oreille, la
+          différence tient en un son.
+        declinaisons:
+          - { id: c00.s04.B2.d1, texte: { uk: "I call you every day.", us: "I call you every day." }, sens: "Je t’appelle tous les jours." }
+          - { id: c00.s04.B2.d2, texte: { uk: "I call Mum on Sundays.", us: "I call Mom on Sundays." }, sens: "J’appelle maman le dimanche." }
+          - { id: c00.s04.B2.d3, texte: { uk: "I see her every week.", us: "I see her every week." }, sens: "Je la vois chaque semaine." }
+          - { id: c00.s04.B2.d4, texte: { uk: "I walk to work.", us: "I walk to work." }, sens: "Je vais au travail à pied." }
+          - { id: c00.s04.B2.d5, texte: { uk: "I do it every morning.", us: "I do it every morning." }, sens: "Je le fais tous les matins." }
+        renvois: [c00.s04.B1]
+      - id: c00.s04.B3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.B3.e1
+            region: commun
+            texte: { uk: "We'd love to.", us: "We'd love to." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: the contraction 'We'd' is quick and soft, the d barely touches 'love'.", emotion: "clear, friendly" }
+        sens: Avec plaisir.
+        usage: >-
+          <en>We’d</en> (<en>we would</en>) se réduit à un d qui touche à peine le mot
+          suivant. C’est la réponse naturelle à une invitation.
+        declinaisons:
+          - { id: c00.s04.B3.d1, texte: { uk: "We'd love to come.", us: "We'd love to come." }, sens: "On viendrait avec plaisir." }
+          - { id: c00.s04.B3.d2, texte: { uk: "I'd love a cup of tea.", us: "I'd love a cup of tea." }, sens: "Je prendrais volontiers un thé." }
+          - { id: c00.s04.B3.d3, texte: { uk: "We'd better go.", us: "We'd better go." }, sens: "On ferait mieux d’y aller." }
+          - { id: c00.s04.B3.d4, texte: { uk: "I'd rather stay.", us: "I'd rather stay." }, sens: "Je préférerais rester." }
+          - { id: c00.s04.B3.d5, texte: { uk: "We'd like two tickets.", us: "We'd like two tickets." }, sens: "Nous voudrions deux billets." }
+        renvois: [c00.s04.B4]
+      - id: c00.s04.B4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.B4.e1
+            region: commun
+            texte: { uk: "We love to.", us: "We love to." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: plain present tense, no contraction.", emotion: "clear, friendly" }
+        sens: On adore ça.
+        usage: >-
+          Sans le d, c’est un fait, pas une invitation acceptée. Écoutez le petit arrêt entre
+          <en>we’d</en> et <en>love</en>.
+        declinaisons:
+          - { id: c00.s04.B4.d1, texte: { uk: "We love to travel.", us: "We love to travel." }, sens: "On adore voyager." }
+          - { id: c00.s04.B4.d2, texte: { uk: "We love it here.", us: "We love it here." }, sens: "On adore cet endroit." }
+          - { id: c00.s04.B4.d3, texte: { uk: "We love to cook.", us: "We love to cook." }, sens: "On adore cuisiner." }
+          - { id: c00.s04.B4.d4, texte: { uk: "We love you.", us: "We love you." }, sens: "On t’aime." }
+          - { id: c00.s04.B4.d5, texte: { uk: "We love going there.", us: "We love going there." }, sens: "On adore y aller." }
+        renvois: [c00.s04.B3]
+      - id: c00.s04.B5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.B5.e1
+            region: commun
+            texte: { uk: "They've finished.", us: "They've finished." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: the contraction 'They've' is quick, a light v sound.", emotion: "clear, friendly" }
+        sens: Ils ont fini.
+        usage: >-
+          Le <en>’ve</en> n’est qu’un v léger, presque englouti. Il marque le présent
+          parfait : c’est fini, et cela pèse sur le présent.
+        declinaisons:
+          - { id: c00.s04.B5.d1, texte: { uk: "They've gone home.", us: "They've gone home." }, sens: "Ils sont rentrés." }
+          - { id: c00.s04.B5.d2, texte: { uk: "I've lost my keys.", us: "I've lost my keys." }, sens: "J’ai perdu mes clés." }
+          - { id: c00.s04.B5.d3, texte: { uk: "We've met before.", us: "We've met before." }, sens: "On s’est déjà rencontrés." }
+          - { id: c00.s04.B5.d4, texte: { uk: "You've changed.", us: "You've changed." }, sens: "Tu as changé." }
+          - { id: c00.s04.B5.d5, texte: { uk: "They've just left.", us: "They've just left." }, sens: "Ils viennent de partir." }
+        renvois: [c00.s04.B6]
+      - id: c00.s04.B6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.B6.e1
+            region: commun
+            texte: { uk: "They finished.", us: "They finished." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: plain past tense, no contraction.", emotion: "clear, friendly" }
+        sens: Ils ont fini (à ce moment-là).
+        usage: >-
+          Le simple passé, sans v. Dans la conversation rapide, ce petit v est souvent le seul
+          indice.
+        declinaisons:
+          - { id: c00.s04.B6.d1, texte: { uk: "They finished at six.", us: "They finished at six." }, sens: "Ils ont fini à six heures." }
+          - { id: c00.s04.B6.d2, texte: { uk: "We met in Paris.", us: "We met in Paris." }, sens: "On s’est rencontrés à Paris." }
+          - { id: c00.s04.B6.d3, texte: { uk: "I lost them yesterday.", us: "I lost them yesterday." }, sens: "Je les ai perdues hier." }
+          - { id: c00.s04.B6.d4, texte: { uk: "They left early.", us: "They left early." }, sens: "Ils sont partis tôt." }
+          - { id: c00.s04.B6.d5, texte: { uk: "She called last night.", us: "She called last night." }, sens: "Elle a appelé hier soir." }
+        renvois: [c00.s04.B5]
+      - id: c00.s04.B7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.B7.e1
+            region: commun
+            texte: { uk: "You'll see.", us: "You'll see." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: the contraction 'You'll' is quick and soft, a dark l.", emotion: "clear, friendly" }
+        sens: Tu verras.
+        usage: >-
+          <en>You’ll</en> : un l sombre accroché au you. Sans lui, <en>You see</en> veut dire
+          « tu vois ».
+        declinaisons:
+          - { id: c00.s04.B7.d1, texte: { uk: "You'll love it.", us: "You'll love it." }, sens: "Tu vas adorer." }
+          - { id: c00.s04.B7.d2, texte: { uk: "You'll be fine.", us: "You'll be fine." }, sens: "Ça va bien se passer." }
+          - { id: c00.s04.B7.d3, texte: { uk: "You'll see, it's easy.", us: "You'll see, it's easy." }, sens: "Tu verras, c’est facile." }
+          - { id: c00.s04.B7.d4, texte: { uk: "You'll get used to it.", us: "You'll get used to it." }, sens: "Tu t’y habitueras." }
+          - { id: c00.s04.B7.d5, texte: { uk: "You'll find it.", us: "You'll find it." }, sens: "Tu le trouveras." }
+        renvois: [c00.s04.B8]
+      - id: c00.s04.B8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.B8.e1
+            region: commun
+            texte: { uk: "You see.", us: "You see." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: plain present, a little explanatory.", emotion: "clear, friendly" }
+        sens: Tu vois.
+        usage: >-
+          Sans contraction : une explication, « tu vois ». Le l manquant change le temps.
+        declinaisons:
+          - { id: c00.s04.B8.d1, texte: { uk: "You see, it's not that easy.", us: "You see, it's not that easy." }, sens: "Tu vois, ce n’est pas si simple." }
+          - { id: c00.s04.B8.d2, texte: { uk: "See what I mean?", us: "See what I mean?" }, sens: "Tu vois ce que je veux dire ?" }
+          - { id: c00.s04.B8.d3, texte: { uk: "You see that house?", us: "You see that house?" }, sens: "Tu vois cette maison ?" }
+          - { id: c00.s04.B8.d4, texte: { uk: "I see.", us: "I see." }, sens: "Je vois." }
+          - { id: c00.s04.B8.d5, texte: { uk: "You see the problem?", us: "You see the problem?" }, sens: "Tu vois le problème ?" }
+        renvois: [c00.s04.B7]
+  - lettre: C
+    titre: Les mots faibles
+    expressions:
+      - id: c00.s04.C1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.C1.e1
+            region: commun
+            texte: { uk: "Tell him.", us: "Tell him." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: weak 'him' with the h dropped, sounds like 'tell-im'.", emotion: "clear, friendly" }
+        sens: Dis-le-lui (à lui).
+        usage: >-
+          Le h de <en>him</en> tombe : on entend tel-im. <en>Them</en> devient de son côté
+          tel-əm. Il faut un i ou un ə pour faire la différence.
+        declinaisons:
+          - { id: c00.s04.C1.d1, texte: { uk: "Tell him I said hi.", us: "Tell him I said hi." }, sens: "Dis-lui que je le salue." }
+          - { id: c00.s04.C1.d2, texte: { uk: "Ask him.", us: "Ask him." }, sens: "Demande-lui." }
+          - { id: c00.s04.C1.d3, texte: { uk: "Give him a call.", us: "Give him a call." }, sens: "Passe-lui un coup de fil." }
+          - { id: c00.s04.C1.d4, texte: { uk: "I saw him yesterday.", us: "I saw him yesterday." }, sens: "Je l’ai vu hier." }
+          - { id: c00.s04.C1.d5, texte: { uk: "Let him go.", us: "Let him go." }, sens: "Laisse-le partir." }
+        renvois: [c00.s04.C2]
+      - id: c00.s04.C2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.C2.e1
+            region: commun
+            texte: { uk: "Tell them.", us: "Tell them." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: weak 'them', sounds like 'tell-em'.", emotion: "clear, friendly" }
+        sens: Dis-le-leur.
+        usage: >-
+          <en>Them</en> faible : ðəm, souvent réduit à əm. C’est un ə, là où <en>him</en>
+          donnait un i.
+        declinaisons:
+          - { id: c00.s04.C2.d1, texte: { uk: "Tell them to wait.", us: "Tell them to wait." }, sens: "Dis-leur d’attendre." }
+          - { id: c00.s04.C2.d2, texte: { uk: "Ask them.", us: "Ask them." }, sens: "Demande-leur." }
+          - { id: c00.s04.C2.d3, texte: { uk: "I'll call them.", us: "I'll call them." }, sens: "Je vais les appeler." }
+          - { id: c00.s04.C2.d4, texte: { uk: "Let them in.", us: "Let them in." }, sens: "Fais-les entrer." }
+          - { id: c00.s04.C2.d5, texte: { uk: "I don't know them.", us: "I don't know them." }, sens: "Je ne les connais pas." }
+        renvois: [c00.s04.C1]
+      - id: c00.s04.C3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.C3.e1
+            region: commun
+            texte: { uk: "fish and chips", us: "fish and chips" }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'and' is weak, just 'n', fish-n-chips.", emotion: "clear, friendly" }
+        sens: poisson-frites
+        usage: >-
+          <en>And</en> se réduit à un simple n : fish-n-chips. Voilà pourquoi on écrit parfois
+          <en>rock ’n’ roll</en>.
+        declinaisons:
+          - { id: c00.s04.C3.d1, texte: { uk: "Fish and chips, please.", us: "Fish and fries, please." }, sens: "Un poisson-frites, s’il vous plaît." }
+          - { id: c00.s04.C3.d2, texte: { uk: "Salt and pepper.", us: "Salt and pepper." }, sens: "Le sel et le poivre." }
+          - { id: c00.s04.C3.d3, texte: { uk: "Bread and butter.", us: "Bread and butter." }, sens: "Pain beurré." }
+          - { id: c00.s04.C3.d4, texte: { uk: "You and me.", us: "You and me." }, sens: "Toi et moi." }
+          - { id: c00.s04.C3.d5, texte: { uk: "Black and white.", us: "Black and white." }, sens: "Noir et blanc." }
+        renvois: [c00.s04.C4]
+      - id: c00.s04.C4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.C4.e1
+            region: commun
+            texte: { uk: "fish or chips", us: "fish or chips" }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'or' is weak, just a quick 'uh'.", emotion: "clear, friendly" }
+        sens: poisson ou frites
+        usage: >-
+          <en>Or</en> se réduit à ə (avec un r léger à New York). Entre n et ə, l’oreille doit
+          choisir : « et » ou « ou ».
+        declinaisons:
+          - { id: c00.s04.C4.d1, texte: { uk: "Tea or coffee?", us: "Tea or coffee?" }, sens: "Thé ou café ?" }
+          - { id: c00.s04.C4.d2, texte: { uk: "Now or never.", us: "Now or never." }, sens: "Maintenant ou jamais." }
+          - { id: c00.s04.C4.d3, texte: { uk: "Yes or no?", us: "Yes or no?" }, sens: "Oui ou non ?" }
+          - { id: c00.s04.C4.d4, texte: { uk: "Two or three days.", us: "Two or three days." }, sens: "Deux ou trois jours." }
+          - { id: c00.s04.C4.d5, texte: { uk: "Cash or card?", us: "Cash or card?" }, sens: "Espèces ou carte ?" }
+        renvois: [c00.s04.C3]
+      - id: c00.s04.C5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.C5.e1
+            region: commun
+            texte: { uk: "Ask her.", us: "Ask her." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: weak 'her' with the h dropped, sounds like 'ask-uh'.", emotion: "clear, friendly" }
+        sens: Demande-lui (à elle).
+        usage: >-
+          Le h de <en>her</en> tombe aussi : ask-ə. Avec <en>him</en>, on entend ask-im. Une
+          voyelle, un genre.
+        declinaisons:
+          - { id: c00.s04.C5.d1, texte: { uk: "Ask her what she wants.", us: "Ask her what she wants." }, sens: "Demande-lui ce qu’elle veut." }
+          - { id: c00.s04.C5.d2, texte: { uk: "I'll call her.", us: "I'll call her." }, sens: "Je vais l’appeler." }
+          - { id: c00.s04.C5.d3, texte: { uk: "Tell her I'm sorry.", us: "Tell her I'm sorry." }, sens: "Dis-lui que je suis désolé." }
+          - { id: c00.s04.C5.d4, texte: { uk: "Give her a hand.", us: "Give her a hand." }, sens: "Donne-lui un coup de main." }
+          - { id: c00.s04.C5.d5, texte: { uk: "I met her in London.", us: "I met her in Boston." }, sens: "Je l’ai rencontrée à Londres." }
+        renvois: [c00.s04.C6]
+      - id: c00.s04.C6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.C6.e1
+            region: commun
+            texte: { uk: "Ask him.", us: "Ask him." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: weak 'him' with the h dropped, sounds like 'ask-im'.", emotion: "clear, friendly" }
+        sens: Demande-lui (à lui).
+        usage: >-
+          ask-im : un i bref, pas de h. C’est la forme normale de la conversation, pas une
+          négligence.
+        declinaisons:
+          - { id: c00.s04.C6.d1, texte: { uk: "Ask him why.", us: "Ask him why." }, sens: "Demande-lui pourquoi." }
+          - { id: c00.s04.C6.d2, texte: { uk: "I'll ask him later.", us: "I'll ask him later." }, sens: "Je lui demanderai plus tard." }
+          - { id: c00.s04.C6.d3, texte: { uk: "Ask him to come in.", us: "Ask him to come in." }, sens: "Demande-lui d’entrer." }
+          - { id: c00.s04.C6.d4, texte: { uk: "Did you ask him?", us: "Did you ask him?" }, sens: "Tu lui as demandé ?" }
+          - { id: c00.s04.C6.d5, texte: { uk: "Just ask him.", us: "Just ask him." }, sens: "Demande-lui, c’est tout." }
+        renvois: [c00.s04.C5]
+      - id: c00.s04.C7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.C7.e1
+            region: commun
+            texte: { uk: "It's for Mum.", us: "It's for Mom." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'for' is weak, just 'fuh'.", emotion: "clear, friendly" }
+        sens: C’est pour maman.
+        usage: >-
+          <en>For</en> faible : fə, sans voyelle pleine. Ne le confondez pas avec
+          <en>from</en>, fəm, où l’on entend le m.
+        declinaisons:
+          - { id: c00.s04.C7.d1, texte: { uk: "It's for you.", us: "It's for you." }, sens: "C’est pour toi." }
+          - { id: c00.s04.C7.d2, texte: { uk: "Thanks for coming.", us: "Thanks for coming." }, sens: "Merci d’être venu." }
+          - { id: c00.s04.C7.d3, texte: { uk: "Wait for me!", us: "Wait for me!" }, sens: "Attends-moi !" }
+          - { id: c00.s04.C7.d4, texte: { uk: "What's it for?", us: "What's it for?" }, sens: "Ça sert à quoi ?" }
+          - { id: c00.s04.C7.d5, texte: { uk: "I'm here for work.", us: "I'm here for work." }, sens: "Je suis ici pour le travail." }
+        renvois: [c00.s04.C8]
+      - id: c00.s04.C8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.C8.e1
+            region: commun
+            texte: { uk: "It's from Mum.", us: "It's from Mom." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'from' is weak, just 'frum'.", emotion: "clear, friendly" }
+        sens: C’est de la part de maman.
+        usage: >-
+          <en>From</en> faible : frəm. Le m final est la clé : sans lui, « de la part de »
+          devient « pour ».
+        declinaisons:
+          - { id: c00.s04.C8.d1, texte: { uk: "It's from my sister.", us: "It's from my sister." }, sens: "C’est de la part de ma sœur." }
+          - { id: c00.s04.C8.d2, texte: { uk: "Where are you from?", us: "Where are you from?" }, sens: "Tu viens d’où ?" }
+          - { id: c00.s04.C8.d3, texte: { uk: "I'm from Abidjan.", us: "I'm from Abidjan." }, sens: "Je viens d’Abidjan." }
+          - { id: c00.s04.C8.d4, texte: { uk: "A letter from the bank.", us: "A letter from the bank." }, sens: "Une lettre de la banque." }
+          - { id: c00.s04.C8.d5, texte: { uk: "From nine to five.", us: "From nine to five." }, sens: "De neuf heures à dix-sept heures." }
+        renvois: [c00.s04.C7]
+  - lettre: D
+    titre: Forme pleine, forme faible
+    expressions:
+      - id: c00.s04.D1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.D1.e1
+            region: commun
+            texte: { uk: "Who's it for?", us: "Who's it for?" }
+            jeu: { contexte: "Asking casually: 'for' at the end of the question is strong, a full vowel.", emotion: "clear, friendly" }
+        sens: C’est pour qui ?
+        usage: >-
+          En fin de phrase, le petit mot retrouve sa forme pleine : fɔː à Londres, fɔr à
+          Chicago. Au milieu, il s’écrase en fə.
+        declinaisons:
+          - { id: c00.s04.D1.d1, texte: { uk: "What's it for?", us: "What's it for?" }, sens: "Ça sert à quoi ?" }
+          - { id: c00.s04.D1.d2, texte: { uk: "Who's this for?", us: "Who's this for?" }, sens: "C’est pour qui, ça ?" }
+          - { id: c00.s04.D1.d3, texte: { uk: "What are you waiting for?", us: "What are you waiting for?" }, sens: "Qu’est-ce que tu attends ?" }
+          - { id: c00.s04.D1.d4, texte: { uk: "What did you do that for?", us: "What did you do that for?" }, sens: "Pourquoi tu as fait ça ?" }
+          - { id: c00.s04.D1.d5, texte: { uk: "Who are you looking for?", us: "Who are you looking for?" }, sens: "Tu cherches qui ?" }
+        renvois: [c00.s04.D2]
+      - id: c00.s04.D2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.D2.e1
+            region: commun
+            texte: { uk: "It's for you.", us: "It's for you." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'for' is weak, just 'fuh', the stress falls on 'you'.", emotion: "clear, friendly" }
+        sens: C’est pour toi.
+        usage: >-
+          Au milieu de la phrase : fə. Le même mot, deux formes, selon sa place.
+        declinaisons:
+          - { id: c00.s04.D2.d1, texte: { uk: "This is for you.", us: "This is for you." }, sens: "Ceci est pour toi." }
+          - { id: c00.s04.D2.d2, texte: { uk: "A table for two, please.", us: "A table for two, please." }, sens: "Une table pour deux, s’il vous plaît." }
+          - { id: c00.s04.D2.d3, texte: { uk: "I'm looking for my keys.", us: "I'm looking for my keys." }, sens: "Je cherche mes clés." }
+          - { id: c00.s04.D2.d4, texte: { uk: "Wait for me.", us: "Wait for me." }, sens: "Attends-moi." }
+          - { id: c00.s04.D2.d5, texte: { uk: "It's good for you.", us: "It's good for you." }, sens: "C’est bon pour toi." }
+        renvois: [c00.s04.D1]
+      - id: c00.s04.D3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.D3.e1
+            region: commun
+            texte: { uk: "I want to.", us: "I want to." }
+            jeu: { contexte: "Answering simply: 'to' at the end is strong, 'too'.", emotion: "clear, friendly" }
+        sens: J’en ai envie.
+        usage: >-
+          Seul en fin de phrase, <en>to</en> se dit tuː, comme <en>two</en>. Suivi d’un verbe,
+          il s’efface en tə.
+        declinaisons:
+          - { id: c00.s04.D3.d1, texte: { uk: "I'd love to.", us: "I'd love to." }, sens: "Avec plaisir." }
+          - { id: c00.s04.D3.d2, texte: { uk: "You don't have to.", us: "You don't have to." }, sens: "Tu n’es pas obligé." }
+          - { id: c00.s04.D3.d3, texte: { uk: "I'm going to.", us: "I'm going to." }, sens: "Je vais le faire." }
+          - { id: c00.s04.D3.d4, texte: { uk: "I tried to.", us: "I tried to." }, sens: "J’ai essayé." }
+          - { id: c00.s04.D3.d5, texte: { uk: "If you want to.", us: "If you want to." }, sens: "Si tu veux." }
+        renvois: [c00.s04.D4]
+      - id: c00.s04.D4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.D4.e1
+            region: commun
+            texte: { uk: "I want to go.", us: "I want to go." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'to' is weak, just 'tuh', 'want to' almost 'wanna'.", emotion: "clear, friendly" }
+        sens: Je veux y aller.
+        usage: >-
+          tə, et même <en>wanna</en> dans la conversation américaine. La force passe sur le
+          verbe qui suit.
+        declinaisons:
+          - { id: c00.s04.D4.d1, texte: { uk: "I want to sleep.", us: "I want to sleep." }, sens: "Je veux dormir." }
+          - { id: c00.s04.D4.d2, texte: { uk: "I need to go.", us: "I need to go." }, sens: "Il faut que j’y aille." }
+          - { id: c00.s04.D4.d3, texte: { uk: "I have to work.", us: "I have to work." }, sens: "Je dois travailler." }
+          - { id: c00.s04.D4.d4, texte: { uk: "I'm going to call her.", us: "I'm going to call her." }, sens: "Je vais l’appeler." }
+          - { id: c00.s04.D4.d5, texte: { uk: "Nice to see you.", us: "Nice to see you." }, sens: "Content de te voir." }
+        renvois: [c00.s04.D3]
+      - id: c00.s04.D5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.D5.e1
+            region: commun
+            texte: { uk: "What's it made of?", us: "What's it made of?" }
+            jeu: { contexte: "Asking with curiosity: 'of' at the end is strong, a full vowel.", emotion: "clear, friendly" }
+        sens: C’est fait en quoi ?
+        usage: >-
+          En fin de phrase, <en>of</en> garde sa voyelle : ɒv à Londres, ʌv à Chicago.
+        declinaisons:
+          - { id: c00.s04.D5.d1, texte: { uk: "What are you afraid of?", us: "What are you afraid of?" }, sens: "De quoi as-tu peur ?" }
+          - { id: c00.s04.D5.d2, texte: { uk: "That's what I'm thinking of.", us: "That's what I'm thinking of." }, sens: "C’est à ça que je pense." }
+          - { id: c00.s04.D5.d3, texte: { uk: "What's it full of?", us: "What's it full of?" }, sens: "C’est plein de quoi ?" }
+          - { id: c00.s04.D5.d4, texte: { uk: "Which one are you sure of?", us: "Which one are you sure of?" }, sens: "De laquelle es-tu sûr ?" }
+          - { id: c00.s04.D5.d5, texte: { uk: "It's the one I told you of.", us: "It's the one I told you of." }, sens: "C’est celle dont je t’ai parlé." }
+        renvois: [c00.s04.D6]
+      - id: c00.s04.D6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.D6.e1
+            region: commun
+            texte: { uk: "a cup of tea", us: "a cup of tea" }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'of' is weak, just 'uh', 'cuppa tea'.", emotion: "clear, friendly" }
+        sens: une tasse de thé
+        usage: >-
+          Au milieu : əv, souvent réduit à ə. D’où <en>a cuppa</en> à Londres, et
+          <en>kinda</en>, <en>sorta</en> partout.
+        declinaisons:
+          - { id: c00.s04.D6.d1, texte: { uk: "a cup of coffee", us: "a cup of coffee" }, sens: "une tasse de café" }
+          - { id: c00.s04.D6.d2, texte: { uk: "a lot of people", us: "a lot of people" }, sens: "beaucoup de gens" }
+          - { id: c00.s04.D6.d3, texte: { uk: "a piece of cake", us: "a piece of cake" }, sens: "un morceau de gâteau ; un jeu d’enfant" }
+          - { id: c00.s04.D6.d4, texte: { uk: "a glass of water", us: "a glass of water" }, sens: "un verre d’eau" }
+          - { id: c00.s04.D6.d5, texte: { uk: "one of them", us: "one of them" }, sens: "l’un d’eux" }
+        renvois: [c00.s04.D5]
+      - id: c00.s04.D7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.D7.e1
+            region: commun
+            texte: { uk: "And you?", us: "And you?" }
+            jeu: { contexte: "Asking back warmly: 'you' is strong and stressed.", emotion: "clear, friendly" }
+        sens: Et toi ?
+        usage: >-
+          Accentué, <en>you</en> se dit juː, long et plein, et <en>and</en> garde son a. Toute
+          la question repose sur ce mot.
+        declinaisons:
+          - { id: c00.s04.D7.d1, texte: { uk: "Thank you!", us: "Thank you!" }, sens: "Merci !" }
+          - { id: c00.s04.D7.d2, texte: { uk: "Not you!", us: "Not you!" }, sens: "Pas toi !" }
+          - { id: c00.s04.D7.d3, texte: { uk: "Is that you?", us: "Is that you?" }, sens: "C’est toi ?" }
+          - { id: c00.s04.D7.d4, texte: { uk: "It's up to you.", us: "It's up to you." }, sens: "C’est à toi de voir." }
+          - { id: c00.s04.D7.d5, texte: { uk: "After you.", us: "After you." }, sens: "Après vous." }
+        renvois: [c00.s04.D8]
+      - id: c00.s04.D8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, mots-faibles]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s04.D8.e1
+            region: commun
+            texte: { uk: "See you later.", us: "See you later." }
+            jeu: { contexte: "Saying a short sentence at a natural conversational pace: 'you' is weak, just 'yuh', 'see-ya later'.", emotion: "clear, friendly" }
+        sens: À plus tard.
+        usage: >-
+          Inaccentué, <en>you</en> se réduit à jə : see-ya. On l’écrit même ainsi entre amis.
+        declinaisons:
+          - { id: c00.s04.D8.d1, texte: { uk: "See you tomorrow.", us: "See you tomorrow." }, sens: "À demain." }
+          - { id: c00.s04.D8.d2, texte: { uk: "Do you want some?", us: "Do you want some?" }, sens: "Tu en veux ?" }
+          - { id: c00.s04.D8.d3, texte: { uk: "How are you doing?", us: "How are you doing?" }, sens: "Comment ça va ?" }
+          - { id: c00.s04.D8.d4, texte: { uk: "Can you help me?", us: "Can you help me?" }, sens: "Tu peux m’aider ?" }
+          - { id: c00.s04.D8.d5, texte: { uk: "Have you got a pen?", us: "Do you have a pen?" }, sens: "Tu as un stylo ?" }
+        renvois: [c00.s04.D7]
+essentiel:
+  incontournables: [c00.s04.A1, c00.s04.A2, c00.s04.A3, c00.s04.A4, c00.s04.B1, c00.s04.B2, c00.s04.C1, c00.s04.C2, c00.s04.C7, c00.s04.C8]
+  fauxPas:
+    - fautif: "I CAN come."
+      naturel: "I can COME."
+      pourquoi: "Dans l’affirmation, <en>can</en> s’efface en kən ; appuyé, il sonne comme une protestation, ou comme <en>can’t</en>."
+    - fautif: "I can come. (pour dire non)"
+      naturel: "I can't come."
+      pourquoi: "Le négatif se reconnaît à la voyelle pleine et au double battement, bien avant le t."
+    - fautif: "I call you tomorrow."
+      naturel: "I'll call you tomorrow."
+      pourquoi: "Le futur tient dans un l : sans lui, la phrase décrit une habitude."
+    - fautif: "Tell HIM. (en criant le h)"
+      naturel: "Tell him."
+      pourquoi: "Dans la phrase, le h de <en>him</en> et de <en>her</en> tombe : tel-im, ask-ə. Le prononcer fort met l’accent sur la personne."
+    - fautif: "It's for Mum. (pour dire de la part de)"
+      naturel: "It's from Mum."
+      pourquoi: "<en>For</en> et <en>from</en> sont faibles tous les deux ; seul le m final de <en>from</en> les sépare."
+sceneVivante:
+  titre: Au téléphone
+  repliques:
+    - { id: c00.s04.sv.l01, personnage: sarah, texte: { uk: "Hi, it's me. I can't come tonight.", us: "Hi, it's me. I can't come tonight." }, sens: "Salut, c’est moi. Je ne peux pas venir ce soir.", emotion: "apologetic, on the phone" }
+    - { id: c00.s04.sv.l02, personnage: tom, texte: { uk: "You can't? Or you can?", us: "You can't? Or you can?" }, sens: "Tu ne peux pas ? Ou tu peux ?", emotion: "confused, bad line" }
+    - { id: c00.s04.sv.l03, personnage: sarah, texte: { uk: "I can't. Mia's ill.", us: "I can't. Mia's sick." }, sens: "Je ne peux pas. Mia est malade.", emotion: "patient, a little louder" }
+    - { id: c00.s04.sv.l04, personnage: tom, texte: { uk: "Oh no. Tell her I said hi.", us: "Oh no. Tell her I said hi." }, sens: "Oh non. Dis-lui bonjour de ma part.", emotion: "sympathetic" }
+    - { id: c00.s04.sv.l05, personnage: sarah, texte: { uk: "I'll tell her. She's asleep now.", us: "I'll tell her. She's asleep now." }, sens: "Je le lui dirai. Elle dort, là.", emotion: "soft, tired" }
+    - { id: c00.s04.sv.l06, personnage: tom, texte: { uk: "I've got a present for her. It's from Mum.", us: "I have a present for her. It's from Mom." }, sens: "J’ai un cadeau pour elle. C’est de la part de maman.", emotion: "warm" }
+    - { id: c00.s04.sv.l07, personnage: sarah, texte: { uk: "That's sweet. You'll see her on Sunday.", us: "That's sweet. You'll see her on Sunday." }, sens: "C’est gentil. Tu la verras dimanche.", emotion: "touched" }
+    - { id: c00.s04.sv.l08, personnage: tom, texte: { uk: "We'd love to. Tea or coffee?", us: "We'd love to. Tea or coffee?" }, sens: "Avec plaisir. Thé ou café ?", emotion: "cheerful, joking" }
+    - { id: c00.s04.sv.l09, personnage: sarah, texte: { uk: "Tea and cake, please.", us: "Tea and cake, please." }, sens: "Du thé et du gâteau, s’il te plaît.", emotion: "laughing" }
+    - { id: c00.s04.sv.l10, personnage: tom, texte: { uk: "You can't have both!", us: "You can't have both!" }, sens: "Tu ne peux pas avoir les deux !", emotion: "teasing" }
+    - { id: c00.s04.sv.l11, personnage: sarah, texte: { uk: "Watch me.", us: "Watch me." }, sens: "Tu vas voir.", emotion: "mock defiant, smiling" }
+rituel:
+  - "Aujourd’hui, dites <en>I can go</en> puis <en>I can’t go</en> : un battement, puis deux."
+  - "Ce soir, terminez une conversation par <en>I’ll call you</en>, le l à peine posé."
+ateliers:
+  jeuDesPaires: renvois
+  oreilleFine: [c00.s04.A1.d5, c00.s04.B1.d5, c00.s04.C1.d4, c00.s04.D1.d5, c00.s04.A3.d5]
+  miroir: [c00.s04.A1, c00.s04.A2, c00.s04.A3, c00.s04.A4, c00.s04.B1, c00.s04.B2, c00.s04.C1, c00.s04.C2, c00.s04.C7, c00.s04.C8]

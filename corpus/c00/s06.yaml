@@ -1,0 +1,586 @@
+# Prélude, scène P.6 — Deux Anglais, une langue (4.3). Paires d'écoute : chaque mot est une expression à un énoncé ; son partenaire de paire est son renvoi. Les versions UK et US de chaque énoncé constituent l'écoute comparée.
+id: c00.s06
+titre: Deux Anglais, une langue
+intention: >-
+  À la fin de cette scène, vous reconnaissez un accent britannique et un accent
+  américain en trois indices : le r final, le o de <en>hot</en> et le o de
+  <en>go</en>. Vous savez aussi que <en>can’t</en> et <en>tomato</en> changent de
+  voyelle, et que les deux accents se comprennent parfaitement.
+version: 1
+moments:
+  - lettre: A
+    titre: Le r final
+    expressions:
+      - id: c00.s06.A1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.A1.e1
+            region: commun
+            texte: { uk: "father", us: "father" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'father'.", emotion: "clear, friendly" }
+        sens: père
+        usage: >-
+          À Londres, le r final ne se prononce pas : <en>father</en> et <en>farther</en>
+          sonnent pareil, fɑːðə. À Chicago, le r s’entend : fɑːðɚ contre fɑːrðɚ. Même langue,
+          deux façons d’écouter.
+        declinaisons:
+          - { id: c00.s06.A1.d1, texte: { uk: "My father's a teacher.", us: "My father's a teacher." }, sens: "Mon père est professeur." }
+          - { id: c00.s06.A1.d2, texte: { uk: "like father, like son", us: "like father, like son" }, sens: "tel père, tel fils" }
+          - { id: c00.s06.A1.d3, texte: { uk: "Father's Day", us: "Father's Day" }, sens: "la fête des pères" }
+          - { id: c00.s06.A1.d4, texte: { uk: "her father's car", us: "her father's car" }, sens: "la voiture de son père" }
+          - { id: c00.s06.A1.d5, texte: { uk: "He's a good father.", us: "He's a good father." }, sens: "C’est un bon père." }
+        renvois: [c00.s06.A2]
+      - id: c00.s06.A2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.A2.e1
+            region: commun
+            texte: { uk: "farther", us: "farther" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'farther'.", emotion: "clear, friendly" }
+        sens: plus loin
+        usage: >-
+          Le r de <en>far</en> reste muet à Londres, mais sonne à Chicago. L’Américain entend
+          donc deux mots là où le Londonien n’en entend qu’un.
+        declinaisons:
+          - { id: c00.s06.A2.d1, texte: { uk: "It's farther than I thought.", us: "It's farther than I thought." }, sens: "C’est plus loin que je ne pensais." }
+          - { id: c00.s06.A2.d2, texte: { uk: "How much farther?", us: "How much farther?" }, sens: "C’est encore loin ?" }
+          - { id: c00.s06.A2.d3, texte: { uk: "I can't walk any farther.", us: "I can't walk any farther." }, sens: "Je ne peux pas aller plus loin." }
+          - { id: c00.s06.A2.d4, texte: { uk: "farther down the road", us: "farther down the road" }, sens: "plus loin sur la route" }
+          - { id: c00.s06.A2.d5, texte: { uk: "a little farther", us: "a little farther" }, sens: "un peu plus loin" }
+        renvois: [c00.s06.A1]
+      - id: c00.s06.A3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.A3.e1
+            region: commun
+            texte: { uk: "sauce", us: "sauce" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'sauce'.", emotion: "clear, friendly" }
+        sens: sauce
+        usage: >-
+          Britannique : <en>sauce</en> et <en>source</en> se confondent (sɔːs). Américain : le
+          r de <en>source</en> les sépare.
+        declinaisons:
+          - { id: c00.s06.A3.d1, texte: { uk: "tomato sauce", us: "tomato sauce" }, sens: "de la sauce tomate" }
+          - { id: c00.s06.A3.d2, texte: { uk: "Pass the sauce, please.", us: "Pass the sauce, please." }, sens: "Passe-moi la sauce, s’il te plaît." }
+          - { id: c00.s06.A3.d3, texte: { uk: "a spicy sauce", us: "a spicy sauce" }, sens: "une sauce épicée" }
+          - { id: c00.s06.A3.d4, texte: { uk: "soy sauce", us: "soy sauce" }, sens: "de la sauce soja" }
+          - { id: c00.s06.A3.d5, texte: { uk: "Do you want some sauce?", us: "Do you want some sauce?" }, sens: "Tu veux de la sauce ?" }
+        renvois: [c00.s06.A4]
+      - id: c00.s06.A4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.A4.e1
+            region: commun
+            texte: { uk: "source", us: "source" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'source'.", emotion: "clear, friendly" }
+        sens: source
+        usage: >-
+          À Chicago, le r colore la voyelle : sɔrs. À Londres, il disparaît, et le contexte
+          fait le travail.
+        declinaisons:
+          - { id: c00.s06.A4.d1, texte: { uk: "a good source", us: "a good source" }, sens: "une bonne source" }
+          - { id: c00.s06.A4.d2, texte: { uk: "the source of the problem", us: "the source of the problem" }, sens: "l’origine du problème" }
+          - { id: c00.s06.A4.d3, texte: { uk: "What's your source?", us: "What's your source?" }, sens: "D’où tiens-tu ça ?" }
+          - { id: c00.s06.A4.d4, texte: { uk: "a source of light", us: "a source of light" }, sens: "une source de lumière" }
+          - { id: c00.s06.A4.d5, texte: { uk: "main source of income", us: "main source of income" }, sens: "la principale source de revenus" }
+        renvois: [c00.s06.A3]
+      - id: c00.s06.A5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.A5.e1
+            region: commun
+            texte: { uk: "law", us: "law" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'law'.", emotion: "clear, friendly" }
+        sens: la loi
+        usage: >-
+          <en>Law</en> et <en>lore</en> riment parfaitement à Londres (lɔː). À New York,
+          <en>lore</en> garde son r.
+        declinaisons:
+          - { id: c00.s06.A5.d1, texte: { uk: "It's the law.", us: "It's the law." }, sens: "C’est la loi." }
+          - { id: c00.s06.A5.d2, texte: { uk: "She studies law.", us: "She studies law." }, sens: "Elle fait du droit." }
+          - { id: c00.s06.A5.d3, texte: { uk: "against the law", us: "against the law" }, sens: "illégal" }
+          - { id: c00.s06.A5.d4, texte: { uk: "a new law", us: "a new law" }, sens: "une nouvelle loi" }
+          - { id: c00.s06.A5.d5, texte: { uk: "my mother-in-law", us: "my mother-in-law" }, sens: "ma belle-mère" }
+        renvois: [c00.s06.A6]
+      - id: c00.s06.A6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.A6.e1
+            region: commun
+            texte: { uk: "lore", us: "lore" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'lore'.", emotion: "clear, friendly" }
+        sens: les traditions, le savoir
+        usage: >-
+          Mot plus rare, utile ici pour l’oreille : le r final, muet ou sonore, est la grande
+          ligne de partage entre les deux accents.
+        declinaisons:
+          - { id: c00.s06.A6.d1, texte: { uk: "family lore", us: "family lore" }, sens: "les histoires de famille" }
+          - { id: c00.s06.A6.d2, texte: { uk: "local lore", us: "local lore" }, sens: "les traditions locales" }
+          - { id: c00.s06.A6.d3, texte: { uk: "the lore of the sea", us: "the lore of the sea" }, sens: "les légendes de la mer" }
+          - { id: c00.s06.A6.d4, texte: { uk: "old lore", us: "old lore" }, sens: "un savoir ancien" }
+          - { id: c00.s06.A6.d5, texte: { uk: "It's part of the lore.", us: "It's part of the lore." }, sens: "Ça fait partie de la légende." }
+        renvois: [c00.s06.A5]
+      - id: c00.s06.A7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.A7.e1
+            region: commun
+            texte: { uk: "tuna", us: "tuna" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'tuna'.", emotion: "clear, friendly" }
+        sens: le thon
+        usage: >-
+          Londres : <en>tuna</en> et <en>tuner</en> sonnent pareil, tjuːnə. Atlanta : tuːnə
+          contre tuːnɚ, et sans y après le t.
+        declinaisons:
+          - { id: c00.s06.A7.d1, texte: { uk: "a tuna sandwich", us: "a tuna sandwich" }, sens: "un sandwich au thon" }
+          - { id: c00.s06.A7.d2, texte: { uk: "a tin of tuna", us: "a can of tuna" }, sens: "une boîte de thon" }
+          - { id: c00.s06.A7.d3, texte: { uk: "tuna salad", us: "tuna salad" }, sens: "une salade au thon" }
+          - { id: c00.s06.A7.d4, texte: { uk: "fresh tuna", us: "fresh tuna" }, sens: "du thon frais" }
+          - { id: c00.s06.A7.d5, texte: { uk: "I don't like tuna.", us: "I don't like tuna." }, sens: "Je n’aime pas le thon." }
+        renvois: [c00.s06.A8]
+      - id: c00.s06.A8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.A8.e1
+            region: commun
+            texte: { uk: "tuner", us: "tuner" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'tuner'.", emotion: "clear, friendly" }
+        sens: l’accordeur
+        usage: >-
+          Le r final américain, ɚ, est le son le plus fréquent de l’anglais d’Amérique. Le
+          Britannique le remplace par ə.
+        declinaisons:
+          - { id: c00.s06.A8.d1, texte: { uk: "a guitar tuner", us: "a guitar tuner" }, sens: "un accordeur de guitare" }
+          - { id: c00.s06.A8.d2, texte: { uk: "piano tuner", us: "piano tuner" }, sens: "accordeur de piano" }
+          - { id: c00.s06.A8.d3, texte: { uk: "Use the tuner.", us: "Use the tuner." }, sens: "Sers-toi de l’accordeur." }
+          - { id: c00.s06.A8.d4, texte: { uk: "The tuner's broken.", us: "The tuner's broken." }, sens: "L’accordeur est cassé." }
+          - { id: c00.s06.A8.d5, texte: { uk: "a radio tuner", us: "a radio tuner" }, sens: "un tuner radio" }
+        renvois: [c00.s06.A7]
+  - lettre: B
+    titre: Le o de hot
+    expressions:
+      - id: c00.s06.B1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.B1.e1
+            region: commun
+            texte: { uk: "hot", us: "hot" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'hot'.", emotion: "clear, friendly" }
+        sens: chaud
+        usage: >-
+          Le o de <en>hot</en> est arrondi et bref à Londres (hɒt), ouvert et plus long à
+          Chicago (hɑt), presque « hât ». Les deux se distinguent de <en>heart</en> : par la
+          longueur à Londres, par le r à Chicago.
+        declinaisons:
+          - { id: c00.s06.B1.d1, texte: { uk: "It's hot today.", us: "It's hot today." }, sens: "Il fait chaud aujourd’hui." }
+          - { id: c00.s06.B1.d2, texte: { uk: "Careful, it's hot!", us: "Careful, it's hot!" }, sens: "Attention, c’est chaud !" }
+          - { id: c00.s06.B1.d3, texte: { uk: "a hot drink", us: "a hot drink" }, sens: "une boisson chaude" }
+          - { id: c00.s06.B1.d4, texte: { uk: "hot water", us: "hot water" }, sens: "de l’eau chaude" }
+          - { id: c00.s06.B1.d5, texte: { uk: "I'm too hot.", us: "I'm too hot." }, sens: "J’ai trop chaud." }
+        renvois: [c00.s06.B2]
+      - id: c00.s06.B2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.B2.e1
+            region: commun
+            texte: { uk: "heart", us: "heart" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'heart'.", emotion: "clear, friendly" }
+        sens: le cœur
+        usage: >-
+          Londres : hɑːt, long, sans r. Chicago : hɑrt, avec r. Le t final, lui, se réduit
+          souvent des deux côtés.
+        declinaisons:
+          - { id: c00.s06.B2.d1, texte: { uk: "with all my heart", us: "with all my heart" }, sens: "de tout mon cœur" }
+          - { id: c00.s06.B2.d2, texte: { uk: "Have a heart!", us: "Have a heart!" }, sens: "Sois gentil !" }
+          - { id: c00.s06.B2.d3, texte: { uk: "I know it by heart.", us: "I know it by heart." }, sens: "Je le connais par cœur." }
+          - { id: c00.s06.B2.d4, texte: { uk: "heart attack", us: "heart attack" }, sens: "une crise cardiaque" }
+          - { id: c00.s06.B2.d5, texte: { uk: "She has a big heart.", us: "She has a big heart." }, sens: "Elle a bon cœur." }
+        renvois: [c00.s06.B1]
+      - id: c00.s06.B3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.B3.e1
+            region: commun
+            texte: { uk: "shot", us: "shot" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'shot'.", emotion: "clear, friendly" }
+        sens: un coup ; une photo
+        usage: >-
+          <en>Shot</en> : ʃɒt à Londres, ʃɑt à New York. <en>Short</en> : ʃɔːt contre ʃɔrt.
+        declinaisons:
+          - { id: c00.s06.B3.d1, texte: { uk: "Nice shot!", us: "Nice shot!" }, sens: "Joli coup !" }
+          - { id: c00.s06.B3.d2, texte: { uk: "Give it a shot.", us: "Give it a shot." }, sens: "Essaie." }
+          - { id: c00.s06.B3.d3, texte: { uk: "a flu shot", us: "a flu shot" }, sens: "un vaccin contre la grippe" }
+          - { id: c00.s06.B3.d4, texte: { uk: "a great shot", us: "a great shot" }, sens: "une belle photo" }
+          - { id: c00.s06.B3.d5, texte: { uk: "one more shot", us: "one more shot" }, sens: "encore un essai" }
+        renvois: [c00.s06.B4]
+      - id: c00.s06.B4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.B4.e1
+            region: commun
+            texte: { uk: "short", us: "short" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'short'.", emotion: "clear, friendly" }
+        sens: court
+        usage: >-
+          À Londres, la voyelle longue suffit ; à New York, le r fait le travail. Retenez les
+          deux indices.
+        declinaisons:
+          - { id: c00.s06.B4.d1, texte: { uk: "a short walk", us: "a short walk" }, sens: "une petite promenade" }
+          - { id: c00.s06.B4.d2, texte: { uk: "I'm short of time.", us: "I'm short of time." }, sens: "Je manque de temps." }
+          - { id: c00.s06.B4.d3, texte: { uk: "in short", us: "in short" }, sens: "bref" }
+          - { id: c00.s06.B4.d4, texte: { uk: "She has short hair.", us: "She has short hair." }, sens: "Elle a les cheveux courts." }
+          - { id: c00.s06.B4.d5, texte: { uk: "It's short for Thomas.", us: "It's short for Thomas." }, sens: "C’est le diminutif de Thomas." }
+        renvois: [c00.s06.B3]
+      - id: c00.s06.B5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.B5.e1
+            region: commun
+            texte: { uk: "pot", us: "pot" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'pot'.", emotion: "clear, friendly" }
+        sens: la casserole
+        usage: >-
+          <en>Pot</en> : pɒt (Londres), pɑt (Chicago). Pour un Américain, le o de <en>pot</en>
+          ressemble au a de <en>father</en>.
+        declinaisons:
+          - { id: c00.s06.B5.d1, texte: { uk: "a pot of tea", us: "a pot of tea" }, sens: "une théière pleine" }
+          - { id: c00.s06.B5.d2, texte: { uk: "a pot of coffee", us: "a pot of coffee" }, sens: "une cafetière pleine" }
+          - { id: c00.s06.B5.d3, texte: { uk: "a big pot", us: "a big pot" }, sens: "une grande marmite" }
+          - { id: c00.s06.B5.d4, texte: { uk: "Put the pot on.", us: "Put the pot on." }, sens: "Mets la casserole sur le feu." }
+          - { id: c00.s06.B5.d5, texte: { uk: "pots and pans", us: "pots and pans" }, sens: "les casseroles" }
+        renvois: [c00.s06.B6]
+      - id: c00.s06.B6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.B6.e1
+            region: commun
+            texte: { uk: "part", us: "part" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'part'.", emotion: "clear, friendly" }
+        sens: la partie
+        usage: >-
+          <en>Part</en> : pɑːt à Londres, pɑrt à Chicago, avec un t souvent battu dans
+          <en>party</en>.
+        declinaisons:
+          - { id: c00.s06.B6.d1, texte: { uk: "part of the plan", us: "part of the plan" }, sens: "une partie du plan" }
+          - { id: c00.s06.B6.d2, texte: { uk: "the best part", us: "the best part" }, sens: "le meilleur moment" }
+          - { id: c00.s06.B6.d3, texte: { uk: "part-time", us: "part-time" }, sens: "à temps partiel" }
+          - { id: c00.s06.B6.d4, texte: { uk: "for my part", us: "for my part" }, sens: "pour ma part" }
+          - { id: c00.s06.B6.d5, texte: { uk: "It's part of life.", us: "It's part of life." }, sens: "Ça fait partie de la vie." }
+        renvois: [c00.s06.B5]
+      - id: c00.s06.B7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.B7.e1
+            region: commun
+            texte: { uk: "cod", us: "cod" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'cod'.", emotion: "clear, friendly" }
+        sens: le cabillaud
+        usage: >-
+          <en>Cod</en> : kɒd (Londres), kɑd (New York). <en>Card</en> : kɑːd contre kɑrd.
+        declinaisons:
+          - { id: c00.s06.B7.d1, texte: { uk: "cod and chips", us: "cod and chips" }, sens: "du cabillaud frites" }
+          - { id: c00.s06.B7.d2, texte: { uk: "fresh cod", us: "fresh cod" }, sens: "du cabillaud frais" }
+          - { id: c00.s06.B7.d3, texte: { uk: "a piece of cod", us: "a piece of cod" }, sens: "un morceau de cabillaud" }
+          - { id: c00.s06.B7.d4, texte: { uk: "baked cod", us: "baked cod" }, sens: "du cabillaud au four" }
+          - { id: c00.s06.B7.d5, texte: { uk: "Is it cod?", us: "Is it cod?" }, sens: "C’est du cabillaud ?" }
+        renvois: [c00.s06.B8]
+      - id: c00.s06.B8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.B8.e1
+            region: commun
+            texte: { uk: "card", us: "card" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'card'.", emotion: "clear, friendly" }
+        sens: la carte
+        usage: >-
+          Le r de <en>card</en> disparaît à Londres : seule la longueur de la voyelle sépare
+          <en>card</en> de <en>cod</en>.
+        declinaisons:
+          - { id: c00.s06.B8.d1, texte: { uk: "Can I pay by card?", us: "Can I pay by card?" }, sens: "Je peux payer par carte ?" }
+          - { id: c00.s06.B8.d2, texte: { uk: "a birthday card", us: "a birthday card" }, sens: "une carte d’anniversaire" }
+          - { id: c00.s06.B8.d3, texte: { uk: "my bank card", us: "my bank card" }, sens: "ma carte bancaire" }
+          - { id: c00.s06.B8.d4, texte: { uk: "a card game", us: "a card game" }, sens: "un jeu de cartes" }
+          - { id: c00.s06.B8.d5, texte: { uk: "Here's my card.", us: "Here's my card." }, sens: "Voici ma carte." }
+        renvois: [c00.s06.B7]
+  - lettre: C
+    titre: Le o de go
+    expressions:
+      - id: c00.s06.C1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.C1.e1
+            region: commun
+            texte: { uk: "coat", us: "coat" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'coat'.", emotion: "clear, friendly" }
+        sens: le manteau
+        usage: >-
+          Le o de <en>go</en> voyage aussi : əʊ à Londres (on part d’un e), oʊ à Chicago (on
+          part d’un o rond). <en>Coat</en> le montre bien.
+        declinaisons:
+          - { id: c00.s06.C1.d1, texte: { uk: "Put your coat on.", us: "Put your coat on." }, sens: "Mets ton manteau." }
+          - { id: c00.s06.C1.d2, texte: { uk: "a warm coat", us: "a warm coat" }, sens: "un manteau chaud" }
+          - { id: c00.s06.C1.d3, texte: { uk: "Take your coat off.", us: "Take your coat off." }, sens: "Enlève ton manteau." }
+          - { id: c00.s06.C1.d4, texte: { uk: "Where's my coat?", us: "Where's my coat?" }, sens: "Où est mon manteau ?" }
+          - { id: c00.s06.C1.d5, texte: { uk: "a raincoat", us: "a raincoat" }, sens: "un imperméable" }
+        renvois: [c00.s06.C2]
+      - id: c00.s06.C2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.C2.e1
+            region: commun
+            texte: { uk: "caught", us: "caught" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'caught'.", emotion: "clear, friendly" }
+        sens: attrapé
+        usage: >-
+          <en>Caught</en> : kɔːt à Londres, voyelle longue et ronde ; à Chicago, kɑt ou kɔt
+          (P.2). Jamais la diphtongue de <en>coat</en>.
+        declinaisons:
+          - { id: c00.s06.C2.d1, texte: { uk: "I caught the bus.", us: "I caught the bus." }, sens: "J’ai attrapé le bus." }
+          - { id: c00.s06.C2.d2, texte: { uk: "He caught a cold.", us: "He caught a cold." }, sens: "Il a attrapé un rhume." }
+          - { id: c00.s06.C2.d3, texte: { uk: "We got caught in the rain.", us: "We got caught in the rain." }, sens: "On s’est fait surprendre par la pluie." }
+          - { id: c00.s06.C2.d4, texte: { uk: "caught in traffic", us: "caught in traffic" }, sens: "pris dans les bouchons" }
+          - { id: c00.s06.C2.d5, texte: { uk: "I caught it!", us: "I caught it!" }, sens: "Je l’ai attrapé !" }
+        renvois: [c00.s06.C1]
+      - id: c00.s06.C3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.C3.e1
+            region: commun
+            texte: { uk: "boat", us: "boat" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'boat'.", emotion: "clear, friendly" }
+        sens: le bateau
+        usage: >-
+          <en>Boat</en> : bəʊt (Londres), boʊt (Chicago). <en>Go</en>, <en>no</en>,
+          <en>home</en> suivent le même chemin.
+        declinaisons:
+          - { id: c00.s06.C3.d1, texte: { uk: "a small boat", us: "a small boat" }, sens: "un petit bateau" }
+          - { id: c00.s06.C3.d2, texte: { uk: "by boat", us: "by boat" }, sens: "en bateau" }
+          - { id: c00.s06.C3.d3, texte: { uk: "Let's go home.", us: "Let's go home." }, sens: "Rentrons." }
+          - { id: c00.s06.C3.d4, texte: { uk: "I don't know.", us: "I don't know." }, sens: "Je ne sais pas." }
+          - { id: c00.s06.C3.d5, texte: { uk: "We missed the boat.", us: "We missed the boat." }, sens: "On a raté le coche." }
+        renvois: [c00.s06.C4]
+      - id: c00.s06.C4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.C4.e1
+            region: commun
+            texte: { uk: "bought", us: "bought" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'bought'.", emotion: "clear, friendly" }
+        sens: acheté
+        usage: >-
+          <en>Bought</en> : bɔːt, voyelle simple et longue à Londres. Le contraste avec
+          <en>boat</en> est net des deux côtés.
+        declinaisons:
+          - { id: c00.s06.C4.d1, texte: { uk: "I bought some bread.", us: "I bought some bread." }, sens: "J’ai acheté du pain." }
+          - { id: c00.s06.C4.d2, texte: { uk: "She bought a new car.", us: "She bought a new car." }, sens: "Elle a acheté une nouvelle voiture." }
+          - { id: c00.s06.C4.d3, texte: { uk: "What did you buy?", us: "What did you buy?" }, sens: "Qu’as-tu acheté ?" }
+          - { id: c00.s06.C4.d4, texte: { uk: "I bought it online.", us: "I bought it online." }, sens: "Je l’ai acheté en ligne." }
+          - { id: c00.s06.C4.d5, texte: { uk: "He bought me lunch.", us: "He bought me lunch." }, sens: "Il m’a invité à déjeuner." }
+        renvois: [c00.s06.C3]
+      - id: c00.s06.C5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.C5.e1
+            region: commun
+            texte: { uk: "load", us: "load" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'load'.", emotion: "clear, friendly" }
+        sens: la charge
+        usage: >-
+          <en>Load</en> : ləʊd (Londres), loʊd (Chicago). <en>Lord</en> : lɔːd contre lɔrd.
+        declinaisons:
+          - { id: c00.s06.C5.d1, texte: { uk: "a heavy load", us: "a heavy load" }, sens: "une lourde charge" }
+          - { id: c00.s06.C5.d2, texte: { uk: "loads of time", us: "loads of time" }, sens: "plein de temps" }
+          - { id: c00.s06.C5.d3, texte: { uk: "Load the car.", us: "Load the car." }, sens: "Charge la voiture." }
+          - { id: c00.s06.C5.d4, texte: { uk: "a load of washing", us: "a load of laundry" }, sens: "une machine de linge" }
+          - { id: c00.s06.C5.d5, texte: { uk: "That's a load off my mind.", us: "That's a load off my mind." }, sens: "Ça me soulage." }
+        renvois: [c00.s06.C6]
+      - id: c00.s06.C6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.C6.e1
+            region: commun
+            texte: { uk: "lord", us: "lord" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'lord'.", emotion: "clear, friendly" }
+        sens: le seigneur
+        usage: >-
+          À Londres, <en>lord</en> sonne comme <en>laud</en> ; à Chicago, le r le distingue.
+          <en>Oh my Lord!</en> s’entend partout.
+        declinaisons:
+          - { id: c00.s06.C6.d1, texte: { uk: "Oh Lord!", us: "Oh Lord!" }, sens: "Seigneur !" }
+          - { id: c00.s06.C6.d2, texte: { uk: "the House of Lords", us: "the House of Lords" }, sens: "la Chambre des lords" }
+          - { id: c00.s06.C6.d3, texte: { uk: "lord of the manor", us: "lord of the manor" }, sens: "le châtelain" }
+          - { id: c00.s06.C6.d4, texte: { uk: "Lord knows.", us: "Lord knows." }, sens: "Dieu seul le sait." }
+          - { id: c00.s06.C6.d5, texte: { uk: "a landlord", us: "a landlord" }, sens: "un propriétaire" }
+        renvois: [c00.s06.C5]
+      - id: c00.s06.C7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.C7.e1
+            region: commun
+            texte: { uk: "so", us: "so" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'so'.", emotion: "clear, friendly" }
+        sens: donc ; tellement
+        usage: >-
+          <en>So</en> : səʊ à Londres, soʊ à Chicago. <en>Saw</en> : sɔː contre sɑ ou sɔ. Le
+          mot le plus fréquent de la conversation, sous deux formes.
+        declinaisons:
+          - { id: c00.s06.C7.d1, texte: { uk: "So, what now?", us: "So, what now?" }, sens: "Bon, et maintenant ?" }
+          - { id: c00.s06.C7.d2, texte: { uk: "I'm so tired.", us: "I'm so tired." }, sens: "Je suis tellement fatigué." }
+          - { id: c00.s06.C7.d3, texte: { uk: "I think so.", us: "I think so." }, sens: "Je crois." }
+          - { id: c00.s06.C7.d4, texte: { uk: "So do I.", us: "So do I." }, sens: "Moi aussi." }
+          - { id: c00.s06.C7.d5, texte: { uk: "Not so fast!", us: "Not so fast!" }, sens: "Pas si vite !" }
+        renvois: [c00.s06.C8]
+      - id: c00.s06.C8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, deux-accents]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s06.C8.e1
+            region: commun
+            texte: { uk: "saw", us: "saw" }
+            jeu: { contexte: "Saying the word clearly and naturally in your own accent: 'saw'.", emotion: "clear, friendly" }
+        sens: j’ai vu
+        usage: >-
+          <en>Saw</en> n’a pas de r, mais à Londres on en entend parfois un devant voyelle :
+          <en>I saw-r-it</en>. C’est le r de liaison, propre aux accents sans r final.
+        declinaisons:
+          - { id: c00.s06.C8.d1, texte: { uk: "I saw her yesterday.", us: "I saw her yesterday." }, sens: "Je l’ai vue hier." }
+          - { id: c00.s06.C8.d2, texte: { uk: "I saw it on TV.", us: "I saw it on TV." }, sens: "Je l’ai vu à la télé." }
+          - { id: c00.s06.C8.d3, texte: { uk: "Who saw it?", us: "Who saw it?" }, sens: "Qui l’a vu ?" }
+          - { id: c00.s06.C8.d4, texte: { uk: "I never saw him again.", us: "I never saw him again." }, sens: "Je ne l’ai jamais revu." }
+          - { id: c00.s06.C8.d5, texte: { uk: "We saw a film.", us: "We saw a movie." }, sens: "On a vu un film." }
+        renvois: [c00.s06.C7]
+essentiel:
+  incontournables: [c00.s06.A1, c00.s06.A2, c00.s06.A3, c00.s06.A4, c00.s06.B1, c00.s06.B2, c00.s06.B3, c00.s06.B4, c00.s06.C1, c00.s06.C2]
+  fauxPas:
+    - fautif: "Mélanger les deux accents dans une même phrase"
+      naturel: "Choisir un accent et le tenir"
+      pourquoi: "Les deux sont corrects ; mélangés, ils brouillent l’oreille de l’autre. Le livre propose les deux versions pour que vous en choisissiez une."
+    - fautif: "hot (prononcé comme le français « hotte »)"
+      naturel: "hot"
+      pourquoi: "Le o anglais est bref et arrondi (Londres) ou ouvert comme dans « pâte » (Chicago), jamais fermé."
+    - fautif: "go (prononcé comme le français « go »)"
+      naturel: "go"
+      pourquoi: "Le o de <en>go</en> glisse toujours vers un ou : gəʊ ou goʊ. Un o tenu sonne étranger des deux côtés."
+    - fautif: "Prononcer le r de father à Londres"
+      naturel: "father"
+      pourquoi: "Dans l’accent londonien, le r final ne se dit que devant une voyelle. À Chicago, il se dit toujours."
+    - fautif: "can't (avec le a de « chat »)"
+      naturel: "can't"
+      pourquoi: "<en>Can’t</en> : kɑːnt à Londres, kænt à New York. Les deux voyelles sont longues et pleines, c’est ce qui l’oppose à <en>can</en>."
+sceneVivante:
+  titre: Au marché
+  repliques:
+    - { id: c00.s06.sv.l01, personnage: sarah, texte: { uk: "Hi! Can I have some tomatoes, please?", us: "Hi! Can I have some tomatoes, please?" }, sens: "Bonjour ! Je peux avoir des tomates, s’il vous plaît ?", emotion: "friendly, at a market stall" }
+    - { id: c00.s06.sv.l02, personnage: passage_h, texte: { uk: "Sure. How many?", us: "Sure. How many?" }, sens: "Bien sûr. Combien ?", emotion: "busy, cheerful" }
+    - { id: c00.s06.sv.l03, personnage: sarah, texte: { uk: "Six. And a bunch of carrots.", us: "Six. And a bunch of carrots." }, sens: "Six. Et une botte de carottes.", emotion: "counting" }
+    - { id: c00.s06.sv.l04, personnage: passage_h, texte: { uk: "Sorry, I can't hear you. It's so loud here.", us: "Sorry, I can't hear you. It's so loud here." }, sens: "Pardon, je ne vous entends pas. C’est bruyant ici.", emotion: "leaning in" }
+    - { id: c00.s06.sv.l05, personnage: sarah, texte: { uk: "Carrots! A bunch of carrots.", us: "Carrots! A bunch of carrots." }, sens: "Des carottes ! Une botte de carottes.", emotion: "louder, smiling" }
+    - { id: c00.s06.sv.l06, personnage: passage_h, texte: { uk: "Got it. Anything else?", us: "Got it. Anything else?" }, sens: "C’est noté. Autre chose ?", emotion: "efficient" }
+    - { id: c00.s06.sv.l07, personnage: sarah, texte: { uk: "Is that fish fresh?", us: "Is that fish fresh?" }, sens: "Ce poisson est frais ?", emotion: "curious" }
+    - { id: c00.s06.sv.l08, personnage: passage_h, texte: { uk: "The cod? I bought it this morning.", us: "The cod? I bought it this morning." }, sens: "Le cabillaud ? Je l’ai acheté ce matin.", emotion: "proud" }
+    - { id: c00.s06.sv.l09, personnage: sarah, texte: { uk: "Brilliant. I'll take two pieces.", us: "Awesome. I'll take two pieces." }, sens: "Parfait. J’en prends deux morceaux.", emotion: "pleased" }
+    - { id: c00.s06.sv.l10, personnage: passage_h, texte: { uk: "Card or cash?", us: "Card or cash?" }, sens: "Carte ou espèces ?", emotion: "brisk" }
+    - { id: c00.s06.sv.l11, personnage: sarah, texte: { uk: "Card, please.", us: "Card, please." }, sens: "Par carte, s’il vous plaît.", emotion: "warm" }
+    - { id: c00.s06.sv.l12, personnage: passage_h, texte: { uk: "There you go. Have a nice day!", us: "There you go. Have a nice day!" }, sens: "Voilà. Bonne journée !", emotion: "cheerful" }
+rituel:
+  - "Aujourd’hui, écoutez la même phrase dans les deux versions et repérez le r final."
+  - "Ce soir, dites <en>hot</en>, <en>go</en> et <en>can’t</en> dans l’accent de votre choix, trois fois chacun."
+ateliers:
+  jeuDesPaires: renvois
+  oreilleFine: [c00.s06.A1.d5, c00.s06.C1.d3, c00.s06.A3.d5, c00.s06.B3.d2, c00.s06.C3.d5]
+  miroir: [c00.s06.A1, c00.s06.A2, c00.s06.A3, c00.s06.A4, c00.s06.B1, c00.s06.B2, c00.s06.B3, c00.s06.B4, c00.s06.C1, c00.s06.C2]

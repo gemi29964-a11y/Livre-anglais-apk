@@ -1,0 +1,766 @@
+# Prélude, scène P.1 — Le souffle et la langue (4.3). Paires d'écoute : chaque mot est une expression à un énoncé
+# (frequence 5, fonctions [ecouter]) ; son partenaire de paire est son premier renvoi (annexe C, règles du schéma).
+id: c00.s01
+titre: Le souffle et la langue
+intention: >-
+  À la fin de cette scène, votre oreille sépare <en>hat</en> et <en>at</en>, <en>think</en> et <en>sink</en>, <en>this</en> et
+  <en>dis</en>, <en>right</en> et <en>light</en>, et votre bouche sait souffler le h, glisser la langue entre
+  les dents et recourber le r sans le rouler.
+version: 1
+moments:
+  - lettre: A
+    titre: Le h qui souffle
+    expressions:
+      - id: c00.s01.A1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, souffle]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.A1.e1
+            region: commun
+            texte: { uk: "hat", us: "hat" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the breath of the h.", emotion: "clear, friendly" }
+        sens: chapeau
+        usage: >-
+          Le h anglais s’entend : un petit souffle, comme une buée sur une vitre, juste
+          avant la voyelle. Sans lui, <en>hat</en> devient <en>at</en>, « à ».
+        declinaisons:
+          - { id: c00.s01.A1.d1, texte: { uk: "I like your hat.", us: "I like your hat." }, sens: "J’aime bien ton chapeau." }
+          - { id: c00.s01.A1.d2, texte: { uk: "Where's my hat?", us: "Where's my hat?" }, sens: "Où est mon chapeau ?" }
+          - { id: c00.s01.A1.d3, texte: { uk: "Take your hat off.", us: "Take your hat off." }, sens: "Enlève ton chapeau." }
+          - { id: c00.s01.A1.d4, texte: { uk: "Nice hat!", us: "Nice hat!" }, sens: "Joli chapeau !" }
+          - { id: c00.s01.A1.d5, texte: { uk: "It's a hat for the sun.", us: "It's a hat for the sun." }, sens: "C’est un chapeau pour le soleil." }
+        renvois: [c00.s01.A2]
+      - id: c00.s01.A2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, souffle]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.A2.e1
+            region: commun
+            texte: { uk: "at", us: "at" }
+            jeu: { contexte: "Saying a single word clearly, with no breath before the vowel.", emotion: "clear, friendly" }
+        sens: à (un lieu, une heure)
+        usage: >-
+          Aucun souffle : la voix attaque directement la voyelle. Comparez avec
+          <en>hat</en> : seule la buée du h sépare les deux mots.
+        declinaisons:
+          - { id: c00.s01.A2.d1, texte: { uk: "I'm at home.", us: "I'm at home." }, sens: "Je suis à la maison." }
+          - { id: c00.s01.A2.d2, texte: { uk: "See you at six.", us: "See you at six." }, sens: "À six heures." }
+          - { id: c00.s01.A2.d3, texte: { uk: "She's at work.", us: "She's at work." }, sens: "Elle est au travail." }
+          - { id: c00.s01.A2.d4, texte: { uk: "I'm at the station.", us: "I'm at the station." }, sens: "Je suis à la gare." }
+          - { id: c00.s01.A2.d5, texte: { uk: "Look at this!", us: "Look at this!" }, sens: "Regarde ça !" }
+        renvois: [c00.s01.A1]
+      - id: c00.s01.A3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, souffle]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.A3.e1
+            region: commun
+            texte: { uk: "heat", us: "heat" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the breath of the h.", emotion: "clear, friendly" }
+        sens: chaleur
+        usage: >-
+          Le souffle du h, puis un i long et tendu. Sans souffle, on entend <en>eat</en>,
+          « manger ».
+        declinaisons:
+          - { id: c00.s01.A3.d1, texte: { uk: "I can't stand the heat.", us: "I can't stand the heat." }, sens: "Je ne supporte pas la chaleur." }
+          - { id: c00.s01.A3.d2, texte: { uk: "Turn the heat down.", us: "Turn the heat down." }, sens: "Baisse le feu." }
+          - { id: c00.s01.A3.d3, texte: { uk: "What a heatwave!", us: "What a heat wave!" }, sens: "Quelle canicule !" }
+          - { id: c00.s01.A3.d4, texte: { uk: "I love the summer heat.", us: "I love the summer heat." }, sens: "J’adore la chaleur de l’été." }
+          - { id: c00.s01.A3.d5, texte: { uk: "Heat it up for two minutes.", us: "Heat it up for two minutes." }, sens: "Fais-le chauffer deux minutes." }
+        renvois: [c00.s01.A4]
+      - id: c00.s01.A4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, souffle]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.A4.e1
+            region: commun
+            texte: { uk: "eat", us: "eat" }
+            jeu: { contexte: "Saying a single word clearly, with no breath before the vowel.", emotion: "clear, friendly" }
+        sens: manger
+        usage: >-
+          La voyelle part seule, sans buée. Un francophone qui oublie le h de
+          <en>heat</en> dit <en>eat</en> sans le savoir.
+        declinaisons:
+          - { id: c00.s01.A4.d1, texte: { uk: "Let's eat.", us: "Let's eat." }, sens: "On mange." }
+          - { id: c00.s01.A4.d2, texte: { uk: "I don't eat meat.", us: "I don't eat meat." }, sens: "Je ne mange pas de viande." }
+          - { id: c00.s01.A4.d3, texte: { uk: "Have you eaten?", us: "Have you eaten?" }, sens: "Tu as mangé ?" }
+          - { id: c00.s01.A4.d4, texte: { uk: "What do you want to eat?", us: "What do you want to eat?" }, sens: "Qu’est-ce que tu veux manger ?" }
+          - { id: c00.s01.A4.d5, texte: { uk: "Let's eat out tonight.", us: "Let's eat out tonight." }, sens: "On mange dehors ce soir." }
+        renvois: [c00.s01.A3]
+      - id: c00.s01.A5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, souffle]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.A5.e1
+            region: commun
+            texte: { uk: "hair", us: "hair" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the breath of the h.", emotion: "clear, friendly" }
+        sens: cheveux
+        usage: >-
+          Un souffle, puis la voyelle. Sans le h, <en>hair</en> devient <en>air</en> :
+          « Elle a de beaux airs » au lieu de « beaux cheveux ».
+        declinaisons:
+          - { id: c00.s01.A5.d1, texte: { uk: "I need a haircut.", us: "I need a haircut." }, sens: "Il faut que je me fasse couper les cheveux." }
+          - { id: c00.s01.A5.d2, texte: { uk: "Your hair looks great.", us: "Your hair looks great." }, sens: "Tes cheveux sont superbes." }
+          - { id: c00.s01.A5.d3, texte: { uk: "I'm drying my hair.", us: "I'm drying my hair." }, sens: "Je me sèche les cheveux." }
+          - { id: c00.s01.A5.d4, texte: { uk: "She's got long hair.", us: "She has long hair." }, sens: "Elle a les cheveux longs." }
+          - { id: c00.s01.A5.d5, texte: { uk: "Brush your hair.", us: "Brush your hair." }, sens: "Coiffe-toi." }
+        renvois: [c00.s01.A6]
+      - id: c00.s01.A6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, souffle]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.A6.e1
+            region: commun
+            texte: { uk: "air", us: "air" }
+            jeu: { contexte: "Saying a single word clearly, with no breath before the vowel.", emotion: "clear, friendly" }
+        sens: air
+        usage: >-
+          Même voyelle que <en>hair</en>, sans le souffle. L’écart tient en un dixième de
+          seconde : c’est lui que votre oreille apprend à saisir.
+        declinaisons:
+          - { id: c00.s01.A6.d1, texte: { uk: "I need some fresh air.", us: "I need some fresh air." }, sens: "J’ai besoin de prendre l’air." }
+          - { id: c00.s01.A6.d2, texte: { uk: "Open the window, let some air in.", us: "Open the window, let some air in." }, sens: "Ouvre la fenêtre, fais entrer de l’air." }
+          - { id: c00.s01.A6.d3, texte: { uk: "We went by air.", us: "We went by air." }, sens: "Nous y sommes allés en avion." }
+          - { id: c00.s01.A6.d4, texte: { uk: "The air's so clean here.", us: "The air's so clean here." }, sens: "L’air est si pur ici." }
+          - { id: c00.s01.A6.d5, texte: { uk: "It's in the air.", us: "It's in the air." }, sens: "Ça se sent dans l’air." }
+        renvois: [c00.s01.A5]
+      - id: c00.s01.A7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, souffle]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.A7.e1
+            region: commun
+            texte: { uk: "hold", us: "hold" }
+            jeu: { contexte: "Saying a single word clearly so a learner can hear the breath of the h.", emotion: "clear, friendly" }
+        sens: tenir
+        usage: >-
+          Le souffle ouvre le mot. Sans lui, on entend <en>old</en>, « vieux » : <en>Hold
+          on</en> devient « vieux sur ».
+        declinaisons:
+          - { id: c00.s01.A7.d1, texte: { uk: "Hold on a second.", us: "Hold on a second." }, sens: "Attends une seconde." }
+          - { id: c00.s01.A7.d2, texte: { uk: "Can you hold this?", us: "Can you hold this?" }, sens: "Tu peux tenir ça ?" }
+          - { id: c00.s01.A7.d3, texte: { uk: "Hold my hand.", us: "Hold my hand." }, sens: "Donne-moi la main." }
+          - { id: c00.s01.A7.d4, texte: { uk: "Hold the door, please.", us: "Hold the door, please." }, sens: "Tiens la porte, s’il te plaît." }
+          - { id: c00.s01.A7.d5, texte: { uk: "Hold tight!", us: "Hold tight!" }, sens: "Accroche-toi !" }
+        renvois: [c00.s01.A8]
+      - id: c00.s01.A8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, souffle]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.A8.e1
+            region: commun
+            texte: { uk: "old", us: "old" }
+            jeu: { contexte: "Saying a single word clearly, with no breath before the vowel.", emotion: "clear, friendly" }
+        sens: vieux
+        usage: >-
+          La voyelle part sans souffle. Écoutez la différence avec <en>hold</en> : le
+          reste du mot est identique.
+        declinaisons:
+          - { id: c00.s01.A8.d1, texte: { uk: "How old are you?", us: "How old are you?" }, sens: "Quel âge as-tu ?" }
+          - { id: c00.s01.A8.d2, texte: { uk: "It's an old house.", us: "It's an old house." }, sens: "C’est une vieille maison." }
+          - { id: c00.s01.A8.d3, texte: { uk: "I'm getting old.", us: "I'm getting old." }, sens: "Je vieillis." }
+          - { id: c00.s01.A8.d4, texte: { uk: "These shoes are really old.", us: "These shoes are really old." }, sens: "Ces chaussures sont vraiment vieilles." }
+          - { id: c00.s01.A8.d5, texte: { uk: "We're old friends.", us: "We're old friends." }, sens: "On est de vieux amis." }
+        renvois: [c00.s01.A7]
+  - lettre: B
+    titre: Le th qui siffle doucement
+    expressions:
+      - id: c00.s01.B1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.B1.e1
+            region: commun
+            texte: { uk: "think", us: "think" }
+            jeu: { contexte: "Saying a single word clearly, tongue lightly between the teeth for the th.", emotion: "clear, friendly" }
+        sens: penser
+        usage: >-
+          Le bout de la langue se pose entre les dents et l’air passe dessus, sans voix.
+          Si la langue reste derrière les dents, on entend <en>sink</en>, « couler ».
+        declinaisons:
+          - { id: c00.s01.B1.d1, texte: { uk: "I think so.", us: "I think so." }, sens: "Je crois." }
+          - { id: c00.s01.B1.d2, texte: { uk: "What do you think?", us: "What do you think?" }, sens: "Qu’en penses-tu ?" }
+          - { id: c00.s01.B1.d3, texte: { uk: "Let me think.", us: "Let me think." }, sens: "Laisse-moi réfléchir." }
+          - { id: c00.s01.B1.d4, texte: { uk: "I don't think so.", us: "I don't think so." }, sens: "Je ne crois pas." }
+          - { id: c00.s01.B1.d5, texte: { uk: "Think about it.", us: "Think about it." }, sens: "Réfléchis-y." }
+        renvois: [c00.s01.B2]
+      - id: c00.s01.B2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.B2.e1
+            region: commun
+            texte: { uk: "sink", us: "sink" }
+            jeu: { contexte: "Saying a single word clearly, with a crisp s.", emotion: "clear, friendly" }
+        sens: évier ; couler
+        usage: >-
+          Un s net, langue derrière les dents. C’est le mot que croit entendre un
+          Anglais quand un francophone prononce <en>think</en> sans glisser la langue.
+        declinaisons:
+          - { id: c00.s01.B2.d1, texte: { uk: "It's in the sink.", us: "It's in the sink." }, sens: "C’est dans l’évier." }
+          - { id: c00.s01.B2.d2, texte: { uk: "The boat's sinking!", us: "The boat's sinking!" }, sens: "Le bateau coule !" }
+          - { id: c00.s01.B2.d3, texte: { uk: "Leave the dishes in the sink.", us: "Leave the dishes in the sink." }, sens: "Laisse la vaisselle dans l’évier." }
+          - { id: c00.s01.B2.d4, texte: { uk: "The sink's blocked.", us: "The sink's clogged." }, sens: "L’évier est bouché." }
+          - { id: c00.s01.B2.d5, texte: { uk: "My heart sank.", us: "My heart sank." }, sens: "J’ai eu un coup au cœur." }
+        renvois: [c00.s01.B1]
+      - id: c00.s01.B3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.B3.e1
+            region: commun
+            texte: { uk: "thick", us: "thick" }
+            jeu: { contexte: "Saying a single word clearly, tongue lightly between the teeth for the th.", emotion: "clear, friendly" }
+        sens: épais
+        usage: >-
+          Même geste que pour <en>think</en> : la langue affleure entre les dents. Sans
+          lui, <en>thick</en> devient <en>sick</en>, « malade ».
+        declinaisons:
+          - { id: c00.s01.B3.d1, texte: { uk: "The fog's really thick.", us: "The fog's really thick." }, sens: "Le brouillard est très épais." }
+          - { id: c00.s01.B3.d2, texte: { uk: "It's a thick book.", us: "It's a thick book." }, sens: "C’est un gros livre." }
+          - { id: c00.s01.B3.d3, texte: { uk: "Cut it thick.", us: "Cut it thick." }, sens: "Coupe-le épais." }
+          - { id: c00.s01.B3.d4, texte: { uk: "These walls are thick.", us: "These walls are thick." }, sens: "Ces murs sont épais." }
+          - { id: c00.s01.B3.d5, texte: { uk: "A thick slice, please.", us: "A thick slice, please." }, sens: "Une tranche épaisse, s’il vous plaît." }
+        renvois: [c00.s01.B4]
+      - id: c00.s01.B4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.B4.e1
+            region: commun
+            texte: { uk: "sick", us: "sick" }
+            jeu: { contexte: "Saying a single word clearly, with a crisp s.", emotion: "clear, friendly" }
+        sens: malade
+        usage: >-
+          Un s franc. Entre <en>sick</en> et <en>thick</en>, seule la place de la langue
+          change ; la voyelle et la fin sont identiques.
+        declinaisons:
+          - { id: c00.s01.B4.d1, texte: { uk: "I feel sick.", us: "I feel sick." }, sens: "J’ai mal au cœur." }
+          - { id: c00.s01.B4.d2, texte: { uk: "She's off sick today.", us: "She's out sick today." }, sens: "Elle est en arrêt maladie aujourd’hui." }
+          - { id: c00.s01.B4.d3, texte: { uk: "I'm sick of waiting.", us: "I'm sick of waiting." }, sens: "J’en ai assez d’attendre." }
+          - { id: c00.s01.B4.d4, texte: { uk: "He's been sick all week.", us: "He's been sick all week." }, sens: "Il est malade depuis une semaine." }
+          - { id: c00.s01.B4.d5, texte: { uk: "Are you feeling sick?", us: "Are you feeling sick?" }, sens: "Tu as mal au cœur ?" }
+        renvois: [c00.s01.B3]
+      - id: c00.s01.B5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.B5.e1
+            region: commun
+            texte: { uk: "three", us: "three" }
+            jeu: { contexte: "Saying a single word clearly, tongue lightly between the teeth for the th.", emotion: "clear, friendly" }
+        sens: trois
+        usage: >-
+          La langue entre les dents, puis le r. Si les lèvres prennent le relais, on
+          entend <en>free</en>, « libre » ou « gratuit » : un piège fréquent à la caisse.
+        declinaisons:
+          - { id: c00.s01.B5.d1, texte: { uk: "Three coffees, please.", us: "Three coffees, please." }, sens: "Trois cafés, s’il vous plaît." }
+          - { id: c00.s01.B5.d2, texte: { uk: "It's three o'clock.", us: "It's three o'clock." }, sens: "Il est trois heures." }
+          - { id: c00.s01.B5.d3, texte: { uk: "I've got three kids.", us: "I have three kids." }, sens: "J’ai trois enfants." }
+          - { id: c00.s01.B5.d4, texte: { uk: "Three, two, one, go!", us: "Three, two, one, go!" }, sens: "Trois, deux, un, partez !" }
+          - { id: c00.s01.B5.d5, texte: { uk: "I'll be there in three minutes.", us: "I'll be there in three minutes." }, sens: "J’arrive dans trois minutes." }
+        renvois: [c00.s01.B6]
+      - id: c00.s01.B6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.B6.e1
+            region: commun
+            texte: { uk: "free", us: "free" }
+            jeu: { contexte: "Saying a single word clearly, upper teeth on the lower lip for the f.", emotion: "clear, friendly" }
+        sens: libre ; gratuit
+        usage: >-
+          Les dents du haut se posent sur la lèvre du bas : c’est un f. Pour
+          <en>three</en>, c’est la langue qui touche les dents.
+        declinaisons:
+          - { id: c00.s01.B6.d1, texte: { uk: "Are you free tonight?", us: "Are you free tonight?" }, sens: "Tu es libre ce soir ?" }
+          - { id: c00.s01.B6.d2, texte: { uk: "It's free.", us: "It's free." }, sens: "C’est gratuit." }
+          - { id: c00.s01.B6.d3, texte: { uk: "Feel free.", us: "Feel free." }, sens: "Je t’en prie, vas-y." }
+          - { id: c00.s01.B6.d4, texte: { uk: "Is this seat free?", us: "Is this seat free?" }, sens: "Cette place est libre ?" }
+          - { id: c00.s01.B6.d5, texte: { uk: "Entry's free for kids.", us: "Admission's free for kids." }, sens: "L’entrée est gratuite pour les enfants." }
+        renvois: [c00.s01.B5]
+      - id: c00.s01.B7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.B7.e1
+            region: commun
+            texte: { uk: "mouth", us: "mouth" }
+            jeu: { contexte: "Saying a single word clearly, ending on a soft th.", emotion: "clear, friendly" }
+        sens: bouche
+        usage: >-
+          Le th sourd en fin de mot : la langue vient effleurer les dents et l’air
+          s’échappe. Avec un s, on dit <en>mouse</en>, « souris ».
+        declinaisons:
+          - { id: c00.s01.B7.d1, texte: { uk: "Open your mouth.", us: "Open your mouth." }, sens: "Ouvre la bouche." }
+          - { id: c00.s01.B7.d2, texte: { uk: "Don't talk with your mouth full.", us: "Don't talk with your mouth full." }, sens: "Ne parle pas la bouche pleine." }
+          - { id: c00.s01.B7.d3, texte: { uk: "It's making my mouth water.", us: "It's making my mouth water." }, sens: "J’en ai l’eau à la bouche." }
+          - { id: c00.s01.B7.d4, texte: { uk: "Shut your mouth!", us: "Shut your mouth!" }, sens: "Tais-toi !" }
+          - { id: c00.s01.B7.d5, texte: { uk: "He's got a big mouth.", us: "He has a big mouth." }, sens: "Il ne sait pas tenir sa langue." }
+        renvois: [c00.s01.B8]
+      - id: c00.s01.B8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.B8.e1
+            region: commun
+            texte: { uk: "mouse", us: "mouse" }
+            jeu: { contexte: "Saying a single word clearly, ending on a crisp s.", emotion: "clear, friendly" }
+        sens: souris
+        usage: >-
+          La même diphtongue que <en>mouth</en>, mais un s sifflant à la fin, langue
+          derrière les dents.
+        declinaisons:
+          - { id: c00.s01.B8.d1, texte: { uk: "There's a mouse in the kitchen!", us: "There's a mouse in the kitchen!" }, sens: "Il y a une souris dans la cuisine !" }
+          - { id: c00.s01.B8.d2, texte: { uk: "The cat caught a mouse.", us: "The cat caught a mouse." }, sens: "Le chat a attrapé une souris." }
+          - { id: c00.s01.B8.d3, texte: { uk: "She's as quiet as a mouse.", us: "She's as quiet as a mouse." }, sens: "Elle est discrète comme une souris." }
+          - { id: c00.s01.B8.d4, texte: { uk: "Is that a mouse?", us: "Is that a mouse?" }, sens: "C’est une souris, ça ?" }
+          - { id: c00.s01.B8.d5, texte: { uk: "My mouse isn't working.", us: "My mouse isn't working." }, sens: "Ma souris ne marche pas." }
+        renvois: [c00.s01.B7]
+  - lettre: C
+    titre: Le th qui vibre
+    expressions:
+      - id: c00.s01.C1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.C1.e1
+            region: commun
+            texte: { uk: "they", us: "they" }
+            jeu: { contexte: "Saying a single word clearly, voiced th with the tongue between the teeth.", emotion: "clear, friendly" }
+        sens: ils, elles
+        usage: >-
+          Même position de langue que pour <en>think</en>, mais la gorge vibre : posez la
+          main sur votre cou, vous la sentez. Avec un d, on entend <en>day</en>, « jour ».
+        declinaisons:
+          - { id: c00.s01.C1.d1, texte: { uk: "They're here.", us: "They're here." }, sens: "Ils sont là." }
+          - { id: c00.s01.C1.d2, texte: { uk: "They said yes.", us: "They said yes." }, sens: "Ils ont dit oui." }
+          - { id: c00.s01.C1.d3, texte: { uk: "Where are they?", us: "Where are they?" }, sens: "Où sont-ils ?" }
+          - { id: c00.s01.C1.d4, texte: { uk: "They're late again.", us: "They're late again." }, sens: "Ils sont encore en retard." }
+          - { id: c00.s01.C1.d5, texte: { uk: "They live next door.", us: "They live next door." }, sens: "Ils habitent à côté." }
+        renvois: [c00.s01.C2]
+      - id: c00.s01.C2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.C2.e1
+            region: commun
+            texte: { uk: "day", us: "day" }
+            jeu: { contexte: "Saying a single word clearly, with a crisp d.", emotion: "clear, friendly" }
+        sens: jour
+        usage: >-
+          Un d frappé derrière les dents du haut. Le th de <en>they</en> ne frappe pas :
+          il glisse, la langue entre les dents.
+        declinaisons:
+          - { id: c00.s01.C2.d1, texte: { uk: "Have a nice day.", us: "Have a nice day." }, sens: "Bonne journée." }
+          - { id: c00.s01.C2.d2, texte: { uk: "What a day!", us: "What a day!" }, sens: "Quelle journée !" }
+          - { id: c00.s01.C2.d3, texte: { uk: "I'll call you one day.", us: "I'll call you one day." }, sens: "Je t’appellerai un de ces jours." }
+          - { id: c00.s01.C2.d4, texte: { uk: "What day is it?", us: "What day is it?" }, sens: "On est quel jour ?" }
+          - { id: c00.s01.C2.d5, texte: { uk: "I'm off for the day.", us: "I'm off for the day." }, sens: "J’ai ma journée." }
+        renvois: [c00.s01.C1]
+      - id: c00.s01.C3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.C3.e1
+            region: commun
+            texte: { uk: "then", us: "then" }
+            jeu: { contexte: "Saying a single word clearly, voiced th with the tongue between the teeth.", emotion: "clear, friendly" }
+        sens: ensuite ; alors
+        usage: >-
+          Le th qui vibre, puis un e bref. Avec un d, on dit <en>den</en>, « tanière » : le
+          mot tient pourtant une place immense dans la conversation.
+        declinaisons:
+          - { id: c00.s01.C3.d1, texte: { uk: "See you then.", us: "See you then." }, sens: "À tout à l’heure, alors." }
+          - { id: c00.s01.C3.d2, texte: { uk: "And then what happened?", us: "And then what happened?" }, sens: "Et ensuite, qu’est-ce qui s’est passé ?" }
+          - { id: c00.s01.C3.d3, texte: { uk: "OK then, let's go.", us: "OK then, let's go." }, sens: "Bon, alors, on y va." }
+          - { id: c00.s01.C3.d4, texte: { uk: "Back then, I lived in London.", us: "Back then, I lived in New York." }, sens: "À l’époque, j’habitais à Londres." }
+          - { id: c00.s01.C3.d5, texte: { uk: "Since then, nothing's changed.", us: "Since then, nothing's changed." }, sens: "Depuis, rien n’a changé." }
+        renvois: [c00.s01.C4]
+      - id: c00.s01.C4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.C4.e1
+            region: commun
+            texte: { uk: "den", us: "den" }
+            jeu: { contexte: "Saying a single word clearly, with a crisp d.", emotion: "clear, friendly" }
+        sens: tanière ; petit salon
+        usage: >-
+          Un d net. Le mot désigne la tanière d’un animal, et aux États-Unis la petite
+          pièce où l’on se retire pour lire ou regarder la télévision.
+        declinaisons:
+          - { id: c00.s01.C4.d1, texte: { uk: "The fox went back to its den.", us: "The fox went back to its den." }, sens: "Le renard est retourné dans sa tanière." }
+          - { id: c00.s01.C4.d2, texte: { uk: "The kids are building a den.", us: "The kids are building a fort." }, sens: "Les enfants construisent une cabane." }
+          - { id: c00.s01.C4.d3, texte: { uk: "It's a den of thieves.", us: "It's a den of thieves." }, sens: "C’est un repaire de voleurs." }
+          - { id: c00.s01.C4.d4, texte: { uk: "A lion's den.", us: "A lion's den." }, sens: "Une fosse aux lions." }
+          - { id: c00.s01.C4.d5, texte: { uk: "We watch TV in the den.", us: "We watch TV in the den." }, sens: "On regarde la télé dans le petit salon." }
+        renvois: [c00.s01.C3]
+      - id: c00.s01.C5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.C5.e1
+            region: commun
+            texte: { uk: "breathe", us: "breathe" }
+            jeu: { contexte: "Saying a single word clearly, ending on a voiced th.", emotion: "calm, clear" }
+        sens: respirer
+        usage: >-
+          Le mot finit sur un th qui vibre, langue entre les dents. Avec un z, on entend
+          <en>breeze</en>, « brise ». Le nom, <en>breath</en>, finit sur un th sourd.
+        declinaisons:
+          - { id: c00.s01.C5.d1, texte: { uk: "Just breathe.", us: "Just breathe." }, sens: "Respire, simplement." }
+          - { id: c00.s01.C5.d2, texte: { uk: "I can't breathe in here.", us: "I can't breathe in here." }, sens: "J’étouffe, ici." }
+          - { id: c00.s01.C5.d3, texte: { uk: "Breathe in, breathe out.", us: "Breathe in, breathe out." }, sens: "Inspire, expire." }
+          - { id: c00.s01.C5.d4, texte: { uk: "Breathe slowly.", us: "Breathe slowly." }, sens: "Respire lentement." }
+          - { id: c00.s01.C5.d5, texte: { uk: "Don't forget to breathe.", us: "Don't forget to breathe." }, sens: "N’oublie pas de respirer." }
+        renvois: [c00.s01.C6]
+      - id: c00.s01.C6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.C6.e1
+            region: commun
+            texte: { uk: "breeze", us: "breeze" }
+            jeu: { contexte: "Saying a single word clearly, ending on a buzzing z.", emotion: "calm, clear" }
+        sens: brise
+        usage: >-
+          Un z qui bourdonne, langue derrière les dents. Familièrement, <en>It's a
+          breeze</en> veut dire « c’est du gâteau ».
+        declinaisons:
+          - { id: c00.s01.C6.d1, texte: { uk: "There's a nice breeze.", us: "There's a nice breeze." }, sens: "Il y a une petite brise agréable." }
+          - { id: c00.s01.C6.d2, texte: { uk: "The exam was a breeze.", us: "The exam was a breeze." }, sens: "L’examen, c’était du gâteau." }
+          - { id: c00.s01.C6.d3, texte: { uk: "A cool breeze came in.", us: "A cool breeze came in." }, sens: "Une brise fraîche est entrée." }
+          - { id: c00.s01.C6.d4, texte: { uk: "Feel that breeze!", us: "Feel that breeze!" }, sens: "Sens cette brise !" }
+          - { id: c00.s01.C6.d5, texte: { uk: "The breeze is lovely tonight.", us: "The breeze is lovely tonight." }, sens: "La brise est délicieuse ce soir." }
+        renvois: [c00.s01.C5]
+      - id: c00.s01.C7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.C7.e1
+            region: commun
+            texte: { uk: "those", us: "those" }
+            jeu: { contexte: "Saying a single word clearly, voiced th with the tongue between the teeth.", emotion: "clear, friendly" }
+        sens: ceux-là, celles-là
+        usage: >-
+          Le th qui vibre ouvre le mot. Avec un d, on dit <en>doze</en>, « somnoler ».
+          Les petits mots de désignation (<en>this</en>, <en>that</en>, <en>these</en>,
+          <en>those</en>) commencent tous par ce son.
+        declinaisons:
+          - { id: c00.s01.C7.d1, texte: { uk: "I'll have those, please.", us: "I'll take those, please." }, sens: "Je vais prendre ceux-là, s’il vous plaît." }
+          - { id: c00.s01.C7.d2, texte: { uk: "Are those yours?", us: "Are those yours?" }, sens: "Ce sont les tiens ?" }
+          - { id: c00.s01.C7.d3, texte: { uk: "Those were the days.", us: "Those were the days." }, sens: "C’était le bon temps." }
+          - { id: c00.s01.C7.d4, texte: { uk: "Those are my keys.", us: "Those are my keys." }, sens: "Ce sont mes clés." }
+          - { id: c00.s01.C7.d5, texte: { uk: "I love those shoes.", us: "I love those shoes." }, sens: "J’adore ces chaussures-là." }
+        renvois: [c00.s01.C8]
+      - id: c00.s01.C8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.C8.e1
+            region: commun
+            texte: { uk: "doze", us: "doze" }
+            jeu: { contexte: "Saying a single word clearly, with a crisp d.", emotion: "drowsy, clear" }
+        sens: somnoler
+        usage: >-
+          Un d frappé, puis la même voyelle que dans <en>those</en>. On entend surtout
+          <en>doze off</en>, « s’assoupir ».
+        declinaisons:
+          - { id: c00.s01.C8.d1, texte: { uk: "I dozed off on the sofa.", us: "I dozed off on the couch." }, sens: "Je me suis assoupi sur le canapé." }
+          - { id: c00.s01.C8.d2, texte: { uk: "Grandad's dozing in his chair.", us: "Grandpa's dozing in his chair." }, sens: "Papi somnole dans son fauteuil." }
+          - { id: c00.s01.C8.d3, texte: { uk: "Don't doze off now!", us: "Don't doze off now!" }, sens: "Ne t’endors pas maintenant !" }
+          - { id: c00.s01.C8.d4, texte: { uk: "I must've dozed off.", us: "I must've dozed off." }, sens: "J’ai dû m’assoupir." }
+          - { id: c00.s01.C8.d5, texte: { uk: "He was dozing in the sun.", us: "He was dozing in the sun." }, sens: "Il somnolait au soleil." }
+        renvois: [c00.s01.C7]
+  - lettre: D
+    titre: Le r qui ne roule pas
+    expressions:
+      - id: c00.s01.D1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.D1.e1
+            region: commun
+            texte: { uk: "right", us: "right" }
+            jeu: { contexte: "Saying a single word clearly, a smooth English r with the tongue curled back.", emotion: "clear, friendly" }
+        sens: juste ; droite
+        usage: >-
+          Le r anglais ne touche rien : la langue se recourbe vers l’arrière sans
+          frotter, les lèvres s’avancent un peu. Avec la langue collée au palais, on
+          entend <en>light</en>, « lumière ».
+        declinaisons:
+          - { id: c00.s01.D1.d1, texte: { uk: "That's right.", us: "That's right." }, sens: "C’est exact." }
+          - { id: c00.s01.D1.d2, texte: { uk: "Turn right here.", us: "Turn right here." }, sens: "Tourne à droite ici." }
+          - { id: c00.s01.D1.d3, texte: { uk: "Are you all right?", us: "Are you all right?" }, sens: "Ça va ?" }
+          - { id: c00.s01.D1.d4, texte: { uk: "Right, let's go.", us: "Right, let's go." }, sens: "Bon, on y va." }
+          - { id: c00.s01.D1.d5, texte: { uk: "You're right.", us: "You're right." }, sens: "Tu as raison." }
+        renvois: [c00.s01.D2]
+      - id: c00.s01.D2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.D2.e1
+            region: commun
+            texte: { uk: "light", us: "light" }
+            jeu: { contexte: "Saying a single word clearly, the tip of the tongue touching behind the top teeth for the l.", emotion: "clear, friendly" }
+        sens: lumière ; léger
+        usage: >-
+          Pour le l, la pointe de la langue se pose derrière les dents du haut. Pour le r
+          de <en>right</en>, elle ne touche rien.
+        declinaisons:
+          - { id: c00.s01.D2.d1, texte: { uk: "Turn the light on.", us: "Turn the light on." }, sens: "Allume la lumière." }
+          - { id: c00.s01.D2.d2, texte: { uk: "It's light enough to carry.", us: "It's light enough to carry." }, sens: "C’est assez léger pour le porter." }
+          - { id: c00.s01.D2.d3, texte: { uk: "Have you got a light?", us: "Do you have a light?" }, sens: "Tu as du feu ?" }
+          - { id: c00.s01.D2.d4, texte: { uk: "The light's on.", us: "The light's on." }, sens: "La lumière est allumée." }
+          - { id: c00.s01.D2.d5, texte: { uk: "I'll travel light.", us: "I'll travel light." }, sens: "Je voyagerai léger." }
+        renvois: [c00.s01.D1]
+      - id: c00.s01.D3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.D3.e1
+            region: commun
+            texte: { uk: "road", us: "road" }
+            jeu: { contexte: "Saying a single word clearly, a smooth English r with the tongue curled back.", emotion: "clear, friendly" }
+        sens: route
+        usage: >-
+          Un r glissé, sans frottement de gorge : rien à voir avec le r français. Avec un
+          l, on entend <en>load</en>, « charge ».
+        declinaisons:
+          - { id: c00.s01.D3.d1, texte: { uk: "Cross the road.", us: "Cross the street." }, sens: "Traverse la route." }
+          - { id: c00.s01.D3.d2, texte: { uk: "It's just down the road.", us: "It's just down the road." }, sens: "C’est juste au bout de la rue." }
+          - { id: c00.s01.D3.d3, texte: { uk: "We're on the road.", us: "We're on the road." }, sens: "On est en route." }
+          - { id: c00.s01.D3.d4, texte: { uk: "The road's closed.", us: "The road's closed." }, sens: "La route est fermée." }
+          - { id: c00.s01.D3.d5, texte: { uk: "Which road do I take?", us: "Which road do I take?" }, sens: "Je prends quelle route ?" }
+        renvois: [c00.s01.D4]
+      - id: c00.s01.D4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.D4.e1
+            region: commun
+            texte: { uk: "load", us: "load" }
+            jeu: { contexte: "Saying a single word clearly, the tongue touching behind the top teeth for the l.", emotion: "clear, friendly" }
+        sens: charge ; charger
+        usage: >-
+          Un l clair, langue posée. Le mot désigne une charge ; on l’entend souvent dans <en>loads of</en>, « des tas
+          de ».
+        declinaisons:
+          - { id: c00.s01.D4.d1, texte: { uk: "I've got loads of work.", us: "I have loads of work." }, sens: "J’ai des tonnes de travail." }
+          - { id: c00.s01.D4.d2, texte: { uk: "Load the dishwasher.", us: "Load the dishwasher." }, sens: "Remplis le lave-vaisselle." }
+          - { id: c00.s01.D4.d3, texte: { uk: "That's a load off my mind.", us: "That's a load off my mind." }, sens: "Ça m’ôte un poids." }
+          - { id: c00.s01.D4.d4, texte: { uk: "Can you help me load the car?", us: "Can you help me load the car?" }, sens: "Tu m’aides à charger la voiture ?" }
+          - { id: c00.s01.D4.d5, texte: { uk: "That's a heavy load.", us: "That's a heavy load." }, sens: "C’est une lourde charge." }
+        renvois: [c00.s01.D3]
+      - id: c00.s01.D5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.D5.e1
+            region: commun
+            texte: { uk: "wrong", us: "wrong" }
+            jeu: { contexte: "Saying a single word clearly, a smooth English r with the tongue curled back.", emotion: "clear, friendly" }
+        sens: faux ; qui ne va pas
+        usage: >-
+          Le w ne se prononce pas : le mot commence par le r glissé. Avec un l, on entend
+          <en>long</en>, « long ».
+        declinaisons:
+          - { id: c00.s01.D5.d1, texte: { uk: "What's wrong?", us: "What's wrong?" }, sens: "Qu’est-ce qui ne va pas ?" }
+          - { id: c00.s01.D5.d2, texte: { uk: "You've got the wrong number.", us: "You have the wrong number." }, sens: "Vous vous êtes trompé de numéro." }
+          - { id: c00.s01.D5.d3, texte: { uk: "I was wrong.", us: "I was wrong." }, sens: "J’avais tort." }
+          - { id: c00.s01.D5.d4, texte: { uk: "Something's wrong.", us: "Something's wrong." }, sens: "Il y a quelque chose qui cloche." }
+          - { id: c00.s01.D5.d5, texte: { uk: "Sorry, wrong door.", us: "Sorry, wrong door." }, sens: "Pardon, je me suis trompé de porte." }
+        renvois: [c00.s01.D6]
+      - id: c00.s01.D6
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.D6.e1
+            region: commun
+            texte: { uk: "long", us: "long" }
+            jeu: { contexte: "Saying a single word clearly, the tongue touching behind the top teeth for the l.", emotion: "clear, friendly" }
+        sens: long
+        usage: >-
+          Le l se pose, puis la voyelle s’ouvre. Écoutez <en>wrong</en> juste après : la
+          fin est identique, le début change tout.
+        declinaisons:
+          - { id: c00.s01.D6.d1, texte: { uk: "It's a long way.", us: "It's a long way." }, sens: "C’est loin." }
+          - { id: c00.s01.D6.d2, texte: { uk: "How long does it take?", us: "How long does it take?" }, sens: "Ça prend combien de temps ?" }
+          - { id: c00.s01.D6.d3, texte: { uk: "See you, it won't be long.", us: "See you, it won't be long." }, sens: "À tout de suite, ça ne sera pas long." }
+          - { id: c00.s01.D6.d4, texte: { uk: "Long time no see!", us: "Long time no see!" }, sens: "Ça fait une éternité !" }
+          - { id: c00.s01.D6.d5, texte: { uk: "It's been a long day.", us: "It's been a long day." }, sens: "La journée a été longue." }
+        renvois: [c00.s01.D5]
+      - id: c00.s01.D7
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.D7.e1
+            region: commun
+            texte: { uk: "pray", us: "pray" }
+            jeu: { contexte: "Saying a single word clearly, a smooth English r after the p.", emotion: "calm, clear" }
+        sens: prier
+        usage: >-
+          Après le p, le r anglais glisse sans frotter. Avec un l, on dit <en>play</en>,
+          « jouer ».
+        declinaisons:
+          - { id: c00.s01.D7.d1, texte: { uk: "Let's pray it doesn't rain.", us: "Let's pray it doesn't rain." }, sens: "Prions pour qu’il ne pleuve pas." }
+          - { id: c00.s01.D7.d2, texte: { uk: "I'll pray for you.", us: "I'll pray for you." }, sens: "Je prierai pour toi." }
+          - { id: c00.s01.D7.d3, texte: { uk: "We just have to pray.", us: "We just have to pray." }, sens: "Il ne nous reste plus qu’à prier." }
+          - { id: c00.s01.D7.d4, texte: { uk: "Pray for good weather.", us: "Pray for good weather." }, sens: "Prie pour qu’il fasse beau." }
+          - { id: c00.s01.D7.d5, texte: { uk: "They pray every morning.", us: "They pray every morning." }, sens: "Ils prient tous les matins." }
+        renvois: [c00.s01.D8]
+      - id: c00.s01.D8
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [prelude, langue]
+        fonctions: [ecouter]
+        enonces:
+          - id: c00.s01.D8.e1
+            region: commun
+            texte: { uk: "play", us: "play" }
+            jeu: { contexte: "Saying a single word clearly, the tongue touching behind the top teeth for the l.", emotion: "cheerful, clear" }
+        sens: jouer
+        usage: >-
+          Un l posé après le p. On le retrouve partout : jouer, jouer d’un instrument,
+          mettre de la musique (<en>play a song</en>).
+        declinaisons:
+          - { id: c00.s01.D8.d1, texte: { uk: "Can I play?", us: "Can I play?" }, sens: "Je peux jouer ?" }
+          - { id: c00.s01.D8.d2, texte: { uk: "She plays the piano.", us: "She plays the piano." }, sens: "Elle joue du piano." }
+          - { id: c00.s01.D8.d3, texte: { uk: "Play that song again.", us: "Play that song again." }, sens: "Remets cette chanson." }
+          - { id: c00.s01.D8.d4, texte: { uk: "Let's play a game.", us: "Let's play a game." }, sens: "On fait un jeu." }
+          - { id: c00.s01.D8.d5, texte: { uk: "The kids are playing outside.", us: "The kids are playing outside." }, sens: "Les enfants jouent dehors." }
+        renvois: [c00.s01.D7]
+essentiel:
+  incontournables: [c00.s01.A1, c00.s01.A3, c00.s01.B1, c00.s01.B5, c00.s01.C1, c00.s01.C3, c00.s01.D1, c00.s01.D5]
+  fauxPas:
+    - fautif: "I sink so."
+      naturel: "I think so."
+      pourquoi: "Sans la langue entre les dents, <en>think</en> devient <en>sink</en>, « couler ». Laissez l’air passer sur le bout de la langue."
+    - fautif: "Free coffees, please."
+      naturel: "Three coffees, please."
+      pourquoi: "Le th de <en>three</en> se fait avec la langue, pas avec la lèvre : sinon vous commandez des cafés « gratuits »."
+    - fautif: "I like your at."
+      naturel: "I like your hat."
+      pourquoi: "Le h anglais se souffle. Sans lui, <en>hat</en> devient <en>at</en> et la phrase perd son sens."
+    - fautif: "Turn light here."
+      naturel: "Turn right here."
+      pourquoi: "Le r anglais ne touche pas le palais. Langue collée, on entend <en>light</en>."
+    - fautif: "Dey're here."
+      naturel: "They're here."
+      pourquoi: "Le th de <en>they</en> glisse entre les dents en vibrant ; un d frappé fait entendre un autre mot."
+sceneVivante:
+  titre: Trois cafés
+  repliques:
+    - { id: c00.s01.sv.l01, personnage: kofi, texte: { uk: "Three coffees, please.", us: "Three coffees, please." }, sens: "Trois cafés, s’il vous plaît.", emotion: "cheerful, ordering at a counter" }
+    - { id: c00.s01.sv.l02, personnage: passage_f, texte: { uk: "Three? Right. Anything else?", us: "Three? Right. Anything else?" }, sens: "Trois ? D’accord. Autre chose ?", emotion: "friendly, brisk" }
+    - { id: c00.s01.sv.l03, personnage: sarah, texte: { uk: "I think Mia wants a hot chocolate.", us: "I think Mia wants a hot chocolate." }, sens: "Je crois que Mia veut un chocolat chaud.", emotion: "relaxed, glancing at her daughter" }
+    - { id: c00.s01.sv.l04, personnage: mia, texte: { uk: "With whipped cream! Is it free?", us: "With whipped cream! Is it free?" }, sens: "Avec de la chantilly ! C’est gratuit ?", emotion: "excited, hopeful" }
+    - { id: c00.s01.sv.l05, personnage: passage_f, texte: { uk: "The cream's free, love.", us: "The whipped cream's free, sweetie." }, sens: "La chantilly est offerte, ma puce.", emotion: "warm, amused" }
+    - { id: c00.s01.sv.l06, personnage: kofi, texte: { uk: "Hold on, where's my hat?", us: "Hold on, where's my hat?" }, sens: "Attends, où est mon chapeau ?", emotion: "suddenly worried, patting his head" }
+    - { id: c00.s01.sv.l07, personnage: sarah, texte: { uk: "It's right there, on your head.", us: "It's right there, on your head." }, sens: "Il est juste là, sur ta tête.", emotion: "dry, teasing" }
+    - { id: c00.s01.sv.l08, personnage: mia, texte: { uk: "Daddy's getting old!", us: "Daddy's getting old!" }, sens: "Papa devient vieux !", emotion: "giggling" }
+    - { id: c00.s01.sv.l09, personnage: kofi, texte: { uk: "Thank you, Mia. Thanks a lot.", us: "Thank you, Mia. Thanks a lot." }, sens: "Merci, Mia. Merci beaucoup.", emotion: "mock offended, smiling" }
+    - { id: c00.s01.sv.l10, personnage: passage_f, texte: { uk: "That's three coffees and a hot chocolate. Enjoy!", us: "That's three coffees and a hot chocolate. Enjoy!" }, sens: "Ça fait trois cafés et un chocolat chaud. Bonne dégustation !", emotion: "cheerful, handing over the tray" }
+rituel:
+  - Aujourd’hui, chaque fois que vous dites « trois », dites aussi <en>three</en>, la langue entre les dents.
+  - "Avant de dormir, soufflez sur votre main <en>hat, heat, hair, hold</en> : vous devez sentir l’air à chaque h."
+ateliers:
+  jeuDesPaires: renvois
+  oreilleFine: [c00.s01.A1.d5, c00.s01.B1.d4, c00.s01.C1.d5, c00.s01.D1.d3, c00.s01.A3.d5]
+  miroir: [c00.s01.A1, c00.s01.A3, c00.s01.B1, c00.s01.B5, c00.s01.C1, c00.s01.C3, c00.s01.D1, c00.s01.D5]
