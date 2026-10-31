@@ -1,0 +1,22 @@
+# Parcours 11.2 : la première scène, du premier lancement à l'écoute.
+# Adapté à l'accueil en quatre écrans (8.2) : « Commencer », accent, « Continuer », niveau, rendez-vous « Pas maintenant ».
+appId: com.vivrelanglais.livre
+---
+- launchApp:
+    clearState: true
+- assertVisible: "Vivre l’Anglais"
+- tapOn: "Commencer"
+- tapOn: "Britannique"
+- tapOn: "Continuer"
+- tapOn: "Je commence"
+- tapOn: "Pas maintenant"
+- tapOn: "Le Livre"
+- tapOn: "Le réveil et les premières minutes"
+- assertVisible: "My alarm’s going off."
+- tapOn:
+    id: "ecouter-c01.s01.A1.e1"
+- assertVisible: "En écoute"
+- tapOn: "Spontané"
+- assertVisible: "mə·LÂMZ"
+- back
+- assertVisible: "Le Livre"

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Thème Papier (9.2) -->
+    <color name="colorPrimary">#1F3A5F</color>
+    <color name="colorPrimaryDark">#1F3A5F</color>
+    <color name="colorAccent">#1F3A5F</color>
+    <color name="fond">#FBF8F3</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="encre">#1C1B1A</color>
+    <color name="encre_douce">#5E5A55</color>
+    <color name="filet">#E6E0D6</color>
+    <color name="accent">#1F3A5F</color>
+</resources>

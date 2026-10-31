@@ -1,31 +1,75 @@
-// Mon carnet (8.8) : base locale Dexie (IndexedDB), stockage privé de l'application (10.10).
+// Mon carnet (8.8) : base locale Dexie « vivre » (IndexedDB), stockage privé de l'application (10.10).
+// Tables prescrites : progression, cartes, journal, marques, notes, constance, versions, itineraires, contretemps.
+// Les enregistrements « Ma voix » vont dans Directory.Data/ma_voix/ (fichiers .m4a), pas dans la base.
 import Dexie, { type EntityTable } from 'dexie';
 
-export interface MarquePage { id: string; genre: 'expression' | 'declinaison' | 'replique'; scene: string; date: number; note?: string }
-export interface Enregistrement { id?: number; enonce: string; date: number; duree: number; voix: Blob; auto?: 'tres-proche' | 'presque' | 'a-retravailler' }
-export interface Version { id?: number; expression: string; texte: string; date: number; voix?: Blob }
-export interface JourDePratique { jour: string; scenes: number; retrouvailles: number; minutes: number }
-export interface Lecture { cle: 'reprise'; scene: string; moment: string; expression: string; date: number }
-export interface SceneParcourue { scene: string; date: number }
+/** Progression d'une scène ; la ligne de clé « reprise » garde la position exacte de lecture. */
+export interface Progression { scene: string; etat: 'en-cours' | 'parcourue'; moment: string; expression: string; date: number; ouverte?: string }
+/** État de mémorisation d'une expression (FSRS, 8.6). */
+export interface Carte { expression: string; due: number; stabilite: number; difficulte: number; etat: number; repetitions: number; oublis: number; derniere?: number; familiere: boolean }
+/** Journal des retrouvailles (une ligne par réponse). */
+export interface EntreeJournal { id?: number; expression: string; date: number; forme: string; note: 1 | 2 | 3 | 4 }
+export interface Marque { id: string; genre: 'expression' | 'declinaison' | 'replique'; scene: string; date: number }
+export interface Note { id: string; texte: string; date: number }
+export interface JourDeConstance { jour: string; scenes: number; retrouvailles: number; minutes: number }
+export interface Version { id?: number; expression: string; texte: string; date: number; fichier?: string }
+export interface ItineraireSuivi { id: string; etape: number; debut: number }
+export interface Contretemps { id?: number; date: number; code: string; ecran: string }
+
+export const REPRISE = 'reprise';
 
 export class BaseCarnet extends Dexie {
-  marquePages!: EntityTable<MarquePage, 'id'>;
-  maVoix!: EntityTable<Enregistrement, 'id'>;
+  progression!: EntityTable<Progression, 'scene'>;
+  cartes!: EntityTable<Carte, 'expression'>;
+  journal!: EntityTable<EntreeJournal, 'id'>;
+  marques!: EntityTable<Marque, 'id'>;
+  notes!: EntityTable<Note, 'id'>;
+  constance!: EntityTable<JourDeConstance, 'jour'>;
   versions!: EntityTable<Version, 'id'>;
-  pratique!: EntityTable<JourDePratique, 'jour'>;
-  lecture!: EntityTable<Lecture, 'cle'>;
-  parcourues!: EntityTable<SceneParcourue, 'scene'>;
+  itineraires!: EntityTable<ItineraireSuivi, 'id'>;
+  contretemps!: EntityTable<Contretemps, 'id'>;
 
-  constructor(nom = 'carnet') {
+  constructor(nom = 'vivre') {
     super(nom);
     this.version(1).stores({
-      marquePages: 'id, scene, date',
-      maVoix: '++id, enonce, date',
+      progression: 'scene, etat, date',
+      cartes: 'expression, due, familiere',
+      journal: '++id, expression, date',
+      marques: 'id, scene, date',
+      notes: 'id, date',
+      constance: 'jour',
       versions: '++id, expression, date',
-      pratique: 'jour',
-      lecture: 'cle',
-      parcourues: 'scene, date'
+      itineraires: 'id',
+      contretemps: '++id, date'
     });
+  }
+
+  /** Scènes parcourues (8.3). */
+  async parcourues(): Promise<Set<string>> {
+    const l = await this.progression.where('etat').equals('parcourue').toArray();
+    return new Set(l.map((p) => p.scene));
+  }
+
+  /** Position de reprise (8.2) : dernière scène ouverte. */
+  async reprise(): Promise<Progression | undefined> {
+    return this.progression.get(REPRISE);
+  }
+
+  async noterReprise(ouverte: string, moment: string, expression: string): Promise<void> {
+    const date = Date.now();
+    await this.progression.put({ scene: REPRISE, etat: 'en-cours', ouverte, moment, expression, date });
+    const actuelle = await this.progression.get(ouverte);
+    if (actuelle?.etat !== 'parcourue') await this.progression.put({ scene: ouverte, etat: 'en-cours', moment, expression, date });
+  }
+
+  /** Journal des contretemps : 200 entrées au plus, les plus anciennes s'effacent (10.10). */
+  async contretempsSurvenu(code: string, ecran: string): Promise<void> {
+    await this.contretemps.add({ date: Date.now(), code, ecran });
+    const n = await this.contretemps.count();
+    if (n > 200) {
+      const anciens = await this.contretemps.orderBy('date').limit(n - 200).primaryKeys();
+      await this.contretemps.bulkDelete(anciens);
+    }
   }
 }
 

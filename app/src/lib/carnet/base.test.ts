@@ -15,12 +15,19 @@ describe('mon carnet (8.8)', () => {
   });
   it('enregistre et relit marque-pages, pratique et reprise', async () => {
     const b = new BaseCarnet('essai');
-    await b.marquePages.put({ id: 'c01.s01.A1', genre: 'expression', scene: 'c01.s01', date: 1 });
-    await b.pratique.put({ jour: '2026-10-30', scenes: 1, retrouvailles: 0, minutes: 6 });
-    await b.lecture.put({ cle: 'reprise', scene: 'c01.s01', moment: 'A', expression: 'c01.s01.A1', date: 2 });
-    expect(await b.marquePages.count()).toBe(1);
-    expect((await b.lecture.get('reprise'))?.scene).toBe('c01.s01');
-    expect(constance((await b.pratique.toArray()).map((p) => p.jour), '2026-10-30')).toBe(1);
+    expect(b.tables.map((x) => x.name).sort()).toEqual(['cartes', 'constance', 'contretemps', 'itineraires', 'journal', 'marques', 'notes', 'progression', 'versions']);
+    await b.marques.put({ id: 'c01.s01.A1', genre: 'expression', scene: 'c01.s01', date: 1 });
+    await b.constance.put({ jour: '2026-10-30', scenes: 1, retrouvailles: 0, minutes: 6 });
+    await b.noterReprise('c01.s01', 'A', 'c01.s01.A1');
+    expect(await b.marques.count()).toBe(1);
+    expect((await b.reprise())?.ouverte).toBe('c01.s01');
+    expect([...(await b.parcourues())]).toEqual([]);
+    await b.progression.put({ scene: 'c01.s02', etat: 'parcourue', moment: 'F', expression: '', date: 3 });
+    await b.noterReprise('c01.s02', 'A', 'c01.s02.A1');
+    expect([...(await b.parcourues())]).toEqual(['c01.s02']);
+    expect(constance((await b.constance.toArray()).map((p) => p.jour), '2026-10-30')).toBe(1);
+    for (let i = 0; i < 205; i++) await b.contretempsSurvenu('voix-absente', 'scene');
+    expect(await b.contretemps.count()).toBe(200);
     await b.delete();
   });
 });

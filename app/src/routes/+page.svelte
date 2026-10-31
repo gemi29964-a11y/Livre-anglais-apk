@@ -21,12 +21,12 @@
   onMount(() => {
     void (async () => {
       sommaire = await chargerSommaire().catch(() => null);
-      const pratique = await carnet.pratique.toArray().catch(() => []);
-      jours = constance(pratique.map((p) => p.jour));
-      const l = await carnet.lecture.get('reprise').catch(() => undefined);
-      if (l && sommaire) {
-        const trouve = sceneDe(sommaire, l.scene);
-        if (trouve?.scene.disponible) reprise = { scene: l.scene, numero: trouve.scene.numero, titre: trouve.scene.titre };
+      const jours_ = await carnet.constance.toArray().catch(() => []);
+      jours = constance(jours_.map((p) => p.jour));
+      const l = await carnet.reprise().catch(() => undefined);
+      if (l?.ouverte && sommaire) {
+        const trouve = sceneDe(sommaire, l.ouverte);
+        if (trouve?.scene.disponible) reprise = { scene: l.ouverte, numero: trouve.scene.numero, titre: trouve.scene.titre };
       }
       moments = await fetch('/corpus/moments.json').then((r) => (r.ok ? r.json() : [])).catch(() => []);
       expressions = await fetch('/corpus/expression-du-jour.json').then((r) => (r.ok ? r.json() : [])).catch(() => []);

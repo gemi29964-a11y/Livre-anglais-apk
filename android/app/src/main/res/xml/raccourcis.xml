@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutId="reprendre" android:icon="@drawable/rac_livre"
+              android:shortcutShortLabel="@string/rac_reprendre">
+        <intent android:action="android.intent.action.VIEW" android:data="vivrelanglais://reprendre" />
+    </shortcut>
+    <shortcut android:shortcutId="retrouvailles" android:icon="@drawable/rac_carnet"
+              android:shortcutShortLabel="@string/rac_retrouvailles"
+              android:shortcutLongLabel="@string/rac_retrouvailles_long">
+        <intent android:action="android.intent.action.VIEW" android:data="vivrelanglais://retrouvailles" />
+    </shortcut>
+    <shortcut android:shortcutId="promenade" android:icon="@drawable/rac_casque"
+              android:shortcutShortLabel="@string/rac_promenade">
+        <intent android:action="android.intent.action.VIEW" android:data="vivrelanglais://promenade" />
+    </shortcut>
+    <shortcut android:shortcutId="recherche" android:icon="@drawable/rac_loupe"
+              android:shortcutShortLabel="@string/rac_recherche">
+        <intent android:action="android.intent.action.VIEW" android:data="vivrelanglais://recherche" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vivre l’Anglais</string>
+    <string name="title_activity_main">Vivre l’Anglais</string>
+    <string name="package_name">com.vivrelanglais.livre</string>
+    <string name="custom_url_scheme">vivrelanglais</string>
+    <!-- Raccourcis d'application (8.26, 10.20) -->
+    <string name="rac_reprendre">Reprendre la lecture</string>
+    <string name="rac_retrouvailles">Les retrouvailles</string>
+    <string name="rac_retrouvailles_long">Les retrouvailles du jour</string>
+    <string name="rac_promenade">La promenade</string>
+    <string name="rac_recherche">Comment dit-on… ?</string>
+    <!-- Expression du jour (10.20) -->
+    <string name="widget_description">L’expression du jour, à écouter d’un geste</string>
+    <string name="widget_ecouter">Écouter</string>
+</resources>

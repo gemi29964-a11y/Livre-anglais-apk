@@ -4,18 +4,19 @@
   import { t } from '$lib/textes/fr';
   import Entete from '$lib/ui/Entete.svelte';
   import Icone from '$lib/ui/Icone.svelte';
-  import { carnet, constance, type MarquePage } from '$lib/carnet/base';
+  import { carnet, constance, type Marque } from '$lib/carnet/base';
+  import { lister } from '$lib/carnet/maVoix';
 
-  let marquePages = $state<MarquePage[]>([]);
+  let marquePages = $state<Marque[]>([]);
   let voix = $state(0);
   let versions = $state(0);
   let jours = $state(0);
 
   onMount(async () => {
-    marquePages = await carnet.marquePages.orderBy('date').reverse().toArray().catch(() => []);
-    voix = await carnet.maVoix.count().catch(() => 0);
+    marquePages = await carnet.marques.orderBy('date').reverse().toArray().catch(() => []);
+    voix = (await lister()).length;
     versions = await carnet.versions.count().catch(() => 0);
-    jours = constance((await carnet.pratique.toArray().catch(() => [])).map((p) => p.jour));
+    jours = constance((await carnet.constance.toArray().catch(() => [])).map((p) => p.jour));
   });
 </script>
 
@@ -32,7 +33,7 @@
     <h2 class="surtitre">{t.carnet.marquePages}</h2>
     {#if marquePages.length}
       {#each marquePages as m (m.id)}
-        <a class="carte" href="/scene/{m.scene}/#{m.id}">{m.note ?? m.id}</a>
+        <a class="carte" href="/scene/{m.scene}/#{m.id}">{m.id}</a>
       {/each}
     {:else}
       <div class="etat-vide"><Icone nom="marque-page" taille={40} /><p>{t.carnet.videMarquePages}</p></div>

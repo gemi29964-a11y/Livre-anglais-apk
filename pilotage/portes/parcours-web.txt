@@ -1,0 +1,20 @@
+
+> vivre-anglais@1.0.0 e2e
+> playwright test
+
+
+Running 8 tests using 1 worker
+
+[WebServer] 
+[WebServer] [404] GET /voix/c01/s01/c01s01-A2-e1.us.pose.opus
+  ✓  1 tests/parcours/accueil.spec.ts:4:1 › premier lancement : quatre écrans, choix de l’accent et du niveau (8.11) (2.7s)
+  ✓  2 tests/parcours/accueil.spec.ts:26:1 › l’accueil se passe en un geste (673ms)
+  ✓  3 tests/parcours/navigation.spec.ts:6:1 › les quatre destinations et leurs écrans sont accessibles (8.1) (3.2s)
+  ✓  4 tests/parcours/navigation.spec.ts:20:1 › le sommaire : Prélude et vingt-six chapitres, puis une page de chapitre (8.3) (2.1s)
+  ✓  5 tests/parcours/navigation.spec.ts:31:1 › lire ce livre : six pages courtes (8.24) (928ms)
+  ✓  6 tests/parcours/preferences.spec.ts:6:1 › les Préférences s’appliquent et se conservent (8.10) (5.5s)
+  ✓  7 tests/parcours/preferences.spec.ts:24:1 › tout effacer demande une double confirmation (8.10) (1.7s)
+  ✓  8 tests/parcours/recherche.spec.ts:6:1 › « Comment dit-on… ? » trouve dès les premières lettres, sans accents ni casse (8.9) (1.6s)
+
+  8 passed (21.7s)
+rc=0

@@ -12,7 +12,7 @@
   $effect(() => {
     const id = data.chapitre;
     void chargerSommaire().then((s) => (chapitre = chapitreDe(s, id) ?? null)).catch(() => (chapitre = null));
-    void carnet.parcourues.toArray().then((p) => (parcourues = new Set(p.map((x) => x.scene)))).catch(() => undefined);
+    void carnet.parcourues().then((p) => (parcourues = p)).catch(() => undefined);
   });
 </script>
 

@@ -65,3 +65,12 @@ describe('voix de l’éditeur (3.5)', () => {
     expect(en.accueilQuatreVoix).toMatch(/alarm/);
   });
 });
+
+describe('microtextes de référence 3.5, mot pour mot', () => {
+  it('rendez-vous, oreille fine, écho, itinéraire proposé', () => {
+    expect(t.messages.rendezVousNotification('matin', 9, 4)).toBe('Vos retrouvailles du matin sont prêtes\u00a0: 9 expressions, quatre minutes.');
+    expect(t.messages.oreilleFineApres).toBe('Voici ce que la voix a dit. Les mots en couleur vous ont échappé\u00a0: réécoutez-les seuls.');
+    expect(t.messages.echo).toBe('La voix revient trois fois. Parlez avec elle, puis juste après elle.');
+    expect(t.messages.itinerairePropose('Premier voyage', 240, 12)).toBe('Vous partez bientôt\u00a0? L’itinéraire Premier voyage réunit 240 expressions en douze étapes.');
+  });
+});

@@ -1,6 +1,6 @@
 import { describe, expect, it, vi } from 'vitest';
 vi.mock('@capacitor/core', () => ({ Capacitor: { isNativePlatform: () => true } }));
-const setStyle = vi.fn(async () => undefined);
+const setStyle = vi.fn(async (_o: unknown) => undefined);
 vi.mock('@capacitor/status-bar', () => ({ StatusBar: { setStyle: (o: unknown) => setStyle(o) }, Style: { Dark: 'DARK', Light: 'LIGHT' } }));
 
 import { appliquer, themeEffectif } from './apparence';

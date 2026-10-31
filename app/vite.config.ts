@@ -15,7 +15,7 @@ export default defineConfig({
     setupFiles: ['src/tests/preparation.ts'],
     coverage: {
       provider: 'v8',
-      include: ['src/lib/voix/**/*.ts', 'src/lib/retrouvailles/**/*.ts', 'src/lib/carnet/**/*.ts', 'src/lib/corpus/**/*.ts', 'src/lib/textes/**/*.ts', 'src/lib/preferences/**/*.ts', 'src/lib/ui/phrase.ts'],
+      include: ['src/lib/voix/**/*.ts', 'src/lib/retrouvailles/**/*.ts', 'src/lib/carnet/**/*.ts', 'src/lib/corpus/**/*.ts', 'src/lib/textes/**/*.ts', 'src/lib/preferences/**/*.ts', 'src/lib/ui/phrase.ts', 'src/lib/liens/**/*.ts'],
       exclude: ['**/*.test.ts', 'src/lib/corpus/types.ts'],
       thresholds: { lines: 90, functions: 90, statements: 90, branches: 85 },
       reporter: ['text', 'json-summary']

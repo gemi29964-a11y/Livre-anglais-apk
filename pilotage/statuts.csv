@@ -1,0 +1,445 @@
+# id;statut;preuve
+F091;reporté (T2);restauration automatique du carnet : copie de sûreté et sauvegarde Android
+F097;socle en place (T1) — preuve finale T10;"intent-filter autoVerify (AndroidManifest.xml) ; assetlinks.json exige le domaine de l'éditeur, non publié (consigne)"
+F098;fait (T1);pilotage/portes/rapport-android.md (ic_launcher_monochrome, mipmap-anydpi-v26)
+F099;socle en place (T1) — preuve finale T10;"android:enableOnBackInvokedCallback, liens/retour.ts + tests ; geste à confirmer sur la matrice 11.3"
+F100;socle en place (T1) — preuve finale T10;"env(safe-area-inset-*) dans app.css ; contrôle sur appareils à encoche en T10"
+F103;fait (T1);"pilotage/portes/contrastes.md ; ui/apparence.test.ts"
+F104;fait (T1);"pilotage/portes/contrastes.md ; ui/apparence.test.ts"
+F105;fait (T1);"pilotage/portes/contrastes.md ; ui/apparence.test.ts"
+F106;fait (T1);"pilotage/portes/contrastes.md ; ui/apparence.test.ts"
+F107;fait (T1);"app/static/polices + design/typographie.css ; pilotage/portes/parcours-web.txt"
+F108;fait (T1);"app/static/polices + design/typographie.css ; pilotage/portes/parcours-web.txt"
+F109;fait (T1);"app/static/polices + design/typographie.css ; pilotage/portes/parcours-web.txt"
+F110;fait (T1);"app/static/polices + design/typographie.css ; pilotage/portes/parcours-web.txt"
+F111;fait (T1);"app/static/polices + design/typographie.css ; pilotage/portes/parcours-web.txt"
+F112;socle en place (T1) — preuve finale T10;"jeton --cible 48px dans app.css ; mesure axe target-size sur chaque écran en T10"
+F113;fait (T1);android/app/src/main/res/drawable/rac_*_trait.xml, ui/Icone.svelte
+F114;fait (T1);"jetons de mouvement 9.7 + prefers-reduced-motion dans app.css ; pilotage/portes/parcours-web.txt"
+F115;fait (T1);"ui/LigneEncre.svelte ; contrôle lexique « chargement » banni"
+F116;reporté (T2);les états vides des écrans dépendent du contenu du carnet et des scènes
+F117;socle en place (T1) — preuve finale T10;"pilotage/portes/parcours-web.txt (axe-core : 0 violation sur accueil, Aujourd'hui, Livre, Recherche, Préférences) ; TalkBack sur appareil en T10"
+F118;socle en place (T1) — preuve finale T10;"pilotage/portes/parcours-web.txt (axe-core : 0 violation sur accueil, Aujourd'hui, Livre, Recherche, Préférences) ; TalkBack sur appareil en T10"
+F119;socle en place (T1) — preuve finale T10;"pilotage/portes/parcours-web.txt (axe-core : 0 violation sur accueil, Aujourd'hui, Livre, Recherche, Préférences) ; TalkBack sur appareil en T10"
+F120;socle en place (T1) — preuve finale T10;"pilotage/portes/parcours-web.txt (axe-core : 0 violation sur accueil, Aujourd'hui, Livre, Recherche, Préférences) ; TalkBack sur appareil en T10"
+F121;fait (T1);"jetons de mouvement 9.7 + prefers-reduced-motion dans app.css ; pilotage/portes/parcours-web.txt"
+F122;socle en place (T1) — preuve finale T10;"pilotage/portes/parcours-web.txt (axe-core : 0 violation sur accueil, Aujourd'hui, Livre, Recherche, Préférences) ; TalkBack sur appareil en T10"
+F124;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/lexique.txt"
+F125;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/lexique.txt"
+F126;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/lexique.txt"
+F127;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/lexique.txt"
+F128;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/lexique.txt"
+F129;fait (T1);pilotage/portes/build-web.txt
+F130;socle en place (T1) — preuve finale T2;"voix/moteur.ts + moteur.test.ts ; latence mesurée avec les premières voix"
+F131;fait (T1);pilotage/portes/tests-unitaires.txt (voix/moteur.test.ts)
+F132;socle en place (T1) — preuve finale T9;PromenadePlugin.kt et PromenadeService.kt compilés (pilotage/portes/rapport-android.md)
+F133;socle en place (T1) — preuve finale T2;"voix/moteur.ts + moteur.test.ts ; latence mesurée avec les premières voix"
+F134;reporté (T2);les voix du socle sont produites en Phase 2
+F135;reporté (T3);les paquets voix_c03… naissent avec les chapitres 3 et suivants
+F136;fait (T1);tools/generer_paquets.py + marqueurs settings.gradle et app/build.gradle
+F137;socle en place (T1) — preuve finale T10;"APK direct signé (pilotage/portes/rapport-android.md) ; catalogue signé avec la clé ECDSA P-256 en T10"
+F139;reporté (T10);vérification mensuelle et réparation : WorkManager branché à l'assemblage final
+F140;reporté (T10);vérification mensuelle et réparation : WorkManager branché à l'assemblage final
+F141;reporté (T2);courbes, syllabes et segments précalculés à partir des voix
+F142;socle en place (T1) — preuve finale T2;"carnet/base.ts (Dexie 10.10), preferences/magasin.ts, tests ; copie de sûreté sauvegarde.json en T2"
+F143;socle en place (T1) — preuve finale T10;"res/xml/sauvegarde.xml et extraction_donnees.xml ; restauration à prouver sur appareil"
+F144;fait (T1);"aucune dépendance de mesure (package.json) ; CSP kit.csp ; res/xml/securite_reseau.xml"
+F145;fait (T1);"aucune dépendance de mesure (package.json) ; CSP kit.csp ; res/xml/securite_reseau.xml"
+F146;socle en place (T1) — preuve finale T10;"pilotage/portes/budgets-t1.md (tailles mesurées) ; démarrage et latences sur l'appareil de référence en T10"
+F147;fait (T1);pilotage/portes/rapport-android.md
+F148;fait (T1);pilotage/portes/rapport-android.md
+F149;fait (T1);".github/workflows/android.yml et contenu.yml ; pilotage/portes/ci.md"
+F150;reporté (T10);aucune publication (consigne) : paquet prêt à déposer et fiche rédigée en T10
+F151;socle en place (T1) — preuve finale T10;versionCode 1000 + n° d'exécution (android.yml), Dexie versionné
+F153;socle en place (T1) — preuve finale T2;"outils des portes P1 et P5 en place ; rapports par scène dès la tranche étalon"
+F154;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/parcours-web.txt"
+F155;socle en place (T1) — preuve finale T2;"moteur.test.ts (une seule voix à la fois) ; interruption de « Les quatre voix » et écoute au mot avec les voix"
+F156;reporté (T10);matrice d'appareils : émulateurs API 24, 30, 34, 36 et appareils réels
+F157;reporté (T10);critères d'acceptation vérifiés à l'assemblage final
+F158;reporté (T9);signalement de coquille dans le volet de la carte d'expression
+FICH-001;fait (T1);fichier présent : app/src/lib/corpus/types.ts
+FICH-002;reporté (T2);scène étalon 1.1 rédigée en Phase 3
+FICH-003;fait (T1);fichier présent : app/svelte.config.js
+FICH-004;fait (T1);fichier présent : app/src/routes/+layout.ts
+FICH-005;fait (T1);fichier présent : app/src/lib/voix/source.ts
+FICH-006;fait (T1);fichier présent : app/src/lib/voix/moteur.ts
+FICH-007;fait (T1);fichier présent : android/app/src/main/java/com/vivrelanglais/livre/promenade/PromenadePlugin.kt
+FICH-008;fait (T1);fichier présent : android/app/src/main/java/com/vivrelanglais/livre/promenade/PromenadeService.kt
+FICH-009;fait (T1);fichier présent : app/capacitor.config.ts
+FICH-010;fait (T1);fichier présent : android/app/src/main/java/com/vivrelanglais/livre/voix/VoixPlugin.kt
+FICH-011;fait (T1);fichier présent : android/app/src/play/java/com/vivrelanglais/livre/voix/FabriqueSource.kt
+FICH-012;fait (T1);fichier présent : android/app/src/direct/java/com/vivrelanglais/livre/voix/FabriqueSource.kt
+FICH-013;fait (T1);fichier présent : .github/workflows/android.yml
+FICH-014;fait (T1);fichier présent : android/app/src/main/java/com/vivrelanglais/livre/accueil/ExpressionDuJour.kt
+FICH-015;fait (T1);fichier présent : android/app/src/main/java/com/vivrelanglais/livre/accueil/RaccourcisPlugin.kt
+FICH-016;fait (T1);fichier présent : corpus/schema/scene.schema.json
+FICH-017;fait (T1);fichier présent : app/package.json
+FICH-018;fait (T1);fichier présent : app/playwright.config.ts
+FICH-019;fait (T1);fichier présent : tools/requirements.txt
+FICH-020;fait (T1);fichier présent : tools/voix_recuperer.py
+FICH-021;fait (T1);fichier présent : tools/generer_paquets.py
+FICH-022;fait (T1);fichier présent : android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+FICH-023;fait (T1);fichier présent : .gitignore
+FICH-024;reporté (T2);leurs renvois doivent viser des expressions existantes (10.4) : versés avec le chapitre 1
+FICH-025;reporté (T2);leurs renvois doivent viser des expressions existantes (10.4) : versés avec le chapitre 1
+R-0.1-001;socle en place (T1) — preuve finale T10;pilotage/exigences.csv couvre chaque section du Plan
+R-0.1-002;socle en place (T1) — preuve finale T10;pilotage/exigences.csv couvre chaque section du Plan
+R-0.1-003;socle en place (T1) — preuve finale T10;pilotage/exigences.csv couvre chaque section du Plan
+R-0.1-004;socle en place (T1) — preuve finale T10;pilotage/exigences.csv couvre chaque section du Plan
+R-0.1-005;socle en place (T1) — preuve finale T10;pilotage/exigences.csv couvre chaque section du Plan
+R-0.1-006;socle en place (T1) — preuve finale T10;pilotage/exigences.csv couvre chaque section du Plan
+R-0.1-007;socle en place (T1) — preuve finale T10;pilotage/exigences.csv couvre chaque section du Plan
+R-0.1-008;socle en place (T1) — preuve finale T10;pilotage/exigences.csv couvre chaque section du Plan
+R-0.1-009;socle en place (T1) — preuve finale T10;pilotage/exigences.csv couvre chaque section du Plan
+R-0.1-010;socle en place (T1) — preuve finale T10;pilotage/exigences.csv couvre chaque section du Plan
+R-0.2-001;fait (T1);"pilotage/exigences.csv (colonne type) ; pilotage/journal_des_decisions.md"
+R-0.2-002;fait (T1);"pilotage/exigences.csv (colonne type) ; pilotage/journal_des_decisions.md"
+R-0.2-003;fait (T1);"pilotage/exigences.csv (colonne type) ; pilotage/journal_des_decisions.md"
+R-0.3-001;fait (T1);pilotage/portes/lexique.txt
+R-0.3-002;fait (T1);pilotage/portes/lexique.txt
+R-0.4-001;fait (T1);pilotage/portes/rapport-android.md (aapt2 dump badging)
+R-0.4-002;fait (T1);pilotage/portes/rapport-android.md (aapt2 dump badging)
+R-0.4-003;fait (T1);pilotage/portes/rapport-android.md (aapt2 dump badging)
+R-0.4-004;fait (T1);pilotage/portes/rapport-android.md (aapt2 dump badging)
+R-0.4-005;reporté (T2);Phase 2 : essai des voix 7.5 et seuils 7.10
+R-0.4-006;reporté (T2);Phase 2 : essai des voix 7.5 et seuils 7.10
+R-0.4-007;reporté (T2);Phase 2 : essai des voix 7.5 et seuils 7.10
+R-0.4-008;socle en place (T1) — preuve finale T2;"encodage Opus mono 48 kHz dans tools ; premiers fichiers en Phase 2"
+R-0.4-009;fait (T1);pilotage/portes/rapport-android.md (AAB play + APK direct signés)
+R-0.4-010;fait (T1);"aucune dépendance de mesure ; securite_reseau.xml ; allowBackup limité au carnet"
+R-0.4-011;fait (T1);aucun achat, aucune publicité dans l'application
+R-10.10-001;fait (T1);pilotage/portes/tests-unitaires.txt (carnet/base.test.ts, carnet/maVoix.test.ts, preferences)
+R-10.10-002;fait (T1);pilotage/portes/tests-unitaires.txt (carnet/base.test.ts, carnet/maVoix.test.ts, preferences)
+R-10.10-003;reporté (T2);copie de sûreté carnet/sauvegarde.json
+R-10.10-004;fait (T1);pilotage/portes/tests-unitaires.txt (carnet/base.test.ts, carnet/maVoix.test.ts, preferences)
+R-10.10-005;fait (T1);pilotage/portes/tests-unitaires.txt (carnet/base.test.ts, carnet/maVoix.test.ts, preferences)
+R-10.10-006;fait (T1);pilotage/portes/tests-unitaires.txt (carnet/base.test.ts, carnet/maVoix.test.ts, preferences)
+R-10.10-007;reporté (T2);expressions du widget écrites à partir du corpus
+R-10.10-008;reporté (T3);voix installées par paquets
+R-10.11-001;fait (T1);"tools/index_recherche.mjs ; pilotage/portes/parcours-web.txt (recherche.spec.ts)"
+R-10.11-002;fait (T1);"tools/index_recherche.mjs ; pilotage/portes/parcours-web.txt (recherche.spec.ts)"
+R-10.11-003;fait (T1);"tools/index_recherche.mjs ; pilotage/portes/parcours-web.txt (recherche.spec.ts)"
+R-10.11-004;socle en place (T1) — preuve finale T10;mesure sur l'appareil de référence
+R-10.12-001;socle en place (T1) — preuve finale T10;"pilotage/portes/budgets-t1.md ; mesures sur l'appareil de référence"
+R-10.12-002;socle en place (T1) — preuve finale T10;"pilotage/portes/budgets-t1.md ; mesures sur l'appareil de référence"
+R-10.12-003;socle en place (T1) — preuve finale T10;"pilotage/portes/budgets-t1.md ; mesures sur l'appareil de référence"
+R-10.12-004;socle en place (T1) — preuve finale T10;"pilotage/portes/budgets-t1.md ; mesures sur l'appareil de référence"
+R-10.12-005;socle en place (T1) — preuve finale T10;"pilotage/portes/budgets-t1.md ; mesures sur l'appareil de référence"
+R-10.12-006;socle en place (T1) — preuve finale T10;"pilotage/portes/budgets-t1.md ; mesures sur l'appareil de référence"
+R-10.12-007;socle en place (T1) — preuve finale T10;"pilotage/portes/budgets-t1.md ; mesures sur l'appareil de référence"
+R-10.12-008;socle en place (T1) — preuve finale T10;"pilotage/portes/budgets-t1.md ; mesures sur l'appareil de référence"
+R-10.12-009;socle en place (T1) — preuve finale T10;"pilotage/portes/budgets-t1.md ; mesures sur l'appareil de référence"
+R-10.12-010;socle en place (T1) — preuve finale T10;"pilotage/portes/budgets-t1.md ; mesures sur l'appareil de référence"
+R-10.13-001;fait (T1);"package.json, securite_reseau.xml, kit.csp ; pilotage/portes/lexique.txt"
+R-10.13-002;fait (T1);"package.json, securite_reseau.xml, kit.csp ; pilotage/portes/lexique.txt"
+R-10.13-003;fait (T1);"package.json, securite_reseau.xml, kit.csp ; pilotage/portes/lexique.txt"
+R-10.13-004;socle en place (T1) — preuve finale T10;clé ECDSA P-256 générée, clé publique dans android/catalogue_cle_publique.txt
+R-10.13-005;reporté (T2);micro et notifications demandés au premier usage du miroir et du rendez-vous
+R-10.13-006;reporté (T2);micro et notifications demandés au premier usage du miroir et du rendez-vous
+R-10.13-007;fait (T1);"package.json, securite_reseau.xml, kit.csp ; pilotage/portes/lexique.txt"
+R-10.14-001;fait (T1);pilotage/portes/rapport-android.md
+R-10.14-002;fait (T1);pilotage/portes/rapport-android.md
+R-10.15-001;fait (T1);"pilotage/portes/rapport-android.md (apksigner verify) ; pilotage/journal_des_decisions.md"
+R-10.15-002;reporté (T10);page de téléchargement de l'éditeur rédigée à l'assemblage final
+R-10.15-003;fait (T1);"pilotage/portes/rapport-android.md (apksigner verify) ; pilotage/journal_des_decisions.md"
+R-10.16-001;fait (T1);".github/workflows/contenu.yml ; pilotage/portes/ci.md"
+R-10.17-001;reporté (T10);aucune publication (consigne) : déclarations et fiche prêtes à déposer en T10
+R-10.17-002;fait (T1);pilotage/portes/rapport-android.md (AAB, targetSdk 36, aucune bibliothèque native propre)
+R-10.17-003;fait (T1);pilotage/portes/rapport-android.md (AAB, targetSdk 36, aucune bibliothèque native propre)
+R-10.17-004;reporté (T10);aucune publication (consigne) : déclarations et fiche prêtes à déposer en T10
+R-10.17-005;fait (T1);pilotage/portes/rapport-android.md (AAB, targetSdk 36, aucune bibliothèque native propre)
+R-10.17-006;reporté (T10);aucune publication (consigne) : déclarations et fiche prêtes à déposer en T10
+R-10.17-007;reporté (T10);aucune publication (consigne) : déclarations et fiche prêtes à déposer en T10
+R-10.17-008;reporté (T10);aucune publication (consigne) : déclarations et fiche prêtes à déposer en T10
+R-10.17-009;reporté (T10);aucune publication (consigne) : déclarations et fiche prêtes à déposer en T10
+R-10.18-001;reporté (T10);distribution directe : page, catalogue signé, version.json
+R-10.18-002;reporté (T10);distribution directe : page, catalogue signé, version.json
+R-10.18-003;reporté (T10);distribution directe : page, catalogue signé, version.json
+R-10.19-001;fait (T1);".github/workflows/android.yml ; carnet/base.ts (versions Dexie)"
+R-10.19-002;fait (T1);".github/workflows/android.yml ; carnet/base.ts (versions Dexie)"
+R-10.19-003;socle en place (T1) — preuve finale T2;"champ version du schéma de scène ; version des paquets avec les voix"
+R-10.19-004;socle en place (T1) — preuve finale T2;"champ version du schéma de scène ; version des paquets avec les voix"
+R-10.19-005;fait (T1);".github/workflows/android.yml ; carnet/base.ts (versions Dexie)"
+R-10.2-001;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-002;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-003;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-004;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-005;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-006;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-007;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-008;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-009;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-010;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-011;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-012;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-013;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-014;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-015;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-016;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-017;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.2-018;fait (T1);pilotage/journal_des_decisions.md (D-001, versions vérifiées le 30/10/2026)
+R-10.20-001;fait (T1);"pilotage/portes/tests-unitaires.txt (liens/liens.test.ts, liens.natif.test.ts) ; AndroidManifest.xml"
+R-10.20-002;fait (T1);"pilotage/portes/tests-unitaires.txt (liens/liens.test.ts, liens.natif.test.ts) ; AndroidManifest.xml"
+R-10.20-003;fait (T1);"pilotage/portes/tests-unitaires.txt (liens/liens.test.ts, liens.natif.test.ts) ; AndroidManifest.xml"
+R-10.20-004;fait (T1);"pilotage/portes/tests-unitaires.txt (liens/liens.test.ts, liens.natif.test.ts) ; AndroidManifest.xml"
+R-10.20-005;fait (T1);"pilotage/portes/tests-unitaires.txt (liens/liens.test.ts, liens.natif.test.ts) ; AndroidManifest.xml"
+R-10.20-006;fait (T1);"pilotage/portes/tests-unitaires.txt (liens/liens.test.ts, liens.natif.test.ts) ; AndroidManifest.xml"
+R-10.20-007;socle en place (T1) — preuve finale T10;"intent-filter autoVerify ; assetlinks.json sur le domaine de l'éditeur"
+R-10.20-008;fait (T1);"pilotage/portes/tests-unitaires.txt (liens/liens.test.ts, liens.natif.test.ts) ; AndroidManifest.xml"
+R-10.20-009;reporté (T2);files/accueil/expressions.json écrit à partir du corpus
+R-10.21-001;reporté (T10);intégrité et réparation des voix
+R-10.21-002;reporté (T10);intégrité et réparation des voix
+R-10.21-003;reporté (T10);intégrité et réparation des voix
+R-10.21-004;reporté (T10);intégrité et réparation des voix
+R-10.21-005;reporté (T10);intégrité et réparation des voix
+R-10.22-001;reporté (T2);précalcul à partir des voix
+R-10.22-002;reporté (T2);précalcul à partir des voix
+R-10.22-003;reporté (T2);précalcul à partir des voix
+R-10.22-004;reporté (T2);précalcul à partir des voix
+R-10.22-005;reporté (T2);précalcul à partir des voix
+R-10.4-001;fait (T1);pilotage/portes/tests-outils.txt (test_valider_corpus.py)
+R-10.4-002;fait (T1);pilotage/portes/tests-outils.txt (test_valider_corpus.py)
+R-10.4-003;fait (T1);pilotage/portes/tests-outils.txt (test_valider_corpus.py)
+R-10.4-004;fait (T1);pilotage/portes/tests-outils.txt (test_valider_corpus.py)
+R-10.4-005;fait (T1);pilotage/portes/tests-outils.txt (test_valider_corpus.py)
+R-10.4-006;fait (T1);pilotage/portes/tests-outils.txt (test_valider_corpus.py)
+R-10.4-007;fait (T1);pilotage/portes/tests-outils.txt (test_valider_corpus.py)
+R-10.4-008;fait (T1);pilotage/portes/tests-outils.txt (test_valider_corpus.py)
+R-10.4-009;fait (T1);pilotage/portes/tests-outils.txt (test_valider_corpus.py)
+R-10.4-010;fait (T1);pilotage/portes/tests-outils.txt (test_valider_corpus.py)
+R-10.4-011;fait (T1);pilotage/portes/tests-outils.txt (test_valider_corpus.py)
+R-10.4-012;fait (T1);pilotage/portes/tests-outils.txt (test_valider_corpus.py)
+R-10.5-001;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/lexique.txt ; pilotage/portes/rapport-couverture.md"
+R-10.5-002;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/lexique.txt ; pilotage/portes/rapport-couverture.md"
+R-10.5-003;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/lexique.txt ; pilotage/portes/rapport-couverture.md"
+R-10.5-004;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/lexique.txt ; pilotage/portes/rapport-couverture.md"
+R-10.5-005;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/lexique.txt ; pilotage/portes/rapport-couverture.md"
+R-10.5-006;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/lexique.txt ; pilotage/portes/rapport-couverture.md"
+R-10.5-007;reporté (T2);scripts_voix.py et sorties itinéraires et expression du jour avec le premier contenu
+R-10.5-008;reporté (T2);scripts_voix.py et sorties itinéraires et expression du jour avec le premier contenu
+R-10.5-009;reporté (T2);scripts_voix.py et sorties itinéraires et expression du jour avec le premier contenu
+R-10.6-001;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/parcours-web.txt"
+R-10.6-002;reporté (T2);rendu des longues scènes par moment
+R-10.6-003;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/parcours-web.txt"
+R-10.6-004;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/parcours-web.txt"
+R-10.6-005;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/parcours-web.txt"
+R-10.6-006;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/parcours-web.txt"
+R-10.7-001;fait (T1);pilotage/portes/tests-unitaires.txt (voix/moteur.test.ts, voix/source.test.ts)
+R-10.7-002;fait (T1);pilotage/portes/tests-unitaires.txt (voix/moteur.test.ts, voix/source.test.ts)
+R-10.7-003;socle en place (T1) — preuve finale T9;PromenadePlugin.kt compilé (pilotage/portes/rapport-android.md)
+R-10.7-004;fait (T1);pilotage/portes/tests-unitaires.txt (voix/moteur.test.ts, voix/source.test.ts)
+R-10.7-005;reporté (T2);battement et préparation anticipée avec les premières voix
+R-10.7-006;reporté (T2);battement et préparation anticipée avec les premières voix
+R-10.8-001;socle en place (T1) — preuve finale T10;"app/capacitor.config.ts et styles.xml ; vérification sur tablette et pliable"
+R-10.8-002;socle en place (T1) — preuve finale T10;"app/capacitor.config.ts et styles.xml ; vérification sur tablette et pliable"
+R-10.9-001;fait (T1);pilotage/portes/rapport-android.md
+R-10.9-002;fait (T1);pilotage/portes/rapport-android.md
+R-10.9-003;reporté (T2);voix du socle produites en Phase 2
+R-10.9-004;reporté (T3);paquets voix_c03 et suivants
+R-10.9-005;reporté (T3);paquets voix_c03 et suivants
+R-10.9-006;fait (T1);pilotage/portes/rapport-android.md
+R-10.9-007;fait (T1);pilotage/portes/rapport-android.md
+R-10.9-008;fait (T1);pilotage/portes/rapport-android.md
+R-10.9-009;fait (T1);pilotage/portes/rapport-android.md
+R-11.1-001;socle en place (T1) — preuve finale T2;"pilotage/portes/ ; outils P1 et P5 ; rapports par scène dès la tranche étalon"
+R-11.1-002;socle en place (T1) — preuve finale T2;"pilotage/portes/ ; outils P1 et P5 ; rapports par scène dès la tranche étalon"
+R-11.1-003;socle en place (T1) — preuve finale T2;"pilotage/portes/ ; outils P1 et P5 ; rapports par scène dès la tranche étalon"
+R-11.1-004;socle en place (T1) — preuve finale T2;"pilotage/portes/ ; outils P1 et P5 ; rapports par scène dès la tranche étalon"
+R-11.1-005;socle en place (T1) — preuve finale T2;"pilotage/portes/ ; outils P1 et P5 ; rapports par scène dès la tranche étalon"
+R-11.1-006;socle en place (T1) — preuve finale T2;"pilotage/portes/ ; outils P1 et P5 ; rapports par scène dès la tranche étalon"
+R-11.1-007;socle en place (T1) — preuve finale T2;"pilotage/portes/ ; outils P1 et P5 ; rapports par scène dès la tranche étalon"
+R-11.1-008;socle en place (T1) — preuve finale T2;"pilotage/portes/ ; outils P1 et P5 ; rapports par scène dès la tranche étalon"
+R-11.2-001;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/parcours-web.txt ; pilotage/portes/contrastes.md ; pilotage/portes/lexique.txt"
+R-11.2-002;socle en place (T1) — preuve finale T2;"tests du moteur et des composants livrés ; carte, pupitre et scène vivante avec la tranche étalon"
+R-11.2-003;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/parcours-web.txt ; pilotage/portes/contrastes.md ; pilotage/portes/lexique.txt"
+R-11.2-004;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/parcours-web.txt ; pilotage/portes/contrastes.md ; pilotage/portes/lexique.txt"
+R-11.2-005;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/parcours-web.txt ; pilotage/portes/contrastes.md ; pilotage/portes/lexique.txt"
+R-11.2-006;fait (T1);"pilotage/portes/tests-unitaires.txt, pilotage/portes/tests-outils.txt ; pilotage/portes/parcours-web.txt ; pilotage/portes/contrastes.md ; pilotage/portes/lexique.txt"
+R-11.2-007;socle en place (T1) — preuve finale T10;"tests/maestro/*.yaml ; pilotage/portes/rapport-android.md (émulateur API 36)"
+R-11.2-008;socle en place (T1) — preuve finale T2;"tests du moteur et des composants livrés ; carte, pupitre et scène vivante avec la tranche étalon"
+R-11.2-009;reporté (T2);200 paires de L'oreille fine
+R-11.2-010;reporté (T10);Macrobenchmark et traces
+R-11.3-001;reporté (T10);matrice d'appareils
+R-11.3-002;reporté (T10);matrice d'appareils
+R-11.3-003;reporté (T10);matrice d'appareils
+R-11.3-004;reporté (T10);matrice d'appareils
+R-11.3-005;reporté (T10);matrice d'appareils
+R-11.3-006;reporté (T10);matrice d'appareils
+R-11.3-007;reporté (T10);matrice d'appareils
+R-11.4-001;reporté (T10);critères d'acceptation de l'ouvrage complet
+R-11.4-002;reporté (T10);critères d'acceptation de l'ouvrage complet
+R-11.4-003;reporté (T10);critères d'acceptation de l'ouvrage complet
+R-11.4-004;socle en place (T1) — preuve finale T10;pilotage/portes/lexique.txt
+R-11.4-005;reporté (T10);critères d'acceptation de l'ouvrage complet
+R-11.4-006;reporté (T10);critères d'acceptation de l'ouvrage complet
+R-11.4-007;reporté (T10);critères d'acceptation de l'ouvrage complet
+R-11.4-008;reporté (T10);critères d'acceptation de l'ouvrage complet
+R-11.4-009;reporté (T10);critères d'acceptation de l'ouvrage complet
+R-11.4-010;socle en place (T1) — preuve finale T10;pilotage/portes/rapport-android.md (apksigner verify sur l'APK direct)
+R-11.4-011;reporté (T10);critères d'acceptation de l'ouvrage complet
+R-11.4-012;reporté (T10);critères d'acceptation de l'ouvrage complet
+R-11.4-013;reporté (T10);critères d'acceptation de l'ouvrage complet
+R-11.4-014;reporté (T10);critères d'acceptation de l'ouvrage complet
+R-11.4-015;reporté (T10);critères d'acceptation de l'ouvrage complet
+R-11.4-016;reporté (T10);critères d'acceptation de l'ouvrage complet
+R-11.5-001;reporté (T9);retour des lecteurs
+R-11.5-002;reporté (T9);retour des lecteurs
+R-3.1-001;fait (T1);pilotage/portes/lexique.txt
+R-3.2-001;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-002;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-003;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-004;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-005;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-006;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-007;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-008;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-009;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-010;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-011;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-012;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-013;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-014;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-015;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-016;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-017;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-018;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-019;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-020;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-021;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-022;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-023;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-024;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-025;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-026;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-027;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-028;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-029;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-030;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-031;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-032;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-033;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-034;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-035;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-036;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-037;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-038;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-039;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-040;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-041;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-042;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-043;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-044;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-045;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-046;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-047;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-048;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-049;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-050;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-051;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-052;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-053;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-054;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-055;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-056;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-057;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-058;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.2-059;fait (T1);pilotage/portes/lexique.txt (table 3.2 appliquée à fr.ts)
+R-3.3-001;fait (T1);pilotage/portes/lexique.txt
+R-3.3-002;fait (T1);pilotage/portes/lexique.txt
+R-3.4-001;fait (T1);pilotage/portes/lexique.txt (typographie, exclamations, émojis, longueur)
+R-3.4-002;fait (T1);pilotage/portes/lexique.txt (typographie, exclamations, émojis, longueur)
+R-3.4-003;fait (T1);pilotage/portes/lexique.txt (typographie, exclamations, émojis, longueur)
+R-3.4-004;fait (T1);pilotage/portes/lexique.txt (typographie, exclamations, émojis, longueur)
+R-3.4-005;fait (T1);pilotage/portes/lexique.txt (typographie, exclamations, émojis, longueur)
+R-3.4-006;fait (T1);pilotage/portes/lexique.txt (typographie, exclamations, émojis, longueur)
+R-3.4-007;fait (T1);pilotage/portes/lexique.txt (typographie, exclamations, émojis, longueur)
+R-3.4-008;fait (T1);pilotage/portes/lexique.txt (typographie, exclamations, émojis, longueur)
+R-3.5-001;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-002;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-003;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-004;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-005;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-006;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-007;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-008;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-009;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-010;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-011;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-012;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-013;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-014;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-015;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-016;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-017;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-018;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-019;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-020;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-021;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-022;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-023;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-3.5-024;fait (T1);pilotage/portes/tests-outils.txt (test_microtextes.py)
+R-9.1-001;fait (T1);"app.css, NavigationBasse.svelte ; pilotage/portes/parcours-web.txt"
+R-9.1-002;fait (T1);"app.css, NavigationBasse.svelte ; pilotage/portes/parcours-web.txt"
+R-9.1-003;fait (T1);"app.css, NavigationBasse.svelte ; pilotage/portes/parcours-web.txt"
+R-9.1-004;fait (T1);"app.css, NavigationBasse.svelte ; pilotage/portes/parcours-web.txt"
+R-9.2-001;fait (T1);pilotage/portes/contrastes.md
+R-9.2-002;fait (T1);pilotage/portes/contrastes.md
+R-9.2-003;fait (T1);pilotage/portes/contrastes.md
+R-9.2-004;fait (T1);pilotage/portes/contrastes.md
+R-9.2-005;fait (T1);pilotage/portes/contrastes.md
+R-9.2-006;fait (T1);pilotage/portes/contrastes.md
+R-9.2-007;fait (T1);pilotage/portes/contrastes.md
+R-9.2-008;fait (T1);pilotage/portes/contrastes.md
+R-9.2-009;fait (T1);pilotage/portes/contrastes.md
+R-9.2-010;fait (T1);pilotage/portes/contrastes.md
+R-9.2-011;fait (T1);pilotage/portes/contrastes.md
+R-9.2-012;fait (T1);pilotage/portes/contrastes.md
+R-9.2-013;fait (T1);pilotage/portes/contrastes.md
+R-9.3-001;fait (T1);design/typographie.css, app/static/polices, tools/polices.py
+R-9.3-002;fait (T1);design/typographie.css, app/static/polices, tools/polices.py
+R-9.3-003;fait (T1);design/typographie.css, app/static/polices, tools/polices.py
+R-9.3-004;fait (T1);design/typographie.css, app/static/polices, tools/polices.py
+R-9.3-005;fait (T1);design/typographie.css, app/static/polices, tools/polices.py
+R-9.3-006;fait (T1);design/typographie.css, app/static/polices, tools/polices.py
+R-9.3-007;fait (T1);design/typographie.css, app/static/polices, tools/polices.py
+R-9.3-008;fait (T1);design/typographie.css, app/static/polices, tools/polices.py
+R-9.3-009;fait (T1);design/typographie.css, app/static/polices, tools/polices.py
+R-9.3-010;fait (T1);design/typographie.css, app/static/polices, tools/polices.py
+R-9.3-011;fait (T1);design/typographie.css, app/static/polices, tools/polices.py
+R-9.4-001;fait (T1);jetons --e1…--e8 dans app.css
+R-9.4-002;socle en place (T1) — preuve finale T10;"jetons et safe-area ; vérification sur la matrice d'appareils"
+R-9.4-003;socle en place (T1) — preuve finale T10;"jetons et safe-area ; vérification sur la matrice d'appareils"
+R-9.5-001;reporté (T2);composants de la scène : carte, pupitre, volet, bloc bilingue, courbe, livrés avec la tranche étalon
+R-9.5-002;reporté (T2);composants de la scène : carte, pupitre, volet, bloc bilingue, courbe, livrés avec la tranche étalon
+R-9.5-003;reporté (T2);composants de la scène : carte, pupitre, volet, bloc bilingue, courbe, livrés avec la tranche étalon
+R-9.5-004;fait (T1);ui/Phrase.svelte, ui/phrase.test.ts
+R-9.5-005;fait (T1);ui/Phrase.svelte, ui/phrase.test.ts
+R-9.5-006;reporté (T2);composants de la scène : carte, pupitre, volet, bloc bilingue, courbe, livrés avec la tranche étalon
+R-9.5-007;reporté (T2);composants de la scène : carte, pupitre, volet, bloc bilingue, courbe, livrés avec la tranche étalon
+R-9.5-008;reporté (T2);composants de la scène : carte, pupitre, volet, bloc bilingue, courbe, livrés avec la tranche étalon
+R-9.5-009;reporté (T2);composants de la scène : carte, pupitre, volet, bloc bilingue, courbe, livrés avec la tranche étalon
+R-9.5-010;reporté (T2);composants de la scène : carte, pupitre, volet, bloc bilingue, courbe, livrés avec la tranche étalon
+R-9.6-001;fait (T1);tools/icones.mjs, drawables rac_*_trait.xml, ui/Icone.svelte
+R-9.7-001;fait (T1);jetons de mouvement dans app.css
+R-9.7-002;fait (T1);jetons de mouvement dans app.css
+R-9.7-003;fait (T1);jetons de mouvement dans app.css
+R-9.7-004;fait (T1);jetons de mouvement dans app.css
+R-9.7-005;socle en place (T1) — preuve finale T2;"@capacitor/haptics installé ; déclenché par le moteur des voix"
+R-9.8-001;fait (T1);"pilotage/portes/lexique.txt ; ui/LigneEncre.svelte"
+R-9.9-001;socle en place (T1) — preuve finale T10;"pilotage/portes/parcours-web.txt (axe-core) ; TalkBack, texte à 200 %, clavier, contacteur sur appareil en T10"
+R-9.9-002;fait (T1);"pilotage/portes/contrastes.md ; ui/phrase.test.ts (lang=""en"")"
+R-9.9-003;socle en place (T1) — preuve finale T10;"pilotage/portes/parcours-web.txt (axe-core) ; TalkBack, texte à 200 %, clavier, contacteur sur appareil en T10"
+R-9.9-004;socle en place (T1) — preuve finale T10;"pilotage/portes/parcours-web.txt (axe-core) ; TalkBack, texte à 200 %, clavier, contacteur sur appareil en T10"
+R-9.9-005;fait (T1);"pilotage/portes/contrastes.md ; ui/phrase.test.ts (lang=""en"")"
+R-9.9-006;socle en place (T1) — preuve finale T10;"pilotage/portes/parcours-web.txt (axe-core) ; TalkBack, texte à 200 %, clavier, contacteur sur appareil en T10"
+R-9.9-007;socle en place (T1) — preuve finale T10;"pilotage/portes/parcours-web.txt (axe-core) ; TalkBack, texte à 200 %, clavier, contacteur sur appareil en T10"
+R-9.9-008;socle en place (T1) — preuve finale T10;"pilotage/portes/parcours-web.txt (axe-core) ; TalkBack, texte à 200 %, clavier, contacteur sur appareil en T10"
+R-9.9-009;socle en place (T1) — preuve finale T10;"pilotage/portes/parcours-web.txt (axe-core) ; TalkBack, texte à 200 %, clavier, contacteur sur appareil en T10"
+R-B-001;fait (T1);"corpus/schema/scene.schema.json ; pilotage/portes/tests-outils.txt"
+R-B-002;fait (T1);"corpus/schema/scene.schema.json ; pilotage/portes/tests-outils.txt"
+R-B-003;fait (T1);"corpus/schema/scene.schema.json ; pilotage/portes/tests-outils.txt"
+R-B-004;reporté (T2);le Prélude est rédigé en tranche 2
+R-C-001;fait (T1);"fichiers de l'annexe C présents (FICH-*) ; pilotage/journal_des_decisions.md"
+R-C.1-001;fait (T1);"fichiers de l'annexe C présents (FICH-*) ; pilotage/journal_des_decisions.md"
+R-C.6-001;fait (T1);"fichiers de l'annexe C présents (FICH-*) ; pilotage/journal_des_decisions.md"
+R-C.9-001;reporté (T2);corpus/itineraires.yaml versé avec les premières expressions

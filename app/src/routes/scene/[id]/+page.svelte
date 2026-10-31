@@ -23,7 +23,7 @@
       scene = s;
       numero = som ? (sceneDe(som, id)?.scene.numero ?? '') : '';
       charge = true;
-      if (s) void carnet.lecture.put({ cle: 'reprise', scene: id, moment: s.moments[0]?.lettre ?? 'A', expression: s.moments[0]?.expressions[0]?.id ?? '', date: Date.now() }).catch(() => undefined);
+      if (s) void carnet.noterReprise(id, s.moments[0]?.lettre ?? 'A', s.moments[0]?.expressions[0]?.id ?? '').catch(() => undefined);
     });
   });
 

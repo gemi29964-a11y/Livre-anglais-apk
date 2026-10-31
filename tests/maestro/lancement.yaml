@@ -1,0 +1,9 @@
+# Parcours 11.2 (tranche 1) : l'application s'ouvre sur l'accueil, sans écran blanc ni plantage.
+appId: com.vivrelanglais.livre
+---
+- launchApp:
+    clearState: true
+- assertVisible: "Vivre l’Anglais"
+- assertVisible: "Commencer"
+- tapOn: "Commencer"
+- assertVisible: "Britannique"

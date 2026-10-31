@@ -1,0 +1,2 @@
+lexique : conforme — 825 textes examinés, 0 terme banni
+rc=0

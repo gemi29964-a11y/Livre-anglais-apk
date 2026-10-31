@@ -10,6 +10,7 @@
   import { appliquer } from '$lib/ui/apparence';
   import { installerRetour } from '$lib/liens/retour';
   import { chargerSommaire } from '$lib/corpus/chargeur';
+  import { ecouterLiens } from '$lib/liens/liens';
 
   let { children } = $props();
 
@@ -21,6 +22,7 @@
       }
     });
     installerRetour(() => page.url.pathname, () => void goto('/'));
+    void ecouterLiens(() => chargerSommaire().catch(() => null), (c) => void goto(c));
     const systeme = window.matchMedia('(prefers-color-scheme: dark)');
     const suivre = () => appliquer(preferences.valeur);
     systeme.addEventListener('change', suivre);

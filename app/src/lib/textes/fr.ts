@@ -139,7 +139,13 @@ export const t = {
     microDemande: 'Pour entendre votre voix à côté de celle du livre, le livre a besoin du micro. Vos enregistrements restent sur ce téléphone.',
     microRefuse: 'Sans micro, le miroir reste fermé. Vous pouvez l’ouvrir à tout moment dans les Préférences.',
     expressionDuJourEcran: 'Ajoutez l’expression du jour sur votre écran d’accueil : un toucher, et la voix se fait entendre.',
-    quitterRetour: 'Touchez retour une nouvelle fois pour refermer le livre.'
+    quitterRetour: 'Touchez retour une nouvelle fois pour refermer le livre.',
+    rendezVousNotification: (moment: 'matin' | 'midi' | 'soir', n: number, minutes: number) =>
+      `Vos retrouvailles du ${moment} sont prêtes : ${n} ${n > 1 ? 'expressions' : 'expression'}, ${enLettres(minutes)} ${minutes > 1 ? 'minutes' : 'minute'}.`,
+    oreilleFineApres: 'Voici ce que la voix a dit. Les mots en couleur vous ont échappé : réécoutez-les seuls.',
+    echo: 'La voix revient trois fois. Parlez avec elle, puis juste après elle.',
+    itinerairePropose: (titre: string, n: number, etapes: number) =>
+      `Vous partez bientôt ? L’itinéraire ${titre} réunit ${n} expressions en ${enLettres(etapes)} étapes.`
   },
 
   livre: {

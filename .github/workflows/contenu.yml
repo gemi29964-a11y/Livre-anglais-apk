@@ -1,0 +1,43 @@
+# .github/workflows/contenu.yml — contrôle du corpus à chaque modification (10.16)
+name: contenu
+on:
+  push:
+    paths: ['corpus/**', 'tools/**', 'app/src/lib/textes/**']
+  pull_request:
+    paths: ['corpus/**', 'tools/**', 'app/src/lib/textes/**']
+  workflow_dispatch: {}
+permissions:
+  contents: read
+  pull-requests: write
+jobs:
+  verifier:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install -r tools/requirements.txt pytest
+      - name: Outils
+        run: python3 -m pytest -q tools/tests
+      - name: Validations du corpus
+        run: python3 tools/valider_corpus.py --strict | tee rapport-contenu.md
+      - name: Lexique
+        run: python3 tools/lexique_verifier.py | tee -a rapport-contenu.md
+      - name: Phrasé
+        run: python3 tools/phrase_verifier.py | tee -a rapport-contenu.md
+      - name: Couverture
+        run: |
+          python3 tools/construire.py --strict
+          cat pilotage/portes/rapport-couverture.md >> rapport-contenu.md
+      - name: Commenter la demande de fusion
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const corps = fs.existsSync('rapport-contenu.md') ? fs.readFileSync('rapport-contenu.md', 'utf8') : 'Rapport absent : une étape a échoué avant sa rédaction.';
+            await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number, body: '## Rapport du contenu\n\n' + corps.slice(0, 60000) });
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: rapport-contenu, path: rapport-contenu.md }

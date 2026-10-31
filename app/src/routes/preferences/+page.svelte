@@ -7,6 +7,7 @@
   import { preferences } from '$lib/preferences/magasin.svelte';
   import { TAILLES, type Forme, type Preferences } from '$lib/preferences/modele';
   import { carnet } from '$lib/carnet/base';
+  import { toutEffacer as effacerEnregistrements } from '$lib/carnet/maVoix';
   import type { Accent, Niveau, Rythme } from '$lib/corpus/types';
 
   const p = $derived(preferences.valeur);
@@ -24,12 +25,13 @@
   async function toutEffacer() {
     if (confirmation < 2) { confirmation += 1; return; }
     await Promise.all(carnet.tables.map((tb) => tb.clear()));
+    await effacerEnregistrements();
     confirmation = 0;
     annonce = t.preferences.carnetEfface;
   }
 
   async function effacerVoix() {
-    await carnet.maVoix.clear();
+    await effacerEnregistrements();
     annonce = t.preferences.voixEffacees;
   }
 

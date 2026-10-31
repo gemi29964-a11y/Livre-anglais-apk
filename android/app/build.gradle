@@ -1,0 +1,104 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+android {
+    namespace "com.vivrelanglais.livre"
+    compileSdk rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        applicationId "com.vivrelanglais.livre"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode((System.getenv("VA_VERSION_CODE") ?: "1").toInteger())
+        versionName(System.getenv("VA_VERSION_NAME") ?: "1.0.0")
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        aaptOptions {
+             // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
+             // Default: https://android.googlesource.com/platform/frameworks/base/+/282e181b58cf72b6ca770dc7ca5f91f135444502/tools/aapt/AaptAssets.cpp#61
+            ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
+        }
+    }
+
+    buildFeatures { buildConfig true }
+
+    flavorDimensions += "distribution"
+    productFlavors {
+        play {
+            dimension "distribution"
+        }
+        direct {
+            dimension "distribution"
+            buildConfigField "String", "CATALOGUE_URL", "\"${System.getenv('VA_CATALOGUE_URL') ?: 'https://voix.vivrelanglais.com/catalogue.json'}\""
+            buildConfigField "String", "CATALOGUE_CLE", "\"${file("${rootDir}/catalogue_cle_publique.txt").text.trim()}\"" // clé publique ECDSA P-256 (base64 DER)
+        }
+    }
+
+    // La liste des paquets de voix n'est jamais écrite ici : tools/generer_paquets.py
+    // la produit dans le bloc android { } situé entre les marqueurs // <liste-paquets> (annexe C.6).
+
+    signingConfigs {
+        release {
+            storeFile file(System.getenv("VA_KEYSTORE") ?: "${rootDir}/../secrets/vivre-anglais-envoi.jks")
+            storePassword System.getenv("VA_KEYSTORE_MDP")
+            keyAlias System.getenv("VA_CLE_ALIAS") ?: "envoi"
+            keyPassword System.getenv("VA_CLE_MDP")
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    androidResources {
+        noCompress += ['opus', 'json']   // lecture directe sans décompression
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_21
+        targetCompatibility JavaVersion.VERSION_21
+    }
+}
+
+kotlin { jvmToolchain(21) }
+
+// <liste-paquets>
+// </liste-paquets>
+
+repositories {
+    flatDir{
+        dirs '../capacitor-cordova-android-plugins/src/main/libs', 'libs'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
+    implementation "androidx.coordinatorlayout:coordinatorlayout:$androidxCoordinatorLayoutVersion"
+    implementation "androidx.core:core-splashscreen:$coreSplashScreenVersion"
+    implementation project(':capacitor-android')
+    implementation "androidx.media3:media3-exoplayer:$media3Version"
+    implementation "androidx.media3:media3-session:$media3Version"
+    playImplementation "com.google.android.play:asset-delivery:$assetDeliveryVersion"
+    implementation "androidx.core:core-ktx:$androidxCoreVersion"   // raccourcis (ShortcutManagerCompat)
+    implementation "androidx.work:work-runtime-ktx:$workVersion"
+    testImplementation "junit:junit:$junitVersion"
+    androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
+    implementation project(':capacitor-cordova-android-plugins')
+}
+
+apply from: 'capacitor.build.gradle'
+
+try {
+    def servicesJSON = file('google-services.json')
+    if (servicesJSON.text) {
+        apply plugin: 'com.google.gms.google-services'
+    }
+} catch(Exception e) {
+    logger.info("google-services.json not found, google-services plugin not applied. Push Notifications won't work")
+}

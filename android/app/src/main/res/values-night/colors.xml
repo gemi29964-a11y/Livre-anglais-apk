@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Thème Nuit (9.2) -->
+    <color name="colorPrimary">#A9C1E6</color>
+    <color name="colorPrimaryDark">#121314</color>
+    <color name="colorAccent">#A9C1E6</color>
+    <color name="fond">#121314</color>
+    <color name="surface">#1B1D1F</color>
+    <color name="encre">#ECE8E1</color>
+    <color name="encre_douce">#A9A49C</color>
+    <color name="filet">#2C2F33</color>
+    <color name="accent">#A9C1E6</color>
+</resources>

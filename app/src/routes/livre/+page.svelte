@@ -12,7 +12,7 @@
 
   onMount(async () => {
     sommaire = await chargerSommaire().catch(() => null);
-    parcourues = new Set((await carnet.parcourues.toArray().catch(() => [])).map((p) => p.scene));
+    parcourues = await carnet.parcourues().catch(() => new Set<string>());
     itineraires = await fetch('/corpus/itineraires.json').then((r) => (r.ok ? r.json() : [])).catch(() => []);
   });
 
