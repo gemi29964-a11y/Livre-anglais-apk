@@ -1,0 +1,1502 @@
+# Scène 1.1 — la scène étalon (annexe A). Format d'édition (10.4) ; les phrasés sont écrits après la mise en voix (6.1, 7.1.8).
+id: c01.s01
+titre: Le réveil et les premières minutes
+intention: >-
+  À la fin de cette scène, vous vivez en anglais les quinze premières minutes
+  de n’importe quelle journée : vous réveiller, réveiller quelqu’un, parler
+  de votre nuit, de vos rêves, d’un réveil manqué, et sortir du lit.
+version: 1
+moments:
+  - lettre: A
+    titre: Le réveil sonne
+    expressions:
+      - id: c01.s01.A1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison]
+        fonctions: [constater]
+        enonces:
+          - id: c01.s01.A1.e1
+            region: commun
+            texte: { uk: "My alarm's going off.", us: "My alarm's going off." }
+            jeu: { contexte: "Half-asleep, the alarm is ringing on the bedside table.", emotion: "groggy, matter-of-fact" }
+        sens: Mon réveil sonne.
+        motAMot: mon alarme est en train de partir
+        usage: >-
+          <en>Go off</en>, c’est « se déclencher » : un réveil, une alarme, un détecteur.
+          Les natifs ne disent presque jamais <en>My alarm is ringing</en>.
+        gabarit: "[quelque chose] is going off"
+        declinaisons:
+          - { id: c01.s01.A1.d1, texte: { uk: "The fire alarm's going off.", us: "The fire alarm's going off." }, sens: "L’alarme incendie sonne." }
+          - { id: c01.s01.A1.d2, texte: { uk: "My phone keeps going off.", us: "My phone keeps going off." }, sens: "Mon téléphone n’arrête pas de sonner." }
+          - { id: c01.s01.A1.d3, texte: { uk: "Your alarm's been going off for ages.", us: "Your alarm's been going off forever." }, sens: "Ton réveil sonne depuis une éternité." }
+          - { id: c01.s01.A1.d4, texte: { uk: "What time does your alarm go off?", us: "What time does your alarm go off?" }, sens: "Ton réveil sonne à quelle heure ?" }
+          - { id: c01.s01.A1.d5, texte: { uk: "My alarm didn't go off!", us: "My alarm didn't go off!" }, sens: "Mon réveil n’a pas sonné !", renvoi: c01.s01.H1 }
+        renvois: [c01.s01.H1]
+      - id: c01.s01.A2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, couple]
+        fonctions: [supplier, negocier]
+        enonces:
+          - id: c01.s01.A2.e1
+            region: commun
+            texte: { uk: "Five more minutes.", us: "Five more minutes." }
+            jeu: { contexte: "Said with eyes closed, from under the duvet, to a partner trying to wake you up.", emotion: "sleepy, pleading, drawn-out" }
+          - id: c01.s01.A2.e2
+            region: commun
+            texte: { uk: "Just five more minutes.", us: "Just five more minutes." }
+            jeu: { contexte: "Second plea, burrowing deeper into the pillow.", emotion: "sleepy, wheedling" }
+        sens: Encore cinq minutes.
+        motAMot: cinq minutes de plus
+        usage: >-
+          La supplique universelle du matin. On l’étire en traînant la voix ; avec
+          <en>just</en>, elle se fait plus câline. Le chiffre change à volonté : <en>two more minutes</en>,
+          <en>ten more minutes</en>.
+        gabarit: "[nombre] more [minutes]"
+        declinaisons:
+          - { id: c01.s01.A2.d1, texte: { uk: "Two more minutes, I promise.", us: "Two more minutes, I promise." }, sens: "Encore deux minutes, promis." }
+          - { id: c01.s01.A2.d2, texte: { uk: "Ten more minutes and I'm up.", us: "Ten more minutes and I'm up." }, sens: "Encore dix minutes et je me lève." }
+          - { id: c01.s01.A2.d3, texte: { uk: "Can I have five more minutes?", us: "Can I have five more minutes?" }, sens: "Je peux avoir encore cinq minutes ?" }
+          - { id: c01.s01.A2.d4, texte: { uk: "One more minute.", us: "One more minute." }, sens: "Encore une minute." }
+          - { id: c01.s01.A2.d5, texte: { uk: "You said five more minutes half an hour ago.", us: "You said five more minutes half an hour ago." }, sens: "Tu as dit « encore cinq minutes » il y a une demi-heure." }
+        renvois: [c01.s01.I3]
+      - id: c01.s01.A3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, retard]
+        fonctions: [s-excuser, expliquer]
+        enonces:
+          - id: c01.s01.A3.e1
+            region: commun
+            texte: { uk: "I hit snooze.", us: "I hit snooze." }
+            jeu: { contexte: "Admitting to a partner why you're late getting up.", emotion: "sheepish, a little amused" }
+          - id: c01.s01.A3.e2
+            region: commun
+            texte: { uk: "I hit snooze three times.", us: "I hit snooze three times." }
+            jeu: { contexte: "Same confession, exaggerated for effect.", emotion: "guilty grin" }
+        sens: J’ai appuyé sur « répéter » (trois fois).
+        motAMot: j’ai frappé « somnoler »
+        usage: >-
+          <en>Snooze</en>, c’est la touche qui fait sonner le réveil de nouveau quelques
+          minutes plus tard. La phrase sert d’aveu léger pour expliquer un petit
+          retard. Le verbe <en>hit</en> est le seul naturel ici : on ne dit pas <en>I pressed snooze</en>
+          dans la conversation.
+        gabarit: "I hit [une touche]"
+        declinaisons:
+          - { id: c01.s01.A3.d1, texte: { uk: "I hit snooze again.", us: "I hit snooze again." }, sens: "J’ai encore appuyé sur « répéter »." }
+          - { id: c01.s01.A3.d2, texte: { uk: "I kept hitting snooze.", us: "I kept hitting snooze." }, sens: "Je n’arrêtais pas d’appuyer sur « répéter »." }
+          - { id: c01.s01.A3.d3, texte: { uk: "Don't hit snooze!", us: "Don't hit snooze!" }, sens: "N’appuie pas sur « répéter » !" }
+          - { id: c01.s01.A3.d4, texte: { uk: "I must've hit snooze in my sleep.", us: "I must've hit snooze in my sleep." }, sens: "J’ai dû appuyer sur « répéter » en dormant." }
+          - { id: c01.s01.A3.d5, texte: { uk: "I hit the off button by mistake.", us: "I hit the off button by mistake." }, sens: "J’ai appuyé sur « arrêt » sans le faire exprès." }
+        renvois: [c01.s01.H1]
+      - id: c01.s01.A4
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, couple]
+        fonctions: [ordonner, se-plaindre]
+        enonces:
+          - id: c01.s01.A4.e1
+            region: uk
+            texte: { uk: "Turn that thing off!", us: "Shut that thing off!" }
+            jeu: { contexte: "The alarm has been ringing for a full minute and you're trying to sleep.", emotion: "irritated, muffled by the pillow" }
+        sens: Éteins-moi ce truc !
+        motAMot: tourne cette chose éteinte
+        usage: >-
+          Un ordre agacé, adressé à celui dont le réveil sonne sans fin. <en>That thing</en>
+          traduit l’exaspération : on ne nomme même plus l’objet. Plus doux :
+          <en>Can you turn your alarm off?</en>
+        coulisses: >-
+          Les Britanniques disent <en>turn off</en> ; les Américains disent aussi volontiers
+          <en>shut off</en>, surtout pour un appareil bruyant.
+        gabarit: "Turn [quelque chose] off!"
+        declinaisons:
+          - { id: c01.s01.A4.d1, texte: { uk: "Can you turn your alarm off?", us: "Can you turn your alarm off?" }, sens: "Tu peux éteindre ton réveil ?" }
+          - { id: c01.s01.A4.d2, texte: { uk: "Turn the light off, please.", us: "Turn the light off, please." }, sens: "Éteins la lumière, s’il te plaît." }
+          - { id: c01.s01.A4.d3, texte: { uk: "I can't turn it off.", us: "I can't turn it off." }, sens: "Je n’arrive pas à l’éteindre." }
+          - { id: c01.s01.A4.d4, texte: { uk: "Who turned the heating off?", us: "Who turned the heat off?" }, sens: "Qui a éteint le chauffage ?" }
+          - { id: c01.s01.A4.d5, texte: { uk: "Turn that music down!", us: "Turn that music down!" }, sens: "Baisse-moi cette musique !" }
+        renvois: [c01.s01.A1]
+      - id: c01.s01.A5
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [s-etonner, se-plaindre]
+        enonces:
+          - id: c01.s01.A5.e1
+            region: commun
+            texte: { uk: "Is it morning already?", us: "Is it morning already?" }
+            jeu: { contexte: "Squinting at the light coming through the curtains, feeling you've barely slept.", emotion: "disbelieving, groggy" }
+        sens: C’est déjà le matin ?
+        usage: >-
+          L’étonnement las de celui qui a l’impression de s’être couché il y a cinq
+          minutes. <en>Already</en> se place en fin de phrase et porte toute la plainte.
+        gabarit: "Is it [moment] already?"
+        declinaisons:
+          - { id: c01.s01.A5.d1, texte: { uk: "Is it Monday already?", us: "Is it Monday already?" }, sens: "On est déjà lundi ?" }
+          - { id: c01.s01.A5.d2, texte: { uk: "Is it seven already?", us: "Is it seven already?" }, sens: "Il est déjà sept heures ?" }
+          - { id: c01.s01.A5.d3, texte: { uk: "It can't be morning already.", us: "It can't be morning already." }, sens: "Ce n’est pas possible, déjà le matin." }
+          - { id: c01.s01.A5.d4, texte: { uk: "Is it time to get up already?", us: "Is it time to get up already?" }, sens: "C’est déjà l’heure de se lever ?" }
+          - { id: c01.s01.A5.d5, texte: { uk: "It feels like I only just went to bed.", us: "It feels like I just went to bed." }, sens: "J’ai l’impression de venir de me coucher." }
+        renvois: [c01.s01.G1]
+
+  - lettre: B
+    titre: Réveiller quelqu’un
+    expressions:
+      - id: c01.s01.B1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, famille]
+        fonctions: [inciter]
+        enonces:
+          - id: c01.s01.B1.e1
+            region: commun
+            texte: { uk: "Wake up!", us: "Wake up!" }
+            jeu: { contexte: "Gently shaking a sleeping partner's shoulder.", emotion: "warm, slightly insistent" }
+          - id: c01.s01.B1.e2
+            region: commun
+            texte: { uk: "Come on, wake up!", us: "Come on, wake up!" }
+            jeu: { contexte: "Third attempt, the clock is ticking.", emotion: "playful pressure" }
+        sens: Réveille-toi ! / Allez, réveille-toi !
+        usage: >-
+          Direct et neutre. Avec <en>come on</en>, on ajoute une pression amicale.
+          Attention : <en>wake up</en>, c’est sortir du sommeil ; <en>get up</en>, c’est sortir du lit.
+        gabarit: "Wake [quelqu’un] up"
+        declinaisons:
+          - { id: c01.s01.B1.d1, texte: { uk: "Wake me up at seven.", us: "Wake me up at seven." }, sens: "Réveille-moi à sept heures." }
+          - { id: c01.s01.B1.d2, texte: { uk: "Don't wake the baby up.", us: "Don't wake the baby up." }, sens: "Ne réveille pas le bébé." }
+          - { id: c01.s01.B1.d3, texte: { uk: "Can you wake me up when we get there?", us: "Can you wake me up when we get there?" }, sens: "Tu peux me réveiller quand on arrive ?" }
+          - { id: c01.s01.B1.d4, texte: { uk: "What woke you up?", us: "What woke you up?" }, sens: "Qu’est-ce qui t’a réveillé ?" }
+          - { id: c01.s01.B1.d5, texte: { uk: "Sorry, did I wake you?", us: "Sorry, did I wake you?" }, sens: "Pardon, je t’ai réveillé ?" }
+        renvois: [c01.s01.I1]
+      - id: c01.s01.B2
+        ton: complice
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, famille]
+        fonctions: [saluer, inciter]
+        enonces:
+          - id: c01.s01.B2.e1
+            region: commun
+            texte: { uk: "Rise and shine!", us: "Rise and shine!" }
+            jeu: { contexte: "Bursting into the bedroom and opening the curtains, already wide awake.", emotion: "cheerful, sing-song, teasing" }
+        sens: Debout là-dedans !
+        motAMot: lève-toi et brille
+        usage: >-
+          La formule joyeuse de celui qui est déjà réveillé et veut que tout le monde
+          le soit. Elle se chante presque. Affectueuse en famille, un peu
+          provocante avec quelqu’un de grognon.
+        gabarit: "Rise and shine, [prénom]!"
+        declinaisons:
+          - { id: c01.s01.B2.d1, texte: { uk: "Rise and shine, sleepyhead!", us: "Rise and shine, sleepyhead!" }, sens: "Debout, la marmotte !" }
+          - { id: c01.s01.B2.d2, texte: { uk: "Rise and shine, it's a beautiful day!", us: "Rise and shine, it's a beautiful day!" }, sens: "Debout, il fait un temps magnifique !" }
+          - { id: c01.s01.B2.d3, texte: { uk: "Rise and shine, breakfast is ready!", us: "Rise and shine, breakfast is ready!" }, sens: "Debout, le petit-déjeuner est prêt !" }
+          - { id: c01.s01.B2.d4, texte: { uk: "Please don't say rise and shine.", us: "Please don't say rise and shine." }, sens: "Je t’en prie, ne dis pas « debout là-dedans »." }
+          - { id: c01.s01.B2.d5, texte: { uk: "Rise and shine, Mia!", us: "Rise and shine, Mia!" }, sens: "Debout, Mia !" }
+        renvois: [c01.s01.K2]
+      - id: c01.s01.B3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, famille]
+        fonctions: [inciter, annoncer]
+        enonces:
+          - id: c01.s01.B3.e1
+            region: commun
+            texte: { uk: "Time to get up.", us: "Time to get up." }
+            jeu: { contexte: "Standing by the bed with a cup of tea, gently but firmly.", emotion: "kind, firm" }
+          - id: c01.s01.B3.e2
+            region: commun
+            texte: { uk: "It's time to get up.", us: "It's time to get up." }
+            jeu: { contexte: "Repeating it a little more slowly, the second time.", emotion: "patient, firm" }
+        sens: C’est l’heure de se lever.
+        usage: >-
+          Ni dur ni tendre : le simple rappel de l’heure. Sans <en>It’s</en>, la phrase
+          sonne plus vive, plus quotidienne. Le même moule sert à tout ce qui arrive à
+          son heure : <en>time to go</en>, <en>time for bed</en>.
+        gabarit: "Time to [faire quelque chose]."
+        declinaisons:
+          - { id: c01.s01.B3.d1, texte: { uk: "Time to go.", us: "Time to go." }, sens: "C’est l’heure d’y aller." }
+          - { id: c01.s01.B3.d2, texte: { uk: "Time for breakfast!", us: "Time for breakfast!" }, sens: "À table pour le petit-déjeuner !" }
+          - { id: c01.s01.B3.d3, texte: { uk: "Time to get dressed.", us: "Time to get dressed." }, sens: "C’est l’heure de s’habiller." }
+          - { id: c01.s01.B3.d4, texte: { uk: "Is it time to get up?", us: "Is it time to get up?" }, sens: "C’est l’heure de se lever ?" }
+          - { id: c01.s01.B3.d5, texte: { uk: "It's way past time to get up.", us: "It's way past time to get up." }, sens: "L’heure de se lever est largement passée." }
+        renvois: [c01.s01.I1]
+      - id: c01.s01.B4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, couple]
+        fonctions: [demander]
+        enonces:
+          - id: c01.s01.B4.e1
+            region: commun
+            texte: { uk: "Are you awake?", us: "Are you awake?" }
+            jeu: { contexte: "Whispering into a dark bedroom, not sure the other person is asleep.", emotion: "soft, tentative" }
+          - id: c01.s01.B4.e2
+            region: commun
+            texte: { uk: "You awake?", us: "You awake?" }
+            jeu: { contexte: "Same question, lighter, poking a partner.", emotion: "soft, playful" }
+        sens: Tu es réveillé ?
+        usage: >-
+          La question que l’on chuchote avant de parler à quelqu’un au lit. Entre
+          proches, on laisse tomber <en>Are</en> : <en>You awake?</en> Attention, <en>awake</en> est un
+          adjectif : on ne dit pas <en>Are you waking?</en>
+        gabarit: "Are you [awake / up]?"
+        declinaisons:
+          - { id: c01.s01.B4.d1, texte: { uk: "Are you up yet?", us: "Are you up yet?" }, sens: "Tu es levé ?" }
+          - { id: c01.s01.B4.d2, texte: { uk: "I'm wide awake.", us: "I'm wide awake." }, sens: "Je suis parfaitement réveillé." }
+          - { id: c01.s01.B4.d3, texte: { uk: "Is Mia awake yet?", us: "Is Mia awake yet?" }, sens: "Mia est réveillée ?" }
+          - { id: c01.s01.B4.d4, texte: { uk: "I've been awake since five.", us: "I've been awake since five." }, sens: "Je suis réveillé depuis cinq heures." }
+          - { id: c01.s01.B4.d5, texte: { uk: "I lay awake for hours.", us: "I lay awake for hours." }, sens: "Je suis resté éveillé pendant des heures." }
+        renvois: [c01.s01.C1]
+      - id: c01.s01.B5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, retard]
+        fonctions: [avertir]
+        enonces:
+          - id: c01.s01.B5.e1
+            region: commun
+            texte: { uk: "You're going to be late.", us: "You're going to be late." }
+            jeu: { contexte: "Calling from the doorway, glancing at the clock.", emotion: "warning, a little exasperated" }
+          - id: c01.s01.B5.e2
+            region: commun
+            texte: { uk: "You'll be late!", us: "You'll be late!" }
+            jeu: { contexte: "Shouted up the stairs, short and sharp.", emotion: "urgent" }
+        sens: Tu vas être en retard.
+        usage: >-
+          L’avertissement du matin. <en>Going to</en> annonce ce qui se voit venir ; en
+          spontané, il devient souvent <en>gonna</en>. <en>You’ll be late</en>, plus bref, se lance
+          d’une pièce à l’autre.
+        gabarit: "You're going to be [late / late for something]."
+        declinaisons:
+          - { id: c01.s01.B5.d1, texte: { uk: "You're going to be late for school.", us: "You're going to be late for school." }, sens: "Tu vas être en retard à l’école." }
+          - { id: c01.s01.B5.d2, texte: { uk: "We're going to miss the bus.", us: "We're going to miss the bus." }, sens: "On va rater le bus." }
+          - { id: c01.s01.B5.d3, texte: { uk: "I'm going to be late for work.", us: "I'm going to be late for work." }, sens: "Je vais être en retard au travail." }
+          - { id: c01.s01.B5.d4, texte: { uk: "You're going to be late again.", us: "You're going to be late again." }, sens: "Tu vas encore être en retard." }
+          - { id: c01.s01.B5.d5, texte: { uk: "Hurry up or you'll be late.", us: "Hurry up or you'll be late." }, sens: "Dépêche-toi, sinon tu vas être en retard." }
+        renvois: [c01.s01.H3]
+
+  - lettre: C
+    titre: Émerger
+    expressions:
+      - id: c01.s01.C1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison]
+        fonctions: [decrire-son-etat]
+        enonces:
+          - id: c01.s01.C1.e1
+            region: commun
+            texte: { uk: "I'm not awake yet.", us: "I'm not awake yet." }
+            jeu: { contexte: "Holding up a hand to stop someone asking questions too early.", emotion: "grumpy, slow" }
+        sens: Je ne suis pas encore réveillé.
+        usage: >-
+          L’excuse parfaite pour ne pas répondre tout de suite. <en>Yet</en>, en fin de
+          phrase, dit « pas encore » : on s’attend à ce que ça change, mais plus tard.
+        gabarit: "I'm not [awake / ready] yet."
+        declinaisons:
+          - { id: c01.s01.C1.d1, texte: { uk: "I'm not ready yet.", us: "I'm not ready yet." }, sens: "Je ne suis pas encore prêt." }
+          - { id: c01.s01.C1.d2, texte: { uk: "I'm not dressed yet.", us: "I'm not dressed yet." }, sens: "Je ne suis pas encore habillé." }
+          - { id: c01.s01.C1.d3, texte: { uk: "I haven't had my coffee yet.", us: "I haven't had my coffee yet." }, sens: "Je n’ai pas encore pris mon café." }
+          - { id: c01.s01.C1.d4, texte: { uk: "Is he awake yet?", us: "Is he awake yet?" }, sens: "Il est réveillé ?" }
+          - { id: c01.s01.C1.d5, texte: { uk: "I'm not fully awake yet.", us: "I'm not fully awake yet." }, sens: "Je ne suis pas encore tout à fait réveillé." }
+        renvois: [c01.s01.L4]
+      - id: c01.s01.C2
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [decrire-son-etat]
+        enonces:
+          - id: c01.s01.C2.e1
+            region: commun
+            texte: { uk: "I'm still half asleep.", us: "I'm still half asleep." }
+            jeu: { contexte: "Rubbing your eyes, explaining why you're moving so slowly.", emotion: "drowsy, apologetic" }
+        sens: Je dors encore à moitié.
+        usage: >-
+          Pour expliquer ses gestes maladroits ou une réponse à côté. <en>Half</en> se colle à
+          l’adjectif : <en>half asleep</en>, <en>half dressed</en>, <en>half empty</en>.
+        gabarit: "I'm still half [asleep / dressed]."
+        declinaisons:
+          - { id: c01.s01.C2.d1, texte: { uk: "Sorry, I'm half asleep.", us: "Sorry, I'm half asleep." }, sens: "Pardon, je dors à moitié." }
+          - { id: c01.s01.C2.d2, texte: { uk: "I was half asleep when you called.", us: "I was half asleep when you called." }, sens: "Je dormais à moitié quand tu as appelé." }
+          - { id: c01.s01.C2.d3, texte: { uk: "He's still half dressed.", us: "He's still half dressed." }, sens: "Il n’est qu’à moitié habillé." }
+          - { id: c01.s01.C2.d4, texte: { uk: "I'm only half awake.", us: "I'm only half awake." }, sens: "Je ne suis réveillé qu’à moitié." }
+          - { id: c01.s01.C2.d5, texte: { uk: "I said yes while I was half asleep.", us: "I said yes when I was half asleep." }, sens: "J’ai dit oui à moitié endormi." }
+        renvois: [c01.s01.C1]
+      - id: c01.s01.C3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison]
+        fonctions: [demander]
+        enonces:
+          - id: c01.s01.C3.e1
+            region: commun
+            texte: { uk: "What time is it?", us: "What time is it?" }
+            jeu: { contexte: "Fumbling for your phone on the bedside table, eyes barely open.", emotion: "groggy, a hint of panic" }
+          - id: c01.s01.C3.e2
+            region: uk
+            texte: { uk: "What's the time?", us: "What time is it?" }
+            jeu: { contexte: "Same question, asked across the room.", emotion: "groggy, curious" }
+        sens: Il est quelle heure ?
+        usage: >-
+          La première question du matin. <en>What’s the time?</en> est très courant en
+          Grande-Bretagne ; en Amérique, on dit presque toujours <en>What time is it?</en>
+        gabarit: "What time [is it / do you get up]?"
+        declinaisons:
+          - { id: c01.s01.C3.d1, texte: { uk: "What time do you get up?", us: "What time do you get up?" }, sens: "Tu te lèves à quelle heure ?" }
+          - { id: c01.s01.C3.d2, texte: { uk: "What time did you go to bed?", us: "What time did you go to bed?" }, sens: "Tu t’es couché à quelle heure ?" }
+          - { id: c01.s01.C3.d3, texte: { uk: "What time is it in London?", us: "What time is it in Chicago?" }, sens: "Il est quelle heure à Londres ?" }
+          - { id: c01.s01.C3.d4, texte: { uk: "Do you know what time it is?", us: "Do you know what time it is?" }, sens: "Tu sais quelle heure il est ?" }
+          - { id: c01.s01.C3.d5, texte: { uk: "What time do we have to leave?", us: "What time do we have to leave?" }, sens: "On doit partir à quelle heure ?" }
+        renvois: [c01.s01.A5]
+      - id: c01.s01.C4
+        ton: courant
+        niveau: aisance
+        frequence: 3
+        situations: [matin, maison]
+        fonctions: [decrire-son-etat]
+        enonces:
+          - id: c01.s01.C4.e1
+            region: commun
+            texte: { uk: "I can't keep my eyes open.", us: "I can't keep my eyes open." }
+            jeu: { contexte: "Sitting on the edge of the bed, eyes drooping.", emotion: "heavy, drowsy" }
+        sens: Je n’arrive pas à garder les yeux ouverts.
+        usage: >-
+          On le dit le matin comme le soir, chaque fois que le sommeil gagne. <en>Keep</en>
+          suivi d’un adjectif signifie « maintenir dans cet état ».
+        gabarit: "I can't keep [quelque chose] [état]."
+        declinaisons:
+          - { id: c01.s01.C4.d1, texte: { uk: "I could barely keep my eyes open.", us: "I could barely keep my eyes open." }, sens: "J’arrivais à peine à garder les yeux ouverts." }
+          - { id: c01.s01.C4.d2, texte: { uk: "Keep your eyes closed.", us: "Keep your eyes closed." }, sens: "Garde les yeux fermés." }
+          - { id: c01.s01.C4.d3, texte: { uk: "I can't keep my eyes open in this meeting.", us: "I can't keep my eyes open in this meeting." }, sens: "Je n’arrive pas à garder les yeux ouverts pendant cette réunion." }
+          - { id: c01.s01.C4.d4, texte: { uk: "She can't keep her eyes open.", us: "She can't keep her eyes open." }, sens: "Elle n’arrive pas à garder les yeux ouverts." }
+          - { id: c01.s01.C4.d5, texte: { uk: "Try to keep your eyes open.", us: "Try to keep your eyes open." }, sens: "Essaie de garder les yeux ouverts." }
+        renvois: [c01.s01.G1]
+      - id: c01.s01.C5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison]
+        fonctions: [demander-un-delai]
+        enonces:
+          - id: c01.s01.C5.e1
+            region: commun
+            texte: { uk: "Give me a minute.", us: "Give me a minute." }
+            jeu: { contexte: "Sitting up slowly while someone is already asking you to hurry.", emotion: "weary, mildly defensive" }
+          - id: c01.s01.C5.e2
+            region: commun
+            texte: { uk: "Give me a sec.", us: "Give me a sec." }
+            jeu: { contexte: "Same request, quicker and lighter.", emotion: "casual, slightly impatient" }
+        sens: Laisse-moi une minute.
+        usage: >-
+          La demande d’un court répit. <en>A sec</en>, abrégé de <en>a second</en>, est plus
+          familier et plus vif. On l’entend aussi au téléphone et au travail.
+        gabarit: "Give me [une durée]."
+        declinaisons:
+          - { id: c01.s01.C5.d1, texte: { uk: "Give me five minutes.", us: "Give me five minutes." }, sens: "Laisse-moi cinq minutes." }
+          - { id: c01.s01.C5.d2, texte: { uk: "Just give me a minute to wake up.", us: "Just give me a minute to wake up." }, sens: "Laisse-moi juste une minute pour me réveiller." }
+          - { id: c01.s01.C5.d3, texte: { uk: "Can you give me a minute?", us: "Can you give me a minute?" }, sens: "Tu peux me laisser une minute ?" }
+          - { id: c01.s01.C5.d4, texte: { uk: "I just need a minute.", us: "I just need a minute." }, sens: "J’ai juste besoin d’une minute." }
+          - { id: c01.s01.C5.d5, texte: { uk: "Hang on a minute.", us: "Hang on a minute." }, sens: "Attends une minute." }
+        renvois: [c01.s01.A2]
+
+  - lettre: D
+    titre: La nuit qu’on a passée
+    expressions:
+      - id: c01.s01.D1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, couple]
+        fonctions: [prendre-des-nouvelles]
+        enonces:
+          - id: c01.s01.D1.e1
+            region: commun
+            texte: { uk: "Did you sleep well?", us: "Did you sleep well?" }
+            jeu: { contexte: "Asked kindly over the first cup of tea.", emotion: "warm, attentive" }
+          - id: c01.s01.D1.e2
+            region: commun
+            texte: { uk: "How did you sleep?", us: "How did you sleep?" }
+            jeu: { contexte: "Same question, more open, stretching.", emotion: "warm, relaxed" }
+        sens: Tu as bien dormi ?
+        usage: >-
+          La question rituelle du matin, en couple, en famille ou chez des hôtes.
+          <en>How did you sleep?</en> invite à raconter ; <en>Did you sleep well?</en> attend un oui ou un non.
+        gabarit: "Did you sleep [well / okay]?"
+        declinaisons:
+          - { id: c01.s01.D1.d1, texte: { uk: "Did you sleep okay?", us: "Did you sleep okay?" }, sens: "Tu as dormi correctement ?" }
+          - { id: c01.s01.D1.d2, texte: { uk: "I slept really well.", us: "I slept really well." }, sens: "J’ai très bien dormi." }
+          - { id: c01.s01.D1.d3, texte: { uk: "I didn't sleep very well.", us: "I didn't sleep very well." }, sens: "Je n’ai pas très bien dormi." }
+          - { id: c01.s01.D1.d4, texte: { uk: "Did the kids sleep well?", us: "Did the kids sleep well?" }, sens: "Les enfants ont bien dormi ?" }
+          - { id: c01.s01.D1.d5, texte: { uk: "I hope you slept well.", us: "I hope you slept well." }, sens: "J’espère que tu as bien dormi." }
+        renvois: [c01.s01.D2, c01.s01.D3]
+      - id: c01.s01.D2
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [raconter]
+        enonces:
+          - id: c01.s01.D2.e1
+            region: commun
+            texte: { uk: "I slept like a log.", us: "I slept like a log." }
+            jeu: { contexte: "Stretching contentedly after a perfect night.", emotion: "satisfied, cheerful" }
+          - id: c01.s01.D2.e2
+            region: commun
+            texte: { uk: "I slept like a baby.", us: "I slept like a baby." }
+            jeu: { contexte: "Same answer, with a smile.", emotion: "content, smiling" }
+        sens: J’ai dormi comme un loir.
+        motAMot: j’ai dormi comme une bûche
+        usage: >-
+          Le français dort comme un loir, l’anglais comme une bûche, <en>a log</en>. <en>Like a
+          baby</en> dit la même chose avec plus de tendresse.
+        gabarit: "I slept like [un loir]."
+        declinaisons:
+          - { id: c01.s01.D2.d1, texte: { uk: "She sleeps like a log.", us: "She sleeps like a log." }, sens: "Elle dort comme un loir." }
+          - { id: c01.s01.D2.d2, texte: { uk: "I'll sleep like a log tonight.", us: "I'll sleep like a log tonight." }, sens: "Je vais dormir comme un loir cette nuit." }
+          - { id: c01.s01.D2.d3, texte: { uk: "The kids slept like logs.", us: "The kids slept like logs." }, sens: "Les enfants ont dormi comme des loirs." }
+          - { id: c01.s01.D2.d4, texte: { uk: "I slept right through.", us: "I slept right through." }, sens: "J’ai dormi d’une traite." }
+          - { id: c01.s01.D2.d5, texte: { uk: "I slept for ten hours straight.", us: "I slept for ten hours straight." }, sens: "J’ai dormi dix heures d’affilée." }
+        renvois: [c01.s01.D3]
+      - id: c01.s01.D3
+        ton: courant
+        niveau: aisance
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [se-plaindre, raconter]
+        enonces:
+          - id: c01.s01.D3.e1
+            region: commun
+            texte: { uk: "I didn't sleep a wink.", us: "I didn't sleep a wink." }
+            jeu: { contexte: "Slumped at the table, dark circles under your eyes.", emotion: "exhausted, grumpy" }
+        sens: Je n’ai pas fermé l’œil.
+        motAMot: je n’ai pas dormi un clin d’œil
+        usage: >-
+          Le contraire de <en>I slept like a log</en>. <en>A wink</en>, c’est un clin d’œil : on n’a pas
+          dormi le temps d’un battement de paupière. La phrase exagère, et tout le
+          monde le sait.
+        gabarit: "I didn't sleep a wink [moment]."
+        declinaisons:
+          - { id: c01.s01.D3.d1, texte: { uk: "I didn't sleep a wink last night.", us: "I didn't sleep a wink last night." }, sens: "Je n’ai pas fermé l’œil de la nuit." }
+          - { id: c01.s01.D3.d2, texte: { uk: "She hasn't slept a wink.", us: "She hasn't slept a wink." }, sens: "Elle n’a pas fermé l’œil." }
+          - { id: c01.s01.D3.d3, texte: { uk: "I couldn't sleep a wink.", us: "I couldn't sleep a wink." }, sens: "Je n’ai pas pu fermer l’œil." }
+          - { id: c01.s01.D3.d4, texte: { uk: "I barely slept.", us: "I barely slept." }, sens: "J’ai à peine dormi." }
+          - { id: c01.s01.D3.d5, texte: { uk: "I got about two hours' sleep.", us: "I got about two hours of sleep." }, sens: "J’ai dormi à peu près deux heures." }
+        renvois: [c01.s01.D2, c01.s01.F1]
+      - id: c01.s01.D4
+        ton: courant
+        niveau: aisance
+        frequence: 3
+        situations: [matin, maison]
+        fonctions: [raconter, se-plaindre]
+        enonces:
+          - id: c01.s01.D4.e1
+            region: commun
+            texte: { uk: "I tossed and turned all night.", us: "I tossed and turned all night." }
+            jeu: { contexte: "Explaining a bad night, one hand on your stiff neck.", emotion: "tired, a little sorry for yourself" }
+        sens: Je me suis tourné et retourné toute la nuit.
+        motAMot: j’ai lancé et tourné toute la nuit
+        usage: >-
+          L’image de celui qui ne trouve pas la bonne position. Les deux verbes vont
+          toujours ensemble, dans cet ordre : <en>toss and turn</en>.
+        gabarit: "I [tossed and turned] all night."
+        declinaisons:
+          - { id: c01.s01.D4.d1, texte: { uk: "I was tossing and turning all night.", us: "I was tossing and turning all night." }, sens: "Je n’ai pas arrêté de me retourner de toute la nuit." }
+          - { id: c01.s01.D4.d2, texte: { uk: "You were tossing and turning.", us: "You were tossing and turning." }, sens: "Tu te tournais et te retournais." }
+          - { id: c01.s01.D4.d3, texte: { uk: "I was up all night.", us: "I was up all night." }, sens: "J’ai passé la nuit debout." }
+          - { id: c01.s01.D4.d4, texte: { uk: "I couldn't get comfortable.", us: "I couldn't get comfortable." }, sens: "Je n’arrivais pas à trouver une bonne position." }
+          - { id: c01.s01.D4.d5, texte: { uk: "I couldn't get to sleep.", us: "I couldn't fall asleep." }, sens: "Je n’arrivais pas à m’endormir." }
+        renvois: [c01.s01.D3]
+      - id: c01.s01.D5
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [raconter]
+        enonces:
+          - id: c01.s01.D5.e1
+            region: commun
+            texte: { uk: "I kept waking up.", us: "I kept waking up." }
+            jeu: { contexte: "Describing a broken night, yawning between words.", emotion: "weary" }
+        sens: Je n’ai pas arrêté de me réveiller.
+        usage: >-
+          <en>Keep</en> suivi d’un verbe en <en>-ing</en> dit la répétition agaçante : « je n’arrêtais
+          pas de… ». Un moule à retenir, il sert partout.
+        gabarit: "I kept [faire quelque chose]."
+        declinaisons:
+          - { id: c01.s01.D5.d1, texte: { uk: "I kept waking up every hour.", us: "I kept waking up every hour." }, sens: "Je me suis réveillé toutes les heures." }
+          - { id: c01.s01.D5.d2, texte: { uk: "The baby kept waking up.", us: "The baby kept waking up." }, sens: "Le bébé n’arrêtait pas de se réveiller." }
+          - { id: c01.s01.D5.d3, texte: { uk: "I woke up at three and couldn't get back to sleep.", us: "I woke up at three and couldn't get back to sleep." }, sens: "Je me suis réveillé à trois heures et je n’ai pas pu me rendormir." }
+          - { id: c01.s01.D5.d4, texte: { uk: "Something kept waking me up.", us: "Something kept waking me up." }, sens: "Quelque chose n’arrêtait pas de me réveiller." }
+          - { id: c01.s01.D5.d5, texte: { uk: "I kept having the same dream.", us: "I kept having the same dream." }, sens: "Je n’arrêtais pas de faire le même rêve." }
+        renvois: [c01.s01.D4, c01.s01.E1]
+
+  - lettre: E
+    titre: Les rêves
+    expressions:
+      - id: c01.s01.E1
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, couple]
+        fonctions: [raconter]
+        enonces:
+          - id: c01.s01.E1.e1
+            region: commun
+            texte: { uk: "I had the weirdest dream.", us: "I had the weirdest dream." }
+            jeu: { contexte: "Still in bed, turning to your partner, eager to tell.", emotion: "intrigued, amused" }
+          - id: c01.s01.E1.e2
+            region: commun
+            texte: { uk: "I had a really weird dream.", us: "I had a really weird dream." }
+            jeu: { contexte: "Same opening, a little calmer.", emotion: "puzzled" }
+        sens: J’ai fait le rêve le plus bizarre.
+        motAMot: j’ai eu le rêve le plus bizarre
+        usage: >-
+          En anglais, on « a » un rêve : <en>have a dream</en>, jamais <en>make a dream</en>. Le
+          superlatif <en>the weirdest</en> lance le récit et pique la curiosité de l’autre.
+        gabarit: "I had [a / the …est] dream."
+        declinaisons:
+          - { id: c01.s01.E1.d1, texte: { uk: "I had a lovely dream.", us: "I had a really nice dream." }, sens: "J’ai fait un très joli rêve." }
+          - { id: c01.s01.E1.d2, texte: { uk: "I had a dream about you.", us: "I had a dream about you." }, sens: "J’ai rêvé de toi." }
+          - { id: c01.s01.E1.d3, texte: { uk: "Did you have any dreams?", us: "Did you have any dreams?" }, sens: "Tu as fait des rêves ?" }
+          - { id: c01.s01.E1.d4, texte: { uk: "I had such a strange dream last night.", us: "I had such a strange dream last night." }, sens: "J’ai fait un rêve tellement étrange cette nuit." }
+          - { id: c01.s01.E1.d5, texte: { uk: "You'll never guess what I dreamt about.", us: "You'll never guess what I dreamed about." }, sens: "Tu ne devineras jamais de quoi j’ai rêvé." }
+        renvois: [c01.s01.E3]
+      - id: c01.s01.E2
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, famille]
+        fonctions: [raconter, rassurer]
+        enonces:
+          - id: c01.s01.E2.e1
+            region: commun
+            texte: { uk: "I had a nightmare.", us: "I had a nightmare." }
+            jeu: { contexte: "A child standing at the bedroom door in the early morning.", emotion: "shaken, small voice" }
+        sens: J’ai fait un cauchemar.
+        usage: >-
+          Même verbe que pour le rêve : <en>have a nightmare</en>. Pour rassurer quelqu’un, on
+          ajoute aussitôt <en>It was just a dream</en>, « ce n’était qu’un rêve ».
+        gabarit: "I had a [nightmare / bad dream]."
+        declinaisons:
+          - { id: c01.s01.E2.d1, texte: { uk: "It was just a dream.", us: "It was just a dream." }, sens: "Ce n’était qu’un rêve." }
+          - { id: c01.s01.E2.d2, texte: { uk: "I had a bad dream.", us: "I had a bad dream." }, sens: "J’ai fait un mauvais rêve." }
+          - { id: c01.s01.E2.d3, texte: { uk: "Did you have a nightmare?", us: "Did you have a nightmare?" }, sens: "Tu as fait un cauchemar ?" }
+          - { id: c01.s01.E2.d4, texte: { uk: "I woke up from a nightmare.", us: "I woke up from a nightmare." }, sens: "Je me suis réveillé en plein cauchemar." }
+          - { id: c01.s01.E2.d5, texte: { uk: "I keep having nightmares.", us: "I keep having nightmares." }, sens: "Je n’arrête pas de faire des cauchemars." }
+        renvois: [c01.s01.E1]
+      - id: c01.s01.E3
+        ton: courant
+        niveau: aisance
+        frequence: 3
+        situations: [matin, maison, couple]
+        fonctions: [raconter]
+        enonces:
+          - id: c01.s01.E3.e1
+            region: uk
+            texte: { uk: "I dreamt I was back at school.", us: "I dreamed I was back in high school." }
+            jeu: { contexte: "Telling the dream over breakfast, half laughing.", emotion: "amused, slightly disturbed" }
+        sens: J’ai rêvé que j’étais de retour à l’école.
+        usage: >-
+          Après <en>dream</en>, on raconte directement ce qui se passait. Le passé s’écrit
+          <en>dreamt</en> ou <en>dreamed</en> : <en>dreamt</en> domine en Grande-Bretagne, <en>dreamed</en> en
+          Amérique.
+        coulisses: >-
+          Le rêve du retour en classe est un grand classique des deux côtés de
+          l’Atlantique ; l’Américain précise volontiers <en>high school</en>, le lycée.
+        gabarit: "I dreamt I was [quelque part]."
+        declinaisons:
+          - { id: c01.s01.E3.d1, texte: { uk: "I dreamt I could fly.", us: "I dreamed I could fly." }, sens: "J’ai rêvé que je pouvais voler." }
+          - { id: c01.s01.E3.d2, texte: { uk: "I dreamt I missed my flight.", us: "I dreamed I missed my flight." }, sens: "J’ai rêvé que je ratais mon avion." }
+          - { id: c01.s01.E3.d3, texte: { uk: "I dreamt about my old job.", us: "I dreamed about my old job." }, sens: "J’ai rêvé de mon ancien travail." }
+          - { id: c01.s01.E3.d4, texte: { uk: "You were in my dream.", us: "You were in my dream." }, sens: "Tu étais dans mon rêve." }
+          - { id: c01.s01.E3.d5, texte: { uk: "I dreamt my teeth were falling out.", us: "I dreamed my teeth were falling out." }, sens: "J’ai rêvé que je perdais mes dents." }
+        renvois: [c01.s01.E1, c01.s01.E4]
+      - id: c01.s01.E4
+        ton: courant
+        niveau: aisance
+        frequence: 3
+        situations: [matin, maison]
+        fonctions: [raconter, s-etonner]
+        enonces:
+          - id: c01.s01.E4.e1
+            region: commun
+            texte: { uk: "It felt so real.", us: "It felt so real." }
+            jeu: { contexte: "Still shaken by a dream, rubbing your arms.", emotion: "amazed, uneasy" }
+        sens: J’ai vraiment cru que c’était vrai.
+        motAMot: ça semblait si réel
+        usage: >-
+          <en>Feel</en> décrit ici l’impression laissée par le rêve. <en>So</en> renforce
+          l’adjectif sans comparaison : c’est le « tellement » du français parlé.
+        gabarit: "It felt so [adjectif]."
+        declinaisons:
+          - { id: c01.s01.E4.d1, texte: { uk: "It felt like it really happened.", us: "It felt like it really happened." }, sens: "J’ai eu l’impression que c’était vraiment arrivé." }
+          - { id: c01.s01.E4.d2, texte: { uk: "It all felt so strange.", us: "It all felt so strange." }, sens: "Tout paraissait tellement étrange." }
+          - { id: c01.s01.E4.d3, texte: { uk: "It didn't feel like a dream.", us: "It didn't feel like a dream." }, sens: "Ça ne ressemblait pas à un rêve." }
+          - { id: c01.s01.E4.d4, texte: { uk: "It felt like hours.", us: "It felt like hours." }, sens: "J’ai eu l’impression que ça durait des heures." }
+          - { id: c01.s01.E4.d5, texte: { uk: "It felt so good to sleep in.", us: "It felt so good to sleep in." }, sens: "Ça a fait tellement de bien de faire la grasse matinée." }
+        renvois: [c01.s01.E3]
+      - id: c01.s01.E5
+        ton: courant
+        niveau: aisance
+        frequence: 3
+        situations: [matin, maison]
+        fonctions: [raconter]
+        enonces:
+          - id: c01.s01.E5.e1
+            region: commun
+            texte: { uk: "I can't remember what I dreamt about.", us: "I can't remember what I dreamed about." }
+            jeu: { contexte: "Frowning, trying to grab the last image of the dream.", emotion: "frustrated, wistful" }
+        sens: Je n’arrive pas à me rappeler de quoi j’ai rêvé.
+        usage: >-
+          La préposition se rejette en fin de phrase : <en>what I dreamt about</en>. C’est
+          l’ordre naturel de l’anglais parlé, jamais une faute.
+        gabarit: "I can't remember what [quelqu’un] [verbe] about."
+        declinaisons:
+          - { id: c01.s01.E5.d1, texte: { uk: "It's gone.", us: "It's gone." }, sens: "C’est parti." }
+          - { id: c01.s01.E5.d2, texte: { uk: "I never remember my dreams.", us: "I never remember my dreams." }, sens: "Je ne me souviens jamais de mes rêves." }
+          - { id: c01.s01.E5.d3, texte: { uk: "It's on the tip of my tongue.", us: "It's on the tip of my tongue." }, sens: "Je l’ai sur le bout de la langue." }
+          - { id: c01.s01.E5.d4, texte: { uk: "I only remember bits of it.", us: "I only remember bits of it." }, sens: "Je ne m’en rappelle que des bribes." }
+          - { id: c01.s01.E5.d5, texte: { uk: "What were we talking about?", us: "What were we talking about?" }, sens: "De quoi on parlait, déjà ?" }
+        renvois: [c01.s01.E1]
+
+  - lettre: F
+    titre: Ronflements et nuits agitées
+    expressions:
+      - id: c01.s01.F1
+        ton: complice
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, couple]
+        fonctions: [reprocher, taquiner]
+        enonces:
+          - id: c01.s01.F1.e1
+            region: commun
+            texte: { uk: "You were snoring.", us: "You were snoring." }
+            jeu: { contexte: "Teasing your partner over coffee, one eyebrow raised.", emotion: "teasing, accusing" }
+          - id: c01.s01.F1.e2
+            region: commun
+            texte: { uk: "You were snoring like a chainsaw.", us: "You were snoring like a chainsaw." }
+            jeu: { contexte: "The exaggerated version, after a sleepless night.", emotion: "grumpy, theatrical" }
+        sens: Tu ronflais (comme une tronçonneuse).
+        usage: >-
+          Le reproche classique du matin. Le français ronfle comme un sonneur, l’anglais
+          comme une tronçonneuse. La réponse attendue : <en>I don’t snore!</en>
+        gabarit: "You were [faire du bruit]."
+        declinaisons:
+          - { id: c01.s01.F1.d1, texte: { uk: "I don't snore!", us: "I don't snore!" }, sens: "Je ne ronfle pas !" }
+          - { id: c01.s01.F1.d2, texte: { uk: "You snore like a train.", us: "You snore like a freight train." }, sens: "Tu ronfles comme un train." }
+          - { id: c01.s01.F1.d3, texte: { uk: "Was I snoring?", us: "Was I snoring?" }, sens: "Je ronflais ?" }
+          - { id: c01.s01.F1.d4, texte: { uk: "You were talking in your sleep.", us: "You were talking in your sleep." }, sens: "Tu parlais en dormant." }
+          - { id: c01.s01.F1.d5, texte: { uk: "The dog snores louder than you.", us: "The dog snores louder than you." }, sens: "Le chien ronfle plus fort que toi." }
+        renvois: [c01.s01.F2]
+      - id: c01.s01.F2
+        ton: courant
+        niveau: aisance
+        frequence: 3
+        situations: [matin, maison, couple, voisins]
+        fonctions: [reprocher]
+        enonces:
+          - id: c01.s01.F2.e1
+            region: commun
+            texte: { uk: "You kept me up all night.", us: "You kept me up all night." }
+            jeu: { contexte: "Half joking, half genuinely tired, pointing a spoon at your partner.", emotion: "reproachful, tired" }
+        sens: Tu m’as empêché de dormir toute la nuit.
+        motAMot: tu m’as gardé debout toute la nuit
+        usage: >-
+          <en>Keep someone up</en>, c’est empêcher quelqu’un de dormir : un bruit, un souci, un
+          bébé. Rien à voir avec rester debout au sens propre.
+        gabarit: "[quelqu’un / quelque chose] kept me up."
+        declinaisons:
+          - { id: c01.s01.F2.d1, texte: { uk: "The neighbours kept me up.", us: "The neighbors kept me up." }, sens: "Les voisins m’ont empêché de dormir." }
+          - { id: c01.s01.F2.d2, texte: { uk: "The baby kept us up all night.", us: "The baby kept us up all night." }, sens: "Le bébé nous a tenus éveillés toute la nuit." }
+          - { id: c01.s01.F2.d3, texte: { uk: "Sorry, did I keep you up?", us: "Sorry, did I keep you up?" }, sens: "Pardon, je t’ai empêché de dormir ?" }
+          - { id: c01.s01.F2.d4, texte: { uk: "Something's been keeping me up.", us: "Something's been keeping me up." }, sens: "Quelque chose m’empêche de dormir." }
+          - { id: c01.s01.F2.d5, texte: { uk: "I don't want to keep you up.", us: "I don't want to keep you up." }, sens: "Je ne veux pas t’empêcher de dormir." }
+        renvois: [c01.s01.F1]
+      - id: c01.s01.F3
+        ton: complice
+        niveau: aisance
+        frequence: 3
+        situations: [matin, maison, couple]
+        fonctions: [reprocher, taquiner]
+        enonces:
+          - id: c01.s01.F3.e1
+            region: uk
+            texte: { uk: "You stole the duvet again.", us: "You stole the covers again." }
+            jeu: { contexte: "Wrapped in nothing but a corner of the bedding, shivering theatrically.", emotion: "mock outrage" }
+        sens: Tu m’as encore piqué la couette.
+        motAMot: tu as volé la couette encore
+        usage: >-
+          Le reproche affectueux du couple. <en>Steal</en> est ici le verbe naturel ; on ne
+          dit pas <en>take</en>, trop neutre pour l’indignation jouée.
+        coulisses: >-
+          Le Britannique dort sous un <en>duvet</en> ; l’Américain parle des <en>covers</en> ou de
+          son <en>comforter</en>.
+        gabarit: "You stole [quelque chose] again."
+        declinaisons:
+          - { id: c01.s01.F3.d1, texte: { uk: "You hogged the duvet all night.", us: "You hogged the covers all night." }, sens: "Tu as accaparé la couette toute la nuit." }
+          - { id: c01.s01.F3.d2, texte: { uk: "Give me some of the duvet!", us: "Give me some of the covers!" }, sens: "Laisse-moi un peu de couette !" }
+          - { id: c01.s01.F3.d3, texte: { uk: "You took up the whole bed.", us: "You took up the whole bed." }, sens: "Tu as pris tout le lit." }
+          - { id: c01.s01.F3.d4, texte: { uk: "Move over a bit.", us: "Scoot over a little." }, sens: "Pousse-toi un peu." }
+          - { id: c01.s01.F3.d5, texte: { uk: "You kicked me in your sleep.", us: "You kicked me in your sleep." }, sens: "Tu m’as donné des coups de pied en dormant." }
+        renvois: [c01.s01.F1]
+      - id: c01.s01.F4
+        ton: courant
+        niveau: fondations
+        frequence: 3
+        situations: [matin, maison]
+        fonctions: [demander, s-inquieter]
+        enonces:
+          - id: c01.s01.F4.e1
+            region: commun
+            texte: { uk: "Did you hear that noise last night?", us: "Did you hear that noise last night?" }
+            jeu: { contexte: "Lowering your voice, still a little worried.", emotion: "uneasy, curious" }
+        sens: Tu as entendu ce bruit cette nuit ?
+        usage: >-
+          <en>Last night</en> désigne aussi bien la soirée d’hier que la nuit qui vient de
+          passer. On ne dit jamais <en>this night</en> pour la nuit écoulée.
+        gabarit: "Did you hear [quelque chose] last night?"
+        declinaisons:
+          - { id: c01.s01.F4.d1, texte: { uk: "What was that noise?", us: "What was that noise?" }, sens: "C’était quoi, ce bruit ?" }
+          - { id: c01.s01.F4.d2, texte: { uk: "Did you hear the storm last night?", us: "Did you hear the storm last night?" }, sens: "Tu as entendu l’orage cette nuit ?" }
+          - { id: c01.s01.F4.d3, texte: { uk: "I didn't hear a thing.", us: "I didn't hear a thing." }, sens: "Je n’ai rien entendu du tout." }
+          - { id: c01.s01.F4.d4, texte: { uk: "Something woke me up at three.", us: "Something woke me up at three." }, sens: "Quelque chose m’a réveillé à trois heures." }
+          - { id: c01.s01.F4.d5, texte: { uk: "I think it was the neighbours.", us: "I think it was the neighbors." }, sens: "Je crois que c’étaient les voisins." }
+        renvois: [c01.s01.D5]
+
+  - lettre: G
+    titre: La fatigue du matin
+    expressions:
+      - id: c01.s01.G1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, travail]
+        fonctions: [decrire-son-etat]
+        enonces:
+          - id: c01.s01.G1.e1
+            region: commun
+            texte: { uk: "I'm exhausted.", us: "I'm exhausted." }
+            jeu: { contexte: "Sitting up in bed, head in your hands.", emotion: "drained, heavy" }
+          - id: c01.s01.G1.e2
+            region: uk
+            texte: { uk: "I'm shattered.", us: "I'm wiped out." }
+            jeu: { contexte: "Same feeling, more colloquial, with a long sigh.", emotion: "drained, sighing" }
+        sens: Je suis épuisé.
+        usage: >-
+          <en>Tired</en> est le mot neutre ; <en>exhausted</en> dit l’épuisement. Le Britannique
+          dit volontiers <en>shattered</en>, « brisé » ; l’Américain <en>wiped out</en> ou <en>beat</en>.
+        gabarit: "I'm [exhausted / tired]."
+        declinaisons:
+          - { id: c01.s01.G1.d1, texte: { uk: "I'm so tired.", us: "I'm so tired." }, sens: "Je suis tellement fatigué." }
+          - { id: c01.s01.G1.d2, texte: { uk: "I'm absolutely knackered.", us: "I'm totally beat." }, sens: "Je suis complètement crevé." }
+          - { id: c01.s01.G1.d3, texte: { uk: "You look exhausted.", us: "You look exhausted." }, sens: "Tu as l’air épuisé." }
+          - { id: c01.s01.G1.d4, texte: { uk: "I'm too tired to think.", us: "I'm too tired to think." }, sens: "Je suis trop fatigué pour réfléchir." }
+          - { id: c01.s01.G1.d5, texte: { uk: "I'm still tired.", us: "I'm still tired." }, sens: "Je suis encore fatigué." }
+        renvois: [c01.s01.G2]
+      - id: c01.s01.G2
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [decrire-son-etat, se-plaindre]
+        enonces:
+          - id: c01.s01.G2.e1
+            region: commun
+            texte: { uk: "I need more sleep.", us: "I need more sleep." }
+            jeu: { contexte: "Slumping back onto the pillow.", emotion: "whiny, tired" }
+        sens: J’ai besoin de dormir davantage.
+        usage: >-
+          <en>Sleep</en> est ici un nom : on a besoin de sommeil comme on a besoin d’eau.
+          En spontané, <en>need</en> et <en>more</en> s’enchaînent presque sans pause.
+        gabarit: "I need more [quelque chose]."
+        declinaisons:
+          - { id: c01.s01.G2.d1, texte: { uk: "I didn't get enough sleep.", us: "I didn't get enough sleep." }, sens: "Je n’ai pas assez dormi." }
+          - { id: c01.s01.G2.d2, texte: { uk: "I need an early night.", us: "I need an early night." }, sens: "Il faut que je me couche tôt." }
+          - { id: c01.s01.G2.d3, texte: { uk: "I need a nap.", us: "I need a nap." }, sens: "J’ai besoin d’une sieste." }
+          - { id: c01.s01.G2.d4, texte: { uk: "I could do with another hour.", us: "I could use another hour." }, sens: "Une heure de plus ne me ferait pas de mal." }
+          - { id: c01.s01.G2.d5, texte: { uk: "You need more sleep.", us: "You need more sleep." }, sens: "Tu as besoin de plus de sommeil." }
+        renvois: [c01.s01.G1]
+      - id: c01.s01.G3
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, travail]
+        fonctions: [se-decrire]
+        enonces:
+          - id: c01.s01.G3.e1
+            region: commun
+            texte: { uk: "I'm not a morning person.", us: "I'm not a morning person." }
+            jeu: { contexte: "Excusing your grumpiness with a lopsided smile.", emotion: "self-deprecating, wry" }
+        sens: Je ne suis pas du matin.
+        motAMot: je ne suis pas une personne du matin
+        usage: >-
+          L’aveu le plus partagé du monde. <en>A morning person</en> aime se lever tôt ; son
+          contraire est <en>a night owl</en>, « un oiseau de nuit ».
+        gabarit: "I'm (not) a [morning / night] person."
+        declinaisons:
+          - { id: c01.s01.G3.d1, texte: { uk: "I'm a night owl.", us: "I'm a night owl." }, sens: "Je suis un oiseau de nuit." }
+          - { id: c01.s01.G3.d2, texte: { uk: "Are you a morning person?", us: "Are you a morning person?" }, sens: "Tu es du matin ?" }
+          - { id: c01.s01.G3.d3, texte: { uk: "She's definitely a morning person.", us: "She's definitely a morning person." }, sens: "Elle, c’est vraiment quelqu’un du matin." }
+          - { id: c01.s01.G3.d4, texte: { uk: "I've never been a morning person.", us: "I've never been a morning person." }, sens: "Je n’ai jamais été du matin." }
+          - { id: c01.s01.G3.d5, texte: { uk: "I'm an early bird.", us: "I'm an early bird." }, sens: "Je suis un lève-tôt." }
+        renvois: [c01.s01.L4]
+      - id: c01.s01.G4
+        ton: complice
+        niveau: aisance
+        frequence: 3
+        situations: [matin, maison]
+        fonctions: [exagerer, se-plaindre]
+        enonces:
+          - id: c01.s01.G4.e1
+            region: commun
+            texte: { uk: "I could sleep for a week.", us: "I could sleep for a week." }
+            jeu: { contexte: "Yawning hugely while getting out of bed.", emotion: "comically exhausted" }
+        sens: Je pourrais dormir une semaine entière.
+        usage: >-
+          Une exagération familière, toujours au conditionnel avec <en>could</en>. Elle se dit
+          en riant à moitié, rarement pour se plaindre sérieusement.
+        gabarit: "I could [faire quelque chose] for [une durée]."
+        declinaisons:
+          - { id: c01.s01.G4.d1, texte: { uk: "I could sleep for days.", us: "I could sleep for days." }, sens: "Je pourrais dormir des jours entiers." }
+          - { id: c01.s01.G4.d2, texte: { uk: "I could sleep standing up.", us: "I could sleep standing up." }, sens: "Je pourrais dormir debout." }
+          - { id: c01.s01.G4.d3, texte: { uk: "I could go back to bed right now.", us: "I could go back to bed right now." }, sens: "Je retournerais bien me coucher tout de suite." }
+          - { id: c01.s01.G4.d4, texte: { uk: "I could eat a horse.", us: "I could eat a horse." }, sens: "J’ai une faim de loup." }
+          - { id: c01.s01.G4.d5, texte: { uk: "I could stay in bed all day.", us: "I could stay in bed all day." }, sens: "Je pourrais rester au lit toute la journée." }
+        renvois: [c01.s01.G1]
+
+  - lettre: H
+    titre: Le réveil manqué
+    expressions:
+      - id: c01.s01.H1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, retard]
+        fonctions: [expliquer, s-excuser]
+        enonces:
+          - id: c01.s01.H1.e1
+            region: commun
+            texte: { uk: "My alarm didn't go off.", us: "My alarm didn't go off." }
+            jeu: { contexte: "Rushing out of bed, staring at the phone in disbelief.", emotion: "panicked, accusing the phone" }
+        sens: Mon réveil n’a pas sonné.
+        usage: >-
+          La négation de <en>go off</en>, vue au moment A. C’est l’excuse universelle du
+          retard, vraie ou fausse, au travail comme à l’école.
+        gabarit: "[quelque chose] didn't go off."
+        declinaisons:
+          - { id: c01.s01.H1.d1, texte: { uk: "I must've turned my alarm off.", us: "I must've turned my alarm off." }, sens: "J’ai dû éteindre mon réveil." }
+          - { id: c01.s01.H1.d2, texte: { uk: "I forgot to set my alarm.", us: "I forgot to set my alarm." }, sens: "J’ai oublié de mettre mon réveil." }
+          - { id: c01.s01.H1.d3, texte: { uk: "I set it for p.m. instead of a.m.", us: "I set it for p.m. instead of a.m." }, sens: "Je l’ai réglé sur le soir au lieu du matin." }
+          - { id: c01.s01.H1.d4, texte: { uk: "My phone died in the night.", us: "My phone died overnight." }, sens: "Mon téléphone s’est éteint pendant la nuit." }
+          - { id: c01.s01.H1.d5, texte: { uk: "Did your alarm not go off?", us: "Didn't your alarm go off?" }, sens: "Ton réveil n’a pas sonné ?" }
+        renvois: [c01.s01.A1, c01.s01.H2]
+      - id: c01.s01.H2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, retard]
+        fonctions: [expliquer, s-excuser]
+        enonces:
+          - id: c01.s01.H2.e1
+            region: commun
+            texte: { uk: "I overslept.", us: "I overslept." }
+            jeu: { contexte: "On the phone to work, trying to sound calm.", emotion: "embarrassed, hurried" }
+          - id: c01.s01.H2.e2
+            region: commun
+            texte: { uk: "I slept through my alarm.", us: "I slept through my alarm." }
+            jeu: { contexte: "Explaining to a friend, slightly ashamed.", emotion: "sheepish" }
+        sens: Je ne me suis pas réveillé à temps.
+        motAMot: j’ai sur-dormi
+        usage: >-
+          Un seul mot pour dire qu’on a dormi plus que prévu. <en>Slept through</en>, c’est
+          dormir malgré le bruit : le réveil a sonné, mais on ne l’a pas entendu.
+        gabarit: "I slept through [quelque chose]."
+        declinaisons:
+          - { id: c01.s01.H2.d1, texte: { uk: "Sorry, I overslept.", us: "Sorry, I overslept." }, sens: "Désolé, je ne me suis pas réveillé." }
+          - { id: c01.s01.H2.d2, texte: { uk: "I slept through the whole thing.", us: "I slept through the whole thing." }, sens: "J’ai tout raté en dormant." }
+          - { id: c01.s01.H2.d3, texte: { uk: "Don't oversleep tomorrow.", us: "Don't oversleep tomorrow." }, sens: "Ne te réveille pas en retard demain." }
+          - { id: c01.s01.H2.d4, texte: { uk: "I never oversleep.", us: "I never oversleep." }, sens: "Je ne me réveille jamais en retard." }
+          - { id: c01.s01.H2.d5, texte: { uk: "She slept through the storm.", us: "She slept through the storm." }, sens: "L’orage ne l’a pas réveillée." }
+        renvois: [c01.s01.H1]
+      - id: c01.s01.H3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, retard, travail]
+        fonctions: [annoncer, s-excuser]
+        enonces:
+          - id: c01.s01.H3.e1
+            region: commun
+            texte: { uk: "I'm running late.", us: "I'm running late." }
+            jeu: { contexte: "Phone wedged against your shoulder, pulling on a shoe.", emotion: "hurried, apologetic" }
+        sens: Je suis en retard.
+        motAMot: je suis en train de courir en retard
+        usage: >-
+          La façon naturelle d’annoncer un retard en cours, au téléphone ou par message.
+          <en>I’m late</en> constate ; <en>I’m running late</en> prévient et adoucit.
+        gabarit: "I'm running [late / behind]."
+        declinaisons:
+          - { id: c01.s01.H3.d1, texte: { uk: "I'm running ten minutes late.", us: "I'm running ten minutes late." }, sens: "J’ai dix minutes de retard." }
+          - { id: c01.s01.H3.d2, texte: { uk: "We're running a bit late.", us: "We're running a little late." }, sens: "On est un peu en retard." }
+          - { id: c01.s01.H3.d3, texte: { uk: "Sorry, I'm running behind.", us: "Sorry, I'm running behind." }, sens: "Désolé, j’ai pris du retard." }
+          - { id: c01.s01.H3.d4, texte: { uk: "Tell them I'm running late.", us: "Tell them I'm running late." }, sens: "Dis-leur que je suis en retard." }
+          - { id: c01.s01.H3.d5, texte: { uk: "The bus is running late.", us: "The bus is running late." }, sens: "Le bus est en retard." }
+        renvois: [c01.s01.B5]
+      - id: c01.s01.H4
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, couple]
+        fonctions: [reprocher]
+        enonces:
+          - id: c01.s01.H4.e1
+            region: commun
+            texte: { uk: "Why didn't you wake me up?", us: "Why didn't you wake me up?" }
+            jeu: { contexte: "Bursting into the kitchen, half dressed.", emotion: "alarmed, accusing" }
+        sens: Pourquoi tu ne m’as pas réveillé ?
+        usage: >-
+          Le reproche immédiat du réveil manqué. Le pronom se glisse entre le verbe et
+          sa particule : <en>wake me up</en>, jamais <en>wake up me</en>.
+        gabarit: "Why didn't you [faire quelque chose]?"
+        declinaisons:
+          - { id: c01.s01.H4.d1, texte: { uk: "Why didn't you tell me?", us: "Why didn't you tell me?" }, sens: "Pourquoi tu ne me l’as pas dit ?" }
+          - { id: c01.s01.H4.d2, texte: { uk: "Why didn't anyone wake me?", us: "Why didn't anyone wake me?" }, sens: "Pourquoi personne ne m’a réveillé ?" }
+          - { id: c01.s01.H4.d3, texte: { uk: "I tried to wake you up!", us: "I tried to wake you up!" }, sens: "J’ai essayé de te réveiller !" }
+          - { id: c01.s01.H4.d4, texte: { uk: "You should've woken me up.", us: "You should've woken me up." }, sens: "Tu aurais dû me réveiller." }
+          - { id: c01.s01.H4.d5, texte: { uk: "Why didn't you call me?", us: "Why didn't you call me?" }, sens: "Pourquoi tu ne m’as pas appelé ?" }
+        renvois: [c01.s01.B1]
+      - id: c01.s01.H5
+        ton: courant
+        niveau: aisance
+        frequence: 3
+        situations: [matin, maison, retard]
+        fonctions: [s-inquieter]
+        enonces:
+          - id: c01.s01.H5.e1
+            region: commun
+            texte: { uk: "I'm never going to make it.", us: "I'm never going to make it." }
+            jeu: { contexte: "Looking at the clock while hopping into your jeans.", emotion: "despairing, rushed" }
+        sens: Je n’y arriverai jamais à temps.
+        motAMot: je ne vais jamais le faire
+        usage: >-
+          <en>Make it</en> veut dire arriver à temps, ou réussir à venir. En spontané, la phrase
+          devient souvent <en>I’m never gonna make it</en>.
+        gabarit: "I'm never going to make it [to quelque part]."
+        declinaisons:
+          - { id: c01.s01.H5.d1, texte: { uk: "We'll never make it in time.", us: "We'll never make it in time." }, sens: "On n’arrivera jamais à temps." }
+          - { id: c01.s01.H5.d2, texte: { uk: "Can you make it by nine?", us: "Can you make it by nine?" }, sens: "Tu peux être là pour neuf heures ?" }
+          - { id: c01.s01.H5.d3, texte: { uk: "I made it just in time.", us: "I made it just in time." }, sens: "Je suis arrivé juste à temps." }
+          - { id: c01.s01.H5.d4, texte: { uk: "I'm not going to make it to the meeting.", us: "I'm not going to make it to the meeting." }, sens: "Je ne serai pas à l’heure pour la réunion." }
+          - { id: c01.s01.H5.d5, texte: { uk: "You'll make it if you leave now.", us: "You'll make it if you leave now." }, sens: "Tu y arriveras si tu pars maintenant." }
+        renvois: [c01.s01.H3]
+
+  - lettre: I
+    titre: Sortir du lit
+    expressions:
+      - id: c01.s01.I1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, famille]
+        fonctions: [ordonner, inciter]
+        enonces:
+          - id: c01.s01.I1.e1
+            region: commun
+            texte: { uk: "Get up!", us: "Get up!" }
+            jeu: { contexte: "Pulling the duvet off a teenager who has ignored three warnings.", emotion: "firm, losing patience" }
+          - id: c01.s01.I1.e2
+            region: commun
+            texte: { uk: "Up you get!", us: "Up you get!" }
+            jeu: { contexte: "Cheerfully hauling a child out of bed.", emotion: "brisk, affectionate" }
+        sens: Lève-toi !
+        usage: >-
+          <en>Get up</en>, c’est sortir du lit, alors que <en>wake up</en>, c’est sortir du sommeil. <en>Up you
+          get!</en> est une tournure affectueuse et énergique, surtout britannique, qu’on
+          adresse aux enfants.
+        gabarit: "Get up [moment / lieu]!"
+        declinaisons:
+          - { id: c01.s01.I1.d1, texte: { uk: "Get up, it's late!", us: "Get up, it's late!" }, sens: "Lève-toi, il est tard !" }
+          - { id: c01.s01.I1.d2, texte: { uk: "I got up at six.", us: "I got up at six." }, sens: "Je me suis levé à six heures." }
+          - { id: c01.s01.I1.d3, texte: { uk: "What time did you get up?", us: "What time did you get up?" }, sens: "Tu t’es levé à quelle heure ?" }
+          - { id: c01.s01.I1.d4, texte: { uk: "I don't have to get up early tomorrow.", us: "I don't have to get up early tomorrow." }, sens: "Je n’ai pas besoin de me lever tôt demain." }
+          - { id: c01.s01.I1.d5, texte: { uk: "Get out of bed!", us: "Get out of bed!" }, sens: "Sors du lit !" }
+        renvois: [c01.s01.B1, c01.s01.I2]
+      - id: c01.s01.I2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison]
+        fonctions: [rassurer, annoncer]
+        enonces:
+          - id: c01.s01.I2.e1
+            region: commun
+            texte: { uk: "I'm up, I'm up!", us: "I'm up, I'm up!" }
+            jeu: { contexte: "Sitting bolt upright as someone threatens to pull the covers off.", emotion: "defensive, flustered" }
+          - id: c01.s01.I2.e2
+            region: commun
+            texte: { uk: "I'm getting up.", us: "I'm getting up." }
+            jeu: { contexte: "Mumbled from under the pillow, not moving at all.", emotion: "unconvincing, sleepy" }
+        sens: Je suis debout, je suis debout ! / Je me lève.
+        usage: >-
+          La réponse réflexe quand on se sent pressé. Dite deux fois, elle trahit le
+          sursaut ; <en>I’m getting up</en>, marmonné sans bouger, ne convainc personne.
+        gabarit: "I'm [up / getting up]."
+        declinaisons:
+          - { id: c01.s01.I2.d1, texte: { uk: "Okay, okay, I'm up.", us: "Okay, okay, I'm up." }, sens: "D’accord, d’accord, je suis levé." }
+          - { id: c01.s01.I2.d2, texte: { uk: "I'm getting up now.", us: "I'm getting up now." }, sens: "Je me lève maintenant." }
+          - { id: c01.s01.I2.d3, texte: { uk: "Are you up?", us: "Are you up?" }, sens: "Tu es levé ?" }
+          - { id: c01.s01.I2.d4, texte: { uk: "I've been up for hours.", us: "I've been up for hours." }, sens: "Je suis debout depuis des heures." }
+          - { id: c01.s01.I2.d5, texte: { uk: "I'll be up in a minute.", us: "I'll be up in a minute." }, sens: "Je me lève dans une minute." }
+        renvois: [c01.s01.I1]
+      - id: c01.s01.I3
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [se-plaindre, refuser]
+        enonces:
+          - id: c01.s01.I3.e1
+            region: commun
+            texte: { uk: "I don't want to get up.", us: "I don't want to get up." }
+            jeu: { contexte: "Curled up, rain against the window, Monday morning.", emotion: "whiny, reluctant" }
+        sens: Je n’ai pas envie de me lever.
+        usage: >-
+          La plainte du lundi matin. En spontané, <en>want to</en> devient <en>wanna</en> : <en>I don’t wanna
+          get up</en>. L’écrit garde toujours <en>want to</en>.
+        gabarit: "I don't want to [faire quelque chose]."
+        declinaisons:
+          - { id: c01.s01.I3.d1, texte: { uk: "I don't want to go to work.", us: "I don't want to go to work." }, sens: "Je n’ai pas envie d’aller travailler." }
+          - { id: c01.s01.I3.d2, texte: { uk: "I don't want to get out of bed.", us: "I don't want to get out of bed." }, sens: "Je n’ai pas envie de sortir du lit." }
+          - { id: c01.s01.I3.d3, texte: { uk: "I really don't want to get up today.", us: "I really don't want to get up today." }, sens: "Je n’ai vraiment pas envie de me lever aujourd’hui." }
+          - { id: c01.s01.I3.d4, texte: { uk: "Nobody wants to get up on a Monday.", us: "Nobody wants to get up on a Monday." }, sens: "Personne n’a envie de se lever un lundi." }
+          - { id: c01.s01.I3.d5, texte: { uk: "I don't want to leave my bed.", us: "I don't want to leave my bed." }, sens: "Je n’ai pas envie de quitter mon lit." }
+        renvois: [c01.s01.A2]
+      - id: c01.s01.I4
+        ton: courant
+        niveau: aisance
+        frequence: 3
+        situations: [matin, maison, famille]
+        fonctions: [ordonner]
+        enonces:
+          - id: c01.s01.I4.e1
+            region: commun
+            texte: { uk: "Out of bed, now!", us: "Out of bed, now!" }
+            jeu: { contexte: "A parent who has run out of patience, standing in the doorway.", emotion: "stern, no-nonsense" }
+        sens: Hors du lit, tout de suite !
+        usage: >-
+          L’ordre sans verbe, d’autant plus sec. Le mot <en>now</en>, détaché par une virgule,
+          tombe comme un couperet. À réserver aux enfants, ou à la plaisanterie entre
+          adultes.
+        gabarit: "Out of [quelque part], now!"
+        declinaisons:
+          - { id: c01.s01.I4.d1, texte: { uk: "Out of the bathroom, now!", us: "Out of the bathroom, now!" }, sens: "Sors de la salle de bain, tout de suite !" }
+          - { id: c01.s01.I4.d2, texte: { uk: "Out you get!", us: "Out you get!" }, sens: "Allez, dehors !" }
+          - { id: c01.s01.I4.d3, texte: { uk: "Shoes on, now!", us: "Shoes on, now!" }, sens: "Mets tes chaussures, tout de suite !" }
+          - { id: c01.s01.I4.d4, texte: { uk: "Come on, out of bed!", us: "Come on, out of bed!" }, sens: "Allez, sors du lit !" }
+          - { id: c01.s01.I4.d5, texte: { uk: "I said now!", us: "I said now!" }, sens: "J’ai dit tout de suite !" }
+        renvois: [c01.s01.I1]
+      - id: c01.s01.I5
+        ton: complice
+        niveau: maitrise
+        frequence: 3
+        situations: [matin, maison, couple, travail]
+        fonctions: [taquiner, decrire-une-humeur]
+        enonces:
+          - id: c01.s01.I5.e1
+            region: uk
+            texte: { uk: "Someone got out of bed on the wrong side.", us: "Someone woke up on the wrong side of the bed." }
+            jeu: { contexte: "Muttered with a smile after a partner snaps at you.", emotion: "teasing, under your breath" }
+        sens: Quelqu’un s’est levé du pied gauche.
+        motAMot: quelqu’un est sorti du lit du mauvais côté
+        usage: >-
+          L’image française du pied gauche devient en anglais le mauvais côté du lit.
+          <en>Someone</en>, au lieu de <en>you</en>, rend la taquinerie plus piquante. Le
+          Britannique sort du lit ; l’Américain se réveille du mauvais côté.
+        gabarit: "[quelqu’un] got out of bed on the wrong side."
+        declinaisons:
+          - { id: c01.s01.I5.d1, texte: { uk: "Did you get out of bed on the wrong side?", us: "Did you wake up on the wrong side of the bed?" }, sens: "Tu t’es levé du pied gauche ?" }
+          - { id: c01.s01.I5.d2, texte: { uk: "He's in a bad mood this morning.", us: "He's in a bad mood this morning." }, sens: "Il est de mauvaise humeur ce matin." }
+          - { id: c01.s01.I5.d3, texte: { uk: "Who rattled your cage?", us: "Who rattled your cage?" }, sens: "Qui t’a mis de si mauvaise humeur ?" }
+          - { id: c01.s01.I5.d4, texte: { uk: "Someone's grumpy this morning.", us: "Someone's grumpy this morning." }, sens: "Quelqu’un est grognon ce matin." }
+          - { id: c01.s01.I5.d5, texte: { uk: "I'm not in the mood.", us: "I'm not in the mood." }, sens: "Je ne suis pas d’humeur." }
+        renvois: [c01.s01.L4]
+
+  - lettre: J
+    titre: La chambre au matin
+    expressions:
+      - id: c01.s01.J1
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [demander-un-service]
+        enonces:
+          - id: c01.s01.J1.e1
+            region: commun
+            texte: { uk: "Can you open the curtains?", us: "Can you open the curtains?" }
+            jeu: { contexte: "Sitting up, the room still dark.", emotion: "relaxed, polite" }
+        sens: Tu peux ouvrir les rideaux ?
+        usage: >-
+          <en>Can you</en> est la façon courante de demander un petit service entre proches.
+          <en>Could you</en> est un peu plus poli ; <en>Would you mind</en> plus encore.
+        coulisses: >-
+          L’Américain parle aussi de <en>drapes</en> pour des rideaux épais et de <en>blinds</en>
+          pour des stores, très répandus dans les chambres.
+        gabarit: "Can you [faire quelque chose]?"
+        declinaisons:
+          - { id: c01.s01.J1.d1, texte: { uk: "Can you close the curtains?", us: "Can you close the curtains?" }, sens: "Tu peux fermer les rideaux ?" }
+          - { id: c01.s01.J1.d2, texte: { uk: "Can you open the window a bit?", us: "Can you open the window a little?" }, sens: "Tu peux entrouvrir la fenêtre ?" }
+          - { id: c01.s01.J1.d3, texte: { uk: "Can you pull up the blinds?", us: "Can you raise the blinds?" }, sens: "Tu peux remonter les stores ?" }
+          - { id: c01.s01.J1.d4, texte: { uk: "Don't open the curtains yet!", us: "Don't open the curtains yet!" }, sens: "N’ouvre pas encore les rideaux !" }
+          - { id: c01.s01.J1.d5, texte: { uk: "Could you pass me my phone?", us: "Could you pass me my phone?" }, sens: "Tu pourrais me passer mon téléphone ?" }
+        renvois: [c01.s01.J2]
+      - id: c01.s01.J2
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [se-plaindre]
+        enonces:
+          - id: c01.s01.J2.e1
+            region: commun
+            texte: { uk: "It's too bright!", us: "It's too bright!" }
+            jeu: { contexte: "Someone has just flung the curtains open; shielding your eyes.", emotion: "pained, whining" }
+        sens: Il y a trop de lumière !
+        motAMot: c’est trop lumineux
+        usage: >-
+          La plainte du dormeur ébloui. <en>Too</en> placé devant l’adjectif dit l’excès :
+          <en>too bright</en>, <en>too early</en>, <en>too cold</en>.
+        gabarit: "It's too [adjectif]!"
+        declinaisons:
+          - { id: c01.s01.J2.d1, texte: { uk: "It's too early!", us: "It's too early!" }, sens: "C’est trop tôt !" }
+          - { id: c01.s01.J2.d2, texte: { uk: "It's too dark in here.", us: "It's too dark in here." }, sens: "Il fait trop sombre ici." }
+          - { id: c01.s01.J2.d3, texte: { uk: "It's way too early for this.", us: "It's way too early for this." }, sens: "C’est beaucoup trop tôt pour ça." }
+          - { id: c01.s01.J2.d4, texte: { uk: "The light's hurting my eyes.", us: "The light's hurting my eyes." }, sens: "La lumière me fait mal aux yeux." }
+          - { id: c01.s01.J2.d5, texte: { uk: "It's too hot under the duvet.", us: "It's too hot under the comforter." }, sens: "Il fait trop chaud sous la couette." }
+        renvois: [c01.s01.J1]
+      - id: c01.s01.J3
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, hiver]
+        fonctions: [se-plaindre, constater]
+        enonces:
+          - id: c01.s01.J3.e1
+            region: commun
+            texte: { uk: "It's freezing in here.", us: "It's freezing in here." }
+            jeu: { contexte: "Putting one foot out of bed on a winter morning and pulling it back.", emotion: "shivering, complaining" }
+        sens: On gèle ici.
+        motAMot: c’est en train de geler ici
+        usage: >-
+          <en>Freezing</en> exagère volontiers : il suffit qu’il fasse froid. <en>In here</en> désigne
+          la pièce où l’on se trouve, par contraste avec l’extérieur ou le lit.
+        gabarit: "It's [freezing / boiling] in here."
+        declinaisons:
+          - { id: c01.s01.J3.d1, texte: { uk: "It's boiling in here.", us: "It's boiling in here." }, sens: "On étouffe ici." }
+          - { id: c01.s01.J3.d2, texte: { uk: "Can you turn the heating on?", us: "Can you turn the heat on?" }, sens: "Tu peux allumer le chauffage ?" }
+          - { id: c01.s01.J3.d3, texte: { uk: "My feet are freezing.", us: "My feet are freezing." }, sens: "J’ai les pieds gelés." }
+          - { id: c01.s01.J3.d4, texte: { uk: "It's so cold this morning.", us: "It's so cold this morning." }, sens: "Il fait tellement froid ce matin." }
+          - { id: c01.s01.J3.d5, texte: { uk: "Close the window, it's freezing!", us: "Close the window, it's freezing!" }, sens: "Ferme la fenêtre, on gèle !" }
+        renvois: [c01.s01.J2]
+      - id: c01.s01.J4
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [demander-un-service]
+        enonces:
+          - id: c01.s01.J4.e1
+            region: commun
+            texte: { uk: "Can you turn the light on?", us: "Can you turn the light on?" }
+            jeu: { contexte: "Groping around in the dark, looking for your slippers.", emotion: "fumbling, mild" }
+        sens: Tu peux allumer la lumière ?
+        usage: >-
+          <en>Turn on</en> allume, <en>turn off</en> éteint. La particule se place après l’objet ou avant :
+          <en>turn the light on</en> et <en>turn on the light</en> se disent tous deux.
+        gabarit: "Turn [quelque chose] on."
+        declinaisons:
+          - { id: c01.s01.J4.d1, texte: { uk: "Don't turn the light on!", us: "Don't turn the light on!" }, sens: "N’allume pas la lumière !" }
+          - { id: c01.s01.J4.d2, texte: { uk: "Turn on the big light.", us: "Turn on the overhead light." }, sens: "Allume le plafonnier." }
+          - { id: c01.s01.J4.d3, texte: { uk: "Can you turn the lamp on?", us: "Can you turn the lamp on?" }, sens: "Tu peux allumer la lampe ?" }
+          - { id: c01.s01.J4.d4, texte: { uk: "Who left the light on?", us: "Who left the light on?" }, sens: "Qui a laissé la lumière allumée ?" }
+          - { id: c01.s01.J4.d5, texte: { uk: "I can't find the switch.", us: "I can't find the switch." }, sens: "Je ne trouve pas l’interrupteur." }
+        renvois: [c01.s01.A4]
+
+  - lettre: K
+    titre: Les premiers mots doux
+    expressions:
+      - id: c01.s01.K1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, travail]
+        fonctions: [saluer]
+        enonces:
+          - id: c01.s01.K1.e1
+            region: commun
+            texte: { uk: "Morning!", us: "Morning!" }
+            jeu: { contexte: "Walking into the kitchen, hair all over the place.", emotion: "bright, friendly" }
+          - id: c01.s01.K1.e2
+            region: commun
+            texte: { uk: "Good morning.", us: "Good morning." }
+            jeu: { contexte: "Said softly, with a kiss on the forehead.", emotion: "tender, quiet" }
+        sens: Bonjour !
+        usage: >-
+          Entre proches, <en>Morning!</en> suffit : <en>good</en> tombe naturellement. <en>Good morning</en>,
+          complet, sonne plus tendre ou plus poli selon la voix.
+        gabarit: "Morning, [prénom]!"
+        declinaisons:
+          - { id: c01.s01.K1.d1, texte: { uk: "Morning, love.", us: "Morning, honey." }, sens: "Bonjour, mon cœur." }
+          - { id: c01.s01.K1.d2, texte: { uk: "Morning, everyone!", us: "Morning, everyone!" }, sens: "Bonjour, tout le monde !" }
+          - { id: c01.s01.K1.d3, texte: { uk: "Good morning to you too.", us: "Good morning to you too." }, sens: "Bonjour à toi aussi." }
+          - { id: c01.s01.K1.d4, texte: { uk: "Morning! Sleep well?", us: "Morning! Sleep well?" }, sens: "Bonjour ! Bien dormi ?" }
+          - { id: c01.s01.K1.d5, texte: { uk: "What's so good about it?", us: "What's so good about it?" }, sens: "Qu’est-ce qu’il a de bon ?" }
+        renvois: [c01.s01.D1]
+      - id: c01.s01.K2
+        ton: complice
+        niveau: fondations
+        frequence: 3
+        situations: [matin, maison, famille, couple]
+        fonctions: [saluer, taquiner]
+        enonces:
+          - id: c01.s01.K2.e1
+            region: commun
+            texte: { uk: "Morning, sleepyhead.", us: "Morning, sleepyhead." }
+            jeu: { contexte: "Greeting someone who finally shuffles in at ten.", emotion: "teasing, affectionate" }
+        sens: Bonjour, la marmotte.
+        motAMot: bonjour, tête endormie
+        usage: >-
+          Un surnom affectueux pour celui qui se lève tard. On l’adresse à un enfant, à
+          un compagnon, jamais à un collègue.
+        gabarit: "Morning, [surnom]."
+        declinaisons:
+          - { id: c01.s01.K2.d1, texte: { uk: "Look who's finally up!", us: "Look who's finally up!" }, sens: "Regardez qui s’est enfin levé !" }
+          - { id: c01.s01.K2.d2, texte: { uk: "Nice of you to join us.", us: "Nice of you to join us." }, sens: "C’est gentil de te joindre à nous." }
+          - { id: c01.s01.K2.d3, texte: { uk: "Wakey wakey!", us: "Wakey wakey!" }, sens: "Debout, debout !" }
+          - { id: c01.s01.K2.d4, texte: { uk: "Afternoon!", us: "Afternoon!" }, sens: "Bon après-midi !" }
+          - { id: c01.s01.K2.d5, texte: { uk: "You look half asleep, sleepyhead.", us: "You look half asleep, sleepyhead." }, sens: "Tu as l’air à moitié endormi, la marmotte." }
+        renvois: [c01.s01.B2, c01.s01.K1]
+      - id: c01.s01.K3
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, couple]
+        fonctions: [s-excuser]
+        enonces:
+          - id: c01.s01.K3.e1
+            region: commun
+            texte: { uk: "Sorry, did I wake you?", us: "Sorry, did I wake you?" }
+            jeu: { contexte: "Tiptoeing back into the room after a shower, wincing at a creaky floorboard.", emotion: "apologetic, hushed" }
+        sens: Pardon, je t’ai réveillé ?
+        usage: >-
+          La question délicate de celui qui se lève le premier. <en>Up</en> peut tomber :
+          <en>did I wake you?</en> suffit. On l’entend aussi au téléphone, quand on appelle
+          trop tôt.
+        gabarit: "Did I wake [quelqu’un]?"
+        declinaisons:
+          - { id: c01.s01.K3.d1, texte: { uk: "I didn't mean to wake you.", us: "I didn't mean to wake you." }, sens: "Je ne voulais pas te réveiller." }
+          - { id: c01.s01.K3.d2, texte: { uk: "I tried not to wake you.", us: "I tried not to wake you." }, sens: "J’ai essayé de ne pas te réveiller." }
+          - { id: c01.s01.K3.d3, texte: { uk: "Did the phone wake you?", us: "Did the phone wake you?" }, sens: "C’est le téléphone qui t’a réveillé ?" }
+          - { id: c01.s01.K3.d4, texte: { uk: "No, I was already awake.", us: "No, I was already awake." }, sens: "Non, j’étais déjà réveillé." }
+          - { id: c01.s01.K3.d5, texte: { uk: "Sorry, I didn't realise you were asleep.", us: "Sorry, I didn't realize you were asleep." }, sens: "Pardon, je ne savais pas que tu dormais." }
+        renvois: [c01.s01.B1]
+      - id: c01.s01.K4
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, couple]
+        fonctions: [rassurer]
+        enonces:
+          - id: c01.s01.K4.e1
+            region: commun
+            texte: { uk: "Go back to sleep.", us: "Go back to sleep." }
+            jeu: { contexte: "Whispered to a partner who stirs as you leave for an early start.", emotion: "soft, tender" }
+        sens: Rendors-toi.
+        motAMot: retourne au sommeil
+        usage: >-
+          <en>Back</en> marque le retour à l’état précédent : <en>go back to sleep</en>, <en>go back to
+          bed</en>. Murmuré, c’est une marque d’attention.
+        gabarit: "Go back to [sleep / bed]."
+        declinaisons:
+          - { id: c01.s01.K4.d1, texte: { uk: "Go back to bed.", us: "Go back to bed." }, sens: "Retourne te coucher." }
+          - { id: c01.s01.K4.d2, texte: { uk: "I couldn't get back to sleep.", us: "I couldn't get back to sleep." }, sens: "Je n’ai pas réussi à me rendormir." }
+          - { id: c01.s01.K4.d3, texte: { uk: "It's only six, go back to sleep.", us: "It's only six, go back to sleep." }, sens: "Il n’est que six heures, rendors-toi." }
+          - { id: c01.s01.K4.d4, texte: { uk: "I'm going back to bed.", us: "I'm going back to bed." }, sens: "Je retourne me coucher." }
+          - { id: c01.s01.K4.d5, texte: { uk: "Try to get some more sleep.", us: "Try to get some more sleep." }, sens: "Essaie de dormir encore un peu." }
+        renvois: [c01.s01.D5]
+
+  - lettre: L
+    titre: Les premiers gestes
+    expressions:
+      - id: c01.s01.L1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, travail]
+        fonctions: [exprimer-un-besoin]
+        enonces:
+          - id: c01.s01.L1.e1
+            region: uk
+            texte: { uk: "I need a coffee.", us: "I need coffee." }
+            jeu: { contexte: "Shuffling towards the kitchen, eyes half closed.", emotion: "desperate, grumpy" }
+          - id: c01.s01.L1.e2
+            region: uk
+            texte: { uk: "I need a cup of tea.", us: "I need a cup of coffee." }
+            jeu: { contexte: "Same need, the comfort version.", emotion: "longing, sighing" }
+        sens: Il me faut un café.
+        usage: >-
+          Le premier besoin de la journée. Le Britannique demande volontiers <en>a coffee</en>
+          ou <en>a cup of tea</en> ; l’Américain dit plus souvent <en>I need coffee</en>, sans article.
+        coulisses: >-
+          Au Royaume-Uni, le thé du matin reste un rite ; aux États-Unis, la cafetière
+          programmée pour le réveil est presque un meuble de cuisine.
+        gabarit: "I need [a coffee / quelque chose]."
+        declinaisons:
+          - { id: c01.s01.L1.d1, texte: { uk: "Is there any coffee?", us: "Is there any coffee?" }, sens: "Il y a du café ?" }
+          - { id: c01.s01.L1.d2, texte: { uk: "Shall I put the kettle on?", us: "Should I make some coffee?" }, sens: "Je mets de l’eau à chauffer ?" }
+          - { id: c01.s01.L1.d3, texte: { uk: "I can't function without coffee.", us: "I can't function without coffee." }, sens: "Je ne suis bon à rien sans café." }
+          - { id: c01.s01.L1.d4, texte: { uk: "Coffee first, then we talk.", us: "Coffee first, then we talk." }, sens: "D’abord le café, ensuite on parle." }
+          - { id: c01.s01.L1.d5, texte: { uk: "I'll make you a tea.", us: "I'll make you some coffee." }, sens: "Je vais te faire un thé." }
+        renvois: [c01.s01.L4]
+      - id: c01.s01.L2
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [annoncer]
+        enonces:
+          - id: c01.s01.L2.e1
+            region: commun
+            texte: { uk: "Let me just check my phone.", us: "Let me just check my phone." }
+            jeu: { contexte: "Reaching for the phone before even sitting up.", emotion: "distracted, casual" }
+        sens: Attends, je regarde juste mon téléphone.
+        usage: >-
+          <en>Let me just</en> annonce un petit geste rapide, souvent pour gagner du temps.
+          Le <en>just</en> minimise : ce ne sera pas long, du moins en principe.
+        gabarit: "Let me just [faire quelque chose]."
+        declinaisons:
+          - { id: c01.s01.L2.d1, texte: { uk: "Let me just finish this.", us: "Let me just finish this." }, sens: "Laisse-moi juste finir ça." }
+          - { id: c01.s01.L2.d2, texte: { uk: "Let me just grab my glasses.", us: "Let me just grab my glasses." }, sens: "Attends, je prends mes lunettes." }
+          - { id: c01.s01.L2.d3, texte: { uk: "Let me check the weather.", us: "Let me check the weather." }, sens: "Je regarde la météo." }
+          - { id: c01.s01.L2.d4, texte: { uk: "Put your phone down!", us: "Put your phone down!" }, sens: "Lâche ton téléphone !" }
+          - { id: c01.s01.L2.d5, texte: { uk: "I've got loads of messages.", us: "I've got a ton of messages." }, sens: "J’ai plein de messages." }
+        renvois: [c01.s01.C5]
+      - id: c01.s01.L3
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [chercher]
+        enonces:
+          - id: c01.s01.L3.e1
+            region: commun
+            texte: { uk: "Where are my glasses?", us: "Where are my glasses?" }
+            jeu: { contexte: "Patting the bedside table blindly.", emotion: "fumbling, slightly irritated" }
+          - id: c01.s01.L3.e2
+            region: commun
+            texte: { uk: "Have you seen my glasses?", us: "Have you seen my glasses?" }
+            jeu: { contexte: "Calling out to the kitchen.", emotion: "hopeful, raised voice" }
+        sens: Où sont mes lunettes ?
+        usage: >-
+          <en>Glasses</en> est toujours au pluriel, comme en français. <en>Have you seen…?</en> est la
+          question naturelle pour un objet égaré : le passé composé anglais relie la
+          perte au moment présent.
+        gabarit: "Have you seen my [objet]?"
+        declinaisons:
+          - { id: c01.s01.L3.d1, texte: { uk: "Have you seen my phone?", us: "Have you seen my phone?" }, sens: "Tu as vu mon téléphone ?" }
+          - { id: c01.s01.L3.d2, texte: { uk: "I can't find my slippers.", us: "I can't find my slippers." }, sens: "Je ne trouve pas mes chaussons." }
+          - { id: c01.s01.L3.d3, texte: { uk: "They're on your head.", us: "They're on your head." }, sens: "Elles sont sur ta tête." }
+          - { id: c01.s01.L3.d4, texte: { uk: "Where did I put my keys?", us: "Where did I put my keys?" }, sens: "Où est-ce que j’ai mis mes clés ?" }
+          - { id: c01.s01.L3.d5, texte: { uk: "Has anyone seen my charger?", us: "Has anyone seen my charger?" }, sens: "Quelqu’un a vu mon chargeur ?" }
+        renvois: [c01.s01.L2]
+      - id: c01.s01.L4
+        ton: complice
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, couple]
+        fonctions: [mettre-en-garde, se-decrire]
+        enonces:
+          - id: c01.s01.L4.e1
+            region: commun
+            texte: { uk: "Don't talk to me yet.", us: "Don't talk to me yet." }
+            jeu: { contexte: "Holding up a hand, mug of coffee in the other.", emotion: "grumpy, half joking" }
+          - id: c01.s01.L4.e2
+            region: commun
+            texte: { uk: "Don't talk to me before my coffee.", us: "Don't talk to me before I've had my coffee." }
+            jeu: { contexte: "Same warning, as a house rule.", emotion: "dry, mock-serious" }
+        sens: Ne me parle pas encore.
+        usage: >-
+          La mise en garde mi-sérieuse de celui qui n’est pas du matin. <en>Yet</en> laisse
+          entendre que la parole reviendra, sans doute après le café.
+        gabarit: "Don't [faire quelque chose] yet."
+        declinaisons:
+          - { id: c01.s01.L4.d1, texte: { uk: "Don't ask me anything yet.", us: "Don't ask me anything yet." }, sens: "Ne me demande rien pour l’instant." }
+          - { id: c01.s01.L4.d2, texte: { uk: "I'm not ready to talk yet.", us: "I'm not ready to talk yet." }, sens: "Je ne suis pas encore prêt à parler." }
+          - { id: c01.s01.L4.d3, texte: { uk: "Talk to me after my coffee.", us: "Talk to me after my coffee." }, sens: "Parle-moi après mon café." }
+          - { id: c01.s01.L4.d4, texte: { uk: "Too early for questions.", us: "Too early for questions." }, sens: "Trop tôt pour les questions." }
+          - { id: c01.s01.L4.d5, texte: { uk: "Give me ten minutes and I'll be human.", us: "Give me ten minutes and I'll be human." }, sens: "Laisse-moi dix minutes et je redeviens humain." }
+        renvois: [c01.s01.G3, c01.s01.L1]
+
+essentiel:
+  incontournables: [c01.s01.A1, c01.s01.A2, c01.s01.A3, c01.s01.B1, c01.s01.C1, c01.s01.D1, c01.s01.D3, c01.s01.H1, c01.s01.H2, c01.s01.I1]
+  fauxPas:
+    - fautif: "My alarm is ringing."
+      naturel: "My alarm's going off."
+      pourquoi: "Pour un réveil ou une alarme, les natifs disent <en>go off</en>. <en>Ring</en> se garde pour un téléphone ou une sonnette."
+    - fautif: "I made a dream."
+      naturel: "I had a dream."
+      pourquoi: "En anglais, on a un rêve, on ne le fait pas : <en>have a dream</en>, <en>have a nightmare</en>."
+    - fautif: "Wake up me!"
+      naturel: "Wake me up!"
+      pourquoi: "Avec un pronom, la particule passe derrière : <en>wake me up</en>, <en>turn it off</en>, jamais l’inverse."
+    - fautif: "I pressed snooze."
+      naturel: "I hit snooze."
+      pourquoi: "<en>Pressed</en> n’est pas faux, mais personne ne le dit dans la conversation. On frappe la touche : <en>hit</en>."
+    - fautif: "This night I slept badly."
+      naturel: "I slept badly last night."
+      pourquoi: "La nuit qui vient de passer se dit <en>last night</en>. <en>Tonight</en> désigne la nuit à venir ; <en>this night</en> ne s’emploie pas."
+    - fautif: "Are you waking?"
+      naturel: "Are you awake?"
+      pourquoi: "On demande un état : <en>awake</en> est un adjectif. <en>Are you waking up?</en> existe, mais décrit le moment même du réveil."
+    - fautif: "I am late of ten minutes."
+      naturel: "I'm running ten minutes late."
+      pourquoi: "La durée du retard se place avant <en>late</en>, sans préposition : <en>ten minutes late</en>."
+    - fautif: "I want to sleep more five minutes."
+      naturel: "Five more minutes."
+      pourquoi: "<en>More</en> se place après le nombre : <en>five more minutes</en>. Et la phrase courte suffit, le verbe est inutile."
+
+sceneVivante:
+  titre: Debout là-dedans
+  repliques:
+    - { id: c01.s01.sv.l01, personnage: kofi, texte: { uk: "Rise and shine!", us: "Rise and shine!" }, sens: "Debout là-dedans !", emotion: "cheerful, sing-song" }
+    - { id: c01.s01.sv.l02, personnage: sarah, texte: { uk: "Ugh… five more minutes.", us: "Ugh… five more minutes." }, sens: "Pff… encore cinq minutes.", emotion: "sleepy, pleading" }
+    - { id: c01.s01.sv.l03, personnage: kofi, texte: { uk: "You said that twenty minutes ago. It's half seven!", us: "You said that twenty minutes ago. It's seven-thirty!" }, sens: "Tu as dit ça il y a vingt minutes. Il est sept heures et demie !", emotion: "teasing, insistent" }
+    - { id: c01.s01.sv.l04, personnage: sarah, texte: { uk: "What? Why didn't you wake me up?", us: "What? Why didn't you wake me up?" }, sens: "Quoi ? Pourquoi tu ne m’as pas réveillée ?", emotion: "alarmed, accusing" }
+    - { id: c01.s01.sv.l05, personnage: kofi, texte: { uk: "I tried! You told me to go away.", us: "I tried! You told me to go away." }, sens: "J’ai essayé ! Tu m’as dit de te laisser tranquille.", emotion: "amused, defensive" }
+    - { id: c01.s01.sv.l06, personnage: sarah, texte: { uk: "My alarm didn't go off… I must've turned it off in my sleep.", us: "My alarm didn't go off… I must've turned it off in my sleep." }, sens: "Mon réveil n’a pas sonné… J’ai dû l’éteindre en dormant.", emotion: "flustered, realising" }
+    - { id: c01.s01.sv.l07, personnage: kofi, texte: { uk: "Rough night?", us: "Rough night?" }, sens: "Mauvaise nuit ?", emotion: "sympathetic, wry" }
+    - { id: c01.s01.sv.l08, personnage: sarah, texte: { uk: "I didn't sleep a wink. You were snoring like a chainsaw.", us: "I didn't sleep a wink. You were snoring like a chainsaw." }, sens: "Je n’ai pas fermé l’œil. Tu ronflais comme une tronçonneuse.", emotion: "grumpy, accusing" }
+    - { id: c01.s01.sv.l09, personnage: kofi, texte: { uk: "I don't snore!", us: "I don't snore!" }, sens: "Je ne ronfle pas !", emotion: "indignant, laughing" }
+    - { id: c01.s01.sv.l10, personnage: sarah, texte: { uk: "Whatever. I need a coffee. Don't talk to me yet.", us: "Whatever. I need coffee. Don't talk to me yet." }, sens: "C’est ça. Il me faut un café. Ne me parle pas encore.", emotion: "dismissive, grumpy" }
+    - { id: c01.s01.sv.l11, personnage: mia, texte: { uk: "Mum! Have you seen my school shoes?", us: "Mom! Have you seen my sneakers?" }, sens: "Maman ! Tu as vu mes chaussures ?", emotion: "calling from the hallway, urgent" }
+    - { id: c01.s01.sv.l12, personnage: sarah, texte: { uk: "Kofi, can you deal with that? I'm not awake yet.", us: "Kofi, can you handle that? I'm not awake yet." }, sens: "Kofi, tu peux t’en occuper ? Je ne suis pas encore réveillée.", emotion: "weary, pleading" }
+    - { id: c01.s01.sv.l13, personnage: kofi, texte: { uk: "On it. Someone got out of bed on the wrong side…", us: "On it. Someone woke up on the wrong side of the bed…" }, sens: "J’y vais. Quelqu’un s’est levé du pied gauche…", emotion: "cheerful, muttering the second sentence" }
+    - { id: c01.s01.sv.l14, personnage: sarah, texte: { uk: "I heard that!", us: "I heard that!" }, sens: "Je t’ai entendu !", emotion: "mock outrage, calling after him" }
+
+rituel:
+  - Demain matin, avant même d’ouvrir les yeux, dites-vous <en>My alarm’s going off</en>, puis <en>Five more minutes</en>.
+  - Au premier café, racontez votre nuit en une phrase anglaise de ce moment, à voix haute.

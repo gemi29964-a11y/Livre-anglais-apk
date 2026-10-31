@@ -108,6 +108,10 @@ def valider(brouillon: bool) -> Rapport:
         attendu = f"{f.parent.name}.{f.stem}"
         # Règle 1 : schéma
         for e in sorted(validateur.iter_errors(s), key=lambda e: list(e.path)):
+            # Les phrasés s'écrivent après la mise en voix (6.1) : en rédaction, leur absence est signalée
+            # par la règle 6 et ne bloque pas (D-014) ; toute autre violation du schéma bloque.
+            if r.brouillon and e.validator == "required" and "'phrases'" in e.message:
+                continue
             r.bloquer(rel, f"schéma : {'/'.join(map(str, e.path))} — {e.message}")
         if not isinstance(s, dict):
             continue
