@@ -1,34 +1,46 @@
 # État d'avancement — Vivre l'Anglais
 
-- Tranche : 1/10 terminée (Phase 0, lecture intégrale et cahier d'exécution ; Phase 1, socle technique). En attente de l'approbation du lecteur.
-- Fait : voir la section « Fait » ci-dessous.
-- Reste : tranches 2 à 10. Sont aussi dus, hors de portée de la machine de construction : la vérification du rendu sur appareil réel ou émulateur accéléré (matrice 11.3, tranche 10) et une première exécution de la CI sur GitHub une fois le compte débloqué (D-031).
-- Prochaine action exacte (après approbation) : tranche 2, Phase 2 (voix). Il faut d'abord rechercher les enregistrements sous licence libre, ensuite faire l'essai 7.5 de la génération intégrée, puis celui des modèles locaux ouverts, en mesurant contre les seuils 7.10. Résultats à consigner dans `voix/registre/creations.jsonl` et `pilotage/portes/voix-essai.md`.
+- Tranche : 2/10 en cours (Phase 2, les voix ; Phase 3, Prélude, scène étalon et chapitre 1). La tranche 1 est approuvée.
+- Phase 2 : épreuve 7.5 en cours sur les 39 candidats. Le rendu en une passe est fait pour 216 lots sur 337, et le contrôle 7.10 est en cours pour ces lots.
+- Phase 3 : la rédaction avance. Le Prélude est complet (P.1 à P.6). Sont écrites aussi la scène étalon c01.s01 et la scène c01.s02. Il reste huit scènes du chapitre 1 à écrire : c01.s03 à c01.s10.
+- Prochaine action exacte :
+  1. Terminer le contrôle de l'essai : `bash /tmp/boucle_int.sh 5` (journal dans /tmp/int3.log). La commande reprend là où elle s'est arrêtée.
+  2. Classer les candidats avec `python3 voix/outils/bilan_essai.py`.
+  3. Pour chaque voix, retenir le meilleur candidat, puis vérifier l'écart entre les voix (similarité inférieure à 0,55).
+  4. Écrire les fiches `voix/fiches/{voix}.yaml`.
+  5. Rédiger c01.s03 (S'habiller) avec `~/workspace/gen/chap.py`.
 
-## Fait
+## Fait en tranche 2
 
-- Phase 0 : lecture intégrale du Plan.
-  - `pilotage/exigences.csv` : 1 532 exigences, dont les 205 fonctionnalités F001–F205. Le fichier est généré par `pilotage/generer_exigences.py`.
-  - Les statuts sont tenus dans `pilotage/statuts.csv`, écrit par `pilotage/statuts_t1.py` : 284 « fait (T1) », 73 « socle en place (T1) », 87 « reporté (Tn) ». Les autres exigences sont « à faire (Tn) ».
-  - Versions 10.2 vérifiées (D-001, `docs/decisions/pile-technique.md`).
-- Phase 1, socle technique :
-  - arborescence 10.3, schéma de l'annexe B, configurations de l'annexe C ;
-  - outils de contrôle : lexique, phrasé, validation du corpus, typographie, contrastes, couverture vocale, paquets ;
-  - application SvelteKit « Encre & Voix », avec le complément de compatibilité pour les WebView anciennes (D-033) ;
-  - couche Android : Capacitor 8.6, plugins Kotlin du Plan, widget, raccourcis, liens profonds, icônes ;
-  - signature : clé d'envoi et clé directe ;
-  - CI : `android.yml` et `contenu.yml`, avec l'équivalent local `tools/ci_locale.sh`, entièrement vert.
-- Livrables de la tranche (aussi dans la pré-publication GitHub `tranche-01`, D-036) :
-  - APK direct signé, versionCode 1001, version 1.0.0, 3 474 699 octets, SHA-256 148eb4d91be4851e04163ecba7ce8d42c9f50bda9bcb302bd032c813b0b4911c ;
-  - AAB Play signé, 5 531 480 octets, SHA-256 c6bddf1f91d0eeec932fac79af04e9da9dd0f3bb79df38dc13d4da45904820a9.
-- Preuves dans `pilotage/portes/` : `lexique.txt`, `contrastes.md`, `tests-outils.txt` (25), `tests-unitaires.txt` (48, couverture 98,58 %), `parcours-web.txt` (8), `build-web.txt`, `gradle-*.txt`, `rapport-android.md`, `ci.md` et `ci-locale.txt`, `budgets-t1.md`, `emulateur-api30-*` et `emulateur-api36-evenements.txt`.
+- Calibrage 7.10 sur 500 enregistrements réels (`voix/calibrage/seuils.json`, D-037 à D-039).
+- Outils de création et de contrôle (`voix/outils/`) :
+  - `creer.py` : appels groupés, format G1 (D-045) et échelle d'allure (D-044) ;
+  - `controler.py`, avec une transcription de confirmation par fichier ;
+  - `decouper.py`, `bilan_essai.py`, `pipeline.mjs` et `sources_libres.py`.
+- Inventaire des enregistrements libres (7.3) dans `voix/sources/inventaire.csv`. Il couvre 2 783 fichiers pour les 417 mots de c01.s01 :
+  - 510 sont admis au regard de la licence (Wiktionary : us 371, uk 89, au 40, ca 7, nz 3) ;
+  - 2 273 viennent de Lingua Libre et sont exclus, faute d'accent déclaré.
+- 39 candidats (`voix/fiches/candidats/`), avec un script d'essai de 40 lignes (D-042). Kokoro a été mesuré et écarté comme moteur (D-043).
+- Registre `voix/registre/creations.jsonl` : 834 entrées, dont 82 prises acceptées, 385 refusées et 367 lignes omises par le moteur.
+- Corpus : huit scènes validées sans violation bloquante (`tools/valider_corpus.py --brouillon`). Il exige 7 270 fichiers de voix à ce stade.
+  - Le Prélude est complet : 164 expressions et 88 paires d'écoute réciproques. Ses ateliers (jeu des paires, oreille fine, miroir) sont décrits en D-046.
+  - Scène étalon c01.s01 : 55 expressions.
+  - Scène c01.s02 : 50 expressions.
+
+## Mesures de débit de la voix (constatées)
+
+- Le moteur intégré met de 30 à 60 s par appel. Dans environ la moitié des lots, il s'arrête après la première ligne.
+- Le premier essai passe dans 0 à 40 % des cas selon le candidat (`bilan_essai.py`). Les causes dominantes sont l'énoncé omis, le débit hors de la fenêtre 120–140 mots/min et l'accent sous 0,80.
+- Le contrôle 7.10 complet prend de 60 à 110 s de calcul par lot de 10 lignes sur la machine de construction (2 processeurs, aucune carte graphique).
+- Au rythme constaté, il faudrait plusieurs semaines de calcul continu pour le seul chapitre 1, soit environ 18 500 fichiers. Le livre entier en demande environ 245 000. Le périmètre n'est pas réduit : la production est découpée en lots repris d'une session à l'autre.
 
 ## Non vérifié à ce stade (consigné)
 
-- Rendu de l'interface sur émulateur. Sous API 30, l'APK s'installe et s'ouvre (activité au premier plan, aucun plantage). En revanche, l'émulation logicielle du processeur, sans KVM, calcule faux en JavaScript, ce qui bloque le rendu (D-034). Sous API 36, la WebView de l'image plante en code natif (D-032).
-- Exécution de la CI sur GitHub : le compte est bloqué pour une question de facturation (D-031).
-- Budgets de temps et de mémoire de 10.12 : ils se mesurent sur l'appareil de référence, en tranche 10.
+- Comparaison à l'aveugle avec des voix réelles (7.5, étape 2) : pas encore faite.
+- Conditions d'usage commercial et de redistribution des voix du moteur intégré : à vérifier et archiver dans `docs/decisions/moteur-voix.md`.
+- Common Voice exige désormais un compte Mozilla Data Collective. Le calibrage a donc été fait sur OpenSLR 83 et LibriSpeech (D-037).
+- Les points déjà ouverts en tranche 1 restent ouverts : rendu sur émulateur sans KVM (D-032, D-034) et CI GitHub bloquée par la facturation (D-031).
 
 ## Reports suivis
 
-Voir `pilotage/statuts.csv` (statuts « socle en place » et « reporté (Tn) ») et `pilotage/journal_des_decisions.md` (D-001 à D-036).
+Voir `pilotage/statuts.csv` et `pilotage/journal_des_decisions.md` (D-001 à D-046). Les décisions de la tranche sont copiées dans `docs/decisions/journal-tranche-02.md`.

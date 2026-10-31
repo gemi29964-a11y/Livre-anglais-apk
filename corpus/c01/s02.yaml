@@ -1,0 +1,1221 @@
+# Scène 1.2 — La salle de bain. Format d'édition (10.4) ; les phrasés sont écrits après la mise en voix (6.1, 7.1.8).
+id: c01.s02
+titre: La salle de bain
+intention: >-
+  À la fin de cette scène, vous traversez en anglais le quart d’heure de la salle de
+  bain : attendre son tour, se doucher, se brosser les dents, se regarder dans le
+  miroir, se coiffer, gérer les petites pannes et les enfants, puis céder la place.
+version: 1
+moments:
+  - lettre: A
+    titre: Attendre son tour
+    expressions:
+      - id: c01.s02.A1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, famille]
+        fonctions: [demander]
+        enonces:
+          - id: c01.s02.A1.e1
+            region: commun
+            texte: { uk: "Who's in the bathroom?", us: "Who's in the bathroom?" }
+            jeu: { contexte: "Standing outside a locked bathroom door in the morning, knocking.", emotion: "impatient, half-awake" }
+        sens: "Qui est dans la salle de bain ?"
+        motAMot: "qui est dans la salle de bain"
+        usage: >-
+          La question rituelle du matin dans une maison à une seule salle de bain. On frappe
+          en même temps. Avec <en>in there</en>, elle devient plus directe : <en>Who’s in
+          there?</en>
+        gabarit: "Who's in [lieu]?"
+        declinaisons:
+          - { id: c01.s02.A1.d1, texte: { uk: "Who's in there?", us: "Who's in there?" }, sens: "Qui est là-dedans ?" }
+          - { id: c01.s02.A1.d2, texte: { uk: "Is someone in the bathroom?", us: "Is someone in the bathroom?" }, sens: "Il y a quelqu’un dans la salle de bain ?" }
+          - { id: c01.s02.A1.d3, texte: { uk: "Who's in the shower?", us: "Who's in the shower?" }, sens: "Qui est sous la douche ?" }
+          - { id: c01.s02.A1.d4, texte: { uk: "Who's been in the bathroom for an hour?", us: "Who's been in the bathroom for an hour?" }, sens: "Qui squatte la salle de bain depuis une heure ?" }
+          - { id: c01.s02.A1.d5, texte: { uk: "Is anyone using the bathroom?", us: "Is anyone using the bathroom?" }, sens: "Quelqu’un se sert de la salle de bain ?" }
+        renvois: []
+      - id: c01.s02.A2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, famille]
+        fonctions: [demander, presser]
+        enonces:
+          - id: c01.s02.A2.e1
+            region: commun
+            texte: { uk: "Are you nearly done?", us: "Are you almost done?" }
+            jeu: { contexte: "Knocking gently on the bathroom door, waiting your turn.", emotion: "polite but pressing" }
+        sens: "Tu as bientôt fini ?"
+        motAMot: "es-tu presque fait"
+        usage: >-
+          <en>Nearly done</en> (Londres) ou <en>almost done</en> (partout) : « presque fini ».
+          On le demande à travers la porte, d’un ton aimable mais qui presse.
+        gabarit: "Are you nearly [done]?"
+        declinaisons:
+          - { id: c01.s02.A2.d1, texte: { uk: "Are you almost done?", us: "Are you almost done?" }, sens: "Tu as presque fini ?" }
+          - { id: c01.s02.A2.d2, texte: { uk: "I'm nearly done.", us: "I'm nearly done." }, sens: "J’ai presque fini." }
+          - { id: c01.s02.A2.d3, texte: { uk: "Are you done in there?", us: "Are you done in there?" }, sens: "Tu as fini, là-dedans ?" }
+          - { id: c01.s02.A2.d4, texte: { uk: "How long are you going to be?", us: "How long are you going to be?" }, sens: "Tu en as encore pour combien de temps ?" }
+          - { id: c01.s02.A2.d5, texte: { uk: "Nearly done, two minutes!", us: "Almost done, two minutes!" }, sens: "Presque fini, deux minutes !" }
+        renvois: []
+      - id: c01.s02.A3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, famille]
+        fonctions: [presser]
+        enonces:
+          - id: c01.s02.A3.e1
+            region: commun
+            texte: { uk: "I need the loo!", us: "I need the bathroom!" }
+            jeu: { contexte: "Hopping from foot to foot outside the bathroom door.", emotion: "urgent, comic desperation" }
+        sens: "Il faut que j’aille aux toilettes !"
+        motAMot: "j’ai besoin des toilettes"
+        usage: >-
+          À Londres, <en>the loo</en> est le mot familier et poli pour les toilettes ; en
+          Amérique, on dit <en>the bathroom</en>, même s’il n’y a pas de baignoire. Évitez
+          <en>the toilet</en> en Amérique : c’est la cuvette elle-même.
+        declinaisons:
+          - { id: c01.s02.A3.d1, texte: { uk: "I really need the loo.", us: "I really need the bathroom." }, sens: "J’ai vraiment besoin d’aller aux toilettes." }
+          - { id: c01.s02.A3.d2, texte: { uk: "Can I use your loo?", us: "Can I use your bathroom?" }, sens: "Je peux utiliser vos toilettes ?" }
+          - { id: c01.s02.A3.d3, texte: { uk: "Where's the loo?", us: "Where's the bathroom?" }, sens: "Où sont les toilettes ?" }
+          - { id: c01.s02.A3.d4, texte: { uk: "I'm just going to the loo.", us: "I'm just going to the bathroom." }, sens: "Je vais juste aux toilettes." }
+          - { id: c01.s02.A3.d5, texte: { uk: "Go to the loo before we leave.", us: "Go to the bathroom before we leave." }, sens: "Va aux toilettes avant qu’on parte." }
+        renvois: []
+      - id: c01.s02.A4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, famille]
+        fonctions: [presser]
+        enonces:
+          - id: c01.s02.A4.e1
+            region: commun
+            texte: { uk: "Hurry up in there!", us: "Hurry up in there!" }
+            jeu: { contexte: "Banging on the door, already late for work.", emotion: "exasperated, loud" }
+        sens: "Dépêche-toi, là-dedans !"
+        motAMot: "dépêche-toi là-dedans"
+        usage: >-
+          <en>Hurry up</en>, c’est « dépêche-toi ». <en>In there</en> désigne la pièce où se
+          trouve l’autre. Entre proches, c’est vif sans être blessant.
+        declinaisons:
+          - { id: c01.s02.A4.d1, texte: { uk: "Hurry up, I'm late!", us: "Hurry up, I'm late!" }, sens: "Dépêche-toi, je suis en retard !" }
+          - { id: c01.s02.A4.d2, texte: { uk: "Can you hurry up?", us: "Can you hurry up?" }, sens: "Tu peux te dépêcher ?" }
+          - { id: c01.s02.A4.d3, texte: { uk: "Hurry up, the bus is coming!", us: "Hurry up, the bus is coming!" }, sens: "Dépêche-toi, le bus arrive !" }
+          - { id: c01.s02.A4.d4, texte: { uk: "There's no need to hurry.", us: "There's no need to hurry." }, sens: "Rien ne presse." }
+          - { id: c01.s02.A4.d5, texte: { uk: "Come on, hurry up!", us: "Come on, hurry up!" }, sens: "Allez, grouille-toi !" }
+        renvois: []
+      - id: c01.s02.A5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, famille]
+        fonctions: [rassurer]
+        enonces:
+          - id: c01.s02.A5.e1
+            region: commun
+            texte: { uk: "I'll be out in a minute.", us: "I'll be out in a minute." }
+            jeu: { contexte: "Calling through the bathroom door, still in the shower.", emotion: "calm, slightly muffled" }
+        sens: "Je sors dans une minute."
+        motAMot: "je serai dehors dans une minute"
+        usage: >-
+          La réponse habituelle à celui qui attend. <en>Be out</en>, c’est « être sorti ». Le
+          <en>minute</en> est rarement une vraie minute.
+        gabarit: "I'll be out in [durée]."
+        declinaisons:
+          - { id: c01.s02.A5.d1, texte: { uk: "I'll be out in two minutes.", us: "I'll be out in two minutes." }, sens: "Je sors dans deux minutes." }
+          - { id: c01.s02.A5.d2, texte: { uk: "I'll be out in a sec.", us: "I'll be out in a sec." }, sens: "Je sors dans une seconde." }
+          - { id: c01.s02.A5.d3, texte: { uk: "I'm just getting out.", us: "I'm just getting out." }, sens: "Je sors, là." }
+          - { id: c01.s02.A5.d4, texte: { uk: "Give me five minutes.", us: "Give me five minutes." }, sens: "Laisse-moi cinq minutes." }
+          - { id: c01.s02.A5.d5, texte: { uk: "I'll be right out.", us: "I'll be right out." }, sens: "Je sors tout de suite." }
+        renvois: []
+  - lettre: B
+    titre: La douche
+    expressions:
+      - id: c01.s02.B1
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [annoncer]
+        enonces:
+          - id: c01.s02.B1.e1
+            region: commun
+            texte: { uk: "I'm jumping in the shower.", us: "I'm jumping in the shower." }
+            jeu: { contexte: "Telling your partner you're going to shower, on your way to the bathroom.", emotion: "breezy, quick" }
+        sens: "Je file sous la douche."
+        motAMot: "je saute dans la douche"
+        usage: >-
+          <en>Jump in the shower</en>, c’est prendre une douche rapide, sans cérémonie. On dit
+          aussi <en>hop in the shower</en>.
+        declinaisons:
+          - { id: c01.s02.B1.d1, texte: { uk: "I'll jump in the shower first.", us: "I'll jump in the shower first." }, sens: "Je passe sous la douche d’abord." }
+          - { id: c01.s02.B1.d2, texte: { uk: "Can I jump in the shower?", us: "Can I jump in the shower?" }, sens: "Je peux prendre une douche vite fait ?" }
+          - { id: c01.s02.B1.d3, texte: { uk: "She's just jumped in the shower.", us: "She's just jumped in the shower." }, sens: "Elle vient de filer sous la douche." }
+          - { id: c01.s02.B1.d4, texte: { uk: "I'm hopping in the shower.", us: "I'm hopping in the shower." }, sens: "Je saute sous la douche." }
+          - { id: c01.s02.B1.d5, texte: { uk: "Jump in the shower, quick!", us: "Jump in the shower, quick!" }, sens: "File sous la douche, vite !" }
+        renvois: []
+      - id: c01.s02.B2
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [se-plaindre]
+        enonces:
+          - id: c01.s02.B2.e1
+            region: commun
+            texte: { uk: "There's no hot water!", us: "There's no hot water!" }
+            jeu: { contexte: "Shouting from the shower as the water suddenly turns cold.", emotion: "shocked, indignant" }
+        sens: "Il n’y a plus d’eau chaude !"
+        usage: >-
+          Le drame du matin. <en>No hot water</en> se dit quand le ballon est vide. Le
+          reproche suit souvent : <en>Who used all the hot water?</en>
+        declinaisons:
+          - { id: c01.s02.B2.d1, texte: { uk: "Who used all the hot water?", us: "Who used all the hot water?" }, sens: "Qui a pris toute l’eau chaude ?" }
+          - { id: c01.s02.B2.d2, texte: { uk: "The hot water's run out.", us: "The hot water's run out." }, sens: "L’eau chaude est épuisée." }
+          - { id: c01.s02.B2.d3, texte: { uk: "Is there any hot water left?", us: "Is there any hot water left?" }, sens: "Il reste de l’eau chaude ?" }
+          - { id: c01.s02.B2.d4, texte: { uk: "The boiler's broken again.", us: "The water heater's broken again." }, sens: "La chaudière est encore en panne." }
+          - { id: c01.s02.B2.d5, texte: { uk: "Leave me some hot water!", us: "Leave me some hot water!" }, sens: "Laisse-moi de l’eau chaude !" }
+        renvois: []
+      - id: c01.s02.B3
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [reagir]
+        enonces:
+          - id: c01.s02.B3.e1
+            region: commun
+            texte: { uk: "The water's freezing!", us: "The water's freezing!" }
+            jeu: { contexte: "Gasping as cold water hits you in the shower.", emotion: "gasping, shocked" }
+        sens: "L’eau est glacée !"
+        usage: >-
+          <en>Freezing</en> est bien plus fort que <en>cold</en> : « glacial ». On l’emploie
+          aussi pour le temps : <en>It’s freezing outside.</en>
+        gabarit: "[chose] is freezing!"
+        declinaisons:
+          - { id: c01.s02.B3.d1, texte: { uk: "It's freezing in here!", us: "It's freezing in here!" }, sens: "On gèle, ici !" }
+          - { id: c01.s02.B3.d2, texte: { uk: "My hands are freezing.", us: "My hands are freezing." }, sens: "J’ai les mains gelées." }
+          - { id: c01.s02.B3.d3, texte: { uk: "It's freezing outside.", us: "It's freezing outside." }, sens: "Il fait un froid de canard dehors." }
+          - { id: c01.s02.B3.d4, texte: { uk: "The water's boiling!", us: "The water's boiling!" }, sens: "L’eau est brûlante !" }
+          - { id: c01.s02.B3.d5, texte: { uk: "It's a bit chilly.", us: "It's a bit chilly." }, sens: "Il fait un peu frais." }
+        renvois: []
+      - id: c01.s02.B4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison]
+        fonctions: [annoncer]
+        enonces:
+          - id: c01.s02.B4.e1
+            region: commun
+            texte: { uk: "I'll have a quick shower.", us: "I'll take a quick shower." }
+            jeu: { contexte: "Planning your morning out loud while making the bed.", emotion: "practical, matter-of-fact" }
+        sens: "Je prends une douche rapide."
+        motAMot: "j’aurai une douche rapide"
+        usage: >-
+          Londres dit <en>have a shower</en>, l’Amérique <en>take a shower</en>. Les deux se
+          comprennent partout ; choisissez celui de votre accent et tenez-le.
+        gabarit: "I'll have a [quick shower]."
+        declinaisons:
+          - { id: c01.s02.B4.d1, texte: { uk: "I had a shower last night.", us: "I took a shower last night." }, sens: "J’ai pris une douche hier soir." }
+          - { id: c01.s02.B4.d2, texte: { uk: "Do I have time for a shower?", us: "Do I have time for a shower?" }, sens: "J’ai le temps de prendre une douche ?" }
+          - { id: c01.s02.B4.d3, texte: { uk: "I'll have a bath tonight.", us: "I'll take a bath tonight." }, sens: "Je prendrai un bain ce soir." }
+          - { id: c01.s02.B4.d4, texte: { uk: "Have a shower, you'll feel better.", us: "Take a shower, you'll feel better." }, sens: "Prends une douche, ça ira mieux." }
+          - { id: c01.s02.B4.d5, texte: { uk: "I never have baths.", us: "I never take baths." }, sens: "Je ne prends jamais de bain." }
+        renvois: []
+      - id: c01.s02.B5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, famille]
+        fonctions: [demander]
+        enonces:
+          - id: c01.s02.B5.e1
+            region: commun
+            texte: { uk: "Turn the shower off.", us: "Turn the shower off." }
+            jeu: { contexte: "Reminding a child who has left the shower running.", emotion: "firm, reminding" }
+        sens: "Ferme la douche."
+        usage: >-
+          <en>Turn on</en>, <en>turn off</en> : allumer, éteindre, ouvrir, fermer. Ils servent
+          pour l’eau, la lumière, la radio. Avec un pronom : <en>turn it off</en>.
+        gabarit: "Turn the [appareil] off."
+        declinaisons:
+          - { id: c01.s02.B5.d1, texte: { uk: "Turn the tap off.", us: "Turn the faucet off." }, sens: "Ferme le robinet." }
+          - { id: c01.s02.B5.d2, texte: { uk: "Can you turn the light on?", us: "Can you turn the light on?" }, sens: "Tu peux allumer la lumière ?" }
+          - { id: c01.s02.B5.d3, texte: { uk: "Turn it off, please.", us: "Turn it off, please." }, sens: "Éteins-le, s’il te plaît." }
+          - { id: c01.s02.B5.d4, texte: { uk: "You left the shower on!", us: "You left the shower on!" }, sens: "Tu as laissé la douche ouverte !" }
+          - { id: c01.s02.B5.d5, texte: { uk: "Don't forget to turn the fan off.", us: "Don't forget to turn the fan off." }, sens: "N’oublie pas d’éteindre la ventilation." }
+        renvois: []
+  - lettre: C
+    titre: Les dents
+    expressions:
+      - id: c01.s02.C1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, famille]
+        fonctions: [verifier]
+        enonces:
+          - id: c01.s02.C1.e1
+            region: commun
+            texte: { uk: "Have you brushed your teeth?", us: "Have you brushed your teeth?" }
+            jeu: { contexte: "A parent checking on a child before school.", emotion: "checking, parental" }
+        sens: "Tu t’es brossé les dents ?"
+        usage: >-
+          On se brosse <en>your teeth</en>, avec le possessif : jamais <en>the teeth</en>.
+          Même chose pour <en>wash your face</en>, <en>brush your hair</en>.
+        gabarit: "Have you brushed your [partie du corps]?"
+        declinaisons:
+          - { id: c01.s02.C1.d1, texte: { uk: "Go and brush your teeth.", us: "Go brush your teeth." }, sens: "Va te brosser les dents." }
+          - { id: c01.s02.C1.d2, texte: { uk: "I've already brushed my teeth.", us: "I've already brushed my teeth." }, sens: "Je me suis déjà brossé les dents." }
+          - { id: c01.s02.C1.d3, texte: { uk: "Brush your teeth properly.", us: "Brush your teeth properly." }, sens: "Brosse-toi bien les dents." }
+          - { id: c01.s02.C1.d4, texte: { uk: "Did you brush your teeth?", us: "Did you brush your teeth?" }, sens: "Tu t’es brossé les dents ?" }
+          - { id: c01.s02.C1.d5, texte: { uk: "Brush for two minutes.", us: "Brush for two minutes." }, sens: "Brosse pendant deux minutes." }
+        renvois: []
+      - id: c01.s02.C2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison]
+        fonctions: [constater]
+        enonces:
+          - id: c01.s02.C2.e1
+            region: commun
+            texte: { uk: "We're out of toothpaste.", us: "We're out of toothpaste." }
+            jeu: { contexte: "Squeezing an empty tube over the sink.", emotion: "mildly annoyed" }
+        sens: "Il n’y a plus de dentifrice."
+        motAMot: "nous sommes dehors de dentifrice"
+        usage: >-
+          <en>We’re out of</en> + chose : « on n’a plus de ». Formule clé des courses :
+          <en>We’re out of milk</en>, <en>We’re out of bread</en>.
+        gabarit: "We're out of [produit]."
+        declinaisons:
+          - { id: c01.s02.C2.d1, texte: { uk: "We're out of milk.", us: "We're out of milk." }, sens: "On n’a plus de lait." }
+          - { id: c01.s02.C2.d2, texte: { uk: "We're running out of soap.", us: "We're running out of soap." }, sens: "On n’a presque plus de savon." }
+          - { id: c01.s02.C2.d3, texte: { uk: "Are we out of shampoo?", us: "Are we out of shampoo?" }, sens: "On n’a plus de shampoing ?" }
+          - { id: c01.s02.C2.d4, texte: { uk: "We've run out of toothpaste.", us: "We've run out of toothpaste." }, sens: "On est à court de dentifrice." }
+          - { id: c01.s02.C2.d5, texte: { uk: "Add it to the list.", us: "Add it to the list." }, sens: "Note-le sur la liste." }
+        renvois: []
+      - id: c01.s02.C3
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [maison]
+        fonctions: [demander]
+        enonces:
+          - id: c01.s02.C3.e1
+            region: commun
+            texte: { uk: "Can I borrow your toothbrush?", us: "Can I borrow your toothbrush?" }
+            jeu: { contexte: "Asking a partner, half-joking, after forgetting yours on a trip.", emotion: "sheepish, joking" }
+        sens: "Je peux emprunter ta brosse à dents ?"
+        usage: >-
+          <en>Borrow</en>, c’est emprunter ; <en>lend</en>, c’est prêter. <en>Can I
+          borrow…?</en> pour soi, <en>Can you lend me…?</en> pour l’autre.
+        gabarit: "Can I borrow your [objet]?"
+        declinaisons:
+          - { id: c01.s02.C3.d1, texte: { uk: "Can I borrow your hairbrush?", us: "Can I borrow your hairbrush?" }, sens: "Je peux emprunter ta brosse ?" }
+          - { id: c01.s02.C3.d2, texte: { uk: "Can you lend me a towel?", us: "Can you lend me a towel?" }, sens: "Tu peux me prêter une serviette ?" }
+          - { id: c01.s02.C3.d3, texte: { uk: "Don't borrow my razor!", us: "Don't borrow my razor!" }, sens: "N’emprunte pas mon rasoir !" }
+          - { id: c01.s02.C3.d4, texte: { uk: "You can borrow mine.", us: "You can borrow mine." }, sens: "Tu peux prendre le mien." }
+          - { id: c01.s02.C3.d5, texte: { uk: "I borrowed your shampoo.", us: "I borrowed your shampoo." }, sens: "J’ai pris ton shampoing." }
+        renvois: []
+      - id: c01.s02.C4
+        ton: courant
+        niveau: fondations
+        frequence: 3
+        situations: [matin, maison, famille]
+        fonctions: [expliquer]
+        enonces:
+          - id: c01.s02.C4.e1
+            region: commun
+            texte: { uk: "Rinse your mouth out.", us: "Rinse your mouth out." }
+            jeu: { contexte: "A parent guiding a young child at the sink.", emotion: "patient, instructive" }
+        sens: "Rince-toi la bouche."
+        usage: >-
+          <en>Rinse</en>, c’est rincer ; <en>out</en> insiste sur l’intérieur. Pour les
+          cheveux : <en>rinse your hair</en>.
+        declinaisons:
+          - { id: c01.s02.C4.d1, texte: { uk: "Rinse the sink after you.", us: "Rinse the sink after you." }, sens: "Rince le lavabo après toi." }
+          - { id: c01.s02.C4.d2, texte: { uk: "Rinse it under the tap.", us: "Rinse it under the faucet." }, sens: "Rince-le sous le robinet." }
+          - { id: c01.s02.C4.d3, texte: { uk: "Rinse your hair well.", us: "Rinse your hair well." }, sens: "Rince-toi bien les cheveux." }
+          - { id: c01.s02.C4.d4, texte: { uk: "Rinse and spit.", us: "Rinse and spit." }, sens: "Rince et crache." }
+          - { id: c01.s02.C4.d5, texte: { uk: "Give it a quick rinse.", us: "Give it a quick rinse." }, sens: "Rince-le vite fait." }
+        renvois: []
+      - id: c01.s02.C5
+        ton: complice
+        niveau: fondations
+        frequence: 3
+        situations: [matin, maison, famille]
+        fonctions: [presser]
+        enonces:
+          - id: c01.s02.C5.e1
+            region: commun
+            texte: { uk: "Spit it out!", us: "Spit it out!" }
+            jeu: { contexte: "Telling a child to spit out toothpaste, not swallow it.", emotion: "urgent, half-laughing" }
+        sens: "Crache !"
+        usage: >-
+          Au sens propre : crache. Au sens figuré, très courant : « accouche, dis-le ! » quand
+          quelqu’un hésite à parler.
+        declinaisons:
+          - { id: c01.s02.C5.d1, texte: { uk: "Don't swallow it, spit it out.", us: "Don't swallow it, spit it out." }, sens: "Ne l’avale pas, crache-le." }
+          - { id: c01.s02.C5.d2, texte: { uk: "Come on, spit it out!", us: "Come on, spit it out!" }, sens: "Allez, accouche !" }
+          - { id: c01.s02.C5.d3, texte: { uk: "Just spit it out.", us: "Just spit it out." }, sens: "Dis-le, c’est tout." }
+          - { id: c01.s02.C5.d4, texte: { uk: "Spit in the sink, not on the mirror.", us: "Spit in the sink, not on the mirror." }, sens: "Crache dans le lavabo, pas sur le miroir." }
+          - { id: c01.s02.C5.d5, texte: { uk: "What is it? Spit it out.", us: "What is it? Spit it out." }, sens: "Qu’est-ce qu’il y a ? Dis-le." }
+        renvois: []
+  - lettre: D
+    titre: Devant le miroir
+    expressions:
+      - id: c01.s02.D1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison]
+        fonctions: [se-plaindre]
+        enonces:
+          - id: c01.s02.D1.e1
+            region: commun
+            texte: { uk: "I look awful.", us: "I look awful." }
+            jeu: { contexte: "Looking in the mirror first thing in the morning.", emotion: "groaning, self-mocking" }
+        sens: "J’ai une tête affreuse."
+        usage: >-
+          <en>Awful</en> : affreux. On dit <en>look</en> + adjectif pour l’apparence : <en>You
+          look great</en>, <en>You look tired</en>. L’autre répond souvent <en>No, you
+          don’t!</en>
+        gabarit: "I look [adjectif]."
+        declinaisons:
+          - { id: c01.s02.D1.d1, texte: { uk: "You look tired.", us: "You look tired." }, sens: "Tu as l’air fatigué." }
+          - { id: c01.s02.D1.d2, texte: { uk: "I look like a zombie.", us: "I look like a zombie." }, sens: "J’ai une tête de zombie." }
+          - { id: c01.s02.D1.d3, texte: { uk: "You look great!", us: "You look great!" }, sens: "Tu as une mine superbe !" }
+          - { id: c01.s02.D1.d4, texte: { uk: "I look terrible in this light.", us: "I look terrible in this light." }, sens: "Cette lumière me donne une tête horrible." }
+          - { id: c01.s02.D1.d5, texte: { uk: "Do I look okay?", us: "Do I look okay?" }, sens: "Ça va, j’ai l’air de quoi ?" }
+        renvois: []
+      - id: c01.s02.D2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison]
+        fonctions: [constater]
+        enonces:
+          - id: c01.s02.D2.e1
+            region: commun
+            texte: { uk: "My hair's a mess.", us: "My hair's a mess." }
+            jeu: { contexte: "Staring at your bed hair in the mirror.", emotion: "dismayed" }
+        sens: "Mes cheveux sont en bataille."
+        usage: >-
+          <en>A mess</en>, c’est le désordre. Pour les cheveux, la chambre, la vie : <en>My
+          room’s a mess</en>, <en>I’m a mess</en>.
+        gabarit: "My [chose]'s a mess."
+        declinaisons:
+          - { id: c01.s02.D2.d1, texte: { uk: "My room's a mess.", us: "My room's a mess." }, sens: "Ma chambre est en désordre." }
+          - { id: c01.s02.D2.d2, texte: { uk: "Your hair's sticking up.", us: "Your hair's sticking up." }, sens: "Tes cheveux rebiquent." }
+          - { id: c01.s02.D2.d3, texte: { uk: "I'm a mess today.", us: "I'm a mess today." }, sens: "Je ne suis pas en forme aujourd’hui." }
+          - { id: c01.s02.D2.d4, texte: { uk: "The kitchen's a total mess.", us: "The kitchen's a total mess." }, sens: "La cuisine est un vrai chantier." }
+          - { id: c01.s02.D2.d5, texte: { uk: "Sorry about the mess.", us: "Sorry about the mess." }, sens: "Désolé pour le désordre." }
+        renvois: []
+      - id: c01.s02.D3
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [se-plaindre]
+        enonces:
+          - id: c01.s02.D3.e1
+            region: commun
+            texte: { uk: "I've got a spot on my nose.", us: "I have a zit on my nose." }
+            jeu: { contexte: "Leaning close to the mirror, examining your face.", emotion: "annoyed, a little vain" }
+        sens: "J’ai une imperfection sur le nez."
+        usage: >-
+          Londres dit <en>a spot</en>, l’Amérique <en>a zit</en> ou <en>a pimple</en>.
+          <en>I’ve got</en> est la forme britannique de <en>I have</en>.
+        declinaisons:
+          - { id: c01.s02.D3.d1, texte: { uk: "Don't pick it!", us: "Don't pick it!" }, sens: "Ne le touche pas !" }
+          - { id: c01.s02.D3.d2, texte: { uk: "I've got a huge spot.", us: "I have a huge zit." }, sens: "J’ai une énorme imperfection." }
+          - { id: c01.s02.D3.d3, texte: { uk: "Is it really noticeable?", us: "Is it really noticeable?" }, sens: "Ça se voit vraiment ?" }
+          - { id: c01.s02.D3.d4, texte: { uk: "I always get spots before a big day.", us: "I always get zits before a big day." }, sens: "J’ai toujours des imperfections avant un grand jour." }
+          - { id: c01.s02.D3.d5, texte: { uk: "You can't even see it.", us: "You can't even see it." }, sens: "On ne le voit même pas." }
+        renvois: []
+      - id: c01.s02.D4
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [se-plaindre]
+        enonces:
+          - id: c01.s02.D4.e1
+            region: commun
+            texte: { uk: "I've got bags under my eyes.", us: "I have bags under my eyes." }
+            jeu: { contexte: "Touching the skin under your eyes after a short night.", emotion: "tired, rueful" }
+        sens: "J’ai des cernes."
+        usage: >-
+          <en>Bags</en> : des poches sous les yeux. Les cernes sombres se disent aussi
+          <en>dark circles</en>.
+        declinaisons:
+          - { id: c01.s02.D4.d1, texte: { uk: "I've got dark circles.", us: "I have dark circles." }, sens: "J’ai les yeux cernés." }
+          - { id: c01.s02.D4.d2, texte: { uk: "You look like you haven't slept.", us: "You look like you haven't slept." }, sens: "Tu as l’air de ne pas avoir dormi." }
+          - { id: c01.s02.D4.d3, texte: { uk: "My eyes are all puffy.", us: "My eyes are all puffy." }, sens: "J’ai les yeux tout gonflés." }
+          - { id: c01.s02.D4.d4, texte: { uk: "I need some concealer.", us: "I need some concealer." }, sens: "Il me faut de l’anticernes." }
+          - { id: c01.s02.D4.d5, texte: { uk: "I only slept four hours.", us: "I only slept four hours." }, sens: "Je n’ai dormi que quatre heures." }
+        renvois: []
+      - id: c01.s02.D5
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [constater]
+        enonces:
+          - id: c01.s02.D5.e1
+            region: commun
+            texte: { uk: "I need a haircut.", us: "I need a haircut." }
+            jeu: { contexte: "Pushing your fringe out of your eyes in the mirror.", emotion: "resigned" }
+        sens: "Il faut que je me fasse couper les cheveux."
+        usage: >-
+          On ne se coupe pas les cheveux soi-même en anglais : on <en>gets a haircut</en>.
+          <en>I had my hair cut</en>, « je me suis fait couper les cheveux ».
+        declinaisons:
+          - { id: c01.s02.D5.d1, texte: { uk: "I'm getting my hair cut on Saturday.", us: "I'm getting my hair cut on Saturday." }, sens: "Je vais chez le coiffeur samedi." }
+          - { id: c01.s02.D5.d2, texte: { uk: "Have you had your hair cut?", us: "Have you gotten a haircut?" }, sens: "Tu t’es fait couper les cheveux ?" }
+          - { id: c01.s02.D5.d3, texte: { uk: "I love your new haircut!", us: "I love your new haircut!" }, sens: "J’adore ta nouvelle coupe !" }
+          - { id: c01.s02.D5.d4, texte: { uk: "It's getting too long.", us: "It's getting too long." }, sens: "Ils deviennent trop longs." }
+          - { id: c01.s02.D5.d5, texte: { uk: "Just a trim, please.", us: "Just a trim, please." }, sens: "Juste rafraîchir les pointes, s’il vous plaît." }
+        renvois: []
+  - lettre: E
+    titre: Se raser, se maquiller
+    expressions:
+      - id: c01.s02.E1
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [constater]
+        enonces:
+          - id: c01.s02.E1.e1
+            region: commun
+            texte: { uk: "I need a shave.", us: "I need a shave." }
+            jeu: { contexte: "Rubbing your stubbly chin in the mirror.", emotion: "matter-of-fact" }
+        sens: "Il faut que je me rase."
+        usage: >-
+          <en>Shave</en> : se raser. <en>I need a shave</en> se dit d’une barbe de deux jours.
+          Le verbe seul suffit : <en>I’m shaving</en>.
+        declinaisons:
+          - { id: c01.s02.E1.d1, texte: { uk: "I'm just shaving.", us: "I'm just shaving." }, sens: "Je suis en train de me raser." }
+          - { id: c01.s02.E1.d2, texte: { uk: "You haven't shaved.", us: "You haven't shaved." }, sens: "Tu ne t’es pas rasé." }
+          - { id: c01.s02.E1.d3, texte: { uk: "I'm growing a beard.", us: "I'm growing a beard." }, sens: "Je me laisse pousser la barbe." }
+          - { id: c01.s02.E1.d4, texte: { uk: "I shave every other day.", us: "I shave every other day." }, sens: "Je me rase un jour sur deux." }
+          - { id: c01.s02.E1.d5, texte: { uk: "Your beard's getting long.", us: "Your beard's getting long." }, sens: "Ta barbe devient longue." }
+        renvois: []
+      - id: c01.s02.E2
+        ton: courant
+        niveau: fondations
+        frequence: 3
+        situations: [matin, maison]
+        fonctions: [raconter]
+        enonces:
+          - id: c01.s02.E2.e1
+            region: commun
+            texte: { uk: "I cut myself shaving.", us: "I cut myself shaving." }
+            jeu: { contexte: "Dabbing your chin with tissue.", emotion: "wincing, annoyed" }
+        sens: "Je me suis coupé en me rasant."
+        usage: >-
+          <en>Cut myself</en> : le pronom réfléchi est obligatoire quand on se blesse soi-
+          même. Suivi d’un verbe en <en>-ing</en> pour dire comment.
+        gabarit: "I [verbe] myself [verbe-ing]."
+        declinaisons:
+          - { id: c01.s02.E2.d1, texte: { uk: "I burnt myself cooking.", us: "I burned myself cooking." }, sens: "Je me suis brûlé en cuisinant." }
+          - { id: c01.s02.E2.d2, texte: { uk: "Have you cut yourself?", us: "Have you cut yourself?" }, sens: "Tu t’es coupé ?" }
+          - { id: c01.s02.E2.d3, texte: { uk: "It's only a little cut.", us: "It's only a little cut." }, sens: "Ce n’est qu’une petite coupure." }
+          - { id: c01.s02.E2.d4, texte: { uk: "It won't stop bleeding.", us: "It won't stop bleeding." }, sens: "Ça n’arrête pas de saigner." }
+          - { id: c01.s02.E2.d5, texte: { uk: "Have we got any plasters?", us: "Do we have any Band-Aids?" }, sens: "On a des pansements ?" }
+        renvois: []
+      - id: c01.s02.E3
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [annoncer]
+        enonces:
+          - id: c01.s02.E3.e1
+            region: commun
+            texte: { uk: "I'm doing my make-up.", us: "I'm doing my makeup." }
+            jeu: { contexte: "Leaning into the mirror, eyeliner in hand.", emotion: "focused, slightly distracted" }
+        sens: "Je me maquille."
+        usage: >-
+          On <en>does</en> son maquillage, ou on le <en>puts on</en>. <en>Take it off</en>
+          pour le démaquillage. Londres écrit <en>make-up</en>, l’Amérique <en>makeup</en>.
+        declinaisons:
+          - { id: c01.s02.E3.d1, texte: { uk: "I'm just putting my make-up on.", us: "I'm just putting my makeup on." }, sens: "Je finis de me maquiller." }
+          - { id: c01.s02.E3.d2, texte: { uk: "I'm not wearing any make-up.", us: "I'm not wearing any makeup." }, sens: "Je ne suis pas maquillée." }
+          - { id: c01.s02.E3.d3, texte: { uk: "Don't talk to me, I'm doing my eyeliner.", us: "Don't talk to me, I'm doing my eyeliner." }, sens: "Ne me parle pas, je fais mon trait d’eye-liner." }
+          - { id: c01.s02.E3.d4, texte: { uk: "I need to take my make-up off.", us: "I need to take my makeup off." }, sens: "Il faut que je me démaquille." }
+          - { id: c01.s02.E3.d5, texte: { uk: "Can I borrow your mascara?", us: "Can I borrow your mascara?" }, sens: "Je peux t’emprunter ton mascara ?" }
+        renvois: []
+      - id: c01.s02.E4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison]
+        fonctions: [demander]
+        enonces:
+          - id: c01.s02.E4.e1
+            region: commun
+            texte: { uk: "Have you seen my razor?", us: "Have you seen my razor?" }
+            jeu: { contexte: "Searching the bathroom shelf.", emotion: "searching, mildly suspicious" }
+        sens: "Tu as vu mon rasoir ?"
+        usage: >-
+          <en>Have you seen…?</en> est la formule pour chercher un objet égaré, à Londres
+          comme à Chicago. La réponse : <en>It’s where you left it.</en>
+        gabarit: "Have you seen my [objet]?"
+        declinaisons:
+          - { id: c01.s02.E4.d1, texte: { uk: "Have you seen my glasses?", us: "Have you seen my glasses?" }, sens: "Tu as vu mes lunettes ?" }
+          - { id: c01.s02.E4.d2, texte: { uk: "Has anyone seen my hairbrush?", us: "Has anyone seen my hairbrush?" }, sens: "Quelqu’un a vu ma brosse ?" }
+          - { id: c01.s02.E4.d3, texte: { uk: "Where did you put it?", us: "Where did you put it?" }, sens: "Où est-ce que tu l’as mis ?" }
+          - { id: c01.s02.E4.d4, texte: { uk: "It's where you left it.", us: "It's where you left it." }, sens: "Il est là où tu l’as laissé." }
+          - { id: c01.s02.E4.d5, texte: { uk: "I can't find my tweezers.", us: "I can't find my tweezers." }, sens: "Je ne trouve pas ma pince à épiler." }
+        renvois: []
+      - id: c01.s02.E5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, famille]
+        fonctions: [demander]
+        enonces:
+          - id: c01.s02.E5.e1
+            region: commun
+            texte: { uk: "Can you pass me a towel?", us: "Can you pass me a towel?" }
+            jeu: { contexte: "Dripping wet in the shower, reaching out.", emotion: "shivering, polite" }
+        sens: "Tu peux me passer une serviette ?"
+        usage: >-
+          <en>Pass me</en> + objet : la demande polie de tous les jours, à table comme à la
+          salle de bain.
+        gabarit: "Can you pass me [objet]?"
+        declinaisons:
+          - { id: c01.s02.E5.d1, texte: { uk: "Pass me the soap, please.", us: "Pass me the soap, please." }, sens: "Passe-moi le savon, s’il te plaît." }
+          - { id: c01.s02.E5.d2, texte: { uk: "Can you hand me that?", us: "Can you hand me that?" }, sens: "Tu peux me tendre ça ?" }
+          - { id: c01.s02.E5.d3, texte: { uk: "There's a clean towel on the rail.", us: "There's a clean towel on the rack." }, sens: "Il y a une serviette propre sur le porte-serviettes." }
+          - { id: c01.s02.E5.d4, texte: { uk: "This towel's soaking.", us: "This towel's soaking." }, sens: "Cette serviette est trempée." }
+          - { id: c01.s02.E5.d5, texte: { uk: "Can you grab me a towel?", us: "Can you grab me a towel?" }, sens: "Tu peux m’attraper une serviette ?" }
+        renvois: []
+  - lettre: F
+    titre: Les cheveux
+    expressions:
+      - id: c01.s02.F1
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [annoncer]
+        enonces:
+          - id: c01.s02.F1.e1
+            region: commun
+            texte: { uk: "I'm washing my hair.", us: "I'm washing my hair." }
+            jeu: { contexte: "Calling out from the shower when someone asks what's taking so long.", emotion: "slightly defensive" }
+        sens: "Je me lave les cheveux."
+        usage: >-
+          Encore le possessif : <en>my hair</en>. Attention, <en>hair</en> est indénombrable :
+          <en>my hair is long</en>, jamais <en>hairs</en> pour la chevelure.
+        declinaisons:
+          - { id: c01.s02.F1.d1, texte: { uk: "I washed my hair last night.", us: "I washed my hair last night." }, sens: "Je me suis lavé les cheveux hier soir." }
+          - { id: c01.s02.F1.d2, texte: { uk: "My hair is still wet.", us: "My hair is still wet." }, sens: "J’ai encore les cheveux mouillés." }
+          - { id: c01.s02.F1.d3, texte: { uk: "I need to wash my hair.", us: "I need to wash my hair." }, sens: "Il faut que je me lave les cheveux." }
+          - { id: c01.s02.F1.d4, texte: { uk: "Your hair looks nice.", us: "Your hair looks nice." }, sens: "Tes cheveux sont jolis." }
+          - { id: c01.s02.F1.d5, texte: { uk: "I've found a grey hair!", us: "I found a gray hair!" }, sens: "J’ai trouvé un cheveu blanc !" }
+        renvois: []
+      - id: c01.s02.F2
+        ton: courant
+        niveau: fondations
+        frequence: 3
+        situations: [matin, maison]
+        fonctions: [demander]
+        enonces:
+          - id: c01.s02.F2.e1
+            region: commun
+            texte: { uk: "Where's the hairdryer?", us: "Where's the hairdryer?" }
+            jeu: { contexte: "Rummaging in a drawer with wet hair.", emotion: "hurried" }
+        sens: "Où est le sèche-cheveux ?"
+        usage: >-
+          <en>Hairdryer</en> ou <en>hair dryer</en>. Le verbe : <en>blow-dry</en>, « faire un
+          brushing ».
+        declinaisons:
+          - { id: c01.s02.F2.d1, texte: { uk: "I'll just dry my hair.", us: "I'll just dry my hair." }, sens: "Je me sèche juste les cheveux." }
+          - { id: c01.s02.F2.d2, texte: { uk: "Can I use your hairdryer?", us: "Can I use your hairdryer?" }, sens: "Je peux prendre ton sèche-cheveux ?" }
+          - { id: c01.s02.F2.d3, texte: { uk: "The hairdryer's too loud.", us: "The hairdryer's too loud." }, sens: "Le sèche-cheveux fait trop de bruit." }
+          - { id: c01.s02.F2.d4, texte: { uk: "I'll let it dry naturally.", us: "I'll let it dry naturally." }, sens: "Je vais les laisser sécher à l’air." }
+          - { id: c01.s02.F2.d5, texte: { uk: "Where did you put the straighteners?", us: "Where did you put the flat iron?" }, sens: "Où as-tu mis le lisseur ?" }
+        renvois: []
+      - id: c01.s02.F3
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [expliquer]
+        enonces:
+          - id: c01.s02.F3.e1
+            region: commun
+            texte: { uk: "My hair takes ages to dry.", us: "My hair takes forever to dry." }
+            jeu: { contexte: "Explaining why you're late, towel on your head.", emotion: "apologetic" }
+        sens: "Mes cheveux mettent des heures à sécher."
+        usage: >-
+          <en>Ages</en> (Londres) ou <en>forever</en> (Amérique) : une éternité. <en>It
+          takes</en> + durée + <en>to</en> + verbe : la structure pour dire le temps qu’il
+          faut.
+        gabarit: "It takes [durée] to [verbe]."
+        declinaisons:
+          - { id: c01.s02.F3.d1, texte: { uk: "It takes ages.", us: "It takes forever." }, sens: "Ça prend une éternité." }
+          - { id: c01.s02.F3.d2, texte: { uk: "It takes ten minutes to get there.", us: "It takes ten minutes to get there." }, sens: "Il faut dix minutes pour y aller." }
+          - { id: c01.s02.F3.d3, texte: { uk: "How long does it take?", us: "How long does it take?" }, sens: "Ça prend combien de temps ?" }
+          - { id: c01.s02.F3.d4, texte: { uk: "I've been waiting for ages.", us: "I've been waiting forever." }, sens: "J’attends depuis des lustres." }
+          - { id: c01.s02.F3.d5, texte: { uk: "It won't take long.", us: "It won't take long." }, sens: "Ça ne prendra pas longtemps." }
+        renvois: []
+      - id: c01.s02.F4
+        ton: complice
+        niveau: fondations
+        frequence: 3
+        situations: [matin, maison]
+        fonctions: [se-plaindre]
+        enonces:
+          - id: c01.s02.F4.e1
+            region: commun
+            texte: { uk: "I'm having a bad hair day.", us: "I'm having a bad hair day." }
+            jeu: { contexte: "Giving up on your hair in the mirror.", emotion: "mock despair" }
+        sens: "Mes cheveux ne ressemblent à rien aujourd’hui."
+        usage: >-
+          Une journée où les cheveux refusent d’obéir, et par extension une journée où rien ne
+          va. Expression drôle et très courante.
+        declinaisons:
+          - { id: c01.s02.F4.d1, texte: { uk: "It's a bad hair day.", us: "It's a bad hair day." }, sens: "Mes cheveux font ce qu’ils veulent." }
+          - { id: c01.s02.F4.d2, texte: { uk: "Everyone has bad hair days.", us: "Everyone has bad hair days." }, sens: "Tout le monde a des jours sans." }
+          - { id: c01.s02.F4.d3, texte: { uk: "My hair won't do anything.", us: "My hair won't do anything." }, sens: "Mes cheveux ne tiennent pas." }
+          - { id: c01.s02.F4.d4, texte: { uk: "I'll wear a hat.", us: "I'll wear a hat." }, sens: "Je vais mettre un bonnet." }
+          - { id: c01.s02.F4.d5, texte: { uk: "I'll just tie it up.", us: "I'll just tie it up." }, sens: "Je vais juste les attacher." }
+        renvois: []
+      - id: c01.s02.F5
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, famille]
+        fonctions: [demander]
+        enonces:
+          - id: c01.s02.F5.e1
+            region: commun
+            texte: { uk: "Can you do my hair?", us: "Can you do my hair?" }
+            jeu: { contexte: "A child holding out a hairbrush and hair ties to a parent.", emotion: "pleading, sweet" }
+        sens: "Tu peux me coiffer ?"
+        usage: >-
+          <en>Do someone’s hair</en> : coiffer quelqu’un. Pour les tresses : <en>Can you plait
+          my hair?</en> (Londres) ou <en>braid</en> (Amérique).
+        declinaisons:
+          - { id: c01.s02.F5.d1, texte: { uk: "Can you plait my hair?", us: "Can you braid my hair?" }, sens: "Tu peux me faire une tresse ?" }
+          - { id: c01.s02.F5.d2, texte: { uk: "Stand still, please.", us: "Stand still, please." }, sens: "Ne bouge pas, s’il te plaît." }
+          - { id: c01.s02.F5.d3, texte: { uk: "Ouch, that hurts!", us: "Ouch, that hurts!" }, sens: "Aïe, ça fait mal !" }
+          - { id: c01.s02.F5.d4, texte: { uk: "Do you want a ponytail?", us: "Do you want a ponytail?" }, sens: "Tu veux une queue de cheval ?" }
+          - { id: c01.s02.F5.d5, texte: { uk: "Hold this hair tie.", us: "Hold this hair tie." }, sens: "Tiens cet élastique." }
+        renvois: []
+  - lettre: G
+    titre: Les toilettes
+    expressions:
+      - id: c01.s02.G1
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, famille]
+        fonctions: [presser]
+        enonces:
+          - id: c01.s02.G1.e1
+            region: commun
+            texte: { uk: "We're out of loo roll!", us: "We're out of toilet paper!" }
+            jeu: { contexte: "Calling desperately from the toilet.", emotion: "panicked, comic" }
+        sens: "Il n’y a plus de papier toilette !"
+        usage: >-
+          Londres : <en>loo roll</en> ou <en>toilet roll</en> ; Amérique : <en>toilet
+          paper</en>. Toujours avec <en>we’re out of</en>.
+        declinaisons:
+          - { id: c01.s02.G1.d1, texte: { uk: "Is there any more loo roll?", us: "Is there any more toilet paper?" }, sens: "Il reste du papier toilette ?" }
+          - { id: c01.s02.G1.d2, texte: { uk: "Can you bring me some loo roll?", us: "Can you bring me some toilet paper?" }, sens: "Tu peux m’apporter du papier toilette ?" }
+          - { id: c01.s02.G1.d3, texte: { uk: "It's in the cupboard.", us: "It's in the closet." }, sens: "C’est dans le placard." }
+          - { id: c01.s02.G1.d4, texte: { uk: "Who used the last roll?", us: "Who used the last roll?" }, sens: "Qui a fini le rouleau ?" }
+          - { id: c01.s02.G1.d5, texte: { uk: "Put a new roll on.", us: "Put a new roll on." }, sens: "Mets un nouveau rouleau." }
+        renvois: []
+      - id: c01.s02.G2
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [maison]
+        fonctions: [constater]
+        enonces:
+          - id: c01.s02.G2.e1
+            region: commun
+            texte: { uk: "The toilet won't flush.", us: "The toilet won't flush." }
+            jeu: { contexte: "Pressing the handle repeatedly.", emotion: "worried" }
+        sens: "La chasse d’eau ne marche pas."
+        usage: >-
+          <en>Won’t</en> + verbe pour un objet qui refuse de fonctionner : <en>The door won’t
+          open</en>, <en>The car won’t start</en>. <en>Flush</en>, c’est tirer la chasse.
+        gabarit: "The [objet] won't [verbe]."
+        declinaisons:
+          - { id: c01.s02.G2.d1, texte: { uk: "Don't forget to flush.", us: "Don't forget to flush." }, sens: "N’oublie pas de tirer la chasse." }
+          - { id: c01.s02.G2.d2, texte: { uk: "The door won't lock.", us: "The door won't lock." }, sens: "La porte ne ferme pas à clé." }
+          - { id: c01.s02.G2.d3, texte: { uk: "The tap won't turn off.", us: "The faucet won't turn off." }, sens: "Le robinet ne se ferme pas." }
+          - { id: c01.s02.G2.d4, texte: { uk: "Hold the handle down.", us: "Hold the handle down." }, sens: "Maintiens la poignée enfoncée." }
+          - { id: c01.s02.G2.d5, texte: { uk: "We need a plumber.", us: "We need a plumber." }, sens: "Il faut un plombier." }
+        renvois: []
+      - id: c01.s02.G3
+        ton: complice
+        niveau: fondations
+        frequence: 3
+        situations: [maison]
+        fonctions: [reprocher]
+        enonces:
+          - id: c01.s02.G3.e1
+            region: commun
+            texte: { uk: "Put the seat down!", us: "Put the seat down!" }
+            jeu: { contexte: "The eternal household complaint, said with a sigh.", emotion: "exasperated, familiar" }
+        sens: "Baisse la lunette !"
+        usage: >-
+          La plainte universelle des couples. <en>The seat</en> suffit, tout le monde
+          comprend. <en>Put it back down</en>, pour insister.
+        declinaisons:
+          - { id: c01.s02.G3.d1, texte: { uk: "Put the lid down.", us: "Put the lid down." }, sens: "Baisse le couvercle." }
+          - { id: c01.s02.G3.d2, texte: { uk: "You left the seat up again.", us: "You left the seat up again." }, sens: "Tu as encore laissé la lunette relevée." }
+          - { id: c01.s02.G3.d3, texte: { uk: "How many times do I have to say it?", us: "How many times do I have to say it?" }, sens: "Combien de fois faut-il que je le dise ?" }
+          - { id: c01.s02.G3.d4, texte: { uk: "Put it back where it was.", us: "Put it back where it was." }, sens: "Remets-le à sa place." }
+          - { id: c01.s02.G3.d5, texte: { uk: "Sorry, I forgot.", us: "Sorry, I forgot." }, sens: "Pardon, j’ai oublié." }
+        renvois: []
+      - id: c01.s02.G4
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, famille]
+        fonctions: [ordonner]
+        enonces:
+          - id: c01.s02.G4.e1
+            region: commun
+            texte: { uk: "Wash your hands!", us: "Wash your hands!" }
+            jeu: { contexte: "Calling after a child leaving the toilet.", emotion: "automatic, parental" }
+        sens: "Lave-toi les mains !"
+        usage: >-
+          L’impératif simple, avec le possessif. On ajoute souvent <en>with soap</en> pour les
+          enfants.
+        gabarit: "Wash your [partie du corps]!"
+        declinaisons:
+          - { id: c01.s02.G4.d1, texte: { uk: "Wash your hands with soap.", us: "Wash your hands with soap." }, sens: "Lave-toi les mains au savon." }
+          - { id: c01.s02.G4.d2, texte: { uk: "Have you washed your hands?", us: "Have you washed your hands?" }, sens: "Tu t’es lavé les mains ?" }
+          - { id: c01.s02.G4.d3, texte: { uk: "Dry your hands properly.", us: "Dry your hands properly." }, sens: "Sèche-toi bien les mains." }
+          - { id: c01.s02.G4.d4, texte: { uk: "Your hands are still dirty.", us: "Your hands are still dirty." }, sens: "Tu as encore les mains sales." }
+          - { id: c01.s02.G4.d5, texte: { uk: "Wash your face too.", us: "Wash your face too." }, sens: "Lave-toi aussi le visage." }
+        renvois: []
+      - id: c01.s02.G5
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [maison]
+        fonctions: [conseiller]
+        enonces:
+          - id: c01.s02.G5.e1
+            region: commun
+            texte: { uk: "Lock the door.", us: "Lock the door." }
+            jeu: { contexte: "Reminding a guest that the bathroom lock is tricky.", emotion: "helpful" }
+        sens: "Ferme à clé."
+        usage: >-
+          <en>Lock</en>, c’est fermer à clé ou au verrou ; <en>close</en> ou <en>shut</en>,
+          simplement fermer. <en>Unlock</en> : déverrouiller.
+        declinaisons:
+          - { id: c01.s02.G5.d1, texte: { uk: "The lock's a bit stiff.", us: "The lock's a bit stiff." }, sens: "Le verrou est un peu dur." }
+          - { id: c01.s02.G5.d2, texte: { uk: "Did you lock it?", us: "Did you lock it?" }, sens: "Tu as fermé à clé ?" }
+          - { id: c01.s02.G5.d3, texte: { uk: "I'm locked in!", us: "I'm locked in!" }, sens: "Je suis enfermé !" }
+          - { id: c01.s02.G5.d4, texte: { uk: "Shut the door, please.", us: "Shut the door, please." }, sens: "Ferme la porte, s’il te plaît." }
+          - { id: c01.s02.G5.d5, texte: { uk: "Knock before you come in.", us: "Knock before you come in." }, sens: "Frappe avant d’entrer." }
+        renvois: []
+  - lettre: H
+    titre: Les petites pannes
+    expressions:
+      - id: c01.s02.H1
+        ton: courant
+        niveau: fondations
+        frequence: 3
+        situations: [maison]
+        fonctions: [constater]
+        enonces:
+          - id: c01.s02.H1.e1
+            region: commun
+            texte: { uk: "The sink's blocked.", us: "The sink's clogged." }
+            jeu: { contexte: "Watching the water refuse to drain.", emotion: "annoyed" }
+        sens: "Le lavabo est bouché."
+        usage: >-
+          Londres : <en>blocked</en> ; Amérique : <en>clogged</en>. Le <en>sink</en> est le
+          lavabo comme l’évier.
+        declinaisons:
+          - { id: c01.s02.H1.d1, texte: { uk: "The drain's blocked.", us: "The drain's clogged." }, sens: "L’évacuation est bouchée." }
+          - { id: c01.s02.H1.d2, texte: { uk: "It's full of hair.", us: "It's full of hair." }, sens: "C’est plein de cheveux." }
+          - { id: c01.s02.H1.d3, texte: { uk: "The water won't go down.", us: "The water won't go down." }, sens: "L’eau ne s’écoule pas." }
+          - { id: c01.s02.H1.d4, texte: { uk: "Have we got a plunger?", us: "Do we have a plunger?" }, sens: "On a une ventouse ?" }
+          - { id: c01.s02.H1.d5, texte: { uk: "Don't pour that down the sink.", us: "Don't pour that down the sink." }, sens: "Ne verse pas ça dans le lavabo." }
+        renvois: []
+      - id: c01.s02.H2
+        ton: courant
+        niveau: fondations
+        frequence: 3
+        situations: [maison]
+        fonctions: [constater]
+        enonces:
+          - id: c01.s02.H2.e1
+            region: commun
+            texte: { uk: "The tap's dripping.", us: "The faucet's dripping." }
+            jeu: { contexte: "Lying awake listening to a drip.", emotion: "irritated" }
+        sens: "Le robinet goutte."
+        usage: >-
+          <en>Tap</en> à Londres, <en>faucet</en> en Amérique. <en>Drip</en>, c’est goutter ;
+          <en>leak</en>, fuir.
+        declinaisons:
+          - { id: c01.s02.H2.d1, texte: { uk: "Can you fix the tap?", us: "Can you fix the faucet?" }, sens: "Tu peux réparer le robinet ?" }
+          - { id: c01.s02.H2.d2, texte: { uk: "There's a leak under the sink.", us: "There's a leak under the sink." }, sens: "Il y a une fuite sous le lavabo." }
+          - { id: c01.s02.H2.d3, texte: { uk: "Turn the tap off properly.", us: "Turn the faucet off properly." }, sens: "Ferme bien le robinet." }
+          - { id: c01.s02.H2.d4, texte: { uk: "It's been dripping all night.", us: "It's been dripping all night." }, sens: "Ça goutte depuis toute la nuit." }
+          - { id: c01.s02.H2.d5, texte: { uk: "The shower's leaking.", us: "The shower's leaking." }, sens: "La douche fuit." }
+        renvois: []
+      - id: c01.s02.H3
+        ton: courant
+        niveau: fondations
+        frequence: 3
+        situations: [matin, maison]
+        fonctions: [constater]
+        enonces:
+          - id: c01.s02.H3.e1
+            region: commun
+            texte: { uk: "The mirror's all steamed up.", us: "The mirror's all steamed up." }
+            jeu: { contexte: "Wiping the mirror with your hand after a hot shower.", emotion: "mild" }
+        sens: "Le miroir est tout embué."
+        usage: >-
+          <en>Steamed up</en> : couvert de vapeur. Pour les lunettes ou la voiture, on dit
+          aussi <en>fogged up</en>.
+        declinaisons:
+          - { id: c01.s02.H3.d1, texte: { uk: "My glasses are all steamed up.", us: "My glasses are all steamed up." }, sens: "Mes lunettes sont embuées." }
+          - { id: c01.s02.H3.d2, texte: { uk: "Open the window.", us: "Open the window." }, sens: "Ouvre la fenêtre." }
+          - { id: c01.s02.H3.d3, texte: { uk: "Turn the fan on.", us: "Turn the fan on." }, sens: "Allume la ventilation." }
+          - { id: c01.s02.H3.d4, texte: { uk: "The windows are fogged up.", us: "The windows are fogged up." }, sens: "Les vitres sont embuées." }
+          - { id: c01.s02.H3.d5, texte: { uk: "I can't see a thing.", us: "I can't see a thing." }, sens: "Je n’y vois rien." }
+        renvois: []
+      - id: c01.s02.H4
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, famille]
+        fonctions: [reprocher]
+        enonces:
+          - id: c01.s02.H4.e1
+            region: commun
+            texte: { uk: "Who left their towel on the floor?", us: "Who left their towel on the floor?" }
+            jeu: { contexte: "Picking up a wet towel, looking pointedly at the family.", emotion: "accusing, tired" }
+        sens: "Qui a laissé sa serviette par terre ?"
+        usage: >-
+          <en>Their</en> remplace la personne qu’on ne nomme pas, homme ou femme. Question
+          rhétorique : on sait très bien qui.
+        gabarit: "Who left [chose] [lieu]?"
+        declinaisons:
+          - { id: c01.s02.H4.d1, texte: { uk: "Hang your towel up.", us: "Hang your towel up." }, sens: "Accroche ta serviette." }
+          - { id: c01.s02.H4.d2, texte: { uk: "Pick it up, please.", us: "Pick it up, please." }, sens: "Ramasse-la, s’il te plaît." }
+          - { id: c01.s02.H4.d3, texte: { uk: "Who left the light on?", us: "Who left the light on?" }, sens: "Qui a laissé la lumière allumée ?" }
+          - { id: c01.s02.H4.d4, texte: { uk: "Whose is this?", us: "Whose is this?" }, sens: "C’est à qui ?" }
+          - { id: c01.s02.H4.d5, texte: { uk: "It wasn't me!", us: "It wasn't me!" }, sens: "C’est pas moi !" }
+        renvois: []
+      - id: c01.s02.H5
+        ton: courant
+        niveau: fondations
+        frequence: 3
+        situations: [maison]
+        fonctions: [constater]
+        enonces:
+          - id: c01.s02.H5.e1
+            region: commun
+            texte: { uk: "The light's gone.", us: "The bulb's out." }
+            jeu: { contexte: "Flicking the bathroom light switch, nothing happens.", emotion: "flat, resigned" }
+        sens: "L’ampoule a grillé."
+        usage: >-
+          Londres : <en>the light’s gone</en> ou <en>the bulb’s gone</en> ; Amérique : <en>the
+          bulb’s out</en>, <en>the bulb burned out</en>.
+        declinaisons:
+          - { id: c01.s02.H5.d1, texte: { uk: "We need a new bulb.", us: "We need a new bulb." }, sens: "Il faut une nouvelle ampoule." }
+          - { id: c01.s02.H5.d2, texte: { uk: "Can you change the bulb?", us: "Can you change the bulb?" }, sens: "Tu peux changer l’ampoule ?" }
+          - { id: c01.s02.H5.d3, texte: { uk: "It's pitch black in here.", us: "It's pitch black in here." }, sens: "Il fait noir comme dans un four, ici." }
+          - { id: c01.s02.H5.d4, texte: { uk: "Have we got any spare bulbs?", us: "Do we have any spare bulbs?" }, sens: "On a des ampoules de rechange ?" }
+          - { id: c01.s02.H5.d5, texte: { uk: "The bulb's flickering.", us: "The bulb's flickering." }, sens: "L’ampoule clignote." }
+        renvois: []
+  - lettre: I
+    titre: Avec les enfants
+    expressions:
+      - id: c01.s02.I1
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, famille]
+        fonctions: [ordonner]
+        enonces:
+          - id: c01.s02.I1.e1
+            region: commun
+            texte: { uk: "Brush properly!", us: "Brush properly!" }
+            jeu: { contexte: "A parent watching a child pretend to brush their teeth.", emotion: "firm, a little amused" }
+        sens: "Brosse-toi correctement !"
+        usage: >-
+          <en>Properly</en> : comme il faut. L’adverbe se place après le verbe : <en>do it
+          properly</en>, <en>sit properly</en>.
+        declinaisons:
+          - { id: c01.s02.I1.d1, texte: { uk: "Do it properly.", us: "Do it properly." }, sens: "Fais-le comme il faut." }
+          - { id: c01.s02.I1.d2, texte: { uk: "You're not doing it properly.", us: "You're not doing it properly." }, sens: "Tu ne le fais pas bien." }
+          - { id: c01.s02.I1.d3, texte: { uk: "Sit properly.", us: "Sit properly." }, sens: "Assieds-toi correctement." }
+          - { id: c01.s02.I1.d4, texte: { uk: "Wash properly behind your ears.", us: "Wash properly behind your ears." }, sens: "Lave-toi bien derrière les oreilles." }
+          - { id: c01.s02.I1.d5, texte: { uk: "Do the back ones too.", us: "Do the back ones too." }, sens: "Fais aussi celles du fond." }
+        renvois: []
+      - id: c01.s02.I2
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison, famille]
+        fonctions: [verifier]
+        enonces:
+          - id: c01.s02.I2.e1
+            region: commun
+            texte: { uk: "Have you washed your face?", us: "Have you washed your face?" }
+            jeu: { contexte: "Inspecting a child's face for breakfast traces.", emotion: "checking" }
+        sens: "Tu t’es lavé le visage ?"
+        usage: >-
+          Toujours le possessif. Le présent parfait <en>have you washed</en> demande si c’est
+          fait, maintenant.
+        declinaisons:
+          - { id: c01.s02.I2.d1, texte: { uk: "Wash your face, it's all sticky.", us: "Wash your face, it's all sticky." }, sens: "Lave-toi le visage, il est tout collant." }
+          - { id: c01.s02.I2.d2, texte: { uk: "You've got toothpaste on your chin.", us: "You have toothpaste on your chin." }, sens: "Tu as du dentifrice sur le menton." }
+          - { id: c01.s02.I2.d3, texte: { uk: "Use the flannel.", us: "Use the washcloth." }, sens: "Prends le gant de toilette." }
+          - { id: c01.s02.I2.d4, texte: { uk: "Let me look at you.", us: "Let me look at you." }, sens: "Fais voir." }
+          - { id: c01.s02.I2.d5, texte: { uk: "That's better.", us: "That's better." }, sens: "C’est mieux." }
+        renvois: []
+      - id: c01.s02.I3
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [maison, famille]
+        fonctions: [avertir]
+        enonces:
+          - id: c01.s02.I3.e1
+            region: commun
+            texte: { uk: "Not so hot!", us: "Not so hot!" }
+            jeu: { contexte: "Testing the bath water with your elbow for a child.", emotion: "careful, warning" }
+        sens: "Pas si chaud !"
+        usage: >-
+          <en>Not so</en> + adjectif : « pas si ». Pour régler la température : <en>a bit
+          hotter</en>, <en>a bit colder</en>.
+        gabarit: "Not so [adjectif]!"
+        declinaisons:
+          - { id: c01.s02.I3.d1, texte: { uk: "It's too hot.", us: "It's too hot." }, sens: "C’est trop chaud." }
+          - { id: c01.s02.I3.d2, texte: { uk: "Make it a bit cooler.", us: "Make it a bit cooler." }, sens: "Mets-la un peu moins chaude." }
+          - { id: c01.s02.I3.d3, texte: { uk: "Is that okay?", us: "Is that okay?" }, sens: "Ça va comme ça ?" }
+          - { id: c01.s02.I3.d4, texte: { uk: "Not so fast!", us: "Not so fast!" }, sens: "Pas si vite !" }
+          - { id: c01.s02.I3.d5, texte: { uk: "Not so loud!", us: "Not so loud!" }, sens: "Pas si fort !" }
+        renvois: []
+      - id: c01.s02.I4
+        ton: courant
+        niveau: fondations
+        frequence: 3
+        situations: [maison, famille]
+        fonctions: [avertir]
+        enonces:
+          - id: c01.s02.I4.e1
+            region: commun
+            texte: { uk: "Don't splash!", us: "Don't splash!" }
+            jeu: { contexte: "A child kicking water out of the bath.", emotion: "half-laughing, warning" }
+        sens: "N’éclabousse pas !"
+        usage: >-
+          <en>Splash</en> : éclabousser. Le bruit et le geste à la fois, comme notre «
+          plouf ».
+        declinaisons:
+          - { id: c01.s02.I4.d1, texte: { uk: "You're splashing everywhere!", us: "You're splashing everywhere!" }, sens: "Tu éclabousses partout !" }
+          - { id: c01.s02.I4.d2, texte: { uk: "Stop splashing your sister.", us: "Stop splashing your sister." }, sens: "Arrête d’éclabousser ta sœur." }
+          - { id: c01.s02.I4.d3, texte: { uk: "There's water all over the floor.", us: "There's water all over the floor." }, sens: "Il y a de l’eau partout par terre." }
+          - { id: c01.s02.I4.d4, texte: { uk: "Careful, it's slippery.", us: "Careful, it's slippery." }, sens: "Attention, ça glisse." }
+          - { id: c01.s02.I4.d5, texte: { uk: "Mind you don't slip.", us: "Watch you don't slip." }, sens: "Fais attention à ne pas glisser." }
+        renvois: []
+      - id: c01.s02.I5
+        ton: courant
+        niveau: fondations
+        frequence: 3
+        situations: [maison, famille]
+        fonctions: [ordonner]
+        enonces:
+          - id: c01.s02.I5.e1
+            region: commun
+            texte: { uk: "Out you get!", us: "Time to get out!" }
+            jeu: { contexte: "Holding out a towel to a child in the bath.", emotion: "warm, brisk" }
+        sens: "Allez, on sort !"
+        usage: >-
+          Tournure britannique affectueuse : le sujet passe après la particule. En Amérique,
+          on dira plutôt <en>Time to get out!</en>
+        declinaisons:
+          - { id: c01.s02.I5.d1, texte: { uk: "Time to get out.", us: "Time to get out." }, sens: "C’est l’heure de sortir." }
+          - { id: c01.s02.I5.d2, texte: { uk: "Come on, out of the bath.", us: "Come on, out of the bath." }, sens: "Allez, sors du bain." }
+          - { id: c01.s02.I5.d3, texte: { uk: "Five more minutes, then out.", us: "Five more minutes, then out." }, sens: "Encore cinq minutes, et tu sors." }
+          - { id: c01.s02.I5.d4, texte: { uk: "Wrap yourself up.", us: "Wrap yourself up." }, sens: "Enroule-toi dans la serviette." }
+          - { id: c01.s02.I5.d5, texte: { uk: "Off you go!", us: "Off you go!" }, sens: "Allez, file !" }
+        renvois: []
+  - lettre: J
+    titre: Prêt à sortir
+    expressions:
+      - id: c01.s02.J1
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison, famille]
+        fonctions: [ceder]
+        enonces:
+          - id: c01.s02.J1.e1
+            region: commun
+            texte: { uk: "It's all yours.", us: "It's all yours." }
+            jeu: { contexte: "Coming out of the bathroom and holding the door for the next person.", emotion: "cheerful, relieved" }
+        sens: "Elle est à toi."
+        usage: >-
+          La phrase pour céder la place : la salle de bain, l’ordinateur, la chaise.
+          <en>All</en> la rend généreuse.
+        declinaisons:
+          - { id: c01.s02.J1.d1, texte: { uk: "The bathroom's free.", us: "The bathroom's free." }, sens: "La salle de bain est libre." }
+          - { id: c01.s02.J1.d2, texte: { uk: "It's all yours now.", us: "It's all yours now." }, sens: "Elle est à toi maintenant." }
+          - { id: c01.s02.J1.d3, texte: { uk: "I'm done, you can go in.", us: "I'm done, you can go in." }, sens: "J’ai fini, tu peux y aller." }
+          - { id: c01.s02.J1.d4, texte: { uk: "Your turn.", us: "Your turn." }, sens: "À toi." }
+          - { id: c01.s02.J1.d5, texte: { uk: "Sorry I took so long.", us: "Sorry I took so long." }, sens: "Désolé d’avoir été si long." }
+        renvois: []
+      - id: c01.s02.J2
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison]
+        fonctions: [annoncer]
+        enonces:
+          - id: c01.s02.J2.e1
+            region: commun
+            texte: { uk: "I'm done.", us: "I'm done." }
+            jeu: { contexte: "Stepping out of the bathroom, towel on your shoulder.", emotion: "satisfied" }
+        sens: "J’ai fini."
+        usage: >-
+          <en>I’m done</en> (j’ai terminé) se dit partout. Londres dit aussi <en>I’ve
+          finished</en>. Attention, <en>I’m done!</en> sur un ton excédé veut dire « j’en ai
+          assez ».
+        declinaisons:
+          - { id: c01.s02.J2.d1, texte: { uk: "I've finished.", us: "I've finished." }, sens: "J’ai terminé." }
+          - { id: c01.s02.J2.d2, texte: { uk: "Are you done?", us: "Are you done?" }, sens: "Tu as fini ?" }
+          - { id: c01.s02.J2.d3, texte: { uk: "I'm nearly done.", us: "I'm nearly done." }, sens: "J’ai presque fini." }
+          - { id: c01.s02.J2.d4, texte: { uk: "I'm done with this!", us: "I'm done with this!" }, sens: "J’en ai assez !" }
+          - { id: c01.s02.J2.d5, texte: { uk: "Done!", us: "Done!" }, sens: "Fini !" }
+        renvois: []
+      - id: c01.s02.J3
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison]
+        fonctions: [demander]
+        enonces:
+          - id: c01.s02.J3.e1
+            region: commun
+            texte: { uk: "How do I look?", us: "How do I look?" }
+            jeu: { contexte: "Turning around in front of a partner, ready to leave.", emotion: "hopeful, a little nervous" }
+        sens: "J’ai l’air de quoi ?"
+        usage: >-
+          La question qui attend un compliment. Réponses habituelles : <en>You look
+          great</en>, <en>You look lovely</en> (Londres), <en>You look nice</en>.
+        declinaisons:
+          - { id: c01.s02.J3.d1, texte: { uk: "You look lovely.", us: "You look beautiful." }, sens: "Tu es ravissante." }
+          - { id: c01.s02.J3.d2, texte: { uk: "Do I look okay?", us: "Do I look okay?" }, sens: "Ça va, j’ai l’air correct ?" }
+          - { id: c01.s02.J3.d3, texte: { uk: "You look really nice.", us: "You look really nice." }, sens: "Tu es très bien." }
+          - { id: c01.s02.J3.d4, texte: { uk: "Is this too much?", us: "Is this too much?" }, sens: "C’est trop ?" }
+          - { id: c01.s02.J3.d5, texte: { uk: "You look like a million dollars.", us: "You look like a million dollars." }, sens: "Tu es superbe." }
+        renvois: []
+      - id: c01.s02.J4
+        ton: courant
+        niveau: fondations
+        frequence: 4
+        situations: [matin, maison]
+        fonctions: [complimenter]
+        enonces:
+          - id: c01.s02.J4.e1
+            region: commun
+            texte: { uk: "You smell nice.", us: "You smell nice." }
+            jeu: { contexte: "Leaning in to kiss a partner who has just showered.", emotion: "warm, affectionate" }
+        sens: "Tu sens bon."
+        usage: >-
+          <en>Smell</en> + adjectif, sans <en>good</en> obligatoire : <en>You smell nice</en>,
+          <en>It smells awful</en>. Le contraire se dit avec tact.
+        gabarit: "You smell [adjectif]."
+        declinaisons:
+          - { id: c01.s02.J4.d1, texte: { uk: "What's that smell?", us: "What's that smell?" }, sens: "Qu’est-ce que ça sent ?" }
+          - { id: c01.s02.J4.d2, texte: { uk: "It smells lovely in here.", us: "It smells great in here." }, sens: "Ça sent bon ici." }
+          - { id: c01.s02.J4.d3, texte: { uk: "Is that a new perfume?", us: "Is that a new perfume?" }, sens: "C’est un nouveau parfum ?" }
+          - { id: c01.s02.J4.d4, texte: { uk: "It smells like coconut.", us: "It smells like coconut." }, sens: "Ça sent la noix de coco." }
+          - { id: c01.s02.J4.d5, texte: { uk: "Something smells funny.", us: "Something smells funny." }, sens: "Ça sent bizarre." }
+        renvois: []
+      - id: c01.s02.J5
+        ton: courant
+        niveau: fondations
+        frequence: 5
+        situations: [matin, maison]
+        fonctions: [annoncer]
+        enonces:
+          - id: c01.s02.J5.e1
+            region: commun
+            texte: { uk: "Right, I'm ready.", us: "Okay, I'm ready." }
+            jeu: { contexte: "Grabbing your bag, finally out of the bathroom.", emotion: "brisk, decisive" }
+        sens: "Bon, je suis prête."
+        usage: >-
+          <en>Right</en>, à Londres, ouvre l’action : « bon, allez ». L’Amérique dit
+          <en>Okay</en>. C’est le tic de Sarah, dans ses deux versions.
+        declinaisons:
+          - { id: c01.s02.J5.d1, texte: { uk: "Right, let's go.", us: "Okay, let's go." }, sens: "Bon, on y va." }
+          - { id: c01.s02.J5.d2, texte: { uk: "Are you ready?", us: "Are you ready?" }, sens: "Tu es prêt ?" }
+          - { id: c01.s02.J5.d3, texte: { uk: "I'm almost ready.", us: "I'm almost ready." }, sens: "Je suis presque prête." }
+          - { id: c01.s02.J5.d4, texte: { uk: "Ready when you are.", us: "Ready when you are." }, sens: "Je suis prête quand tu veux." }
+          - { id: c01.s02.J5.d5, texte: { uk: "Finally!", us: "Finally!" }, sens: "Enfin !" }
+        renvois: []
+essentiel:
+  incontournables: [c01.s02.A1, c01.s02.A2, c01.s02.A3, c01.s02.A5, c01.s02.B4, c01.s02.C1, c01.s02.C2, c01.s02.E5, c01.s02.J1, c01.s02.J3]
+  fauxPas:
+    - fautif: "I take a shower. (à Londres)"
+      naturel: "I'm having a shower."
+      pourquoi: "À Londres, on <en>has</en> une douche ; l’Amérique la <en>takes</en>. Et pour l’action en cours, le présent progressif : <en>I’m having a shower</en>."
+    - fautif: "I brush the teeth."
+      naturel: "I brush my teeth."
+      pourquoi: "Le possessif est obligatoire avec les parties du corps : <en>my teeth</en>, <en>your hair</en>, <en>his face</en>."
+    - fautif: "I wash me."
+      naturel: "I'm having a wash."
+      pourquoi: "Le réfléchi s’emploie peu : on dit <en>I’m washing</en> ou <en>I’m having a wash</en>. <en>Myself</en> se garde pour l’accident : <en>I cut myself</en>."
+    - fautif: "My hairs are wet."
+      naturel: "My hair is wet."
+      pourquoi: "La chevelure est indénombrable : <en>hair</en>, au singulier. <en>Hairs</en> désigne des cheveux isolés, dans le lavabo."
+    - fautif: "Where are the toilets? (chez quelqu’un)"
+      naturel: "Where's the loo?"
+      pourquoi: "Chez des amis, on demande <en>the loo</en> (Londres) ou <en>the bathroom</en> (Amérique). <en>Toilets</en> au pluriel, c’est le lieu public."
+    - fautif: "I cut my hair. (chez le coiffeur)"
+      naturel: "I had my hair cut."
+      pourquoi: "Si quelqu’un d’autre l’a fait, on dit <en>have something done</en> : <en>I had my hair cut</en>, <en>I got a haircut</en>."
+    - fautif: "The door doesn't want to lock."
+      naturel: "The door won't lock."
+      pourquoi: "Pour un objet qui refuse de marcher, <en>won’t</en> suffit ; <en>want</en> est réservé aux êtres vivants."
+    - fautif: "I'm finish."
+      naturel: "I'm done."
+      pourquoi: "On est <en>done</en> ou on <en>has finished</en> ; <en>finish</en> seul est un verbe, pas un état."
+sceneVivante:
+  titre: Une seule salle de bain
+  repliques:
+    - { id: c01.s02.sv.l01, personnage: sarah, texte: { uk: "Who's in the bathroom?", us: "Who's in the bathroom?" }, sens: "Qui est dans la salle de bain ?", emotion: "knocking, impatient" }
+    - { id: c01.s02.sv.l02, personnage: mia, texte: { uk: "Me! I'm brushing my teeth.", us: "Me! I'm brushing my teeth." }, sens: "Moi ! Je me brosse les dents.", emotion: "muffled, mouth full of toothpaste" }
+    - { id: c01.s02.sv.l03, personnage: sarah, texte: { uk: "You've been in there for twenty minutes.", us: "You've been in there for twenty minutes." }, sens: "Ça fait vingt minutes que tu es là-dedans.", emotion: "sceptical" }
+    - { id: c01.s02.sv.l04, personnage: mia, texte: { uk: "I'm doing it properly, like you said!", us: "I'm doing it properly, like you said!" }, sens: "Je les brosse bien, comme tu m’as dit !", emotion: "virtuous, cheeky" }
+    - { id: c01.s02.sv.l05, personnage: kofi, texte: { uk: "Is there any hot water left?", us: "Is there any hot water left?" }, sens: "Il reste de l’eau chaude ?", emotion: "hopeful, from the hallway" }
+    - { id: c01.s02.sv.l06, personnage: sarah, texte: { uk: "Not if Mia's had a bath.", us: "Not if Mia took a bath." }, sens: "Pas si Mia a pris un bain.", emotion: "dry" }
+    - { id: c01.s02.sv.l07, personnage: mia, texte: { uk: "I only had a shower!", us: "I only took a shower!" }, sens: "J’ai juste pris une douche !", emotion: "indignant" }
+    - { id: c01.s02.sv.l08, personnage: kofi, texte: { uk: "Hurry up in there, sweetheart.", us: "Hurry up in there, sweetheart." }, sens: "Dépêche-toi, ma chérie.", emotion: "gentle but firm" }
+    - { id: c01.s02.sv.l09, personnage: mia, texte: { uk: "I'll be out in a minute!", us: "I'll be out in a minute!" }, sens: "Je sors dans une minute !", emotion: "breezy" }
+    - { id: c01.s02.sv.l10, personnage: sarah, texte: { uk: "Honestly… I need the loo.", us: "Honestly… I need the bathroom." }, sens: "Franchement… il faut que j’aille aux toilettes.", emotion: "exasperated, crossing her legs" }
+    - { id: c01.s02.sv.l11, personnage: mia, texte: { uk: "It's all yours!", us: "It's all yours!" }, sens: "Elle est à toi !", emotion: "cheerful, opening the door" }
+    - { id: c01.s02.sv.l12, personnage: sarah, texte: { uk: "Finally. Who left their towel on the floor?", us: "Finally. Who left their towel on the floor?" }, sens: "Enfin. Qui a laissé sa serviette par terre ?", emotion: "relieved, then accusing" }
+    - { id: c01.s02.sv.l13, personnage: mia, texte: { uk: "Not me!", us: "Not me!" }, sens: "C’est pas moi !", emotion: "running away, giggling" }
+    - { id: c01.s02.sv.l14, personnage: kofi, texte: { uk: "Right, I'm jumping in the shower.", us: "Okay, I'm jumping in the shower." }, sens: "Bon, je file sous la douche.", emotion: "decisive" }
+    - { id: c01.s02.sv.l15, personnage: sarah, texte: { uk: "There's no hot water, Kofi.", us: "There's no hot water, Kofi." }, sens: "Il n’y a plus d’eau chaude, Kofi.", emotion: "deadpan" }
+rituel:
+  - "Ce matin, devant le miroir, dites <en>I look awful</en>, puis répondez-vous <en>No, you look great</en>."
+  - "En sortant de la salle de bain, dites <en>It’s all yours</en> à la personne suivante, même en pensée."
+  - "Quand un produit est fini, dites-le en anglais : <en>We’re out of toothpaste</en>."
