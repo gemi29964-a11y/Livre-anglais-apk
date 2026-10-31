@@ -18,7 +18,7 @@
   - couche Android : Capacitor 8.6, plugins Kotlin du Plan, widget, raccourcis, liens profonds, icônes ;
   - signature : clé d'envoi et clé directe ;
   - CI : `android.yml` et `contenu.yml`, avec l'équivalent local `tools/ci_locale.sh`, entièrement vert.
-- Livrables de la tranche :
+- Livrables de la tranche (aussi dans la pré-publication GitHub `tranche-01`, D-036) :
   - APK direct signé, versionCode 1001, version 1.0.0, 3 474 699 octets, SHA-256 148eb4d91be4851e04163ecba7ce8d42c9f50bda9bcb302bd032c813b0b4911c ;
   - AAB Play signé, 5 531 480 octets, SHA-256 c6bddf1f91d0eeec932fac79af04e9da9dd0f3bb79df38dc13d4da45904820a9.
 - Preuves dans `pilotage/portes/` : `lexique.txt`, `contrastes.md`, `tests-outils.txt` (25), `tests-unitaires.txt` (48, couverture 98,58 %), `parcours-web.txt` (8), `build-web.txt`, `gradle-*.txt`, `rapport-android.md`, `ci.md` et `ci-locale.txt`, `budgets-t1.md`, `emulateur-api30-*` et `emulateur-api36-evenements.txt`.
@@ -31,4 +31,4 @@
 
 ## Reports suivis
 
-Voir `pilotage/statuts.csv` (statuts « socle en place » et « reporté (Tn) ») et `pilotage/journal_des_decisions.md` (D-001 à D-035).
+Voir `pilotage/statuts.csv` (statuts « socle en place » et « reporté (Tn) ») et `pilotage/journal_des_decisions.md` (D-001 à D-036).
